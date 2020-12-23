@@ -1,0 +1,9 @@
+<div class="announcement">
+  <h2>
+    {% if page.date %}
+    <strong class="label label-purple">{{ page.date | date: '%b %e' }}</strong>
+    {% endif %}
+    {{ page.title }}
+  </h2>
+  {{ content }}
+</div>
