@@ -28,6 +28,7 @@ The starter code is available at [this link](https://github.com/mdbdev/reactnati
 ```
 git clone https://github.com/mdbdev/reactnative-mp1.git
 cd reactnative-mp1
+yarn install
 expo install
 expo start
 ```

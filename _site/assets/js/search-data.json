@@ -31,100 +31,106 @@
   },"5": {
     "doc": "Lesson 0",
     "title": "Table of contents",
-    "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
+    "content": ". | Setup Instructions | . To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
     "url": "https://mdb-react-native.web.app/resources/react-native/0/#table-of-contents",
     "relUrl": "/resources/react-native/0/#table-of-contents"
   },"6": {
+    "doc": "Lesson 0",
+    "title": "Setup Instructions",
+    "content": "To get started, follow the instructions on the Expo Installation Guide. The installation guide contains everything you’ll need to get started. If you’re on MacOS, we recommend using Homebrew to install these tools when appropriate. ",
+    "url": "https://mdb-react-native.web.app/resources/react-native/0/#setup-instructions",
+    "relUrl": "/resources/react-native/0/#setup-instructions"
+  },"7": {
     "doc": "Lesson 0",
     "title": "Lesson 0",
     "content": " ",
     "url": "https://mdb-react-native.web.app/resources/react-native/0/",
     "relUrl": "/resources/react-native/0/"
-  },"7": {
+  },"8": {
     "doc": "Lesson 1",
     "title": "Lesson 1: React Fundamentals",
     "content": " ",
     "url": "https://mdb-react-native.web.app/resources/react-native/1/#lesson-1-react-fundamentals",
     "relUrl": "/resources/react-native/1/#lesson-1-react-fundamentals"
-  },"8": {
+  },"9": {
     "doc": "Lesson 1",
     "title": "Table of contents",
     "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
     "url": "https://mdb-react-native.web.app/resources/react-native/1/#table-of-contents",
     "relUrl": "/resources/react-native/1/#table-of-contents"
-  },"9": {
+  },"10": {
     "doc": "Lesson 1",
     "title": "Lesson 1",
     "content": " ",
     "url": "https://mdb-react-native.web.app/resources/react-native/1/",
     "relUrl": "/resources/react-native/1/"
-  },"10": {
+  },"11": {
     "doc": "React Native",
     "title": "React Native Training Program",
     "content": ". ",
     "url": "https://mdb-react-native.web.app/resources/react-native/index/#react-native-training-program",
     "relUrl": "/resources/react-native/index/#react-native-training-program"
-  },"11": {
+  },"12": {
     "doc": "React Native",
     "title": "Lessons",
     "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: React Native Fundamentals | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: UI/UX Design | Lesson 5: React Native Design Patterns | . ",
     "url": "https://mdb-react-native.web.app/resources/react-native/index/#lessons",
     "relUrl": "/resources/react-native/index/#lessons"
-  },"12": {
+  },"13": {
     "doc": "React Native",
     "title": "Mini-Projects",
     "content": "This training program has five projects. | Project 1: Match the Members | Project 2: Pokedex | Project 3: MDB Socials Part 1 | Project 4: MDB Socials Part 2 | Project 5: Weather App | . ",
     "url": "https://mdb-react-native.web.app/resources/react-native/index/#mini-projects",
     "relUrl": "/resources/react-native/index/#mini-projects"
-  },"13": {
+  },"14": {
     "doc": "React Native",
     "title": "Contributors",
     "content": "This training program was created by Paul Shao, Will Oakley, Allison Husain, Shomil Jain, and Anjali Thakrar in Fall 2020. ",
     "url": "https://mdb-react-native.web.app/resources/react-native/index/#contributors",
     "relUrl": "/resources/react-native/index/#contributors"
-  },"14": {
+  },"15": {
     "doc": "React Native",
     "title": "React Native",
     "content": ". ",
     "url": "https://mdb-react-native.web.app/resources/react-native/index/",
     "relUrl": "/resources/react-native/index/"
-  },"15": {
+  },"16": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1: Match the Members",
     "content": " ",
     "url": "https://mdb-react-native.web.app/resources/react-native/projects/match-the-members/#mini-project-1-match-the-members",
     "relUrl": "/resources/react-native/projects/match-the-members/#mini-project-1-match-the-members"
-  },"16": {
+  },"17": {
     "doc": "Mini-Project 1",
     "title": "Table of contents",
     "content": ". | Project Description | Starter Code | Game Requirements | Submission | . ",
     "url": "https://mdb-react-native.web.app/resources/react-native/projects/match-the-members/#table-of-contents",
     "relUrl": "/resources/react-native/projects/match-the-members/#table-of-contents"
-  },"17": {
+  },"18": {
     "doc": "Mini-Project 1",
     "title": "Project Description",
     "content": "Welcome to MDB! As a new member, you’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. You will be working alone for this project. ",
     "url": "https://mdb-react-native.web.app/resources/react-native/projects/match-the-members/#project-description",
     "relUrl": "/resources/react-native/projects/match-the-members/#project-description"
-  },"18": {
+  },"19": {
     "doc": "Mini-Project 1",
     "title": "Starter Code",
-    "content": "The starter code is available at this link. Here are the commands to get started. git clone https://github.com/mdbdev/reactnative-mp1.git cd reactnative-mp1 expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . ",
+    "content": "The starter code is available at this link. Here are the commands to get started. git clone https://github.com/mdbdev/reactnative-mp1.git cd reactnative-mp1 yarn install expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . ",
     "url": "https://mdb-react-native.web.app/resources/react-native/projects/match-the-members/#starter-code",
     "relUrl": "/resources/react-native/projects/match-the-members/#starter-code"
-  },"19": {
+  },"20": {
     "doc": "Mini-Project 1",
     "title": "Game Requirements",
     "content": ". | Member Picture - Randomly display a picture of a member on the screen | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer) | Score - Display a score count for the user – when the user correctly answers, increase the score by 1. Otherwise, just move on to the next question. | Answer Display - You can go from one question to another just by changing the image and button values, but there should be a one second delay in between questions where the button the user pressed flashes either red or green (depending on whether they’re correct or not). You’ll have to look up how to implement timers. | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of GameScreen.jsx before getting started! . ",
     "url": "https://mdb-react-native.web.app/resources/react-native/projects/match-the-members/#game-requirements",
     "relUrl": "/resources/react-native/projects/match-the-members/#game-requirements"
-  },"20": {
+  },"21": {
     "doc": "Mini-Project 1",
     "title": "Submission",
     "content": "To submit your project, you’ll need to create a new project on GitHub and push your changes to that project. Make sure the project is public and includes a README.md with screenshots of your app. You should submit your assignment to https://go.mdb.dev/submit-project/. ",
     "url": "https://mdb-react-native.web.app/resources/react-native/projects/match-the-members/#submission",
     "relUrl": "/resources/react-native/projects/match-the-members/#submission"
-  },"21": {
+  },"22": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1",
     "content": " ",
