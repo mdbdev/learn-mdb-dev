@@ -2,85 +2,85 @@
     "doc": "Home",
     "title": "MDB Training Program",
     "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, five mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
-    "url": "https://mdb-react-native.web.app/#mdb-training-program",
+    "url": "http://localhost:4000/#mdb-training-program",
     "relUrl": "/#mdb-training-program"
   },"1": {
     "doc": "Home",
     "title": "Home",
-    "content": " ",
-    "url": "https://mdb-react-native.web.app/",
+    "content": ". ",
+    "url": "http://localhost:4000/",
     "relUrl": "/"
   },"2": {
     "doc": "Home",
     "title": "MDB Training Program",
     "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, five mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
-    "url": "https://mdb-react-native.web.app/#mdb-training-program",
+    "url": "http://localhost:4000/#mdb-training-program",
     "relUrl": "/#mdb-training-program"
   },"3": {
     "doc": "Home",
     "title": "Home",
-    "content": " ",
-    "url": "https://mdb-react-native.web.app/",
+    "content": ". ",
+    "url": "http://localhost:4000/",
     "relUrl": "/"
   },"4": {
     "doc": "Lesson 0",
     "title": "Lesson 0: Getting Started",
     "content": " ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/0/#lesson-0-getting-started",
+    "url": "http://localhost:4000/resources/react-native/0/#lesson-0-getting-started",
     "relUrl": "/resources/react-native/0/#lesson-0-getting-started"
   },"5": {
     "doc": "Lesson 0",
     "title": "Table of contents",
     "content": ". To access this lesson’s slides, click here. ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/0/#table-of-contents",
+    "url": "http://localhost:4000/resources/react-native/0/#table-of-contents",
     "relUrl": "/resources/react-native/0/#table-of-contents"
   },"6": {
     "doc": "Lesson 0",
     "title": "Lesson 0",
     "content": " ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/0/",
+    "url": "http://localhost:4000/resources/react-native/0/",
     "relUrl": "/resources/react-native/0/"
   },"7": {
     "doc": "Lesson 1",
     "title": "Lesson 1: React Fundamentals",
     "content": " ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/1/#lesson-1-react-fundamentals",
+    "url": "http://localhost:4000/resources/react-native/1/#lesson-1-react-fundamentals",
     "relUrl": "/resources/react-native/1/#lesson-1-react-fundamentals"
   },"8": {
     "doc": "Lesson 1",
     "title": "Table of contents",
     "content": ". To access this lesson’s slides, click here. ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/1/#table-of-contents",
+    "url": "http://localhost:4000/resources/react-native/1/#table-of-contents",
     "relUrl": "/resources/react-native/1/#table-of-contents"
   },"9": {
     "doc": "Lesson 1",
     "title": "Lesson 1",
     "content": " ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/1/",
+    "url": "http://localhost:4000/resources/react-native/1/",
     "relUrl": "/resources/react-native/1/"
   },"10": {
     "doc": "React Native",
     "title": "React Native Training Program",
     "content": ". ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/index/#react-native-training-program",
+    "url": "http://localhost:4000/resources/react-native/index/#react-native-training-program",
     "relUrl": "/resources/react-native/index/#react-native-training-program"
   },"11": {
     "doc": "React Native",
     "title": "Lessons",
     "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: React Native Fundamentals | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: UI/UX Design | Lesson 5: React Native Design Patterns | . ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/index/#lessons",
+    "url": "http://localhost:4000/resources/react-native/index/#lessons",
     "relUrl": "/resources/react-native/index/#lessons"
   },"12": {
     "doc": "React Native",
     "title": "Contributors",
     "content": "This training program was created by Paul Shao, Will Oakley, Allison Husain, Shomil Jain, and Anjali Thakrar in Fall 2020. ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/index/#contributors",
+    "url": "http://localhost:4000/resources/react-native/index/#contributors",
     "relUrl": "/resources/react-native/index/#contributors"
   },"13": {
     "doc": "React Native",
     "title": "React Native",
     "content": ". ",
-    "url": "https://mdb-react-native.web.app/resources/react-native/index/",
+    "url": "http://localhost:4000/resources/react-native/index/",
     "relUrl": "/resources/react-native/index/"
   }
 }
