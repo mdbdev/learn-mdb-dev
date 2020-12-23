@@ -25,6 +25,15 @@ This training program has six lessons.
 - Lesson 4: UI/UX Design
 - Lesson 5: React Native Design Patterns
 
+## Mini-Projects
+
+This training program has five projects.
+- [Project 1](/resources/react-native/projects/match-the-members/): Match the Members
+- Project 2: Pokedex
+- Project 3: MDB Socials Part 1
+- Project 4: MDB Socials Part 2
+- Project 5: Weather App
+
 ## Contributors
 
 This training program was created by Paul Shao, Will Oakley, Allison Husain, Shomil Jain, and Anjali Thakrar in Fall 2020.
