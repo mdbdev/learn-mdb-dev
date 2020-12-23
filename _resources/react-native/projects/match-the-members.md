@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Mini-Project 1
-page_order: 1
+page_order: 0
 description: None
-nav_exclude: true
+parent: Projects
+grand_parent: React Native
 ---
 
 # Mini-Project 1: Match the Members

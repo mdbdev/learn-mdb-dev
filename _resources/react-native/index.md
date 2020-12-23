@@ -18,8 +18,8 @@ has_toc: false
 
 This training program has six lessons.
 
-- [Lesson 0](/resources/react-native/0/): Getting Started
-- [Lesson 1](/resources/react-native/1/): React Fundamentals
+- [Lesson 0](/resources/react-native/lessons/0/): Getting Started
+- [Lesson 1](/resources/react-native/lessons/1/): React Fundamentals
 - Lesson 2: React Native Fundamentals
 - Lesson 3: REST API's, Databases, and the Cloud
 - Lesson 4: UI/UX Design
