@@ -17,8 +17,8 @@ title: &title MDB Training Program
 tagline: MDB Training Program
 description: A crash course to mobile development, for iOS and React Native.
 author: Mobile Developers of Berkeley
-baseurl: '/react-native-training-program-site'
-url: 'https://mdbdev.github.io'
+baseurl: ''
+url: 'https://mdb-react-native.web.app'
 exclude: ["Gemfile", "Gemfile.lock", "LICENSE", "README.md", "vendor/"]
 # ga_tracking: UA-175621368-1
 
