@@ -6,7 +6,7 @@ has_children: true
 description: >-
     None
 ---
-
+{: .no_toc }
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="logo" style="height:45px !important;"/>
 # React Native Training Program
 
