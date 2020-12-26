@@ -20,16 +20,16 @@ This training program has six lessons.
 
 - [Lesson 0](/resources/react-native/lessons/0/): Getting Started
 - [Lesson 1](/resources/react-native/lessons/1/): React Fundamentals
-- Lesson 2: React Native Fundamentals
-- Lesson 3: REST API's, Databases, and the Cloud
-- Lesson 4: UI/UX Design
-- Lesson 5: React Native Design Patterns
+- [Lesson 2](/resources/react-native/lessons/2/): React Native Fundamentals
+- [Lesson 3](/resources/react-native/lessons/3/): REST API's, Databases, and the Cloud
+- Lesson 4: Authentication & Application Context
+- Lesson 5: Mobile App Design
 
 ## Mini-Projects
 
 This training program has five projects.
 - [Project 1](/resources/react-native/projects/match-the-members/): Match the Members
-- Project 2: Pokedex
+- [Project 2](/resources/react-native/projects/imdb/): iMDB
 - Project 3: MDB Socials Part 1
 - Project 4: MDB Socials Part 2
 - Project 5: Weather App

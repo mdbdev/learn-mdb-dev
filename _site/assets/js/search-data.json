@@ -31,13 +31,13 @@
   },"5": {
     "doc": "React Native",
     "title": "Lessons",
-    "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: React Native Fundamentals | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: UI/UX Design | Lesson 5: React Native Design Patterns | . ",
+    "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: React Native Fundamentals | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: Authentication &amp; Application Context | Lesson 5: Mobile App Design | . ",
     "url": "https://learn.mdb.dev//resources/react-native/index/#lessons",
     "relUrl": "/resources/react-native/index/#lessons"
   },"6": {
     "doc": "React Native",
     "title": "Mini-Projects",
-    "content": "This training program has five projects. | Project 1: Match the Members | Project 2: Pokedex | Project 3: MDB Socials Part 1 | Project 4: MDB Socials Part 2 | Project 5: Weather App | . ",
+    "content": "This training program has five projects. | Project 1: Match the Members | Project 2: iMDB | Project 3: MDB Socials Part 1 | Project 4: MDB Socials Part 2 | Project 5: Weather App | . ",
     "url": "https://learn.mdb.dev//resources/react-native/index/#mini-projects",
     "relUrl": "/resources/react-native/index/#mini-projects"
   },"7": {
