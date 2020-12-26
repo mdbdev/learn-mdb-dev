@@ -20,7 +20,7 @@ This training program has six lessons.
 
 - [Lesson 0](/react-native/lessons/0/): Getting Started
 - [Lesson 1](/react-native/lessons/1/): React Fundamentals
-- [Lesson 2](/react-native/lessons/2/): React Native Fundamentals
+- [Lesson 2](/react-native/lessons/2/): Navigation, Lifecycle, and Advanced Components
 - [Lesson 3](/react-native/lessons/3/): REST API's, Databases, and the Cloud
 - Lesson 4: Authentication & Application Context
 - Lesson 5: Mobile App Design

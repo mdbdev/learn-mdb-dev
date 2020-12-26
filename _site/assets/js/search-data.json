@@ -43,7 +43,7 @@
   },"7": {
     "doc": "Overview",
     "title": "Lessons",
-    "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: React Native Fundamentals | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: Authentication &amp; Application Context | Lesson 5: Mobile App Design | . ",
+    "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: Navigation, Lifecycle, and Advanced Components | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: Authentication &amp; Application Context | Lesson 5: Mobile App Design | . ",
     "url": "https://learn.mdb.dev//react-native/index/#lessons",
     "relUrl": "/react-native/index/#lessons"
   },"8": {
@@ -102,10 +102,10 @@
     "relUrl": "/react-native/lessons/1/"
   },"17": {
     "doc": "Lesson 2",
-    "title": "Lesson 1: React Fundamentals",
+    "title": "Lesson 2: Navigation, Lifecycle, and Advanced Components",
     "content": " ",
-    "url": "https://learn.mdb.dev//react-native/lessons/2/#lesson-1-react-fundamentals",
-    "relUrl": "/react-native/lessons/2/#lesson-1-react-fundamentals"
+    "url": "https://learn.mdb.dev//react-native/lessons/2/#lesson-2-navigation-lifecycle-and-advanced-components",
+    "relUrl": "/react-native/lessons/2/#lesson-2-navigation-lifecycle-and-advanced-components"
   },"18": {
     "doc": "Lesson 2",
     "title": "Table of contents",
@@ -120,10 +120,10 @@
     "relUrl": "/react-native/lessons/2/"
   },"20": {
     "doc": "Lesson 3",
-    "title": "Lesson 1: React Fundamentals",
+    "title": "Lesson 1: REST API’s, Databases, and the Cloud",
     "content": " ",
-    "url": "https://learn.mdb.dev//react-native/lessons/3/#lesson-1-react-fundamentals",
-    "relUrl": "/react-native/lessons/3/#lesson-1-react-fundamentals"
+    "url": "https://learn.mdb.dev//react-native/lessons/3/#lesson-1-rest-apis-databases-and-the-cloud",
+    "relUrl": "/react-native/lessons/3/#lesson-1-rest-apis-databases-and-the-cloud"
   },"21": {
     "doc": "Lesson 3",
     "title": "Table of contents",
