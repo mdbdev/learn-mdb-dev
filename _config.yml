@@ -34,7 +34,7 @@ footer_content:
 collections:
   staffers:
   schedules:
-  resources:
+  react-native:
     permalink: '/:collection/:path/'
     output: true
 # Default layouts for each collection type
@@ -46,7 +46,7 @@ defaults:
       layout: schedule
   - scope:
       path: ''
-      type: resources
+      type: react-native
     values:
       layout: page
 # Configure collections for Just the Docs
@@ -54,8 +54,8 @@ just_the_docs:
   collections:
     pages:
       name: General
-    resources:
-      name: Resources
+    react-native:
+      name: React Native
 
 compress_html:
   clippings: all
