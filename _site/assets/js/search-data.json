@@ -1,220 +1,232 @@
 {"0": {
-    "doc": "Home",
-    "title": "MDB Training Program",
-    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, five mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
-    "url": "https://learn.mdb.dev//#mdb-training-program",
-    "relUrl": "/#mdb-training-program"
+    "doc": 404,
+    "title": 404,
+    "content": "Uh oh! This page was not found. Return to homepage. ",
+    "url": "https://learn.mdb.dev//404/",
+    "relUrl": "/404/"
   },"1": {
     "doc": "Home",
+    "title": "MDB Training Program",
+    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, five mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
+    "url": "https://learn.mdb.dev//#mdb-training-program",
+    "relUrl": "/#mdb-training-program"
+  },"2": {
+    "doc": "Home",
     "title": "Home",
     "content": ". ",
     "url": "https://learn.mdb.dev//",
     "relUrl": "/"
-  },"2": {
+  },"3": {
+    "doc": 404,
+    "title": 404,
+    "content": "Uh oh! This page was not found. Return to homepage. ",
+    "url": "https://learn.mdb.dev//404/",
+    "relUrl": "/404/"
+  },"4": {
     "doc": "Home",
     "title": "MDB Training Program",
     "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, five mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
     "url": "https://learn.mdb.dev//#mdb-training-program",
     "relUrl": "/#mdb-training-program"
-  },"3": {
+  },"5": {
     "doc": "Home",
     "title": "Home",
     "content": ". ",
     "url": "https://learn.mdb.dev//",
     "relUrl": "/"
-  },"4": {
+  },"6": {
     "doc": "Overview",
     "title": "React Native Training Program",
     "content": ". ",
     "url": "https://learn.mdb.dev//react-native/index/#react-native-training-program",
     "relUrl": "/react-native/index/#react-native-training-program"
-  },"5": {
+  },"7": {
     "doc": "Overview",
     "title": "Lessons",
     "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: React Native Fundamentals | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: Authentication &amp; Application Context | Lesson 5: Mobile App Design | . ",
     "url": "https://learn.mdb.dev//react-native/index/#lessons",
     "relUrl": "/react-native/index/#lessons"
-  },"6": {
+  },"8": {
     "doc": "Overview",
     "title": "Mini-Projects",
     "content": "This training program has five projects. | Project 1: Match the Members | Project 2: iMDB | Project 3: MDB Socials Part 1 | Project 4: MDB Socials Part 2 | Project 5: Weather App | . ",
     "url": "https://learn.mdb.dev//react-native/index/#mini-projects",
     "relUrl": "/react-native/index/#mini-projects"
-  },"7": {
+  },"9": {
     "doc": "Overview",
     "title": "Contributors",
     "content": "This training program was created by Paul Shao, Will Oakley, Allison Husain, Shomil Jain, and Anjali Thakrar in Fall 2020. ",
     "url": "https://learn.mdb.dev//react-native/index/#contributors",
     "relUrl": "/react-native/index/#contributors"
-  },"8": {
+  },"10": {
     "doc": "Overview",
     "title": "Overview",
     "content": ". ",
     "url": "https://learn.mdb.dev//react-native/index/",
     "relUrl": "/react-native/index/"
-  },"9": {
+  },"11": {
     "doc": "Lesson 0",
     "title": "Lesson 0: Getting Started",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/0/#lesson-0-getting-started",
     "relUrl": "/react-native/lessons/0/#lesson-0-getting-started"
-  },"10": {
+  },"12": {
     "doc": "Lesson 0",
     "title": "Table of contents",
     "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
     "url": "https://learn.mdb.dev//react-native/lessons/0/#table-of-contents",
     "relUrl": "/react-native/lessons/0/#table-of-contents"
-  },"11": {
+  },"13": {
     "doc": "Lesson 0",
     "title": "Lesson 0",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/0/",
     "relUrl": "/react-native/lessons/0/"
-  },"12": {
+  },"14": {
     "doc": "Lesson 1",
     "title": "Lesson 1: React Fundamentals",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/1/#lesson-1-react-fundamentals",
     "relUrl": "/react-native/lessons/1/#lesson-1-react-fundamentals"
-  },"13": {
+  },"15": {
     "doc": "Lesson 1",
     "title": "Table of contents",
     "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
     "url": "https://learn.mdb.dev//react-native/lessons/1/#table-of-contents",
     "relUrl": "/react-native/lessons/1/#table-of-contents"
-  },"14": {
+  },"16": {
     "doc": "Lesson 1",
     "title": "Lesson 1",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/1/",
     "relUrl": "/react-native/lessons/1/"
-  },"15": {
+  },"17": {
     "doc": "Lesson 2",
     "title": "Lesson 1: React Fundamentals",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/2/#lesson-1-react-fundamentals",
     "relUrl": "/react-native/lessons/2/#lesson-1-react-fundamentals"
-  },"16": {
+  },"18": {
     "doc": "Lesson 2",
     "title": "Table of contents",
     "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
     "url": "https://learn.mdb.dev//react-native/lessons/2/#table-of-contents",
     "relUrl": "/react-native/lessons/2/#table-of-contents"
-  },"17": {
+  },"19": {
     "doc": "Lesson 2",
     "title": "Lesson 2",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/2/",
     "relUrl": "/react-native/lessons/2/"
-  },"18": {
+  },"20": {
     "doc": "Lesson 3",
     "title": "Lesson 1: React Fundamentals",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/3/#lesson-1-react-fundamentals",
     "relUrl": "/react-native/lessons/3/#lesson-1-react-fundamentals"
-  },"19": {
+  },"21": {
     "doc": "Lesson 3",
     "title": "Table of contents",
     "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
     "url": "https://learn.mdb.dev//react-native/lessons/3/#table-of-contents",
     "relUrl": "/react-native/lessons/3/#table-of-contents"
-  },"20": {
+  },"22": {
     "doc": "Lesson 3",
     "title": "Lesson 3",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/3/",
     "relUrl": "/react-native/lessons/3/"
-  },"21": {
+  },"23": {
     "doc": "Lessons",
     "title": "Lessons",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/lessons/index/",
     "relUrl": "/react-native/lessons/index/"
-  },"22": {
+  },"24": {
     "doc": "Mini-Project 2",
     "title": "Mini-Project 2: iMDB",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#mini-project-2-imdb",
     "relUrl": "/react-native/projects/imdb/#mini-project-2-imdb"
-  },"23": {
+  },"25": {
     "doc": "Mini-Project 2",
     "title": "Table of contents",
     "content": ". | Project Description | App Requirements . | Task 1: Movie List Screen | Task 2: Movie Detail Screen | Task 3: Movie Filter Screen | . | Starter Code | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#table-of-contents",
     "relUrl": "/react-native/projects/imdb/#table-of-contents"
-  },"24": {
+  },"26": {
     "doc": "Mini-Project 2",
     "title": "Project Description",
     "content": "In their pursuit of a mobile app development agency, executives at iMDB stumbled upon MDB! They’ve hired you to create their mobile app for them. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#project-description",
     "relUrl": "/react-native/projects/imdb/#project-description"
-  },"25": {
+  },"27": {
     "doc": "Mini-Project 2",
     "title": "App Requirements",
     "content": "Task 1: Movie List Screen . | Display a list of movies, with the movie poster image, title, and any other information you think is important. (Hint) | If a user taps on a movie, take them to the Movie Detail Screen, and pass the current movie object. (Hint) | Include a “Filter” button in the navigation bar that takes a user to the Movie Filter Screen. This should be a Modal transition. (Hint) | . Task 2: Movie Detail Screen . | Display the movie poster image and all other metadata associated with the movie in a clean, readable format. | . Task 3: Movie Filter Screen . | Allow the user to filter by actor and genre (in a multiple-select fashion) (Hint). | . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#app-requirements",
     "relUrl": "/react-native/projects/imdb/#app-requirements"
-  },"26": {
+  },"28": {
     "doc": "Mini-Project 2",
     "title": "Starter Code",
     "content": "The starter code is available at this link. Here are the commands to get started. git clone https://github.com/mdbdev/reactnative-mp2.git cd reactnative-mp1 yarn install expo install expo start . The starter code contains the three screens you’ll need: MovieListScreen, MovieDetailScreen, and MovieFilterScreen. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | movies.json - contains the iMDB movie dataset as a JSON array. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#starter-code",
     "relUrl": "/react-native/projects/imdb/#starter-code"
-  },"27": {
+  },"29": {
     "doc": "Mini-Project 2",
     "title": "Submission",
     "content": "To submit your project, you’ll need to create a new project on GitHub and push your changes to that project. Make sure the project is public and includes a README.md with screenshots of your app. You should submit your assignment to https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#submission",
     "relUrl": "/react-native/projects/imdb/#submission"
-  },"28": {
+  },"30": {
     "doc": "Mini-Project 2",
     "title": "Mini-Project 2",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/",
     "relUrl": "/react-native/projects/imdb/"
-  },"29": {
+  },"31": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/index/",
     "relUrl": "/react-native/projects/index/"
-  },"30": {
+  },"32": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1: Match the Members",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#mini-project-1-match-the-members",
     "relUrl": "/react-native/projects/match-the-members/#mini-project-1-match-the-members"
-  },"31": {
+  },"33": {
     "doc": "Mini-Project 1",
     "title": "Table of contents",
     "content": ". | Project Description | Starter Code | Game Requirements | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#table-of-contents",
     "relUrl": "/react-native/projects/match-the-members/#table-of-contents"
-  },"32": {
+  },"34": {
     "doc": "Mini-Project 1",
     "title": "Project Description",
     "content": "Welcome to MDB! As a new member, you’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. You will be working alone for this project. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#project-description",
     "relUrl": "/react-native/projects/match-the-members/#project-description"
-  },"33": {
+  },"35": {
     "doc": "Mini-Project 1",
     "title": "Starter Code",
     "content": "The starter code is available at this link. Here are the commands to get started. git clone https://github.com/mdbdev/reactnative-mp1.git cd reactnative-mp1 yarn install expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#starter-code",
     "relUrl": "/react-native/projects/match-the-members/#starter-code"
-  },"34": {
+  },"36": {
     "doc": "Mini-Project 1",
     "title": "Game Requirements",
     "content": ". | Member Picture - Randomly display a picture of a member on the screen | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer) | Score - Display a score count for the user – when the user correctly answers, increase the score by 1. Otherwise, just move on to the next question. | Answer Display - You can go from one question to another just by changing the image and button values, but there should be a one second delay in between questions where the button the user pressed flashes either red or green (depending on whether they’re correct or not). You’ll have to look up how to implement timers. | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of GameScreen.jsx before getting started! . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#game-requirements",
     "relUrl": "/react-native/projects/match-the-members/#game-requirements"
-  },"35": {
+  },"37": {
     "doc": "Mini-Project 1",
     "title": "Submission",
     "content": "To submit your project, you’ll need to create a new project on GitHub and push your changes to that project. Make sure the project is public and includes a README.md with screenshots of your app. You should submit your assignment to https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#submission",
     "relUrl": "/react-native/projects/match-the-members/#submission"
-  },"36": {
+  },"38": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1",
     "content": " ",
