@@ -5,5 +5,4 @@ page_order: 1
 has_children: true
 description: Projects
 parent: Overview
-has_toc: false
 ---
