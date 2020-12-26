@@ -27,12 +27,11 @@ This training program has six lessons.
 
 ## Mini-Projects
 
-This training program has five projects.
+This training program has four projects.
 - [Project 1](/react-native/projects/match-the-members/): Match the Members
 - [Project 2](/react-native/projects/imdb/): iMDB
-- Project 3: MDB Socials Part 1
-- Project 4: MDB Socials Part 2
-- Project 5: Weather App
+- Project 3: MDB Socials
+- Project 4: Weather App
 
 ## Contributors
 

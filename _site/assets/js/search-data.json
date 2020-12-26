@@ -7,7 +7,7 @@
   },"1": {
     "doc": "Home",
     "title": "MDB Training Program",
-    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, five mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
+    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, four mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
     "url": "https://learn.mdb.dev//#mdb-training-program",
     "relUrl": "/#mdb-training-program"
   },"2": {
@@ -25,7 +25,7 @@
   },"4": {
     "doc": "Home",
     "title": "MDB Training Program",
-    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, five mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
+    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, four mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
     "url": "https://learn.mdb.dev//#mdb-training-program",
     "relUrl": "/#mdb-training-program"
   },"5": {
@@ -49,7 +49,7 @@
   },"8": {
     "doc": "Overview",
     "title": "Mini-Projects",
-    "content": "This training program has five projects. | Project 1: Match the Members | Project 2: iMDB | Project 3: MDB Socials Part 1 | Project 4: MDB Socials Part 2 | Project 5: Weather App | . ",
+    "content": "This training program has four projects. | Project 1: Match the Members | Project 2: iMDB | Project 3: MDB Socials | Project 4: Weather App | . ",
     "url": "https://learn.mdb.dev//react-native/index/#mini-projects",
     "relUrl": "/react-native/index/#mini-projects"
   },"9": {
