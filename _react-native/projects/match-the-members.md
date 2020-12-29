@@ -53,7 +53,14 @@ Here are other files that you should read over:
 
 For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of `GameScreen.jsx` before getting started!
 
+## Demo
+
+<video muted controls width="40%" style="display:block; margin:0 auto; border-style: dotted; border-width: 1px; border-color: #ebeff0">
+    <source src="assets/mp1.MP4" type="video/mp4">
+</video>
+
 ## Submission
+
 To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it's easy to revert to a prior commit if needed.
 
 ```
