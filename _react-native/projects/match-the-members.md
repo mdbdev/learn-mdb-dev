@@ -23,17 +23,25 @@ Welcome to MDB! As a new member, you'll be building a simple, multiple-choice tr
 
 You will be working alone for this project.
 
+## Game Requirements
+1. **Member Picture** - Randomly display a picture of a member on the screen.
+2. **Name Options** - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer).
+3. **Score** - Display a score count for the user (# correct / # total).
+4. **Timer** - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect.  
+
 ## Starter Code
-The starter code is available at [this link](https://github.com/mdbdev/reactnative-mp1.git). Here are the commands to get started.
+
+If you're a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template [here](https://github.com/mdbdev/reactnative-mp1).
 
 ```
-git clone https://github.com/mdbdev/reactnative-mp1.git
+git clone [YOUR_REPOSITORY_LINK_HERE]
 cd reactnative-mp1
 yarn install
 expo install
 expo start
 ```
-The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You'll be making all of your changes to `GameScreen.jsx`.
+
+The starter code contains a framework for getting started, including a Home Screen and a Game Screen. **You'll be making all of your changes to `GameScreen.jsx`.**
 
 Here are other files that you should read over:
 
@@ -43,16 +51,16 @@ Here are other files that you should read over:
 - `Styles.js` - contains the CSS stylesheet for the app.
 - `Constants.js` - contains the list of all MDB members.
 
-## Game Requirements
-1. **Member Picture** - Randomly display a picture of a member on the screen
-2. **Name Options** - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer)
-3. **Score** - Display a score count for the user – when the user correctly answers, increase the score by 1. Otherwise, just move on to the next question.
-4. **Answer Display** - You can go from one question to another just by changing the image and button values, but there should be a one second delay in between questions where the button the user pressed flashes either red or green (depending on whether they’re correct or not). You’ll have to look up how to implement timers.
-5. **Timer** - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. 
-
 For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of `GameScreen.jsx` before getting started!
 
 ## Submission
-To submit your project, you'll need to create a new project on GitHub and push your changes to that project. Make sure the project is public and includes a `README.md` with screenshots of your app.
+To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it's easy to revert to a prior commit if needed.
 
-You should submit your assignment to [https://go.mdb.dev/submit-project/](https://go.mdb.dev/submit-project/).
+```
+git add .
+git commit -m "all features working"
+git push origin master
+```
+
+Additionally, please submit a screen recording of your working app here: [https://go.mdb.dev/submit-project/](https://go.mdb.dev/submit-project/).
+

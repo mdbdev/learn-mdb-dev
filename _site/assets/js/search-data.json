@@ -139,7 +139,7 @@
   },"23": {
     "doc": "Mini-Project 2",
     "title": "Table of contents",
-    "content": ". | Project Description | App Requirements . | Task 1: Movie List Screen | Task 2: Movie Detail Screen | Task 3: Movie Filter Screen | . | Starter Code | Submission | . ",
+    "content": ". | Project Description | App Requirements | Starter Code | Tips | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#table-of-contents",
     "relUrl": "/react-native/projects/imdb/#table-of-contents"
   },"24": {
@@ -151,70 +151,76 @@
   },"25": {
     "doc": "Mini-Project 2",
     "title": "App Requirements",
-    "content": "Task 1: Movie List Screen . | Display a list of movies, with the movie poster image, title, and any other information you think is important. (Hint) | If a user taps on a movie, take them to the Movie Detail Screen, and pass the current movie object. (Hint) | Include a “Filter” button in the navigation bar that takes a user to the Movie Filter Screen. This should be a Modal transition. (Hint) | . Task 2: Movie Detail Screen . | Display the movie poster image and all other metadata associated with the movie in a clean, readable format. | . Task 3: Movie Filter Screen . | Allow the user to filter by actor and genre (in a multiple-select fashion) (Hint). | . ",
+    "content": ". | Display a list of movies, with the movie poster image, title, and any other information you think is important. | If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset. | Include a “Filter” button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#app-requirements",
     "relUrl": "/react-native/projects/imdb/#app-requirements"
   },"26": {
     "doc": "Mini-Project 2",
     "title": "Starter Code",
-    "content": "The starter code is available at this link. Here are the commands to get started. git clone https://github.com/mdbdev/reactnative-mp2.git cd reactnative-mp1 yarn install expo install expo start . The starter code contains the three screens you’ll need: MovieListScreen, MovieDetailScreen, and MovieFilterScreen. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | movies.json - contains the iMDB movie dataset as a JSON array. | . ",
+    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp2 yarn install expo install expo start . You will need to make changes to the following files: . | MovieListScreen.jsx - holds the main screen (list of movies) | MovieDetailScreen.jsx - holds the detail screen (info about a movie) | MovieFilterScreen.jsx - holds the filter screen . | App.js - serves as the entry point of the application; holds app navigation stack. | . The list of movies is contained within assets/movies.json. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#starter-code",
     "relUrl": "/react-native/projects/imdb/#starter-code"
   },"27": {
     "doc": "Mini-Project 2",
+    "title": "Tips",
+    "content": ". | This project requires you to set up a navigation stack for your app from scratch. Hints are provided in the starter code, along with links to relevant documentation on how to do this. | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#tips",
+    "relUrl": "/react-native/projects/imdb/#tips"
+  },"28": {
+    "doc": "Mini-Project 2",
     "title": "Submission",
-    "content": "To submit your project, you’ll need to create a new project on GitHub and push your changes to that project. Make sure the project is public and includes a README.md with screenshots of your app. You should submit your assignment to https://go.mdb.dev/submit-project/. ",
+    "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#submission",
     "relUrl": "/react-native/projects/imdb/#submission"
-  },"28": {
+  },"29": {
     "doc": "Mini-Project 2",
     "title": "Mini-Project 2",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/",
     "relUrl": "/react-native/projects/imdb/"
-  },"29": {
+  },"30": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/index/",
     "relUrl": "/react-native/projects/index/"
-  },"30": {
+  },"31": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1: Match the Members",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#mini-project-1-match-the-members",
     "relUrl": "/react-native/projects/match-the-members/#mini-project-1-match-the-members"
-  },"31": {
+  },"32": {
     "doc": "Mini-Project 1",
     "title": "Table of contents",
-    "content": ". | Project Description | Starter Code | Game Requirements | Submission | . ",
+    "content": ". | Project Description | Game Requirements | Starter Code | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#table-of-contents",
     "relUrl": "/react-native/projects/match-the-members/#table-of-contents"
-  },"32": {
+  },"33": {
     "doc": "Mini-Project 1",
     "title": "Project Description",
     "content": "Welcome to MDB! As a new member, you’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. You will be working alone for this project. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#project-description",
     "relUrl": "/react-native/projects/match-the-members/#project-description"
-  },"33": {
-    "doc": "Mini-Project 1",
-    "title": "Starter Code",
-    "content": "The starter code is available at this link. Here are the commands to get started. git clone https://github.com/mdbdev/reactnative-mp1.git cd reactnative-mp1 yarn install expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . ",
-    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#starter-code",
-    "relUrl": "/react-native/projects/match-the-members/#starter-code"
   },"34": {
     "doc": "Mini-Project 1",
     "title": "Game Requirements",
-    "content": ". | Member Picture - Randomly display a picture of a member on the screen | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer) | Score - Display a score count for the user – when the user correctly answers, increase the score by 1. Otherwise, just move on to the next question. | Answer Display - You can go from one question to another just by changing the image and button values, but there should be a one second delay in between questions where the button the user pressed flashes either red or green (depending on whether they’re correct or not). You’ll have to look up how to implement timers. | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of GameScreen.jsx before getting started! . ",
+    "content": ". | Member Picture - Randomly display a picture of a member on the screen. | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer). | Score - Display a score count for the user (# correct / # total). | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#game-requirements",
     "relUrl": "/react-native/projects/match-the-members/#game-requirements"
   },"35": {
     "doc": "Mini-Project 1",
+    "title": "Starter Code",
+    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp1 yarn install expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of GameScreen.jsx before getting started! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#starter-code",
+    "relUrl": "/react-native/projects/match-the-members/#starter-code"
+  },"36": {
+    "doc": "Mini-Project 1",
     "title": "Submission",
-    "content": "To submit your project, you’ll need to create a new project on GitHub and push your changes to that project. Make sure the project is public and includes a README.md with screenshots of your app. You should submit your assignment to https://go.mdb.dev/submit-project/. ",
+    "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#submission",
     "relUrl": "/react-native/projects/match-the-members/#submission"
-  },"36": {
+  },"37": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1",
     "content": " ",

@@ -40,9 +40,9 @@
 <meta property="og:url" content="https://learn.mdb.dev//react-native/projects/match-the-members/" />
 <meta property="og:site_name" content="MDB Training Program" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-12-25T20:15:07-08:00" />
+<meta property="article:published_time" content="2020-12-28T21:53:19-08:00" />
 <script type="application/ld+json">
-{"datePublished":"2020-12-25T20:15:07-08:00","headline":"Mini-Project 1","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//react-native/projects/match-the-members/"},"url":"https://learn.mdb.dev//react-native/projects/match-the-members/","author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","@type":"BlogPosting","dateModified":"2020-12-25T20:15:07-08:00","@context":"https://schema.org"}</script>
+{"datePublished":"2020-12-28T21:53:19-08:00","headline":"Mini-Project 1","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//react-native/projects/match-the-members/"},"url":"https://learn.mdb.dev//react-native/projects/match-the-members/","author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","@type":"BlogPosting","dateModified":"2020-12-28T21:53:19-08:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -186,8 +186,8 @@
 
 <ol id="markdown-toc">
   <li><a href="#project-description" id="markdown-toc-project-description">Project Description</a></li>
-  <li><a href="#starter-code" id="markdown-toc-starter-code">Starter Code</a></li>
   <li><a href="#game-requirements" id="markdown-toc-game-requirements">Game Requirements</a></li>
+  <li><a href="#starter-code" id="markdown-toc-starter-code">Starter Code</a></li>
   <li><a href="#submission" id="markdown-toc-submission">Submission</a></li>
 </ol><hr />
       <h2 id="project-description">
@@ -201,6 +201,20 @@
 <p>Welcome to MDB! As a new member, you’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names.</p>
 
 <p>You will be working alone for this project.</p>
+      <h2 id="game-requirements">
+        
+        
+          <a href="#game-requirements" class="anchor-heading" aria-labelledby="game-requirements"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Game Requirements
+        
+        
+      </h2>
+    
+<ol>
+  <li><strong>Member Picture</strong> - Randomly display a picture of a member on the screen.</li>
+  <li><strong>Name Options</strong> - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer).</li>
+  <li><strong>Score</strong> - Display a score count for the user (# correct / # total).</li>
+  <li><strong>Timer</strong> - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect.</li>
+</ol>
       <h2 id="starter-code">
         
         
@@ -209,15 +223,17 @@
         
       </h2>
     
-<p>The starter code is available at <a href="https://github.com/mdbdev/reactnative-mp1.git">this link</a>. Here are the commands to get started.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone https://github.com/mdbdev/reactnative-mp1.git
+<p>If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template <a href="https://github.com/mdbdev/reactnative-mp1">here</a>.</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git clone [YOUR_REPOSITORY_LINK_HERE]
 cd reactnative-mp1
 yarn install
 expo install
 expo start
 </code></pre></div></div>
-<p>The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to <code class="language-plaintext highlighter-rouge">GameScreen.jsx</code>.</p>
+
+<p>The starter code contains a framework for getting started, including a Home Screen and a Game Screen. <strong>You’ll be making all of your changes to <code class="language-plaintext highlighter-rouge">GameScreen.jsx</code>.</strong></p>
 
 <p>Here are other files that you should read over:</p>
 
@@ -228,21 +244,6 @@ expo start
   <li><code class="language-plaintext highlighter-rouge">Styles.js</code> - contains the CSS stylesheet for the app.</li>
   <li><code class="language-plaintext highlighter-rouge">Constants.js</code> - contains the list of all MDB members.</li>
 </ul>
-      <h2 id="game-requirements">
-        
-        
-          <a href="#game-requirements" class="anchor-heading" aria-labelledby="game-requirements"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Game Requirements
-        
-        
-      </h2>
-    
-<ol>
-  <li><strong>Member Picture</strong> - Randomly display a picture of a member on the screen</li>
-  <li><strong>Name Options</strong> - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer)</li>
-  <li><strong>Score</strong> - Display a score count for the user – when the user correctly answers, increase the score by 1. Otherwise, just move on to the next question.</li>
-  <li><strong>Answer Display</strong> - You can go from one question to another just by changing the image and button values, but there should be a one second delay in between questions where the button the user pressed flashes either red or green (depending on whether they’re correct or not). You’ll have to look up how to implement timers.</li>
-  <li><strong>Timer</strong> - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect.</li>
-</ol>
 
 <p>For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of <code class="language-plaintext highlighter-rouge">GameScreen.jsx</code> before getting started!</p>
       <h2 id="submission">
@@ -253,9 +254,14 @@ expo start
         
       </h2>
     
-<p>To submit your project, you’ll need to create a new project on GitHub and push your changes to that project. Make sure the project is public and includes a <code class="language-plaintext highlighter-rouge">README.md</code> with screenshots of your app.</p>
+<p>To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed.</p>
 
-<p>You should submit your assignment to <a href="https://go.mdb.dev/submit-project/">https://go.mdb.dev/submit-project/</a>.</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git add .
+git commit -m "all features working"
+git push origin master
+</code></pre></div></div>
+
+<p>Additionally, please submit a screen recording of your working app here: <a href="https://go.mdb.dev/submit-project/">https://go.mdb.dev/submit-project/</a>.</p>
 
         
 
