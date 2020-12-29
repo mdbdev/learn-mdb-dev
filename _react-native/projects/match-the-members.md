@@ -56,7 +56,7 @@ For this project, the starter code provides you with a fair amount of structure.
 ## Demo
 
 <video muted controls width="40%" style="display:block; margin:0 auto; border-style: dotted; border-width: 1px; border-color: #ebeff0">
-    <source src="./assets/mp1.mov" type="video/mp4">
+    <source src="mp1.mov" type="video/mp4">
 </video>
 
 ## Submission
