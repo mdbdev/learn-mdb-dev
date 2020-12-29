@@ -157,7 +157,7 @@
   },"26": {
     "doc": "Mini-Project 2",
     "title": "Starter Code",
-    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp2 yarn install expo install expo start . You will need to make changes to the following files: . | MovieListScreen.jsx - holds the main screen (list of movies) | MovieDetailScreen.jsx - holds the detail screen (info about a movie) | MovieFilterScreen.jsx - holds the filter screen . | App.js - serves as the entry point of the application; holds app navigation stack. | . The list of movies is contained within assets/movies.json. ",
+    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp2 yarn install expo install expo start . You will need to make changes to the following files: . | MovieListScreen.jsx - holds the main screen (list of movies) | MovieDetailScreen.jsx - holds the detail screen (info about a movie) | MovieFilterScreen.jsx - holds the filter screen | App.js - serves as the entry point of the application; holds app navigation stack | . The list of movies is contained within assets/movies.json. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#starter-code",
     "relUrl": "/react-native/projects/imdb/#starter-code"
   },"27": {

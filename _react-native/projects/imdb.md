@@ -44,8 +44,7 @@ You will need to make changes to the following files:
 - `MovieListScreen.jsx` - holds the main screen (list of movies)
 - `MovieDetailScreen.jsx` - holds the detail screen (info about a movie)
 - `MovieFilterScreen.jsx` - holds the filter screen
-
-- `App.js` - serves as the entry point of the application; holds app navigation stack.
+- `App.js` - serves as the entry point of the application; holds app navigation stack
 
 The list of movies is contained within `assets/movies.json`.
 
