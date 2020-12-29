@@ -55,9 +55,9 @@ For this project, the starter code provides you with a fair amount of structure.
 
 ## Demo
 
-<iframe width="40%"
-src="https://youtu.be/ydvKPzkS8Pw" style="display:block; margin:0 auto; border-style: dotted; border-width: 1px; border-color: #ebeff0">
-</iframe>
+<video muted controls width="40%" style="display:block; margin:0 auto; border-style: dotted; border-width: 1px; border-color: #ebeff0">
+    <source src="./assets/mp1.mov" type="video/mp4">
+</video>
 
 ## Submission
 
