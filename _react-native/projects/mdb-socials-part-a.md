@@ -8,15 +8,12 @@ grand_parent: Overview
 ---
 
 # Mini-Project 3A: MDB Socials
-
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-
 {:toc}
 
 ---
