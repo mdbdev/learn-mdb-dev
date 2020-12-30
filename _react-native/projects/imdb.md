@@ -39,6 +39,8 @@ expo install
 expo start
 ```
 
+This project requires you to set up a navigation stack for your app from scratch. Hints are provided in the starter code, along with links to relevant documentation on how to do this.
+
 You will need to make changes to the following files:
 
 - `MovieListScreen.jsx` - holds the main screen (list of movies)
@@ -48,9 +50,9 @@ You will need to make changes to the following files:
 
 The list of movies is contained within `assets/movies.json`.
 
-## Tips
+## Style Requirements
 
-- This project requires you to set up a navigation stack for your app from scratch. Hints are provided in the starter code, along with links to relevant documentation on how to do this.
+Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
 
 
 ## Submission

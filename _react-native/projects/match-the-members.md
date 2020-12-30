@@ -53,6 +53,10 @@ Here are other files that you should read over:
 
 For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of `GameScreen.jsx` before getting started!
 
+## Style Requirements
+
+Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
+
 ## Demo
 
 <video muted controls width="40%" style="display:block; margin:0 auto; border-style: dotted; border-width: 1px; border-color: #ebeff0">
