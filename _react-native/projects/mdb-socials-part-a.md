@@ -46,6 +46,10 @@ In this project, the screens and navigation stack have been set up for you. You'
 
 Note that the starter code contains all of the libraries that you'll need to create this app - you shouldn't need to install any external libraries, like Firebase, using Yarn!
 
+## React Native Paper
+
+For this project, we'll be using [React Native Paper](https://callstack.github.io/react-native-paper/), a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. Card, TextInput, Snackbar, etc.). Make sure to read the documentation to identify what props (customization options) are available for each component!
+
 ## Firebase Setup
 
 This project will require you to set up a Firebase project and database instance. To do so, follow the instructions below.

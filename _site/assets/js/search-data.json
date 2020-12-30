@@ -241,7 +241,7 @@
   },"40": {
     "doc": "Mini-Project 3A",
     "title": "Table of contents",
-    "content": ". | Project Description | App Requirements | Starter Code | Firebase Setup | Submission | . ",
+    "content": ". | Project Description | App Requirements | Starter Code | React Native Paper | Firebase Setup | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#table-of-contents",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#table-of-contents"
   },"41": {
@@ -264,17 +264,23 @@
     "relUrl": "/react-native/projects/mdb-socials-part-a/#starter-code"
   },"44": {
     "doc": "Mini-Project 3A",
+    "title": "React Native Paper",
+    "content": "For this project, we’ll be using React Native Paper, a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. Card, TextInput, Snackbar, etc.). Make sure to read the documentation to identify what props (customization options) are available for each component! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#react-native-paper",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#react-native-paper"
+  },"45": {
+    "doc": "Mini-Project 3A",
     "title": "Firebase Setup",
     "content": "This project will require you to set up a Firebase project and database instance. To do so, follow the instructions below. | Sign into Firebase using your Google account. | In the Firebase Console, click Add Project, then enter a Project Name (MDB Socials). | Continue through the setup and click Create Project. | On the project dashboard, select the “Web” option to create a new Web app (you can also do this through the settings page, accessible through the sidebar). | Enter an App Nickname (call it “MDB Socials React Native”) and click Register. | Copy just the firebaseConfig variable from the code snippet provided and add it to the appropriate location in the FeedScreen.jsx file. | . To set up Cloud Firestore (our NoSQL cloud database): . | Click on the Cloud Firestore tab in the sidebar. | Click Create Database and choose Test Mode when prompted. | Select any location for your instance and continue to click Done. | . To set up Cloud Storage (our image storage bucket): . | Click on the Cloud Storage tab in the sidebar. | Select any location for your instance and continue to click Done. | On your storage page, click on the “Rules” tab and change: if request.auth != null; to if true; to allow unauthenticated reads/writes to your bucket for testing. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#firebase-setup",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#firebase-setup"
-  },"45": {
+  },"46": {
     "doc": "Mini-Project 3A",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#submission",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#submission"
-  },"46": {
+  },"47": {
     "doc": "Mini-Project 3A",
     "title": "Mini-Project 3A",
     "content": " ",
