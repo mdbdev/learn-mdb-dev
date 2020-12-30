@@ -47,6 +47,8 @@ expo start
 
 In this project, the screens and navigation stack have been set up for you. You'll need to implement navigation between screens (refer to Project 2) and use state and effect hooks (refer to Project 1 & Lesson 1). You'll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments.
 
+Note that the starter code contains all of the libraries that you'll need to create this app - you shouldn't need to install any external libraries, like Firebase, using Yarn!
+
 ## Firebase Setup
 
 This project will require you to set up a Firebase project and database instance. To do so, follow the instructions below.
