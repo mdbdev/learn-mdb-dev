@@ -59,9 +59,8 @@ Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/
 
 ## Demo
 
-<video muted controls width="40%" style="display:block; margin:0 auto; border-style: dotted; border-width: 1px; border-color: #ebeff0">
-    <source src="mp1.mov" type="video/mp4">
-</video>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ydvKPzkS8Pw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
 
 ## Submission
 

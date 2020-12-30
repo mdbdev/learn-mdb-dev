@@ -52,7 +52,7 @@ For this project, we'll be using [React Native Paper](https://callstack.github.i
 
 ## Firebase Setup
 
-This project will require you to set up a Firebase project and database instance. To do so, follow the instructions below.
+This project will require you to set up a Firebase project and database/storage instance. To do so, follow the instructions below.
 
 1. [Sign into Firebase](https://console.firebase.google.com) using your Google account.
 2. In the Firebase Console, click **Add Project**, then enter a **Project Name** (MDB Socials).
