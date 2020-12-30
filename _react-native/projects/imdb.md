@@ -21,13 +21,13 @@ grand_parent: Overview
 ## Project Description
 In their pursuit of a mobile app development agency, executives at iMDB stumbled upon MDB! They've hired you to create their mobile app for them.
 
-Note: Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
-
 ## App Requirements
 
 1. Display a list of movies, with the movie poster image, title, and any other information you think is important.
 2. If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset.
 3. Include a "Filter" button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion.
+
+Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
 
 ## Starter Code
 

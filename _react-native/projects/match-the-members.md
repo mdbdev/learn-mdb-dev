@@ -21,13 +21,13 @@ grand_parent: Overview
 ## Project Description
 Welcome to MDB! As a new member, you'll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names.
 
-Note: Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
-
 ## Game Requirements
 1. **Member Picture** - Randomly display a picture of a member on the screen.
 2. **Name Options** - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer).
 3. **Score** - Display a score count for the user (# correct / # total).
 4. **Timer** - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect.  
+
+Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
 
 ## Starter Code
 
