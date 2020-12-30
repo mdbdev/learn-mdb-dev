@@ -21,7 +21,7 @@ grand_parent: Overview
 ## Project Description
 Welcome to MDB! As a new member, you'll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names.
 
-You will be working alone for this project.
+Note: Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
 
 ## Game Requirements
 1. **Member Picture** - Randomly display a picture of a member on the screen.
@@ -52,10 +52,6 @@ Here are other files that you should read over:
 - `Constants.js` - contains the list of all MDB members.
 
 For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of `GameScreen.jsx` before getting started!
-
-## Style Requirements
-
-Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
 
 ## Demo
 
