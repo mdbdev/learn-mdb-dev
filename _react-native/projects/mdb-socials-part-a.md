@@ -74,6 +74,9 @@ To set up Cloud Storage (our image storage bucket):
 3. On your storage page, click on the "Rules" tab and change:
     `if request.auth != null;` to `if true;` to allow unauthenticated reads/writes to your bucket for testing.
 
+## Demo
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/80_w_NeuZEs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Submission
 

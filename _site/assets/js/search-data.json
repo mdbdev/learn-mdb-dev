@@ -139,7 +139,7 @@
   },"23": {
     "doc": "Mini-Project 2",
     "title": "Table of contents",
-    "content": ". | Project Description | App Requirements | Starter Code | Submission | . ",
+    "content": ". | Project Description | App Requirements | Starter Code | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#table-of-contents",
     "relUrl": "/react-native/projects/imdb/#table-of-contents"
   },"24": {
@@ -151,7 +151,7 @@
   },"25": {
     "doc": "Mini-Project 2",
     "title": "App Requirements",
-    "content": ". | Display a list of movies, with the movie poster image, title, and any other information you think is important. | If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset. | Include a “Filter” button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL-SHIFT-F does this for you! . ",
+    "content": ". | Display a list of movies, with the movie poster image, title, and any other information you think is important. | Allow the user to search for a specific movie through a search bar. | If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset. | Include a “Filter” button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL-SHIFT-F does this for you! . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#app-requirements",
     "relUrl": "/react-native/projects/imdb/#app-requirements"
   },"26": {
@@ -162,119 +162,131 @@
     "relUrl": "/react-native/projects/imdb/#starter-code"
   },"27": {
     "doc": "Mini-Project 2",
+    "title": "Demo",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#demo",
+    "relUrl": "/react-native/projects/imdb/#demo"
+  },"28": {
+    "doc": "Mini-Project 2",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#submission",
     "relUrl": "/react-native/projects/imdb/#submission"
-  },"28": {
+  },"29": {
     "doc": "Mini-Project 2",
     "title": "Mini-Project 2",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/",
     "relUrl": "/react-native/projects/imdb/"
-  },"29": {
+  },"30": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/index/",
     "relUrl": "/react-native/projects/index/"
-  },"30": {
+  },"31": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1: Match the Members",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#mini-project-1-match-the-members",
     "relUrl": "/react-native/projects/match-the-members/#mini-project-1-match-the-members"
-  },"31": {
+  },"32": {
     "doc": "Mini-Project 1",
     "title": "Table of contents",
     "content": ". | Project Description | Game Requirements | Starter Code | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#table-of-contents",
     "relUrl": "/react-native/projects/match-the-members/#table-of-contents"
-  },"32": {
+  },"33": {
     "doc": "Mini-Project 1",
     "title": "Project Description",
     "content": "Welcome to MDB! As a new member, you’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#project-description",
     "relUrl": "/react-native/projects/match-the-members/#project-description"
-  },"33": {
+  },"34": {
     "doc": "Mini-Project 1",
     "title": "Game Requirements",
     "content": ". | Member Picture - Randomly display a picture of a member on the screen. | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer). | Score - Display a score count for the user (# correct / # total). | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL-SHIFT-F does this for you! . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#game-requirements",
     "relUrl": "/react-native/projects/match-the-members/#game-requirements"
-  },"34": {
+  },"35": {
     "doc": "Mini-Project 1",
     "title": "Starter Code",
     "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp1 yarn install expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of GameScreen.jsx before getting started! . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#starter-code",
     "relUrl": "/react-native/projects/match-the-members/#starter-code"
-  },"35": {
+  },"36": {
     "doc": "Mini-Project 1",
     "title": "Demo",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#demo",
     "relUrl": "/react-native/projects/match-the-members/#demo"
-  },"36": {
+  },"37": {
     "doc": "Mini-Project 1",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#submission",
     "relUrl": "/react-native/projects/match-the-members/#submission"
-  },"37": {
+  },"38": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/",
     "relUrl": "/react-native/projects/match-the-members/"
-  },"38": {
+  },"39": {
     "doc": "Mini-Project 3A",
     "title": "Mini-Project 3A: MDB Socials",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#mini-project-3a-mdb-socials",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#mini-project-3a-mdb-socials"
-  },"39": {
+  },"40": {
     "doc": "Mini-Project 3A",
     "title": "Table of contents",
-    "content": ". | Project Description | App Requirements | Starter Code | React Native Paper | Firebase Setup | Submission | . ",
+    "content": ". | Project Description | App Requirements | Starter Code | React Native Paper | Firebase Setup | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#table-of-contents",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#table-of-contents"
-  },"40": {
+  },"41": {
     "doc": "Mini-Project 3A",
     "title": "Project Description",
     "content": "In this project, we’ll be exploring backend data storage/retrieval via Firebase. One of the cool features of Firebase over most other tools is its real-time functionality (in other words, Firebase automatically notifies you when some value in the database is updated). We’ll be building an app called MDB Socials, which will allow members to post and share social events. Note: MDB Socials is the most challenging and most important of all of the MDB Training Program projects. Expect it to be time consuming and difficult but don’t get discouraged! Start early and come to project parties to get help. We’ve also broken the project into two parts (A and B) to reduce workload and keep you on track. ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#project-description",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#project-description"
-  },"41": {
+  },"42": {
     "doc": "Mini-Project 3A",
     "title": "App Requirements",
     "content": ". | Feed Screen - Display a list of social events posted by any member using the app, sorted by date. | Detail Screen - Display detailed information about a particular social. | New Social Screen - Allow users to create and post new social events. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#app-requirements",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#app-requirements"
-  },"42": {
+  },"43": {
     "doc": "Mini-Project 3A",
     "title": "Starter Code",
     "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp3-a yarn install expo install expo start . In this project, the screens and navigation stack have been set up for you. You’ll need to implement navigation between screens (refer to Project 2) and use state and effect hooks (refer to Project 1 &amp; Lesson 1). You’ll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments. Note that the starter code contains all of the libraries that you’ll need to create this app - you shouldn’t need to install any external libraries, like Firebase, using Yarn! . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#starter-code",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#starter-code"
-  },"43": {
+  },"44": {
     "doc": "Mini-Project 3A",
     "title": "React Native Paper",
     "content": "For this project, we’ll be using React Native Paper, a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. Card, TextInput, Snackbar, etc.). Make sure to read the documentation to identify what props (customization options) are available for each component! . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#react-native-paper",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#react-native-paper"
-  },"44": {
+  },"45": {
     "doc": "Mini-Project 3A",
     "title": "Firebase Setup",
     "content": "This project will require you to set up a Firebase project and database/storage instance. To do so, follow the instructions below. | Sign into Firebase using your Google account. | In the Firebase Console, click Add Project, then enter a Project Name (MDB Socials). | Continue through the setup and click Create Project. | On the project dashboard, select the “Web” option to create a new Web app (you can also do this through the settings page, accessible through the sidebar). | Enter an App Nickname (call it “MDB Socials React Native”) and click Register. | Copy just the firebaseConfig variable from the code snippet provided and add it to the appropriate location in the FeedScreen.jsx file. | . To set up Cloud Firestore (our NoSQL cloud database): . | Click on the Cloud Firestore tab in the sidebar. | Click Create Database and choose Test Mode when prompted. | Select any location for your instance and continue to click Done. | . To set up Cloud Storage (our image storage bucket): . | Click on the Cloud Storage tab in the sidebar. | Select any location for your instance and continue to click Done. | On your storage page, click on the “Rules” tab and change: if request.auth != null; to if true; to allow unauthenticated reads/writes to your bucket for testing. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#firebase-setup",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#firebase-setup"
-  },"45": {
+  },"46": {
+    "doc": "Mini-Project 3A",
+    "title": "Demo",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#demo",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#demo"
+  },"47": {
     "doc": "Mini-Project 3A",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#submission",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#submission"
-  },"46": {
+  },"48": {
     "doc": "Mini-Project 3A",
     "title": "Mini-Project 3A",
     "content": " ",

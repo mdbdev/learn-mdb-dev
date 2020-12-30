@@ -23,9 +23,10 @@ In their pursuit of a mobile app development agency, executives at iMDB stumbled
 
 ## App Requirements
 
-1. Display a list of movies, with the movie poster image, title, and any other information you think is important.
-2. If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset.
-3. Include a "Filter" button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion.
+1. Display a list of movies, with the movie poster image, title, and any other information you think is important. 
+2. Allow the user to search for a specific movie through a search bar.
+3. If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset.
+4. Include a "Filter" button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion.
 
 Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
 
@@ -52,6 +53,8 @@ You will need to make changes to the following files:
 
 The list of movies is contained within `assets/movies.json`.
 
+## Demo
+<iframe width="560" height="315" src="https://www.youtube.com/embed/g2sfvGX0l2I" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Submission
 
