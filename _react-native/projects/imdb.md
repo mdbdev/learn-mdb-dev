@@ -28,7 +28,7 @@ In their pursuit of a mobile app development agency, executives at iMDB stumbled
 3. If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset.
 4. Include a "Filter" button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion.
 
-Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
+Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL/OPTION-SHIFT-F` does this for you!
 
 ## Starter Code
 

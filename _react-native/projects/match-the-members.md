@@ -27,7 +27,7 @@ Welcome to MDB! As a new member, you'll be building a simple, multiple-choice tr
 3. **Score** - Display a score count for the user (# correct / # total).
 4. **Timer** - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect.  
 
-Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL-SHIFT-F` does this for you!
+Make sure to install the [VSCode Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode) extension to format and auto-style your code. The keyboard shortcut `CMD/CTRL/OPTION-SHIFT-F` does this for you!
 
 ## Starter Code
 

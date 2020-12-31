@@ -169,7 +169,7 @@
   },"28": {
     "doc": "Mini-Project 2",
     "title": "App Requirements",
-    "content": ". | Display a list of movies, with the movie poster image, title, and any other information you think is important. | Allow the user to search for a specific movie through a search bar. | If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset. | Include a “Filter” button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL-SHIFT-F does this for you! . ",
+    "content": ". | Display a list of movies, with the movie poster image, title, and any other information you think is important. | Allow the user to search for a specific movie through a search bar. | If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset. | Include a “Filter” button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL/OPTION-SHIFT-F does this for you! . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#app-requirements",
     "relUrl": "/react-native/projects/imdb/#app-requirements"
   },"29": {
@@ -223,7 +223,7 @@
   },"37": {
     "doc": "Mini-Project 1",
     "title": "Game Requirements",
-    "content": ". | Member Picture - Randomly display a picture of a member on the screen. | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer). | Score - Display a score count for the user (# correct / # total). | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL-SHIFT-F does this for you! . ",
+    "content": ". | Member Picture - Randomly display a picture of a member on the screen. | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer). | Score - Display a score count for the user (# correct / # total). | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL/OPTION-SHIFT-F does this for you! . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#game-requirements",
     "relUrl": "/react-native/projects/match-the-members/#game-requirements"
   },"38": {
