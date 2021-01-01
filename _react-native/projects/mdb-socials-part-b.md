@@ -21,7 +21,7 @@ grand_parent: Overview
 
 ## Project Description
 
-Congratulations on finishing MDB Socials Part A! In this project, we'll be adding several features to your app. If you don't feel comfortable building off of your code, feel free to reach out to an instructor for the staff solution to Part A!
+Congratulations on finishing MDB Project 3A! In this project, we'll be adding several features to your app. If you don't feel comfortable building off of your code, feel free to reach out to an instructor for the staff solution to Part A!
 
 ## App Requirements
 
