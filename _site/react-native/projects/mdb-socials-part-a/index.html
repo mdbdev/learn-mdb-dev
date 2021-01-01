@@ -40,9 +40,9 @@
 <meta property="og:url" content="https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/" />
 <meta property="og:site_name" content="MDB Training Program" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2020-12-30T19:38:51-08:00" />
+<meta property="article:published_time" content="2020-12-31T17:48:25-08:00" />
 <script type="application/ld+json">
-{"datePublished":"2020-12-30T19:38:51-08:00","headline":"Mini-Project 3A","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/"},"url":"https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/","author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","@type":"BlogPosting","dateModified":"2020-12-30T19:38:51-08:00","@context":"https://schema.org"}</script>
+{"datePublished":"2020-12-31T17:48:25-08:00","headline":"Mini-Project 3A","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/"},"url":"https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/","author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","@type":"BlogPosting","dateModified":"2020-12-31T17:48:25-08:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -132,6 +132,8 @@
                     <a href="https://learn.mdb.dev//react-native/projects/imdb/" class="nav-list-link">Mini-Project 2</a>
                   </li><li class="nav-list-item  active">
                     <a href="https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/" class="nav-list-link active">Mini-Project 3A</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/" class="nav-list-link">Mini-Project 3B</a>
                   </li></ul></li></ul></li></ul>
 
           
@@ -219,9 +221,20 @@
     
 
 <ol>
-  <li><strong>Feed Screen</strong> - Display a list of social events posted by any member using the app, sorted by date.</li>
+  <li><strong>Feed Screen</strong> - Display a list of social events posted by any member using the app, sorted by date.
+    <ul>
+      <li>If a social is added to Firebase, the list should <a href="https://firebase.google.com/docs/firestore/query-data/listen">update automatically</a> without any user intervention.</li>
+    </ul>
+  </li>
   <li><strong>Detail Screen</strong> - Display detailed information about a particular social.</li>
-  <li><strong>New Social Screen</strong> - Allow users to create and post new social events.</li>
+  <li><strong>New Social Screen</strong> - Allow users to create and post new social events.
+    <ul>
+      <li>Socials have the following attributes: title, location, description, <a href="https://github.com/mmazzarolo/react-native-modal-datetime-picker">date</a>, and <a href="https://docs.expo.io/versions/latest/sdk/imagepicker/">image</a>.</li>
+      <li>All fields should be validated before a social is created. If any fields are empty, show an error.</li>
+      <li>A loading indicator should be displayed somewhere when the social is being created.</li>
+      <li>When the social is created, the app should automatically return to the feed screen.</li>
+    </ul>
+  </li>
 </ol>
       <h2 id="starter-code">
         
@@ -241,7 +254,7 @@ expo install
 expo start
 </code></pre></div></div>
 
-<p>In this project, the screens and navigation stack have been set up for you. You’ll need to implement navigation between screens (refer to Project 2) and use state and effect hooks (refer to Project 1 &amp; Lesson 1). You’ll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments.</p>
+<p>In this project, the screens and navigation stack have been set up for you. You’ll need to implement <strong>navigation between screens</strong> (refer to Project 2) and use <strong>state and effect hooks</strong> (refer to Project 1 &amp; Lesson 1). You’ll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments.</p>
 
 <p>Note that the starter code contains all of the libraries that you’ll need to create this app - you shouldn’t need to install any external libraries, like Firebase, using Yarn!</p>
       <h2 id="react-native-paper">
