@@ -51,37 +51,9 @@ In this project, the screens and navigation stack have been set up for you. You'
 
 Note that the starter code contains all of the libraries that you'll need to create this app - you shouldn't need to install any external libraries, like Firebase, using Yarn!
 
-## React Native Paper
-
-For this project, we'll be using [React Native Paper](https://callstack.github.io/react-native-paper/), a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. Card, TextInput, Snackbar, etc.). Make sure to read the documentation to identify what props (customization options) are available for each component!
-
-## Firebase Setup
-
-This project will require you to set up a Firebase project and database/storage instance. To do so, follow the instructions below.
-
-1. [Sign into Firebase](https://console.firebase.google.com) using your Google account.
-2. In the Firebase Console, click **Add Project**, then enter a **Project Name** (MDB Socials).
-3. Continue through the setup and click **Create Project**.
-4. On the project dashboard, select the "Web" option to create a new Web app (you can also do this through the settings page, accessible through the sidebar).
-5. Enter an **App Nickname** (call it "MDB Socials React Native") and click **Register**.
-6. Copy just the `firebaseConfig` variable from the code snippet provided and add it to the appropriate location in the `FeedScreen.jsx` file.
-
-To set up Cloud Firestore (our NoSQL cloud database):
-
-1. Click on the [Cloud Firestore](https://console.firebase.google.com/project/_/firestore) tab in the sidebar.
-2. Click **Create Database** and choose **Test Mode** when prompted.
-3. Select any location for your instance and continue to click **Done**.
-
-To set up Cloud Storage (our image storage bucket):
-
-1. Click on the [Cloud Storage](https://console.firebase.google.com/project/_/storage) tab in the sidebar.
-2. Select any location for your instance and continue to click **Done**.
-3. On your storage page, click on the "Rules" tab and change:
-    `if request.auth != null;` to `if true;` to allow unauthenticated reads/writes to your bucket for testing.
-
 ## Demo
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/80_w_NeuZEs" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+Coming soon!
 
 ## Submission
 
