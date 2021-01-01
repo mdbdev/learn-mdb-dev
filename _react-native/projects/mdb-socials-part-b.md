@@ -37,11 +37,11 @@ Congratulations on finishing MDB Socials Part A! In this project, we'll be addin
 
 ## Starter Code
 
-If you're a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template [here](https://github.com/mdbdev/reactnative-mp3-a).
+If you're a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template [here](https://github.com/mdbdev/reactnative-mp3-b).
 
 ```
 git clone [YOUR_REPOSITORY_LINK_HERE]
-cd reactnative-mp3-a
+cd reactnative-mp3-b
 yarn install
 expo install
 expo start
