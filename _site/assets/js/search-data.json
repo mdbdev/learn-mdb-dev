@@ -319,7 +319,7 @@
   },"53": {
     "doc": "Mini-Project 3B",
     "title": "Table of contents",
-    "content": ". | TOC | . ",
+    "content": ". | Project Description | App Requirements | Starter Code | React Native Paper | Firebase Setup | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#table-of-contents",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#table-of-contents"
   },"54": {
@@ -331,7 +331,7 @@
   },"55": {
     "doc": "Mini-Project 3B",
     "title": "App Requirements",
-    "content": ". | Create an Account / Sign In - Add functionality to create a user account &amp; sign in to your app. | The password text input should be “secure” (it should show dots instead of the user’s entered password). | If a user who’s signed in quits your app and re-opens it, the they should still be signed in. | If an error occurs at any point, an error should be shown to the user. | . | Sign Out - Add a button that allows a user to sign out. | Reset Password - Include functionality to reset a user’s password. | Delete Post - Include functionality for a user to delete posts that they’ve created. Make sure that they can’t delete posts that other users have created. | Like Button - Add a “Like” button underneath each social, as well as a count of how many unique users have liked a particular post. | . ",
+    "content": ". | Create an Account / Sign In - Add functionality to create a user account &amp; sign in to your app. | The password text input should be “secure” (it should show dots instead of the user’s entered password). | If a user who’s signed in quits your app and re-opens it, the they should still be signed in. | If an error occurs at any point, an error should be shown to the user. | . | Sign Out - Add a button that allows a user to sign out. | Reset Password - Include functionality to reset a user’s password. | Delete Social - Include functionality for a user to delete socials that they’ve created. Make sure that they can’t delete socials that other users have created. | Like Button - Add a “Like” button underneath each social, as well as a count of how many unique users have liked a particular social. A user should only be able to like a social once. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#app-requirements",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#app-requirements"
   },"56": {

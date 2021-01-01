@@ -8,18 +8,16 @@ grand_parent: Overview
 ---
 
 # Mini-Project 3B: MDB Socials
-
 {: .no_toc }
 
 ## Table of contents
-
 {: .no_toc .text-delta }
 
 1. TOC
-
 {:toc}
 
 ---
+
 
 ## Project Description
 
@@ -33,8 +31,8 @@ Congratulations on finishing MDB Socials Part A! In this project, we'll be addin
     - If an error occurs at any point, an [error](https://callstack.github.io/react-native-paper/snackbar.html) should be shown to the user.
 2. **Sign Out** - Add a button that allows a user to [sign out](https://firebase.google.com/docs/auth/web/password-auth#next_steps).
 3. **Reset Password** - Include functionality to [reset a user's password](https://firebase.google.com/docs/auth/web/manage-users#send_a_password_reset_email).
-4. **Delete Post** - Include functionality for a user to delete posts that they've created. Make sure that they can't delete posts that other users have created.
-5. **Like Button** - Add a "Like" button underneath each social, as well as a count of how many unique users have liked a particular post.
+4. **Delete Social** - Include functionality for a user to delete socials that they've created. Make sure that they can't delete socials that other users have created.
+5. **Like Button** - Add a "Like" button underneath each social, as well as a count of how many unique users have liked a particular social. A user should only be able to like a social once.
 
 
 ## Starter Code
