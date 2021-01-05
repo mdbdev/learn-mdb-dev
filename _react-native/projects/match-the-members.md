@@ -53,6 +53,17 @@ Here are other files that you should read over:
 
 For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of `GameScreen.jsx` before getting started!
 
+## Debugging
+
+This [debugging guide](https://docs.expo.io/get-started/errors/) by Expo briefly walks through debugging React Native apps using the Expo Client interface. The [React Native docs](https://reactnative.dev/docs/debugging) talk about debugging more complex apps. For these projects, if you're stuck on something in particular, here's what you could try –
+
+- Try looking at your code to see if you can catch any obvious typos. Since JavaScript isn't a compiled language, lots of typo-related bugs make it through to runtime.
+
+- Try pasting the error into Google and clicking on the top StackOverflow link. (If you're using StackOverflow, make sure to actually read the suggested answer!)
+
+- Try adding `console.log(...)` statements to the appropriate places.
+- [For Members] Feel free to send a message to the React Native help chat or come to OH!
+
 ## Demo
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ydvKPzkS8Pw" frameborder="0" allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
