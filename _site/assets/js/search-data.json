@@ -61,7 +61,7 @@
   },"10": {
     "doc": "Lesson 0",
     "title": "Table of contents",
-    "content": ". | Part 2A: Basic JavaScript | Part 2B: More JavaScript | Part 3: Hello World | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | Expo Installation | Expo Hello World | JavaScript Express (Chapters 2-3) | . Part 2A: Basic JavaScript . Part 2B: More JavaScript . Part 3: Hello World . ",
+    "content": ". | 0.2A: Basic JavaScript | 0.2B: More JavaScript | 0.3: Hello World | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | Expo Installation | Expo Hello World | JavaScript Express (Chapters 2-3) | . 0.2A: Basic JavaScript . 0.2B: More JavaScript . 0.3: Hello World . ",
     "url": "https://learn.mdb.dev//react-native/lessons/0/#table-of-contents",
     "relUrl": "/react-native/lessons/0/#table-of-contents"
   },"11": {
@@ -79,7 +79,7 @@
   },"13": {
     "doc": "Lesson 1",
     "title": "Table of contents",
-    "content": ". Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | React Native Express (Chapter 2-4) | React Docs (Main Concepts, Sections 1-5) | React Native Docs (“The Basics”) | . To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
+    "content": ". | 1.1: Components | 1.2: Props | 1.3: Composing Components | 1.3: The State Hook | 1.5: The Effect Hook | 1.6: Mini-Project 1 Overview | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | React Native Express (Chapter 2-4) | React Docs (Main Concepts, Sections 1-5) | React Native Docs (“The Basics”) | . 1.1: Components . 1.2: Props . 1.3: Composing Components . 1.3: The State Hook . 1.5: The Effect Hook . 1.6: Mini-Project 1 Overview . ",
     "url": "https://learn.mdb.dev//react-native/lessons/1/#table-of-contents",
     "relUrl": "/react-native/lessons/1/#table-of-contents"
   },"14": {
@@ -97,7 +97,7 @@
   },"16": {
     "doc": "Lesson 2",
     "title": "Table of contents",
-    "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
+    "content": ". | 2.1: Screens &amp; Navigation | 2.2: Defining a Navigation Stack | 2.3: Navigating Between Screens | 2.1: Other Navigation Tips (e.g. Modal) | 2.5: Advanced Components | 2.6: Mini-Project 2 Overview | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | React Navigation (“Fundamentals”) | React Native Express (Chapter 5.2) | React Native Docs (“The Basics”) | . 2.1: Screens &amp; Navigation . 2.2: Defining a Navigation Stack . 2.3: Navigating Between Screens . 2.1: Other Navigation Tips (e.g. Modal) . 2.5: Advanced Components . 2.6: Mini-Project 2 Overview . ",
     "url": "https://learn.mdb.dev//react-native/lessons/2/#table-of-contents",
     "relUrl": "/react-native/lessons/2/#table-of-contents"
   },"17": {
