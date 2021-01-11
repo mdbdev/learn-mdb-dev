@@ -37,13 +37,13 @@
   },"6": {
     "doc": "Overview",
     "title": "Mini-Projects",
-    "content": "This training program has four projects. | Project 1: Match the Members | Project 2: iMDB | Project 3A/3B: MDB Socials | Project 4: Weather App | . ",
+    "content": "This training program has four projects. | Project 1: Match the Members | Project 2: iMDB | Project 3A/3B: MDB Socials | Project 4: Capstone | . ",
     "url": "https://learn.mdb.dev//react-native/index/#mini-projects",
     "relUrl": "/react-native/index/#mini-projects"
   },"7": {
     "doc": "Overview",
     "title": "Contributors",
-    "content": "This training program was created by Paul Shao, Will Oakley, Allison Husain, Shomil Jain, and Anjali Thakrar in Fall 2020. ",
+    "content": "Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, and Shomil Jain . ",
     "url": "https://learn.mdb.dev//react-native/index/#contributors",
     "relUrl": "/react-native/index/#contributors"
   },"8": {
@@ -149,256 +149,256 @@
     "url": "https://learn.mdb.dev//react-native/lessons/index/",
     "relUrl": "/react-native/lessons/index/"
   },"25": {
+    "doc": "Mini-Project 4",
+    "title": "Mini-Project 4: Capstone",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#mini-project-4-capstone",
+    "relUrl": "/react-native/projects/capstone/#mini-project-4-capstone"
+  },"26": {
+    "doc": "Mini-Project 4",
+    "title": "Table of contents",
+    "content": ". | Requirements . | Requirement 1: Create a Functional MVP | Requirement 2: Use the Expo SDK | . | Tracks . | Track 1: Design Track | Track 2: Backend Track | . | Appendix: Idea Bank | . In the final project of this training program, you’ll have the flexibility to tie together everything you’ve learned into a capstone project! . This project is structured differently from the previous projects. Instead of starting with the same starter code as everyone else and working towards the same end product, you’ll be working together in teams of two to create a unique product, with an opportunity to dive deep into to areas that interest you! Every team will have to meet a base set of requirements, which are described below, and choose either the frontend or backend-oriented track. ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#table-of-contents",
+    "relUrl": "/react-native/projects/capstone/#table-of-contents"
+  },"27": {
+    "doc": "Mini-Project 4",
+    "title": "Requirements",
+    "content": "Requirement 1: Create a Functional MVP . What is a MVP? It’s described formally as a “version of a new product a team uses the maximum amount of learning about customers with the least effort.” In other words, we want to take as many shortcuts as we can to get a version of a working product into the hands of our customers. Then, we observe their interactions with our product, and use that learning to guide our decisions in the future. Coming up with a viable app idea is difficult - so we’ve done the work for you! For this project, you can choose from any of the ideas listed in the Appendix. If you have your own idea, feel free to work on that as well - just make sure to run it by your mentor first! Because this is a three week project, we want all ideas to be somewhat on an equal level of difficulty, so we’ve designed the requirements as such. Requirement 2: Use the Expo SDK . The Expo SDK allows us to interface directly with device hardware and native functionality, and offers support for integration with nearly 50 platform-specific features. Your app must implement one of the following modules from the Expo SDK: . Accelerometer, Appearance (e.g. Dark Mode), AsyncStorage, Audio, AV, BarCodeScanner, Barometer, Calendar, Camera, Contacts, DeviceMotion, FaceDetector, Location, MailComposer, MapView, MediaLibrary, Sensors, Sharing, SMS, Video, WebBrowser . ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#requirements",
+    "relUrl": "/react-native/projects/capstone/#requirements"
+  },"28": {
+    "doc": "Mini-Project 4",
+    "title": "Tracks",
+    "content": "Track 1: Design Track . Choose this track if you want to learn more about design! In this track, you’ll have the ability to focus primarily on the design of your application. You must create and submit a Figma mockup before jumping into your application - with careful thought given to application UI/UX. For design inspiration, we recommend checking out Dribbble (create an account and search for “mobile app”). Figma is a drag-and-drop tool for designing visual interfaces. Figma also supports functionality to view CSS for components crated using the editor, which might help translate your designs into code! . If you choose this track, you don’t have to implement every single screen of your complete design - feel free to focus on the screens that are the most important, and feel free to cut out functionality to meet the bare minimum working product! . Track 2: Backend Track . Choose this track if you want to learn more about backend architecture, including setting up a NodeJS backend server! For this track, we recommend using a component library (e.g. React Native Paper) to minimize the amount of time you have to spend designing your application. Additionally, you must do one of the following: . | Set up and deploy an Express/NodeJS server on Heroku, and use it in some way in your app. | Set up and deploy a Javascript (recommended) or Python Firebase/Google Cloud Function, and use it in some way in your app. | . One of the most frequent ways to use one of these servers is to create an orchestration layer between your client and your backend database or dataset. This “orchestration layer” receives requests from your client, and makes the appropriate request to a database or other endpoint. Then, it receives data back and transforms it into a structure that’s easier for the app to consume directly. ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#tracks",
+    "relUrl": "/react-native/projects/capstone/#tracks"
+  },"29": {
+    "doc": "Mini-Project 4",
+    "title": "Appendix: Idea Bank",
+    "content": "| Idea | Track | Expo SDK | . | CalTransit - show all transit stops on a map. On tapping a stop, show a list of all bus predictions (arrival times) for that stop. If backend, funnel all AC Transit API calls through a cloud function or Heroku server. | Either | MapView | . | Berkeley(Time) Mobile - use the BerkeleyTime API to make a mobile app for BerkeleyTime. Add a “pin class” feature that allows a user to take a quick glance at enrollment statistics for any classes they’re considering. | Design | AsyncStorage | . | Virtual Study Buddy Finder (a.k.a. Studybuddy) - create an app that allows people to create a profile, create or join groups using an access code, and toggle whether they’re “online” or “offline” – when they’re online, anyone in the group can see they’re online (along with a Zoom link). Include an “Invite Friends to Group” button. If backend, then create a cloud function that automatically flips users “offline” after one hour of inactivity. | Either | Sharing | . | Crowdsourced Schedule Rater (a.k.a. RateMySchedule) - create an app that allows users to anonymously post their schedule and receive upvotes/downvotes or other comments from the community. If backend, add a content moderation cloud function that redacts swear words from user-created content. | Design | GestureHandler or Appearance | . | BearWalk App (a.k.a. Nightwalker) - create an app with an interface that allows students (“users”) to post their location and their destination, and allows BearWalk volunteers (“admins”) to view and accept requests. Users should be notified with the name of the admin when an admin accepts a request. On sign in, allow people to choose whether they want to register as a user or an admin. If backend, create a cloud function that sends a text message to the appropriate user when an admin has accepted a request. | Either | MapView | . | …more coming |   |   | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#appendix-idea-bank",
+    "relUrl": "/react-native/projects/capstone/#appendix-idea-bank"
+  },"30": {
+    "doc": "Mini-Project 4",
+    "title": "Mini-Project 4",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/",
+    "relUrl": "/react-native/projects/capstone/"
+  },"31": {
     "doc": "Mini-Project 2",
     "title": "Mini-Project 2: iMDB",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#mini-project-2-imdb",
     "relUrl": "/react-native/projects/imdb/#mini-project-2-imdb"
-  },"26": {
+  },"32": {
     "doc": "Mini-Project 2",
     "title": "Table of contents",
     "content": ". | Project Description | App Requirements | Starter Code | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#table-of-contents",
     "relUrl": "/react-native/projects/imdb/#table-of-contents"
-  },"27": {
+  },"33": {
     "doc": "Mini-Project 2",
     "title": "Project Description",
     "content": "In their pursuit of a mobile app development agency, executives at iMDB stumbled upon MDB! They’ve hired you to create their mobile app for them. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#project-description",
     "relUrl": "/react-native/projects/imdb/#project-description"
-  },"28": {
+  },"34": {
     "doc": "Mini-Project 2",
     "title": "App Requirements",
     "content": ". | Display a list of movies, with the movie poster image, title, and any other information you think is important. | Allow the user to search for a specific movie through a search bar. | If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset. | Include a “Filter” button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL/OPTION-SHIFT-F does this for you! . ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#app-requirements",
     "relUrl": "/react-native/projects/imdb/#app-requirements"
-  },"29": {
+  },"35": {
     "doc": "Mini-Project 2",
     "title": "Starter Code",
     "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp2 yarn install expo install expo start . This project requires you to set up a navigation stack for your app from scratch. Hints are provided in the starter code, along with links to relevant documentation on how to do this. You will need to make changes to the following files: . | MovieListScreen.jsx - holds the main screen (list of movies) | MovieDetailScreen.jsx - holds the detail screen (info about a movie) | MovieFilterScreen.jsx - holds the filter screen | App.js - serves as the entry point of the application; holds app navigation stack | . The list of movies is contained within assets/movies.json. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#starter-code",
     "relUrl": "/react-native/projects/imdb/#starter-code"
-  },"30": {
+  },"36": {
     "doc": "Mini-Project 2",
     "title": "Demo",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#demo",
     "relUrl": "/react-native/projects/imdb/#demo"
-  },"31": {
+  },"37": {
     "doc": "Mini-Project 2",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/#submission",
     "relUrl": "/react-native/projects/imdb/#submission"
-  },"32": {
+  },"38": {
     "doc": "Mini-Project 2",
     "title": "Mini-Project 2",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/imdb/",
     "relUrl": "/react-native/projects/imdb/"
-  },"33": {
+  },"39": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/index/",
     "relUrl": "/react-native/projects/index/"
-  },"34": {
+  },"40": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1: Match the Members",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#mini-project-1-match-the-members",
     "relUrl": "/react-native/projects/match-the-members/#mini-project-1-match-the-members"
-  },"35": {
+  },"41": {
     "doc": "Mini-Project 1",
     "title": "Table of contents",
     "content": ". | Project Description | Game Requirements | Starter Code | Debugging | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#table-of-contents",
     "relUrl": "/react-native/projects/match-the-members/#table-of-contents"
-  },"36": {
+  },"42": {
     "doc": "Mini-Project 1",
     "title": "Project Description",
     "content": "Welcome to MDB! As a new member, you’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#project-description",
     "relUrl": "/react-native/projects/match-the-members/#project-description"
-  },"37": {
+  },"43": {
     "doc": "Mini-Project 1",
     "title": "Game Requirements",
     "content": ". | Member Picture - Randomly display a picture of a member on the screen. | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer). | Score - Display a score count for the user (# correct / # total). | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL/OPTION-SHIFT-F does this for you! . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#game-requirements",
     "relUrl": "/react-native/projects/match-the-members/#game-requirements"
-  },"38": {
+  },"44": {
     "doc": "Mini-Project 1",
     "title": "Starter Code",
     "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp1 yarn install expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of GameScreen.jsx before getting started! . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#starter-code",
     "relUrl": "/react-native/projects/match-the-members/#starter-code"
-  },"39": {
+  },"45": {
     "doc": "Mini-Project 1",
     "title": "Debugging",
     "content": "This debugging guide by Expo briefly walks through debugging React Native apps using the Expo Client interface. The React Native docs talk about debugging more complex apps. For these projects, if you’re stuck on something in particular, here’s what you could try – . | Try looking at your code to see if you can catch any obvious typos. Since JavaScript isn’t a compiled language, lots of typo-related bugs make it through to runtime. | Try pasting the error into Google and clicking on the top StackOverflow link. (If you’re using StackOverflow, make sure to actually read the suggested answer!) . | Try adding console.log(...) statements to the appropriate places. | [For Members] Feel free to send a message to the React Native help chat or come to OH! | . ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#debugging",
     "relUrl": "/react-native/projects/match-the-members/#debugging"
-  },"40": {
+  },"46": {
     "doc": "Mini-Project 1",
     "title": "Demo",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#demo",
     "relUrl": "/react-native/projects/match-the-members/#demo"
-  },"41": {
+  },"47": {
     "doc": "Mini-Project 1",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#submission",
     "relUrl": "/react-native/projects/match-the-members/#submission"
-  },"42": {
+  },"48": {
     "doc": "Mini-Project 1",
     "title": "Mini-Project 1",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/",
     "relUrl": "/react-native/projects/match-the-members/"
-  },"43": {
+  },"49": {
     "doc": "Mini-Project 3A",
     "title": "Mini-Project 3A: MDB Socials",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#mini-project-3a-mdb-socials",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#mini-project-3a-mdb-socials"
-  },"44": {
+  },"50": {
     "doc": "Mini-Project 3A",
     "title": "Table of contents",
     "content": ". | Project Description | App Requirements | Starter Code | React Native Paper | Firebase Setup | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#table-of-contents",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#table-of-contents"
-  },"45": {
+  },"51": {
     "doc": "Mini-Project 3A",
     "title": "Project Description",
     "content": "In this project, we’ll be exploring backend data storage/retrieval via Firebase. One of the cool features of Firebase over most other tools is its real-time functionality (in other words, Firebase automatically notifies you when some value in the database is updated). We’ll be building an app called MDB Socials, which will allow members to post and share social events. Note: MDB Socials is the most challenging and most important of all of the MDB Training Program projects. Expect it to be time consuming and difficult but don’t get discouraged! Start early and come to project parties to get help. We’ve also broken the project into two parts (A and B) to reduce workload and keep you on track. ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#project-description",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#project-description"
-  },"46": {
+  },"52": {
     "doc": "Mini-Project 3A",
     "title": "App Requirements",
     "content": ". | Feed Screen - Display a list of social events posted by any member using the app, sorted by date. | If a social is added to Firebase, the list should update automatically without any user intervention. | . | Detail Screen - Display detailed information about a particular social. | New Social Screen - Allow users to create and post new social events. | Socials have the following attributes: title, location, description, date, and image. | All fields should be validated before a social is created. If any fields are empty, show an error. | A loading indicator should be displayed somewhere when the social is being created. | When the social is created, the app should automatically return to the feed screen. | . | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#app-requirements",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#app-requirements"
-  },"47": {
+  },"53": {
     "doc": "Mini-Project 3A",
     "title": "Starter Code",
     "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp3-a yarn install expo install expo start . In this project, the screens and navigation stack have been set up for you. You’ll need to implement navigation between screens (refer to Project 2) and use state and effect hooks (refer to Project 1 &amp; Lesson 1). You’ll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments. Note that the starter code contains all of the libraries that you’ll need to create this app - you shouldn’t need to install any external libraries, like Firebase, using Yarn! . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#starter-code",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#starter-code"
-  },"48": {
+  },"54": {
     "doc": "Mini-Project 3A",
     "title": "React Native Paper",
     "content": "For this project, we’ll be using React Native Paper, a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. Card, TextInput, Snackbar, etc.). Make sure to read the documentation to identify what props (customization options) are available for each component! . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#react-native-paper",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#react-native-paper"
-  },"49": {
+  },"55": {
     "doc": "Mini-Project 3A",
     "title": "Firebase Setup",
     "content": "This project will require you to set up a Firebase project and database/storage instance. To do so, follow the instructions below. | Sign into Firebase using your Google account. | In the Firebase Console, click Add Project, then enter a Project Name (MDB Socials). | Continue through the setup and click Create Project. | On the project dashboard, select the “Web” option to create a new Web app (you can also do this through the settings page, accessible through the sidebar). | Enter an App Nickname (call it “MDB Socials React Native”) and click Register. | Copy just the firebaseConfig variable from the code snippet provided and add it to the appropriate location in the FeedScreen.jsx file. | . To set up Cloud Firestore (our NoSQL cloud database): . | Click on the Cloud Firestore tab in the sidebar. | Click Create Database and choose Test Mode when prompted. | Select any location for your instance and continue to click Done. | . To set up Cloud Storage (our image storage bucket): . | Click on the Cloud Storage tab in the sidebar. | Select any location for your instance and continue to click Done. | On your storage page, click on the “Rules” tab and change: if request.auth != null; to if true; to allow unauthenticated reads/writes to your bucket for testing. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#firebase-setup",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#firebase-setup"
-  },"50": {
+  },"56": {
     "doc": "Mini-Project 3A",
     "title": "Demo",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#demo",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#demo"
-  },"51": {
+  },"57": {
     "doc": "Mini-Project 3A",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#submission",
     "relUrl": "/react-native/projects/mdb-socials-part-a/#submission"
-  },"52": {
+  },"58": {
     "doc": "Mini-Project 3A",
     "title": "Mini-Project 3A",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/",
     "relUrl": "/react-native/projects/mdb-socials-part-a/"
-  },"53": {
+  },"59": {
     "doc": "Mini-Project 3B",
     "title": "Mini-Project 3B: MDB Socials",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#mini-project-3b-mdb-socials",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#mini-project-3b-mdb-socials"
-  },"54": {
+  },"60": {
     "doc": "Mini-Project 3B",
     "title": "Table of contents",
     "content": ". | Project Description | App Requirements | Starter Code | Demo | Submission | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#table-of-contents",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#table-of-contents"
-  },"55": {
+  },"61": {
     "doc": "Mini-Project 3B",
     "title": "Project Description",
     "content": "Congratulations on finishing MDB Project 3A! In this project, we’ll be adding several features to your app. If you don’t feel comfortable building off of your code, feel free to reach out to an instructor for the staff solution to Part A! . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#project-description",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#project-description"
-  },"56": {
+  },"62": {
     "doc": "Mini-Project 3B",
     "title": "App Requirements",
     "content": ". | Create an Account / Sign In - Add functionality to create a user account &amp; sign in to your app. | The password text input should be “secure” (it should show dots instead of the user’s entered password). | If a user who’s signed in quits your app and re-opens it, the they should still be signed in. | If an error occurs at any point, an error should be shown to the user. | . | Sign Out - Add a button that allows a user to sign out. | Reset Password - Include functionality to reset a user’s password. | Delete Social - Include functionality for a user to delete socials that they’ve created. Make sure that they can’t delete socials that other users have created. | Like Button - Add a “Like” button underneath each social, as well as a count of how many unique users have liked a particular social. A user should only be able to like a social once. | . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#app-requirements",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#app-requirements"
-  },"57": {
+  },"63": {
     "doc": "Mini-Project 3B",
     "title": "Starter Code",
     "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp3-b yarn install expo install expo start . In this project, the screens and navigation stack have been set up for you. You’ll need to implement navigation between screens (refer to Project 2) and use state and effect hooks (refer to Project 1 &amp; Lesson 1). You’ll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments. Note that the starter code contains all of the libraries that you’ll need to create this app - you shouldn’t need to install any external libraries, like Firebase, using Yarn! . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#starter-code",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#starter-code"
-  },"58": {
+  },"64": {
     "doc": "Mini-Project 3B",
     "title": "Demo",
     "content": "Coming soon! . ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#demo",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#demo"
-  },"59": {
+  },"65": {
     "doc": "Mini-Project 3B",
     "title": "Submission",
     "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#submission",
     "relUrl": "/react-native/projects/mdb-socials-part-b/#submission"
-  },"60": {
+  },"66": {
     "doc": "Mini-Project 3B",
     "title": "Mini-Project 3B",
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/",
     "relUrl": "/react-native/projects/mdb-socials-part-b/"
-  },"61": {
-    "doc": "Mini-Project 4",
-    "title": "Mini-Project 4: Capstone",
-    "content": " ",
-    "url": "https://learn.mdb.dev//react-native/projects/mp4/#mini-project-4-capstone",
-    "relUrl": "/react-native/projects/mp4/#mini-project-4-capstone"
-  },"62": {
-    "doc": "Mini-Project 4",
-    "title": "Table of contents",
-    "content": ". | Requirements . | Requirement 1: Create a Functional MVP | Requirement 2: Use the Expo SDK | . | Tracks . | Track 1: Design Track | Track 2: Backend Track | . | Appendix: Idea Bank | . In the final project of this training program, you’ll have the flexibility to tie together everything you’ve learned into a capstone project! . This project is structured differently from the previous projects. Instead of starting with the same starter code as everyone else and working towards the same end product, you’ll be working together in teams of two to create a unique product, with an opportunity to dive deep into to areas that interest you! Every team will have to meet a base set of requirements, which are described below, and choose either the frontend or backend-oriented track. ",
-    "url": "https://learn.mdb.dev//react-native/projects/mp4/#table-of-contents",
-    "relUrl": "/react-native/projects/mp4/#table-of-contents"
-  },"63": {
-    "doc": "Mini-Project 4",
-    "title": "Requirements",
-    "content": "Requirement 1: Create a Functional MVP . What is a MVP? It’s described formally as a “version of a new product a team uses the maximum amount of learning about customers with the least effort.” In other words, we want to take as many shortcuts as we can to get a version of a working product into the hands of our customers. Then, we observe their interactions with our product, and use that learning to guide our decisions in the future. Coming up with a viable app idea is difficult - so we’ve done the work for you! For this project, you can choose from any of the ideas listed in the Appendix. If you have your own idea, feel free to work on that as well - just make sure to run it by your mentor first! Because this is a three week project, we want all ideas to be somewhat on an equal level of difficulty, so we’ve designed the requirements as such. Requirement 2: Use the Expo SDK . The Expo SDK allows us to interface directly with device hardware and native functionality, and offers support for integration with nearly 50 platform-specific features. Your app must implement one of the following modules from the Expo SDK: . Accelerometer, Appearance (e.g. Dark Mode), AsyncStorage, Audio, AV, BarCodeScanner, Barometer, Calendar, Camera, Contacts, DeviceMotion, FaceDetector, Location, MailComposer, MapView, MediaLibrary, Sensors, Sharing, SMS, Video, WebBrowser . ",
-    "url": "https://learn.mdb.dev//react-native/projects/mp4/#requirements",
-    "relUrl": "/react-native/projects/mp4/#requirements"
-  },"64": {
-    "doc": "Mini-Project 4",
-    "title": "Tracks",
-    "content": "Track 1: Design Track . Choose this track if you want to learn more about design! In this track, you’ll have the ability to focus primarily on the design of your application. You must create and submit a Figma mockup before jumping into your application - with careful thought given to application UI/UX. For design inspiration, we recommend checking out Dribbble (create an account and search for “mobile app”). Figma is a drag-and-drop tool for designing visual interfaces. Figma also supports functionality to view CSS for components crated using the editor, which might help translate your designs into code! . If you choose this track, you don’t have to implement every single screen of your complete design - feel free to focus on the screens that are the most important, and feel free to cut out functionality to meet the bare minimum working product! . Track 2: Backend Track . Choose this track if you want to learn more about backend architecture, including setting up a NodeJS backend server! For this track, we recommend using a component library (e.g. React Native Paper) to minimize the amount of time you have to spend designing your application. Additionally, you must do one of the following: . | Set up and deploy an Express/NodeJS server on Heroku, and use it in some way in your app. | Set up and deploy a Javascript (recommended) or Python Firebase/Google Cloud Function, and use it in some way in your app. | . One of the most frequent ways to use one of these servers is to create an orchestration layer between your client and your backend database or dataset. This “orchestration layer” receives requests from your client, and makes the appropriate request to a database or other endpoint. Then, it receives data back and transforms it into a structure that’s easier for the app to consume directly. ",
-    "url": "https://learn.mdb.dev//react-native/projects/mp4/#tracks",
-    "relUrl": "/react-native/projects/mp4/#tracks"
-  },"65": {
-    "doc": "Mini-Project 4",
-    "title": "Appendix: Idea Bank",
-    "content": "| Idea | Track | Expo SDK | . | CalTransit - show all transit stops on a map. On tapping a stop, show a list of all bus predictions (arrival times) for that stop. If backend, funnel all AC Transit API calls through a cloud function or Heroku server. | Either | MapView | . | Berkeley(Time) Mobile - use the BerkeleyTime API to make a mobile app for BerkeleyTime. Add a “pin class” feature that allows a user to take a quick glance at enrollment statistics for any classes they’re considering. | Design | AsyncStorage | . | Virtual Study Buddy Finder (a.k.a. Studybuddy) - create an app that allows people to create a profile, create or join groups using an access code, and toggle whether they’re “online” or “offline” – when they’re online, anyone in the group can see they’re online (along with a Zoom link). Include an “Invite Friends to Group” button. If backend, then create a cloud function that automatically flips users “offline” after one hour of inactivity. | Either | Sharing | . | Crowdsourced Schedule Rater (a.k.a. RateMySchedule) - create an app that allows users to anonymously post their schedule and receive upvotes/downvotes or other comments from the community. If backend, add a content moderation cloud function that redacts swear words from user-created content. | Design | GestureHandler or Appearance | . | BearWalk App (a.k.a. Nightwalker) - create an app with an interface that allows students (“users”) to post their location and their destination, and allows BearWalk volunteers (“admins”) to view and accept requests. Users should be notified with the name of the admin when an admin accepts a request. On sign in, allow people to choose whether they want to register as a user or an admin. If backend, create a cloud function that sends a text message to the appropriate user when an admin has accepted a request. | Either | MapView | . | …more coming |   |   | . ",
-    "url": "https://learn.mdb.dev//react-native/projects/mp4/#appendix-idea-bank",
-    "relUrl": "/react-native/projects/mp4/#appendix-idea-bank"
-  },"66": {
-    "doc": "Mini-Project 4",
-    "title": "Mini-Project 4",
-    "content": " ",
-    "url": "https://learn.mdb.dev//react-native/projects/mp4/",
-    "relUrl": "/react-native/projects/mp4/"
   }
 }

@@ -30,9 +30,10 @@ This training program has six lessons.
 This training program has four projects.
 - [Project 1](/react-native/projects/match-the-members/): Match the Members
 - [Project 2](/react-native/projects/imdb/): iMDB
-- [Project 3A](/react-native/projects/mdb-socials-part-a/)/3B: MDB Socials
-- Project 4: Weather App
+- [Project 3A](/react-native/projects/mdb-socials-part-a/)/[3B](/react-native/projects/mdb-socials-part-b/): MDB Socials
+- [Project 4](/react-native/projects/capstone/): Capstone
 
 ## Contributors
 
-This training program was created by Paul Shao, Will Oakley, Allison Husain, Shomil Jain, and Anjali Thakrar in Fall 2020.
+*Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, and Shomil Jain*
+
