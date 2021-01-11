@@ -364,5 +364,41 @@
     "content": " ",
     "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/",
     "relUrl": "/react-native/projects/mdb-socials-part-b/"
+  },"61": {
+    "doc": "Mini-Project 4",
+    "title": "Mini-Project 4B: Capstone",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mp4/#mini-project-4b-capstone",
+    "relUrl": "/react-native/projects/mp4/#mini-project-4b-capstone"
+  },"62": {
+    "doc": "Mini-Project 4",
+    "title": "Table of contents",
+    "content": ". | Requirements . | Requirement 1: Create a Functional MVP | Requirement 2: Use the Expo SDK | . | Tracks . | Track 1: Design Track | Track 2: Backend Track | . | Appendix: Idea Bank | . In the final project of this training program, you’ll have the flexibility to tie together everything you’ve learned into a capstone project! . This project is structured differently from the previous projects. Instead of starting with the same starter code as everyone else and working towards the same end product, you’ll be working together in teams of two to create a unique product, with an opportunity to dive deep into to areas that interest you! Every team will have to meet a base set of requirements, which are described below, and choose either the frontend or backend-oriented track. ",
+    "url": "https://learn.mdb.dev//react-native/projects/mp4/#table-of-contents",
+    "relUrl": "/react-native/projects/mp4/#table-of-contents"
+  },"63": {
+    "doc": "Mini-Project 4",
+    "title": "Requirements",
+    "content": "Requirement 1: Create a Functional MVP . What is a MVP? It’s described formally as a “version of a new product a team uses the maximum amount of learning about customers with the least effort.” In other words, we want to take as many shortcuts as we can to get a version of a working product into the hands of our customers. Then, we observe their interactions with our product, and use that learning to guide our decisions in the future. Coming up with a viable app idea is difficult - so we’ve done the work for you! For this project, you can choose from any of the ideas listed in the Appendix. If you have your own idea, feel free to work on that as well - just make sure to run it by your mentor first! Because this is a three week project, we want all ideas to be somewhat on an equal level of difficulty, so we’ve designed the requirements as such. Requirement 2: Use the Expo SDK . The Expo SDK allows us to interface directly with device hardware and native functionality, and offers support for integration with nearly 50 platform-specific features. Your app must implement one of the following modules from the Expo SDK: . Accelerometer, Appearance (e.g. Dark Mode), AsyncStorage, Audio, AV, BarCodeScanner, Barometer, Calendar, Camera, Contacts, DeviceMotion, FaceDetector, Location, MailComposer, MapView, MediaLibrary, Sensors, Sharing, SMS, Video, WebBrowser . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mp4/#requirements",
+    "relUrl": "/react-native/projects/mp4/#requirements"
+  },"64": {
+    "doc": "Mini-Project 4",
+    "title": "Tracks",
+    "content": "Track 1: Design Track . Choose this track if you want to learn more about design! In this track, you’ll have the ability to focus primarily on the design of your application. You must create and submit a Figma mockup before jumping into your application - with careful thought given to application UI/UX. For design inspiration, we recommend checking out Dribbble (create an account and search for “mobile app”). Figma is a drag-and-drop tool for designing visual interfaces. Figma also supports functionality to view CSS for components crated using the editor, which might help translate your designs into code! . Track 2: Backend Track . Choose this track if you want to learn more about backend architecture, including setting up a NodeJS backend server! For this track, we recommend using a component library (e.g. React Native Paper) to minimize the amount of time you have to spend designing your application. Additionally, you must do one of the following: . | Set up and deploy an Express/NodeJS server on Heroku, and use it in some way in your app. | Set up and deploy a Javascript (recommended) or Python Firebase/Google Cloud Function, and use it in some way in your app. | . One of the most frequent ways to use one of these servers is to create an orchestration layer between your client and your backend database or dataset. This “orchestration layer” receives requests from your client, and makes the appropriate request to a database or other endpoint. Then, it receives data back and transforms it into a structure that’s easier for the app to consume directly. ",
+    "url": "https://learn.mdb.dev//react-native/projects/mp4/#tracks",
+    "relUrl": "/react-native/projects/mp4/#tracks"
+  },"65": {
+    "doc": "Mini-Project 4",
+    "title": "Appendix: Idea Bank",
+    "content": "| Idea | Track | Expo SDK | . | CalTransit - show all transit stops on a map. On tapping a stop, show a list of all bus predictions (arrival times) for that stop. If backend, funnel all AC Transit API calls through a cloud function or Heroku server. | Either | MapView | . | BerkeleyTime - use the BerkeleyTime API to make a mobile app for BerkeleyTime. Add a “pin class” feature that allows a user to take a quick glance at enrollment statistics for any classes they’re considering. | Design | AsyncStorage | . | Virtual Study Buddy Finder - create an app that allows people to create a profile, create or join groups using an access code, and toggle whether they’re “online” or “offline” – when they’re online, anyone in the group can see they’re online (along with a Zoom link). Include an “Invite Friends to Group” button. If backend, then create a cloud function that automatically flips users “offline” after one hour of inactivity. | Either | Sharing | . | Crowdsourced Schedule Rater - create an app that allows users to anonymously post their schedule and receive upvotes/downvotes or other comments from the community. If backend, add a content moderation cloud function that redacts swear words from user-created content. | Design | GestureHandler or Appearance | . | …more coming |   |   | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mp4/#appendix-idea-bank",
+    "relUrl": "/react-native/projects/mp4/#appendix-idea-bank"
+  },"66": {
+    "doc": "Mini-Project 4",
+    "title": "Mini-Project 4",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mp4/",
+    "relUrl": "/react-native/projects/mp4/"
   }
 }
