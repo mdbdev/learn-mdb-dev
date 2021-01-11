@@ -97,7 +97,7 @@
   },"16": {
     "doc": "Lesson 2",
     "title": "Table of contents",
-    "content": ". | 2.1: Screens &amp; Navigation | 2.2: Defining a Navigation Stack | 2.3: Navigating Between Screens | 2.1: Other Navigation Tips (e.g. Modal) | 2.5: Advanced Components | 2.6: Mini-Project 2 Overview | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | React Navigation (“Fundamentals”) | React Native Express (Chapter 5.2) | React Native Docs (“The Basics”) | . 2.1: Screens &amp; Navigation . 2.2: Defining a Navigation Stack . 2.3: Navigating Between Screens . 2.1: Other Navigation Tips (e.g. Modal) . 2.5: Advanced Components . 2.6: Mini-Project 2 Overview . ",
+    "content": ". | 2.1: Screens &amp; Navigation | 2.2: Defining a Navigation Stack | 2.3: Navigating Between Screens | 2.1: Other Navigation Tips (e.g. Modal) | 2.5: Advanced Components | 2.6: Mini-Project 2 Overview | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | React Navigation (“Fundamentals”) | React Native Express (Chapter 5.2) | . 2.1: Screens &amp; Navigation . 2.2: Defining a Navigation Stack . 2.3: Navigating Between Screens . 2.1: Other Navigation Tips (e.g. Modal) . 2.5: Advanced Components . 2.6: Mini-Project 2 Overview . ",
     "url": "https://learn.mdb.dev//react-native/lessons/2/#table-of-contents",
     "relUrl": "/react-native/lessons/2/#table-of-contents"
   },"17": {
