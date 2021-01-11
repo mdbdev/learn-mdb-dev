@@ -7,7 +7,7 @@ parent: Projects
 grand_parent: Overview
 ---
 
-# Mini-Project 4B: Capstone
+# Mini-Project 4: Capstone
 {: .no_toc }
 
 ## Table of contents
