@@ -115,7 +115,7 @@
   },"19": {
     "doc": "Lesson 3",
     "title": "Table of contents",
-    "content": ". To access this lesson’s slides, click here. Coming soon: lesson videos! . ",
+    "content": ". | 3.1: JavaScript Promises | 3.2: REST API’s | 3.3: Fetch in JavaScript | 3.4: The Cloud | 3.5: Firebase | 3.6: Twitter Case Study | 3.7: Firestore Walkthrough | 3.8: Component Libraries | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | JavaScript Promises | Networking in React Native | Firebase Firestore - Getting Started | Firebase Storage - Getting Started | . 3.1: JavaScript Promises . 3.2: REST API’s . 3.3: Fetch in JavaScript . 3.4: The Cloud . 3.5: Firebase . 3.6: Twitter Case Study . 3.7: Firestore Walkthrough . 3.8: Component Libraries . ",
     "url": "https://learn.mdb.dev//react-native/lessons/3/#table-of-contents",
     "relUrl": "/react-native/lessons/3/#table-of-contents"
   },"20": {
