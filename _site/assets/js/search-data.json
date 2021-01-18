@@ -133,7 +133,7 @@
   },"22": {
     "doc": "Lesson 4",
     "title": "Table of contents",
-    "content": ". | TOC | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | Firebase Authentication | Auth Flows in React Navigation | Lifting State Up | Redux Overview | Redux in a React Native App | . 3.1: Authentication . 3.2: Implementation . 3.3: Security . 3.4: State Management . 3.5: Lifting State Up . 3.6: Redux . ",
+    "content": ". | 3.1: Authentication | 3.2: Implementation | 3.3: Security | 3.4: State Management | 3.5: Lifting State Up | 3.6: Redux | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | Firebase Authentication | Auth Flows in React Navigation | Lifting State Up | Redux Overview | Redux in a React Native App | . 3.1: Authentication . 3.2: Implementation . 3.3: Security . 3.4: State Management . 3.5: Lifting State Up . 3.6: Redux . ",
     "url": "https://learn.mdb.dev//react-native/lessons/4/#table-of-contents",
     "relUrl": "/react-native/lessons/4/#table-of-contents"
   },"23": {
