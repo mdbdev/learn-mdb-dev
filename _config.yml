@@ -37,6 +37,9 @@ collections:
   react-native:
     permalink: '/:collection/:path/'
     output: true
+  ios:
+    permalink: '/:collection/:path/'
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -49,6 +52,11 @@ defaults:
       type: react-native
     values:
       layout: page
+  - scope:
+      path: ''
+      type: ios
+    values:
+      layout: page
 # Configure collections for Just the Docs
 just_the_docs:
   collections:
@@ -56,6 +64,8 @@ just_the_docs:
       name: General
     react-native:
       name: React Native
+    ios:
+      name: iOS
 
 compress_html:
   clippings: all
