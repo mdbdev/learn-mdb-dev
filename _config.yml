@@ -57,6 +57,10 @@ defaults:
       type: ios
     values:
       layout: page
+  - scope:
+      path: "assets/images"
+    values:
+      image: true
 # Configure collections for Just the Docs
 just_the_docs:
   collections:
