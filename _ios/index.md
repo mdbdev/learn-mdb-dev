@@ -9,10 +9,10 @@ has_toc: false
 {: .no_toc }
 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png" 
     alt="logo" 
-    style="height:60px; margin-right:40px;"/>
+    style="height:50px; margin-right:40px;"/>
 <img src="https://mdb.dev/wp-content/uploads/2019/07/mdb_nooutline.png"
     alt="logo" 
-    style="height:60px; !important;"/>
+    style="height:50px; !important;"/>
 
 
 # iOS Training Program
