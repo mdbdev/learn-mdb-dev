@@ -40,9 +40,9 @@
 <meta property="og:url" content="http://localhost:4000/ios/lessons/0/" />
 <meta property="og:site_name" content="MDB Training Program" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-01-27T20:31:41-08:00" />
+<meta property="article:published_time" content="2021-01-29T00:56:03-08:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/ios/lessons/0/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","headline":"Lesson 0","dateModified":"2021-01-27T20:31:41-08:00","datePublished":"2021-01-27T20:31:41-08:00","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/ios/lessons/0/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","headline":"Lesson 0","dateModified":"2021-01-29T00:56:03-08:00","datePublished":"2021-01-29T00:56:03-08:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -246,11 +246,11 @@
       </h2>
     
 
-<p>If you haven’t already, go to App Store and install the latest version of Xcode.The entire SDK would be around 30G, but it can get to 40G or even 60G after compiling some larger projects. So you might need to free up some space before doing that.</p>
+<p>If you haven’t done it already, go to App Store and install the latest version of Xcode. The entire SDK would be around 30G, but it can get to 40G or even 60G after compiling some larger projects. So you might need to free up some space before doing that.</p>
 
-<p>For the following Swift Tutorial, you it might be helpful to try out some of the expressions yourself. In that case, you can use a Swift Playground. To create a Swift Playground, you will first need to launch Xcode. 
+<p>For the following Swift Tutorial, it might be helpful to try out some of the expressions yourself. In that case, you can use a Swift Playground. It’s a place where you can conveniently run your Swift code and it’s mainly used as an educational tool. To create a Swift Playground, you will first need to set up and launch Xcode. 
 <img src="/assets/images/xcode-launch-screen.png" alt="Xcode Launch Screen" title="Xcode Launch Screen" />
-When you are on this screen, go to the top menu bar and select <strong>File &gt; New &gt; Playground..</strong> When Xcode asks you to choose a template, double click <strong>Blank</strong>. For the file location, you can keep it at anywhere you like, but if you are using iCloud storage, do <strong>NOT</strong> put any Xcode files or projects in the folder that’s using iCloud (generally that would mean Desktop and Documents). Especially when we start using Cocoapods, Xcode might start duplicating files if your local files are replaced with iCloud references.</p>
+When you are on this screen, go to the top-left menu bar and select <strong>File &gt; New &gt; Playground..</strong> When Xcode asks you to choose a template, double click <strong>Blank</strong>. For the file location, you can keep it anywhere you like, but if you are using iCloud storage, do <strong>NOT</strong> put any Xcode files or projects in the folder that’s using iCloud (generally that would mean Desktop and Documents). Especially when we start using Cocoapods, Xcode might start duplicating files if your local files are replaced with iCloud references.</p>
       <h1 id="the-swift-programming-language">
         
         
@@ -282,9 +282,9 @@ When you are on this screen, go to the top menu bar and select <strong>File &gt;
 
 <p>If you do not specify a type, Swift can infer it from the value it was initially assigned to. This is known as <strong>type inference</strong>.</p>
 
-<p>Swift is a <strong>strongly-typed</strong> language. That means you can’t reassign the value of a variable or constant to a different type once it’s deaclared.</p>
+<p>Swift is a <strong>strongly-typed</strong> language. That means you can’t reassign the value of a variable or constant to a different type once it’s declared.</p>
 
-<p>For naming, always stick to lowerCamelCase for constants and variable.</p>
+<p>For naming, always stick to lowerCamelCase for constants and variables.</p>
       <h2 id="collection-types">
         
         
@@ -310,7 +310,7 @@ When you are on this screen, go to the top menu bar and select <strong>File &gt;
 like this</p>
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">libraries</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Moffitt"</span><span class="p">,</span> <span class="s">"Main Stack"</span><span class="p">,</span> <span class="s">"EAL"</span><span class="p">]</span>
 </code></pre></div></div>
-<p>Retrieve or modify a value from the array by using subscript.</p>
+<p>Retrieve or modify a value from the array by using a subscript.</p>
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">firstItem</span> <span class="o">=</span> <span class="n">libraries</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
 <span class="n">libraries</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s">"Music Library"</span>
 </code></pre></div></div>
@@ -388,7 +388,7 @@ like this</p>
 <span class="p">}</span>
 </code></pre></div></div>
 <p>You can combine multiple predicates using the logical operator <code class="language-plaintext highlighter-rouge">!</code> <code class="language-plaintext highlighter-rouge">||</code> <code class="language-plaintext highlighter-rouge">&amp;&amp;</code>.
-For single-expression if statements, you can usually simplify they with the
+For single-expression if statements, you can usually simplify them with the
 <strong>ternary operator</strong></p>
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">condition</span> <span class="p">?</span> <span class="nv">expression</span> <span class="p">:</span> <span class="n">expression</span>
 </code></pre></div></div>
@@ -442,7 +442,7 @@ all of its key-value pairs.</p>
       </h2>
     
 
-<p>Every function is a chunk of code that performs a specific task. It is defined using the keyword <code class="language-plaintext highlighter-rouge">func</code> followed by the name the function. Optionally, you can define one or more parameters to be passed in as input. You can also specify the return type using <code class="language-plaintext highlighter-rouge">-&gt;</code>. For example, a simple function declaration can look like this.</p>
+<p>Every function is a chunk of code that performs a specific task. It is defined using the keyword <code class="language-plaintext highlighter-rouge">func</code> followed by the name of the function. Optionally, you can define one or more parameters to be passed in as input. You can also specify the return type using <code class="language-plaintext highlighter-rouge">-&gt;</code>. For example, a simple function declaration can look like this.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">answer</span><span class="p">(</span><span class="nv">question</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span> <span class="p">}</span>
 </code></pre></div></div>
@@ -459,7 +459,7 @@ all of its key-value pairs.</p>
 <span class="k">var</span> <span class="nv">answer1</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="nf">answer</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="s">"Question 1"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>By default, the argument labels are the same as the parameter names, and will be used when calling the function like in <code class="language-plaintext highlighter-rouge">answer(question: "Question 1")</code>. If you want no function label at all during function call, write an underscore <code class="language-plaintext highlighter-rouge">_</code> for that parameter.</p>
+<p>By default, the argument labels are the same as the parameter names, and will be used when calling the function like in <code class="language-plaintext highlighter-rouge">answer(question: "Question 1")</code>. If you want no function label at all during the function call, write an underscore <code class="language-plaintext highlighter-rouge">_</code> for that parameter.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">answer</span><span class="p">(</span><span class="n">_</span> <span class="nv">question</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span> <span class="p">}</span>
 
@@ -474,7 +474,7 @@ all of its key-value pairs.</p>
       </h2>
     
 
-<p>If you are new to the OOP (Object-Oriented Programming) model, there are many ways of describing classes. But here is my favorite: Think of it as a blueprint for a house. You can create multiple instances of that house with the same blueprint, but the interior design which is the data is going to be different. Each house operates on it own, but they all share the same structure and behaviors.</p>
+<p>If you are new to the OOP (Object-Oriented Programming) model, there are many ways of describing classes. But here is my favorite: Think of it as a blueprint for a house. You can create multiple instances of that house with the same blueprint, but the interior design which is the data is going to be different. Each house operates on its own, but they all share the same structure and behaviors.</p>
 
 <p>In Swift, classes are declared using the <code class="language-plaintext highlighter-rouge">class</code> keyword. You define properties and methods to add functionality to your classes using the same syntax you use to define constants, variables, and functions.</p>
 
