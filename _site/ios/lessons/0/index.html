@@ -40,9 +40,9 @@
 <meta property="og:url" content="http://localhost:4000/ios/lessons/0/" />
 <meta property="og:site_name" content="MDB Training Program" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-02-03T03:17:10-08:00" />
+<meta property="article:published_time" content="2021-02-06T03:25:17-08:00" />
 <script type="application/ld+json">
-{"@type":"BlogPosting","url":"http://localhost:4000/ios/lessons/0/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","headline":"Lesson 0","dateModified":"2021-02-03T03:17:10-08:00","datePublished":"2021-02-03T03:17:10-08:00","@context":"https://schema.org"}</script>
+{"@type":"BlogPosting","url":"http://localhost:4000/ios/lessons/0/","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","headline":"Lesson 0","dateModified":"2021-02-06T03:25:17-08:00","datePublished":"2021-02-06T03:25:17-08:00","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -236,6 +236,21 @@
       </li>
     </ol>
   </li>
+  <li><a href="#introduction-to-ios-development" id="markdown-toc-introduction-to-ios-development">Introduction to iOS Development</a>    <ol>
+      <li><a href="#create-your-first-xcode-project" id="markdown-toc-create-your-first-xcode-project">Create Your First Xcode Project</a></li>
+      <li><a href="#xcode-interface" id="markdown-toc-xcode-interface">Xcode Interface</a></li>
+      <li><a href="#basic-file-structure-and-management" id="markdown-toc-basic-file-structure-and-management">Basic File Structure and Management</a></li>
+      <li><a href="#view-controllers-and-views" id="markdown-toc-view-controllers-and-views">View Controllers and Views</a>        <ol>
+          <li><a href="#view-management" id="markdown-toc-view-management">View Management</a></li>
+          <li><a href="#life-cycle" id="markdown-toc-life-cycle">Life Cycle</a></li>
+        </ol>
+      </li>
+      <li><a href="#first-custom-view" id="markdown-toc-first-custom-view">First Custom View</a>        <ol>
+          <li><a href="#frames" id="markdown-toc-frames">Frames</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
 </ol>
       <h1 id="getting-started">
         
@@ -245,6 +260,12 @@
         
       </h1>
     
+
+<p>Hello everyone and welcome to ΜΔΒ 🎉🎉🎉. First of all, congratulations on making it through the interview 🥳! A bit about myself: my name is Michael, currently a sophomore studying CS and Econ. I love biking, playing badminton and I had been playing ice hockey for 5 years before coming to college. I cook almost everyday, mostly Chinese food but I do occasionally try to make other stuff too. I’m an international student from China so I speak native mandarin (which is also why there’s probably gonna be lots of typos in what you are about to see: I had to run it through grammarly twice to make sure I don’t make stupid mistakes). But anyway, I’m super excited to have you all this semester and I assure you it’s gonna be great!</p>
+
+<p>To start things off, I know the TOC looks scary but I promise you this is only gonna be the first week. iOS dev is awesome but it does come with a little bit of learning curve. Be patient and be sure to ask question! Also special thanks to our two wonderful mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups.</p>
+
+<p>Without further ado, let’s get started 🚢🚢</p>
       <h2 id="install-xcode">
         
         
@@ -641,6 +662,170 @@ all of its key-value pairs.</p>
 <span class="p">}</span>
 <span class="nf">print</span><span class="p">(</span><span class="s">"Span: </span><span class="se">\(</span><span class="n">endDay</span> <span class="o">-</span> <span class="n">startDay</span><span class="se">)</span><span class="s"> days"</span><span class="p">)</span>
 </code></pre></div></div>
+      <h1 id="introduction-to-ios-development">
+        
+        
+          <a href="#introduction-to-ios-development" class="anchor-heading" aria-labelledby="introduction-to-ios-development"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction to iOS Development
+        
+        
+      </h1>
+    
+      <h2 id="create-your-first-xcode-project">
+        
+        
+          <a href="#create-your-first-xcode-project" class="anchor-heading" aria-labelledby="create-your-first-xcode-project"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Create Your First Xcode Project
+        
+        
+      </h2>
+    
+
+<p>While I’ve mentioned earlier that Swift Playground is good for trying out code and ideas, an Xcode project is where the real developing begins. Although you won’t need to create your own project for MP1, you should always know how to create one. This short video takes you step by step through the process.</p>
+<div style="width: 560px; margin: auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ZGUPA-R_4Mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h2 id="xcode-interface">
+        
+        
+          <a href="#xcode-interface" class="anchor-heading" aria-labelledby="xcode-interface"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Xcode Interface
+        
+        
+      </h2>
+    
+
+<p>Once you’ve created the project, take a moment to familarize yourself with the interface. There’s a lot of information on screen, so this video is going to break it down to help you understand.</p>
+<div style="width: 560px; margin: auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ykl73HPcLco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h2 id="basic-file-structure-and-management">
+        
+        
+          <a href="#basic-file-structure-and-management" class="anchor-heading" aria-labelledby="basic-file-structure-and-management"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Basic File Structure and Management
+        
+        
+      </h2>
+    
+
+<p>As we are getting used to the interface, let’s take a look at the basic file structure that comes with the default app template and how xcode manages them.</p>
+<div style="width: 560px; margin: auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/Q-Hr8hSbS1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h2 id="view-controllers-and-views">
+        
+        
+          <a href="#view-controllers-and-views" class="anchor-heading" aria-labelledby="view-controllers-and-views"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> View Controllers and Views
+        
+        
+      </h2>
+    
+
+<p>The first main concept we are going to introduce here is the <em>view controller</em>. View controllers are the foundation of your app. Every app has at least one view controller, and most apps have several. It manages components of your app’s interface called <em>views</em> as well as the interactions between that interface and the underlying data.</p>
+
+<p>View controllers are like screens. For example, when switching between tabs, you are switching between different view controllers. So in essence, They are the building blocks of your app’s navigation.</p>
+
+<p>You create your custom view controller through <em>subclassing</em> the build-in <code class="language-plaintext highlighter-rouge">UIViewController</code> class from the <code class="language-plaintext highlighter-rouge">UIKit</code> framework. In the following example, we declare a a view controller called <code class="language-plaintext highlighter-rouge">HomeViewController</code> and set its backgroundColor to red.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">import</span> <span class="kt">UIKit</span>
+
+<span class="kd">class</span> <span class="kt">HomeViewController</span><span class="p">:</span> <span class="kt">UIViewController</span> <span class="p">{</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+        <span class="n">view</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">systemRed</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Custom view controllers are usually named <code class="language-plaintext highlighter-rouge">XXXViewController</code> or <code class="language-plaintext highlighter-rouge">XXXVC</code> for short. Just like any other type in Swift, you should always use <strong>UpperCamelCase</strong> when naming view controllers. There should be only one view controller in each file, and the name of the file should be <code class="language-plaintext highlighter-rouge">View Controller's Name.swift</code>.</p>
+      <h3 id="view-management">
+        
+        
+          <a href="#view-management" class="anchor-heading" aria-labelledby="view-management"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> View Management
+        
+        
+      </h3>
+    
+
+<p>The most important role of a view controller is to manage a hierarchy of views. Every view controller has a single root view that encloses all of the view controller’s content. To that root view, you add the subviews you need to display your content. The parent view of a subview is also called the <em>superview</em>.</p>
+
+<p><img src="https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/Art/VCPG_ControllerHierarchy_fig_1-1_2x.png" alt="View Controller View Hierarchy" style="width: 442px; display: block; margin: auto;" /></p>
+
+<p>You access a view controller’s root view through the <code class="language-plaintext highlighter-rouge">self.view</code> property (or just <code class="language-plaintext highlighter-rouge">view</code> where <code class="language-plaintext highlighter-rouge">self</code> pointer can be omitted). All view components in <code class="language-plaintext highlighter-rouge">UIKit</code> are subclasses of the <code class="language-plaintext highlighter-rouge">UIView</code> class, which defines the behaviors that are common to all views. You can add subview to any view using the <code class="language-plaintext highlighter-rouge">addSubview(_:)</code> method.</p>
+      <h3 id="life-cycle">
+        
+        
+          <a href="#life-cycle" class="anchor-heading" aria-labelledby="life-cycle"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Life Cycle
+        
+        
+      </h3>
+    
+
+<p>A view controller comes with a set of methods that manage its view hierarchy. iOS automatically calls these methods at appropriate times when a view controller transitions between states. These transitions are known as the <em>Life Cycle Events</em>. When you create a view controller subclass, it inherits the methods defined in UIViewController and lets you add your own custom behavior for each method.</p>
+
+<p>One method you’ve seen so far is <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>. It’s called <em>after</em> the views in a view controller are created and loaded into memory. Since this usually only happens once in the view controller’s entire lifecycle, <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> is commonly used for styling, adding subviews, and creating and activating constraints.</p>
+
+<p>Other life cycle methods such as <code class="language-plaintext highlighter-rouge">viewDidAppear()</code>, <code class="language-plaintext highlighter-rouge">viewWillAppear()</code>, <code class="language-plaintext highlighter-rouge">viewWillDisappear()</code> and etc., can be called multiple times depending on how the view controller behaves.</p>
+
+<p><img src="https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Art/WWVC_vclife_2x.png" alt="View Controller Lifecycle" style="width: 442px; display: block; margin: auto;" /></p>
+
+<p>You define the custom behaviors for a lifecycle event through overriding the default implementation of the corresponding lifecycle method.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+    <span class="n">view</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">systemRed</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Note: Although superclass implementation in <code class="language-plaintext highlighter-rouge">super.viewDidLoad()</code> doesn’t do anything, it’s a good habit to call super for all functions you override that don’t have a return value.</p>
+      <h2 id="first-custom-view">
+        
+        
+          <a href="#first-custom-view" class="anchor-heading" aria-labelledby="first-custom-view"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> First Custom View
+        
+        
+      </h2>
+    
+
+<p>As you’ve learned in the previous section, the build-in <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> is useful for many one-time setup including styling and adding subviews. However, although it is possible to create, style, and add subview entirely using <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>, it is not recommanded for many reasons:</p>
+
+<ul>
+  <li>Add your UI grows more complex, the <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> function tends to get very bloated, which is bad for readability.</li>
+  <li>If you want to keep a reference of the views created, you’d have to declare an optional instance variable which initializes to <code class="language-plaintext highlighter-rouge">nil</code>, then fill in the value in <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>.</li>
+</ul>
+
+<p>Therefore, it is common to defer some of that setup to the initialization phase before <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> kicks in. Conveniently, Swift allows us to initialize a variable along with the declaration using a <em>closure</em>, which is kinda like the lambda expression in Python. Recall that in Python we can wrote tiny, “anonymous” function like this</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+</code></pre></div></div>
+
+<p>and in Swift, the equivalent closure can look like this</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="k">in</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>We will formally introduce closure in our next lesson, but for now let’s just stick to the notion that it’s just a portable function that can be called and passed around.</p>
+
+<p>In this video, we will see how to use this pattern to create a <code class="language-plaintext highlighter-rouge">UILabel</code> and add it to the rootview.</p>
+
+<div style="width: 560px; margin: auto;">
+<iframe width="560" height="315" src="https://www.youtube.com/embed/RN1_SkkarFc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h3 id="frames">
+        
+        
+          <a href="#frames" class="anchor-heading" aria-labelledby="frames"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Frames
+        
+        
+      </h3>
+    
+
+<p>In the last video we used something called <code class="language-plaintext highlighter-rouge">frame</code> to create our <code class="language-plaintext highlighter-rouge">UILabel</code>, and you probably already have a little idea what that’s for.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">UILabel</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">88</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">UIScreen</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">60</span><span class="p">))</span>
+</code></pre></div></div>
+<p>In UIKit, the position of a view is described by a point-based coordinate system. It starts from the top left of the referencing view (0, 0) and ends at bottom right. A frame is a rectangle defines the size and position of the view in its superview’s coordinate system.</p>
+
+<p><img src="https://iosimage.s3.amazonaws.com/2018/5-frame-vs-autolayout/coordinatesystem.png" alt="Coordinate System in UIKit" style="width: 300px; display: block; margin: auto;" /></p>
+
+<p>One thing to keep in mind is that for <code class="language-plaintext highlighter-rouge">UILabel</code>, changing the frame will not affect the physical size of the label, unless the frame causes it to overflow. This is because the frame only specifies a rectangle to which we put our view in. The size of the label itself is controlled by its font size, which was set through <code class="language-plaintext highlighter-rouge">UILabel.font</code> and was 27 points in our last example. However, if we set the backgound color to something we will be able to see, resizing the frame does change the way it looks.</p>
 
         
 

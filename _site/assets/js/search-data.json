@@ -433,13 +433,13 @@
   },"72": {
     "doc": "Lesson 0",
     "title": "Table of contents",
-    "content": ". | Getting Started . | Install Xcode | . | The Swift Programming Language . | Constants and Variables | Collection Types . | Array | Dictionary | Set | . | Control Flow . | If Statement | For-In Loops | While Loops | . | Functions | Classes | Structs | Optionals . | Force Unwrapping | Optional Binding | Early Exit | . | . | . ",
+    "content": ". | Getting Started . | Install Xcode | . | The Swift Programming Language . | Constants and Variables | Collection Types . | Array | Dictionary | Set | . | Control Flow . | If Statement | For-In Loops | While Loops | . | Functions | Classes | Structs | Optionals . | Force Unwrapping | Optional Binding | Early Exit | . | . | Introduction to iOS Development . | Create Your First Xcode Project | Xcode Interface | Basic File Structure and Management | View Controllers and Views . | View Management | Life Cycle | . | First Custom View . | Frames | . | . | . ",
     "url": "http://localhost:4000/ios/lessons/0/#table-of-contents",
     "relUrl": "/ios/lessons/0/#table-of-contents"
   },"73": {
     "doc": "Lesson 0",
     "title": "Getting Started",
-    "content": " ",
+    "content": "Hello everyone and welcome to ΜΔΒ 🎉🎉🎉. First of all, congratulations on making it through the interview 🥳! A bit about myself: my name is Michael, currently a sophomore studying CS and Econ. I love biking, playing badminton and I had been playing ice hockey for 5 years before coming to college. I cook almost everyday, mostly Chinese food but I do occasionally try to make other stuff too. I’m an international student from China so I speak native mandarin (which is also why there’s probably gonna be lots of typos in what you are about to see: I had to run it through grammarly twice to make sure I don’t make stupid mistakes). But anyway, I’m super excited to have you all this semester and I assure you it’s gonna be great! . To start things off, I know the TOC looks scary but I promise you this is only gonna be the first week. iOS dev is awesome but it does come with a little bit of learning curve. Be patient and be sure to ask question! Also special thanks to our two wonderful mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups. Without further ado, let’s get started 🚢🚢 . ",
     "url": "http://localhost:4000/ios/lessons/0/#getting-started",
     "relUrl": "/ios/lessons/0/#getting-started"
   },"74": {
@@ -498,11 +498,47 @@
     "relUrl": "/ios/lessons/0/#optionals"
   },"83": {
     "doc": "Lesson 0",
+    "title": "Introduction to iOS Development",
+    "content": " ",
+    "url": "http://localhost:4000/ios/lessons/0/#introduction-to-ios-development",
+    "relUrl": "/ios/lessons/0/#introduction-to-ios-development"
+  },"84": {
+    "doc": "Lesson 0",
+    "title": "Create Your First Xcode Project",
+    "content": "While I’ve mentioned earlier that Swift Playground is good for trying out code and ideas, an Xcode project is where the real developing begins. Although you won’t need to create your own project for MP1, you should always know how to create one. This short video takes you step by step through the process. ",
+    "url": "http://localhost:4000/ios/lessons/0/#create-your-first-xcode-project",
+    "relUrl": "/ios/lessons/0/#create-your-first-xcode-project"
+  },"85": {
+    "doc": "Lesson 0",
+    "title": "Xcode Interface",
+    "content": "Once you’ve created the project, take a moment to familarize yourself with the interface. There’s a lot of information on screen, so this video is going to break it down to help you understand. ",
+    "url": "http://localhost:4000/ios/lessons/0/#xcode-interface",
+    "relUrl": "/ios/lessons/0/#xcode-interface"
+  },"86": {
+    "doc": "Lesson 0",
+    "title": "Basic File Structure and Management",
+    "content": "As we are getting used to the interface, let’s take a look at the basic file structure that comes with the default app template and how xcode manages them. ",
+    "url": "http://localhost:4000/ios/lessons/0/#basic-file-structure-and-management",
+    "relUrl": "/ios/lessons/0/#basic-file-structure-and-management"
+  },"87": {
+    "doc": "Lesson 0",
+    "title": "View Controllers and Views",
+    "content": "The first main concept we are going to introduce here is the view controller. View controllers are the foundation of your app. Every app has at least one view controller, and most apps have several. It manages components of your app’s interface called views as well as the interactions between that interface and the underlying data. View controllers are like screens. For example, when switching between tabs, you are switching between different view controllers. So in essence, They are the building blocks of your app’s navigation. You create your custom view controller through subclassing the build-in UIViewController class from the UIKit framework. In the following example, we declare a a view controller called HomeViewController and set its backgroundColor to red. import UIKit class HomeViewController: UIViewController { override func viewDidLoad() { super.viewDidLoad() view.backgroundColor = UIColor.systemRed } } . Custom view controllers are usually named XXXViewController or XXXVC for short. Just like any other type in Swift, you should always use UpperCamelCase when naming view controllers. There should be only one view controller in each file, and the name of the file should be View Controller's Name.swift. View Management . The most important role of a view controller is to manage a hierarchy of views. Every view controller has a single root view that encloses all of the view controller’s content. To that root view, you add the subviews you need to display your content. The parent view of a subview is also called the superview. You access a view controller’s root view through the self.view property (or just view where self pointer can be omitted). All view components in UIKit are subclasses of the UIView class, which defines the behaviors that are common to all views. You can add subview to any view using the addSubview(_:) method. Life Cycle . A view controller comes with a set of methods that manage its view hierarchy. iOS automatically calls these methods at appropriate times when a view controller transitions between states. These transitions are known as the Life Cycle Events. When you create a view controller subclass, it inherits the methods defined in UIViewController and lets you add your own custom behavior for each method. One method you’ve seen so far is viewDidLoad(). It’s called after the views in a view controller are created and loaded into memory. Since this usually only happens once in the view controller’s entire lifecycle, viewDidLoad() is commonly used for styling, adding subviews, and creating and activating constraints. Other life cycle methods such as viewDidAppear(), viewWillAppear(), viewWillDisappear() and etc., can be called multiple times depending on how the view controller behaves. You define the custom behaviors for a lifecycle event through overriding the default implementation of the corresponding lifecycle method. override func viewDidLoad() { super.viewDidLoad() view.backgroundColor = UIColor.systemRed } . Note: Although superclass implementation in super.viewDidLoad() doesn’t do anything, it’s a good habit to call super for all functions you override that don’t have a return value. ",
+    "url": "http://localhost:4000/ios/lessons/0/#view-controllers-and-views",
+    "relUrl": "/ios/lessons/0/#view-controllers-and-views"
+  },"88": {
+    "doc": "Lesson 0",
+    "title": "First Custom View",
+    "content": "As you’ve learned in the previous section, the build-in viewDidLoad() is useful for many one-time setup including styling and adding subviews. However, although it is possible to create, style, and add subview entirely using viewDidLoad(), it is not recommanded for many reasons: . | Add your UI grows more complex, the viewDidLoad() function tends to get very bloated, which is bad for readability. | If you want to keep a reference of the views created, you’d have to declare an optional instance variable which initializes to nil, then fill in the value in viewDidLoad(). | . Therefore, it is common to defer some of that setup to the initialization phase before viewDidLoad() kicks in. Conveniently, Swift allows us to initialize a variable along with the declaration using a closure, which is kinda like the lambda expression in Python. Recall that in Python we can wrote tiny, “anonymous” function like this . lambda x, y: x * y . and in Swift, the equivalent closure can look like this . { x, y in return x * y } . We will formally introduce closure in our next lesson, but for now let’s just stick to the notion that it’s just a portable function that can be called and passed around. In this video, we will see how to use this pattern to create a UILabel and add it to the rootview. Frames . In the last video we used something called frame to create our UILabel, and you probably already have a little idea what that’s for. UILabel(frame: CGRect(x: 0, y: 88, width: UIScreen.main.bounds.width, height: 60)) . In UIKit, the position of a view is described by a point-based coordinate system. It starts from the top left of the referencing view (0, 0) and ends at bottom right. A frame is a rectangle defines the size and position of the view in its superview’s coordinate system. One thing to keep in mind is that for UILabel, changing the frame will not affect the physical size of the label, unless the frame causes it to overflow. This is because the frame only specifies a rectangle to which we put our view in. The size of the label itself is controlled by its font size, which was set through UILabel.font and was 27 points in our last example. However, if we set the backgound color to something we will be able to see, resizing the frame does change the way it looks. ",
+    "url": "http://localhost:4000/ios/lessons/0/#first-custom-view",
+    "relUrl": "/ios/lessons/0/#first-custom-view"
+  },"89": {
+    "doc": "Lesson 0",
     "title": "Lesson 0",
     "content": " ",
     "url": "http://localhost:4000/ios/lessons/0/",
     "relUrl": "/ios/lessons/0/"
-  },"84": {
+  },"90": {
     "doc": "Lessons",
     "title": "Lessons",
     "content": " ",
