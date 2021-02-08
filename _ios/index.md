@@ -21,7 +21,7 @@ has_toc: false
 
 ## Lessons
 
-- [Lesson 0](#): Introduction to Swift and iOS Development
+- [Lesson 0](/ios/lessons/0/): Introduction to Swift and iOS Development
 - [Lesson 1](#): UIKit, MVC, and Delegates
 - [Lesson 2](#): Navigation, Custom View, and Interface Builder
 - [Lesson 3](#): Networking and Concurrency

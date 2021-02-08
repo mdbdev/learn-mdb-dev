@@ -2,6 +2,7 @@
 .jekyll-metadata
 *-cache/
 vendor/
+_site/
 
 ### NPM ###
 /node_modules/
