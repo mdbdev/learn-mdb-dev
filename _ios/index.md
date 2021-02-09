@@ -49,3 +49,16 @@ has_toc: false
 - MP 2: Pokédex
 - MP 3A/3B: MDB Social
 - MP 4: TBD
+
+## Grading
+
+- Final - 15%
+- Mini-Project - 60%
+    - Mini-Project 1 - 10%
+    - Mini-Project 2 - 15%
+    - Mini-Project 3 - 20%
+        - 3A - 10%
+        - 3B - 10%
+    - Mini-Project 4 - 15%
+- Ideation - 5%
+- Development Cycle - 20%
