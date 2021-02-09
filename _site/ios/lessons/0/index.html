@@ -40,11 +40,11 @@
 <meta property="og:url" content="https://learn.mdb.dev//ios/lessons/0/" />
 <meta property="og:site_name" content="MDB Training Program" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-02-08T16:45:09-08:00" />
+<meta property="article:published_time" content="2021-02-08T16:56:43-08:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lesson 0" />
 <script type="application/ld+json">
-{"datePublished":"2021-02-08T16:45:09-08:00","@type":"BlogPosting","dateModified":"2021-02-08T16:45:09-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","url":"https://learn.mdb.dev//ios/lessons/0/","headline":"Lesson 0","@context":"https://schema.org"}</script>
+{"datePublished":"2021-02-08T16:56:43-08:00","@type":"BlogPosting","dateModified":"2021-02-08T16:56:43-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","url":"https://learn.mdb.dev//ios/lessons/0/","headline":"Lesson 0","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -264,9 +264,9 @@
       </h1>
     
 
-<p>Hello everyone and welcome to ΜΔΒ 🎉🎉🎉. First of all, congratulations on making it through the interview 🥳! A bit about myself: my name is Michael, currently a sophomore studying CS and Econ. I love biking, playing badminton and I had been playing ice hockey for 5 years before coming to college. I cook almost everyday, mostly Chinese food but I do occasionally try to make other stuff too. I’m an international student from China so I speak native mandarin (which is also why there’s probably gonna be lots of typos in what you are about to see: I had to run it through grammarly twice to make sure I don’t make stupid mistakes). But anyway, I’m super excited to have you all this semester and I assure you it’s gonna be great!</p>
+<p>Hello everyone and welcome to ΜΔΒ 🎉🎉🎉. Congratulations on making it through the interview 🥳! A bit about myself: my name is Michael, currently a sophomore studying CS and Econ. I love biking, playing badminton and I had been playing ice hockey for five years before coming to college. I cook almost every day: mostly Chinese food but I do occasionally try to make other stuff too. I’m an international student from China so I speak native mandarin (which is also why there’s probably gonna be lots of typos in what you are about to see: I had to run it through Grammarly twice to make sure I don’t make stupid mistakes). But anyway, I’m super excited to have you all this semester and I assure you it’s gonna be great!</p>
 
-<p>To start things off, I know the TOC looks scary but I promise you this is only gonna be the first week. iOS dev is awesome but it does come with a little bit of learning curve. Be patient and be sure to ask question! Also special thanks to our two wonderful mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups.</p>
+<p>To start things off, I know the TOC looks scary, but I promise you this is only gonna be the first week. iOS dev is awesome. However, it does come with a little bit of a learning curve. Be patient and be sure to ask question! Also special thanks to our two mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups.</p>
 
 <p>Without further ado, let’s get started 🚢🚢</p>
       <h2 id="install-xcode">
@@ -622,7 +622,7 @@ all of its key-value pairs.</p>
 <span class="p">}</span>
 </code></pre></div></div>
 
-<p>Multiple values can be binded in a single <code class="language-plaintext highlighter-rouge">if-let</code> statement. Each statement is separated using a comma. In the following example, <em>failable initializer</em> <code class="language-plaintext highlighter-rouge">Int(_:)</code> returns an optional integer <code class="language-plaintext highlighter-rouge">Int?</code>.</p>
+<p>Multiple values can be bound in a single <code class="language-plaintext highlighter-rouge">if-let</code> statement. Each statement is separated using a comma. In the following example, <em>failable initializer</em> <code class="language-plaintext highlighter-rouge">Int(_:)</code> returns an optional integer <code class="language-plaintext highlighter-rouge">Int?</code>.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">startStr</span> <span class="o">=</span> <span class="s">"2"</span><span class="p">,</span> <span class="n">endStr</span> <span class="o">=</span> <span class="s">"10"</span>
 <span class="k">if</span> <span class="k">let</span> <span class="nv">startDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">startStr</span><span class="p">),</span> <span class="k">let</span> <span class="nv">endDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">endStr</span><span class="p">)</span> <span class="p">{</span>
@@ -646,7 +646,7 @@ all of its key-value pairs.</p>
       </h3>
     
 
-<p>A <code class="language-plaintext highlighter-rouge">guard</code> statement behave very similarly to an <code class="language-plaintext highlighter-rouge">if</code> statement. It uses a boolean expression to determine whether to continue executing code in a function or transfer control to exit the code. In another word, <code class="language-plaintext highlighter-rouge">guard</code> checks for requirements in a specific line of code.</p>
+<p>A <code class="language-plaintext highlighter-rouge">guard</code> statement behaves very similarly to an <code class="language-plaintext highlighter-rouge">if</code> statement. It uses a boolean expression to determine whether to continue executing code in a function or transfer control to exit the code. In another word, <code class="language-plaintext highlighter-rouge">guard</code> checks for requirements in a specific line of code.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">calendar</span> <span class="o">=</span> <span class="kt">NSCalendar</span><span class="o">.</span><span class="n">current</span>
 <span class="c1">// Friday?</span>
@@ -656,7 +656,7 @@ all of its key-value pairs.</p>
 <span class="nf">print</span><span class="p">(</span><span class="s">"Smash Bros 🎮 🎉"</span><span class="p">)</span>
 </code></pre></div></div>
 
-<p>However, the reason why <code class="language-plaintext highlighter-rouge">guard</code> introduced here is because it’s most commonly used with <code class="language-plaintext highlighter-rouge">let</code> to create conditional binding that’s available in the same block scope, and it works pretty much the same as the <code class="language-plaintext highlighter-rouge">if-let</code> statement.</p>
+<p>However, the reason why <code class="language-plaintext highlighter-rouge">guard</code> is introduced here is that it’s most commonly used with <code class="language-plaintext highlighter-rouge">let</code> to create a conditional binding that’s available in the same block scope, and it works pretty much the same as the <code class="language-plaintext highlighter-rouge">if-let</code> statement.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">startStr</span> <span class="o">=</span> <span class="s">"2"</span><span class="p">,</span> <span class="n">endStr</span> <span class="o">=</span> <span class="s">"10"</span>
 <span class="k">guard</span> <span class="k">let</span> <span class="nv">startDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">startStr</span><span class="p">),</span> <span class="k">let</span> <span class="nv">endDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">endStr</span><span class="p">),</span>
@@ -682,7 +682,7 @@ all of its key-value pairs.</p>
       </h2>
     
 
-<p>While I’ve mentioned earlier that Swift Playground is good for trying out code and ideas, an Xcode project is where the real developing begins. Although you won’t need to create your own project for MP1, you should always know how to create one. This short video takes you step by step through the process.</p>
+<p>While I’ve mentioned earlier that Swift Playground is good for trying out code and ideas, an Xcode project is where the real iOS development begins. Although you won’t need to create your own project for MP1, you should always know how to create one. This short video takes you step by step through the process.</p>
 <div style="width: 560px; margin: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ZGUPA-R_4Mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
@@ -695,7 +695,7 @@ all of its key-value pairs.</p>
       </h2>
     
 
-<p>Once you’ve created the project, take a moment to familarize yourself with the interface. There’s a lot of information on screen, so this video is going to break it down to help you understand.</p>
+<p>Once you’ve created the project, take a moment to familiarize yourself with the interface. There’s a lot of information on screen, so this video is going to break it down to help you understand.</p>
 <div style="width: 560px; margin: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/ykl73HPcLco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
@@ -708,7 +708,7 @@ all of its key-value pairs.</p>
       </h2>
     
 
-<p>As we are getting used to the interface, let’s take a look at the basic file structure that comes with the default app template and how xcode manages them.</p>
+<p>As we are getting used to the interface, let’s take a look at the basic file structure that comes with the default app template and how Xcode manages them.</p>
 <div style="width: 560px; margin: auto;">
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Q-Hr8hSbS1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </div>
@@ -725,7 +725,7 @@ all of its key-value pairs.</p>
 
 <p>View controllers are like screens. For example, when switching between tabs, you are switching between different view controllers. So in essence, They are the building blocks of your app’s navigation.</p>
 
-<p>You create your custom view controller through <em>subclassing</em> the build-in <code class="language-plaintext highlighter-rouge">UIViewController</code> class from the <code class="language-plaintext highlighter-rouge">UIKit</code> framework. In the following example, we declare a a view controller called <code class="language-plaintext highlighter-rouge">HomeViewController</code> and set its backgroundColor to red.</p>
+<p>You create your custom view controller through <em>subclassing</em> the build-in <code class="language-plaintext highlighter-rouge">UIViewController</code> class from the <code class="language-plaintext highlighter-rouge">UIKit</code> framework. In the following example, we declare a view controller called <code class="language-plaintext highlighter-rouge">HomeViewController</code> and set its backgroundColor to red.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">import</span> <span class="kt">UIKit</span>
 
@@ -770,7 +770,7 @@ all of its key-value pairs.</p>
 
 <p><img src="https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Art/WWVC_vclife_2x.png" alt="View Controller Lifecycle" style="width: 442px; display: block; margin: auto;" /></p>
 
-<p>You define the custom behaviors for a lifecycle event through overriding the default implementation of the corresponding lifecycle method.</p>
+<p>You define the custom behaviors for a lifecycle event by overriding the default implementation of the corresponding lifecycle method.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
     <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
@@ -787,14 +787,14 @@ all of its key-value pairs.</p>
       </h2>
     
 
-<p>As you’ve learned in the previous section, the build-in <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> is useful for many one-time setup including styling and adding subviews. However, although it is possible to create, style, and add subview entirely using <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>, it is not recommanded for many reasons:</p>
+<p>As you’ve learned in the previous section, the build-in <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> is useful for many one-time setups including styling and adding subviews. However, although it is possible to create, style, and add subview entirely using <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>, it is not recommended for many reasons:</p>
 
 <ul>
   <li>As your UI grows more complex, <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> tends to get very bloated, which is bad for readability.</li>
   <li>If you want to keep a reference of the views created, you’d have to declare an optional instance variable which initializes to <code class="language-plaintext highlighter-rouge">nil</code>, then fill in the value in <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>.</li>
 </ul>
 
-<p>Therefore, it is common to defer some of that setup to the initialization phase before <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> kicks in. Conveniently, Swift allows us to initialize a variable along with the declaration using a <em>closure</em>, which is kinda like the lambda expression in Python. Recall that in Python we can wrote tiny, “anonymous” function like this</p>
+<p>Therefore, it is common to defer some of that setup to the initialization phase before <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> kicks in. Conveniently, Swift allows us to initialize a variable along with the declaration using a <em>closure</em>, which is kinda like the lambda expression in Python. Recall that in Python we can write tiny, “anonymous” functions like this</p>
 
 <div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
 </code></pre></div></div>
@@ -824,7 +824,7 @@ all of its key-value pairs.</p>
 <p>In the last video we used something called <code class="language-plaintext highlighter-rouge">frame</code> to create our <code class="language-plaintext highlighter-rouge">UILabel</code>, and you probably already have a little idea what that’s for.</p>
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">UILabel</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">88</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">UIScreen</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">60</span><span class="p">))</span>
 </code></pre></div></div>
-<p>In UIKit, the position of a view is described by a point-based coordinate system. It starts from the top left of the referencing view (0, 0) and ends at bottom right. A frame is a rectangle defines the size and position of the view in its superview’s coordinate system. In the example above, we used <code class="language-plaintext highlighter-rouge">UIScreen.main.bounds</code> because the root view has the same frame as the screen. In fact, we can use <code class="language-plaintext highlighter-rouge">view.bounds.width</code> and the effect would’ve been the same. But we will then have to set our frame in <code class="language-plaintext highlighter-rouge">viewDidLoad</code> because <code class="language-plaintext highlighter-rouge">self.view</code> (or in particular, <code class="language-plaintext highlighter-rouge">self</code>) isn’t available in the instance initialization phase.</p>
+<p>In UIKit, the position of a view is described by a point-based coordinate system. It starts from the top left of the referencing view (0, 0) and ends at the bottom right. A frame is a rectangle that defines the size and position of the view in its superview’s coordinate system. In the example above, we used <code class="language-plaintext highlighter-rouge">UIScreen.main.bounds</code> because the root view has the same frame as the screen. In fact, we can use <code class="language-plaintext highlighter-rouge">view.bounds.width</code> and the effect would’ve been the same. But we will then have to set our frame in <code class="language-plaintext highlighter-rouge">viewDidLoad</code> because <code class="language-plaintext highlighter-rouge">self.view</code> (or in particular, <code class="language-plaintext highlighter-rouge">self</code>) isn’t available in the instance initialization phase.</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">welcomeLabel</span><span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">88</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="n">view</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">60</span><span class="p">)</span>
 </code></pre></div></div>
@@ -833,7 +833,7 @@ all of its key-value pairs.</p>
 
 <p><img src="https://iosimage.s3.amazonaws.com/2018/5-frame-vs-autolayout/coordinatesystem.png" alt="Coordinate System in UIKit" style="width: 300px; display: block; margin: auto;" /></p>
 
-<p>One thing to keep in mind is that for <code class="language-plaintext highlighter-rouge">UILabel</code>, changing the frame will not affect the physical size of the label, unless the frame causes it to overflow. This is because the frame only specifies a rectangle to which we put our view in. The size of the label itself is controlled by its font size, which was set through <code class="language-plaintext highlighter-rouge">UILabel.font</code> and was 27 points in our last example. However, if we set the backgound color to something we will be able to see, resizing the frame does change the way it looks.</p>
+<p>One thing to keep in mind is that for <code class="language-plaintext highlighter-rouge">UILabel</code>, changing the frame will not affect the physical size of the label, unless the frame causes it to overflow. This is because the frame only specifies a rectangle to which we put our view in. The size of the label itself is controlled by its font size, which was set through <code class="language-plaintext highlighter-rouge">UILabel.font</code> and was 27 points in our last example. However, if we set the background color to something we will be able to see, resizing the frame does change the way it looks.</p>
       <h3 id="autolayout-and-constraints">
         
         
@@ -845,7 +845,7 @@ all of its key-value pairs.</p>
 
 <p>Although using frame seems clean and definitive, it does come with quite a few drawbacks:</p>
 
-<p>Since different iOS device may have different screen size (iPhone 12 Pro Max: 428×926 points; iPhone XR: 414×896 points), aligning the views can be tedious and oftentimes tricky. Most of the time it often involves dynamcally computing all the values. For example, if we want our 200×70 label to be at the center of every screen, we would have to do this</p>
+<p>Since different iOS devices may have different screen sizes (iPhone 12 Pro Max: 428×926 points; iPhone XR: 414×896 points), aligning the views can be tedious and oftentimes tricky. Most of the time it often involves computing all the values dynamically. For example, if we want our 200×70 label to be at the center of every screen, we would have to do this</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">width</span> <span class="o">=</span> <span class="mi">200</span>
 <span class="k">let</span> <span class="nv">height</span> <span class="o">=</span> <span class="mi">70</span>
