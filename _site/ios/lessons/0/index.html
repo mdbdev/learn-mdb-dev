@@ -40,11 +40,11 @@
 <meta property="og:url" content="https://learn.mdb.dev//ios/lessons/0/" />
 <meta property="og:site_name" content="MDB Training Program" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-02-08T16:56:43-08:00" />
+<meta property="article:published_time" content="2021-02-08T23:26:08-08:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lesson 0" />
 <script type="application/ld+json">
-{"datePublished":"2021-02-08T16:56:43-08:00","@type":"BlogPosting","dateModified":"2021-02-08T16:56:43-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","url":"https://learn.mdb.dev//ios/lessons/0/","headline":"Lesson 0","@context":"https://schema.org"}</script>
+{"datePublished":"2021-02-08T23:26:08-08:00","@type":"BlogPosting","dateModified":"2021-02-08T23:26:08-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","url":"https://learn.mdb.dev//ios/lessons/0/","headline":"Lesson 0","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -149,7 +149,9 @@
             
               <div class="nav-category">iOS</div>
             
-            <ul class="nav-list"><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/index/" class="nav-list-link">Overview</a><ul class="nav-list "><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/lessons/index/" class="nav-list-link">Lessons</a><ul class="nav-list"><li class="nav-list-item  active">
+            <ul class="nav-list"><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/index/" class="nav-list-link">Overview</a><ul class="nav-list "><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/demos/index/" class="nav-list-link">Demos</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//ios/demos/0/" class="nav-list-link">Demo 0 - Rollcall</a>
+                  </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/lessons/index/" class="nav-list-link">Lessons</a><ul class="nav-list"><li class="nav-list-item  active">
                     <a href="https://learn.mdb.dev//ios/lessons/0/" class="nav-list-link active">Lesson 0</a>
                   </li></ul></li></ul></li></ul>
 
@@ -250,6 +252,9 @@
       <li><a href="#first-custom-view" id="markdown-toc-first-custom-view">First Custom View</a>        <ol>
           <li><a href="#frames" id="markdown-toc-frames">Frames</a></li>
           <li><a href="#autolayout-and-constraints" id="markdown-toc-autolayout-and-constraints">AutoLayout and Constraints</a></li>
+          <li><a href="#anatomy-of-a-constraint" id="markdown-toc-anatomy-of-a-constraint">Anatomy of a Constraint</a></li>
+          <li><a href="#provide-enough-information-to-auto-layout" id="markdown-toc-provide-enough-information-to-auto-layout">Provide Enough Information to Auto Layout</a></li>
+          <li><a href="#prevent-frame-to-be-translated-into-constraint" id="markdown-toc-prevent-frame-to-be-translated-into-constraint">Prevent Frame to be Translated into Constraint</a></li>
         </ol>
       </li>
     </ol>
@@ -266,7 +271,7 @@
 
 <p>Hello everyone and welcome to ΜΔΒ 🎉🎉🎉. Congratulations on making it through the interview 🥳! A bit about myself: my name is Michael, currently a sophomore studying CS and Econ. I love biking, playing badminton and I had been playing ice hockey for five years before coming to college. I cook almost every day: mostly Chinese food but I do occasionally try to make other stuff too. I’m an international student from China so I speak native mandarin (which is also why there’s probably gonna be lots of typos in what you are about to see: I had to run it through Grammarly twice to make sure I don’t make stupid mistakes). But anyway, I’m super excited to have you all this semester and I assure you it’s gonna be great!</p>
 
-<p>To start things off, I know the TOC looks scary, but I promise you this is only gonna be the first week. iOS dev is awesome. However, it does come with a little bit of a learning curve. Be patient and be sure to ask question! Also special thanks to our two mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups.</p>
+<p>To start things off, I know the TOC looks scary, but I promise you this is only gonna be the first week. iOS dev is awesome. However, it does come with a little bit of a learning curve. Be patient and be sure to ask question! Also special thanks to our two amazing mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups.</p>
 
 <p>Without further ado, let’s get started 🚢🚢</p>
       <h2 id="install-xcode">
@@ -854,9 +859,83 @@ all of its key-value pairs.</p>
 <span class="n">label</span><span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="n">y</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="n">height</span><span class="p">)</span>
 </code></pre></div></div>
 
-<ul>
-  <li></li>
-</ul>
+<p>It only gets worse when you add multiple layers of subviews or trying to accommodate smaller screens. Therefore, in practice, we rarely use frame to set the position and size of a view, instead, we use another layout method called <em>Auto Layout</em>.</p>
+
+<p>Auto Layout defines your user interface using a series of constraints. A constraint typically represents a relationship between two views such as spacing or alignment. iOS will then dynamically calculate the location and size of each view to satisfy these constraints. This creates layout that’s responsive to the device’s size and orientation changes.</p>
+      <h3 id="anatomy-of-a-constraint">
+        
+        
+          <a href="#anatomy-of-a-constraint" class="anchor-heading" aria-labelledby="anatomy-of-a-constraint"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Anatomy of a Constraint
+        
+        
+      </h3>
+    
+
+<p>In Auto Layout, the anchors define a feature that can be constrained. In general, this includes the four edge anchors (leading, trailing, top, and bottom), as well as the height, width, and vertical and horizontal centers anchors.</p>
+
+<p><img src="https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/attributes_2x.png" alt="Coordinate System in UIKit" style="width: 400px; display: block; margin: auto;" /></p>
+
+<p>Each view manages its own anchors, and they are accessible as the view’s property. For instance, <code class="language-plaintext highlighter-rouge">view.leadingAnchor</code> would give you the leading anchor of <code class="language-plaintext highlighter-rouge">view</code>. Try typing out <code class="language-plaintext highlighter-rouge">view.anchor</code> inside any <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> method. You should see a list of all available anchors showing up. We will be using these anchors to define our constraints.</p>
+
+<p>Essentially, a constraint is a linear equation of anchors. For example, the following layout relation</p>
+
+<p><img src="/assets/images/constraints-blue-red.png" alt="Coordinate System in UIKit" style="width: 400px; display: block; margin: auto;" /></p>
+
+<p>can be expressed using the pseudocode equation</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>red.leadingAnchor = blue.trailingAnchor + 8.0
+</code></pre></div></div>
+<p>Recall that in iOS, the origin is at the top left corner of the screen. So this <code class="language-plaintext highlighter-rouge">+</code> here means to the right by 8 points. If it is <code class="language-plaintext highlighter-rouge">-</code>, it would mean to the left. Whether to use the <code class="language-plaintext highlighter-rouge">x</code> or <code class="language-plaintext highlighter-rouge">y</code> axis is determined by the anchor you use.</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>red.topAnchor = blue.bottomAnchor + 8.0
+</code></pre></div></div>
+<p>So the above constraint means the <code class="language-plaintext highlighter-rouge">redView</code>’s top anchor would be 8 points towards the bottom away from the <code class="language-plaintext highlighter-rouge">blueView</code>’s bottom anchor.</p>
+
+<p>In Swift, constraints are typically created by calling the <code class="language-plaintext highlighter-rouge">constraint(...)</code> method on the anchor that’s going to be the left side of the equation. Suppose the two views are called <code class="language-plaintext highlighter-rouge">redView</code> and <code class="language-plaintext highlighter-rouge">blueView</code>, then the constraint can be defined like this</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">constraint</span> <span class="o">=</span> <span class="n">redView</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">blueView</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">8</span><span class="p">)</span>
+</code></pre></div></div>
+<p>After that, you will have to <strong>activate</strong> the constraint</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">constraint</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre></div></div>
+<p>Or, if you don’t need to keep a reference to that constraint (meaning you don’t need to change it in the future), you can just write everything in a single line.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">redView</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">blueView</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">8</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre></div></div>
+<p>Programmatic constraints can look very daunting at first. But don’t worry! We will go over that in greater details during the next Hackshop, and it will become more efficient and less error-prone than storyboard constraints once you get used to them.</p>
+      <h3 id="provide-enough-information-to-auto-layout">
+        
+        
+          <a href="#provide-enough-information-to-auto-layout" class="anchor-heading" aria-labelledby="provide-enough-information-to-auto-layout"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Provide Enough Information to Auto Layout
+        
+        
+      </h3>
+    
+
+<p>OK. I know that’s a bad title. But hey, the idea is clear: You need to give enough layout information (i.e. constraints) to auto layout because otherwise it gets confused. For instance, in our last example, we only specified the <code class="language-plaintext highlighter-rouge">relative</code> position between <code class="language-plaintext highlighter-rouge">redView</code> and <code class="language-plaintext highlighter-rouge">blueView</code>, as shown in this pseudocode equation</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>red.leadingAnchor = blue.trailingAnchor + 8.0
+</code></pre></div></div>
+<p>Without more information on the <code class="language-plaintext highlighter-rouge">redView</code> and <code class="language-plaintext highlighter-rouge">blueView</code>, there’s no way for the Auto Layout to know where to put these views.</p>
+
+<p>Therefore, constraints are more commonly created between a fixed anchor (anchors with known location), and variable anchor (a.k.a your view). In a view controller, the easiest-to-get fixed anchors are the ones in the root view (from <code class="language-plaintext highlighter-rouge">self.view</code> in case you forgot). The top, leading, bottom, trailing anchors of the root view are essentially the edges of the screen, which is always fixed.</p>
+
+<p><img src="https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/layout_constraints_2x.png" alt="Coordinate System in UIKit" style="width: 400px; display: block; margin: auto;" /></p>
+
+<p>In this more complex example, the view with the light grey background is the root view. The layout of the two views in dark grey is defined using a total of 8 contraints.</p>
+      <h3 id="prevent-frame-to-be-translated-into-constraint">
+        
+        
+          <a href="#prevent-frame-to-be-translated-into-constraint" class="anchor-heading" aria-labelledby="prevent-frame-to-be-translated-into-constraint"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Prevent Frame to be Translated into Constraint
+        
+        
+      </h3>
+    
+
+<p>By default, if you create a view programmatically, it is using the frame-based layout, even when no frame is passed into the initializer. This will result in the default frame (<code class="language-plaintext highlighter-rouge">(x: 0, y: 0, width: 0, height: 0)</code>) being translated into constraint and cause you view to vanish. To disable this behavior, set the <code class="language-plaintext highlighter-rouge">translatesAutoresizingMaskIntoConstraints</code> property to <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">label</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+<span class="n">label</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="n">label</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"GME GO BRRR"</span>  <span class="c1">// Customization</span>
+<span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>  <span class="c1">// Add Subview</span>
+
+<span class="c1">// Your constraints</span>
+</code></pre></div></div>
 
         
 
