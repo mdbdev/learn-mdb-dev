@@ -40,11 +40,11 @@
 <meta property="og:url" content="https://learn.mdb.dev//ios/lessons/0/" />
 <meta property="og:site_name" content="MDB Training Program" />
 <meta property="og:type" content="article" />
-<meta property="article:published_time" content="2021-02-08T16:21:20-08:00" />
+<meta property="article:published_time" content="2021-02-08T16:45:09-08:00" />
 <meta name="twitter:card" content="summary" />
 <meta property="twitter:title" content="Lesson 0" />
 <script type="application/ld+json">
-{"datePublished":"2021-02-08T16:21:20-08:00","@type":"BlogPosting","dateModified":"2021-02-08T16:21:20-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","url":"https://learn.mdb.dev//ios/lessons/0/","headline":"Lesson 0","@context":"https://schema.org"}</script>
+{"datePublished":"2021-02-08T16:45:09-08:00","@type":"BlogPosting","dateModified":"2021-02-08T16:45:09-08:00","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"description":"None","url":"https://learn.mdb.dev//ios/lessons/0/","headline":"Lesson 0","@context":"https://schema.org"}</script>
 <!-- End Jekyll SEO tag -->
 
 
@@ -826,6 +826,11 @@ all of its key-value pairs.</p>
 </code></pre></div></div>
 <p>In UIKit, the position of a view is described by a point-based coordinate system. It starts from the top left of the referencing view (0, 0) and ends at bottom right. A frame is a rectangle defines the size and position of the view in its superview’s coordinate system. In the example above, we used <code class="language-plaintext highlighter-rouge">UIScreen.main.bounds</code> because the root view has the same frame as the screen. In fact, we can use <code class="language-plaintext highlighter-rouge">view.bounds.width</code> and the effect would’ve been the same. But we will then have to set our frame in <code class="language-plaintext highlighter-rouge">viewDidLoad</code> because <code class="language-plaintext highlighter-rouge">self.view</code> (or in particular, <code class="language-plaintext highlighter-rouge">self</code>) isn’t available in the instance initialization phase.</p>
 
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">welcomeLabel</span><span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">88</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="n">view</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">60</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Note: The difference between <code class="language-plaintext highlighter-rouge">frame</code> and <code class="language-plaintext highlighter-rouge">bounds</code> is detailed in -<a href="https://suragch.medium.com/frame-vs-bounds-in-ios-107990ad53ee">this</a> article.</p>
+
 <p><img src="https://iosimage.s3.amazonaws.com/2018/5-frame-vs-autolayout/coordinatesystem.png" alt="Coordinate System in UIKit" style="width: 300px; display: block; margin: auto;" /></p>
 
 <p>One thing to keep in mind is that for <code class="language-plaintext highlighter-rouge">UILabel</code>, changing the frame will not affect the physical size of the label, unless the frame causes it to overflow. This is because the frame only specifies a rectangle to which we put our view in. The size of the label itself is controlled by its font size, which was set through <code class="language-plaintext highlighter-rouge">UILabel.font</code> and was 27 points in our last example. However, if we set the backgound color to something we will be able to see, resizing the frame does change the way it looks.</p>
@@ -840,14 +845,18 @@ all of its key-value pairs.</p>
 
 <p>Although using frame seems clean and definitive, it does come with quite a few drawbacks:</p>
 
-<ul>
-  <li>Since different iOS device may have different screen size, aligning the views can be tricky and tedious, and it often involves dynamcally computing all the values. For example, if we want our 200x70 label to be at the center of every screen, we would have to do this</li>
-</ul>
+<p>Since different iOS device may have different screen size (iPhone 12 Pro Max: 428×926 points; iPhone XR: 414×896 points), aligning the views can be tedious and oftentimes tricky. Most of the time it often involves dynamcally computing all the values. For example, if we want our 200×70 label to be at the center of every screen, we would have to do this</p>
 
 <div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">width</span> <span class="o">=</span> <span class="mi">200</span>
 <span class="k">let</span> <span class="nv">height</span> <span class="o">=</span> <span class="mi">70</span>
-<span class="k">let</span> <span class="nv">x</span> <span class="o">=</span> 
+<span class="k">let</span> <span class="nv">x</span> <span class="o">=</span> <span class="p">(</span><span class="kt">UIScreen</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span> <span class="o">-</span> <span class="n">width</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="k">let</span> <span class="nv">y</span> <span class="o">=</span> <span class="p">(</span><span class="kt">UIScreen</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">height</span> <span class="o">-</span> <span class="n">height</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="n">label</span><span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="n">y</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="n">height</span><span class="p">)</span>
 </code></pre></div></div>
+
+<ul>
+  <li></li>
+</ul>
 
         
 
