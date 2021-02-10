@@ -22,7 +22,7 @@ has_toc: false
 | Day            | Assignment &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | :---- | :----------------- |
 | **Monday, 2/8** | [Lesson 0 Released](/ios/lessons/0/) |
-| **Thursday, 2/12** | MP 1 Released |
+| **Thursday, 2/11** | MP 1 Released |
 | **Monday, 2/15** | Lesson 1 Released |
 | **Sunday, 2/21** | MP 1 Due |
 | **Monday, 2/22** | Lesson 2 Released <br /> MP 2 Released |
