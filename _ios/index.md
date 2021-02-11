@@ -22,7 +22,7 @@ has_toc: false
 | Day            | Assignment &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
 | :---- | :----------------- |
 | **Monday, 2/8** | [Lesson 0 Released](/ios/lessons/0/) |
-| **Thursday, 2/11** | MP 1 Released |
+| **Thursday, 2/11** | [MP 1 Released](/ios/projects/0/) |
 | **Monday, 2/15** | Lesson 1 Released |
 | **Sunday, 2/21** | MP 1 Due |
 | **Monday, 2/22** | Lesson 2 Released <br /> MP 2 Released |
@@ -45,7 +45,7 @@ has_toc: false
 
 ## Mini-Projects
 
-- MP 1: Meet the Member
+- [MP 1](/ios/projects/0/): Meet the Member
 - MP 2: Pokédex
 - MP 3A/3B: MDB Social
 - MP 4: TBD
