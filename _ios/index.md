@@ -23,7 +23,7 @@ has_toc: false
 | :---- | :----------------- |
 | **Monday, 2/8** | [Lesson 0 Released](/ios/lessons/0/) |
 | **Thursday, 2/11** | [MP 1 Released](/ios/projects/0/) |
-| **Monday, 2/15** | Lesson 1 Released |
+| **Monday, 2/15** | [Lesson 1 Released](/ios/lessons/1/) |
 | **Sunday, 2/21** | MP 1 Due |
 | **Monday, 2/22** | Lesson 2 Released <br /> MP 2 Released |
 | **Sunday, 2/28** | MP 2 Due |
@@ -37,7 +37,7 @@ has_toc: false
 ## Lessons
 
 - [Lesson 0](/ios/lessons/0/): Introduction to Swift and iOS Development
-- Lesson 1: UIKit, MVC, and Delegates
+- [Lesson 1](/ios/lessons/1/): UIKit, MVC, and Delegates
 - Lesson 2: Navigation, Custom View, and Interface Builder
 - Lesson 3: Networking and Concurrency
 - Lesson 4: Design
