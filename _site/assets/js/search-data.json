@@ -289,7 +289,7 @@
   },"48": {
     "doc": "Mini-Project 1",
     "title": "Submission",
-    "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
+    "content": "To submit your project, first commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Then, link your repository to the Gradescope assignment for this project. Finally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
     "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#submission",
     "relUrl": "/react-native/projects/match-the-members/#submission"
   },"49": {
