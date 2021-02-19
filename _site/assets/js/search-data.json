@@ -1,0 +1,788 @@
+{"0": {
+    "doc": "Home",
+    "title": "MDB Training Program",
+    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, four mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
+    "url": "https://learn.mdb.dev//#mdb-training-program",
+    "relUrl": "/#mdb-training-program"
+  },"1": {
+    "doc": "Home",
+    "title": "Home",
+    "content": ". ",
+    "url": "https://learn.mdb.dev//",
+    "relUrl": "/"
+  },"2": {
+    "doc": "Home",
+    "title": "MDB Training Program",
+    "content": "Welcome! . The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we’ve published our React Native Training Program, which was developed in Fall 2020. This course contains six lectures, four mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members. About MDB . MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit https://mdb.dev. ",
+    "url": "https://learn.mdb.dev//#mdb-training-program",
+    "relUrl": "/#mdb-training-program"
+  },"3": {
+    "doc": "Home",
+    "title": "Home",
+    "content": ". ",
+    "url": "https://learn.mdb.dev//",
+    "relUrl": "/"
+  },"4": {
+    "doc": "Overview",
+    "title": "React Native Training Program",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/index/#react-native-training-program",
+    "relUrl": "/react-native/index/#react-native-training-program"
+  },"5": {
+    "doc": "Overview",
+    "title": "Spring 2021 Calendar",
+    "content": "| Day | Assignment                                                                                       | . | Monday, 2/8 | Lesson 0 Released | . | Monday, 2/15 | Lesson 1 ReleasedMP 1 Released | . | Sunday, 2/21 | MP 1 Due | . | Monday, 2/22 | Lesson 2 ReleasedMP 2 Released | . | Sunday, 2/28 | MP 2 Due | . | Monday, 2/29 | Lesson 3 ReleasedMP 3A Released | . | Sunday, 3/7 | MP 3A Due | . | Monday, 3/8 | Lesson 4 ReleasedMP 3B Released | . | Sunday, 3/14 | MP 3B Due | . | Monday, 3/15 | Lesson 5 ReleasedMP 4 Released | . | Sunday, 3/28 | MP 4 Due | . ",
+    "url": "https://learn.mdb.dev//react-native/index/#spring-2021-calendar",
+    "relUrl": "/react-native/index/#spring-2021-calendar"
+  },"6": {
+    "doc": "Overview",
+    "title": "Lessons",
+    "content": "This training program has six lessons. | Lesson 0: Getting Started | Lesson 1: React Fundamentals | Lesson 2: Navigation, Lifecycle, and Advanced Components | Lesson 3: REST API’s, Databases, and the Cloud | Lesson 4: Authentication, Security, and State Management | Lesson 5: Design &amp; Backend | . ",
+    "url": "https://learn.mdb.dev//react-native/index/#lessons",
+    "relUrl": "/react-native/index/#lessons"
+  },"7": {
+    "doc": "Overview",
+    "title": "Mini-Projects",
+    "content": "This training program has four projects. | Project 1: Match the Members | Project 2: iMDB | Project 3A/3B: MDB Socials | Project 4: Capstone | . ",
+    "url": "https://learn.mdb.dev//react-native/index/#mini-projects",
+    "relUrl": "/react-native/index/#mini-projects"
+  },"8": {
+    "doc": "Overview",
+    "title": "Contributors",
+    "content": "Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, and Shomil Jain . ",
+    "url": "https://learn.mdb.dev//react-native/index/#contributors",
+    "relUrl": "/react-native/index/#contributors"
+  },"9": {
+    "doc": "Overview",
+    "title": "Overview",
+    "content": ". ",
+    "url": "https://learn.mdb.dev//react-native/index/",
+    "relUrl": "/react-native/index/"
+  },"10": {
+    "doc": "Lesson 0",
+    "title": "Lesson 0: Getting Started",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/0/#lesson-0-getting-started",
+    "relUrl": "/react-native/lessons/0/#lesson-0-getting-started"
+  },"11": {
+    "doc": "Lesson 0",
+    "title": "Table of contents",
+    "content": ". | 0.2A: Basic JavaScript | 0.2B: More JavaScript | 0.3: Hello World | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | Expo Installation | Expo Hello World | JavaScript Express (Chapters 2-3) | . 0.2A: Basic JavaScript . 0.2B: More JavaScript . 0.3: Hello World . ",
+    "url": "https://learn.mdb.dev//react-native/lessons/0/#table-of-contents",
+    "relUrl": "/react-native/lessons/0/#table-of-contents"
+  },"12": {
+    "doc": "Lesson 0",
+    "title": "Lesson 0",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/0/",
+    "relUrl": "/react-native/lessons/0/"
+  },"13": {
+    "doc": "Lesson 1",
+    "title": "Lesson 1: React Fundamentals",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/1/#lesson-1-react-fundamentals",
+    "relUrl": "/react-native/lessons/1/#lesson-1-react-fundamentals"
+  },"14": {
+    "doc": "Lesson 1",
+    "title": "Table of contents",
+    "content": ". | 1.1: Components | 1.2: Props | 1.3: Composing Components | 1.3: The State Hook | 1.5: The Effect Hook | 1.6: Mini-Project 1 Overview | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | React Native Express (Chapter 2-4) | React Docs (Main Concepts, Sections 1-5) | React Native Docs (“The Basics”) | . 1.1: Components . 1.2: Props . 1.3: Composing Components . 1.3: The State Hook . 1.5: The Effect Hook . 1.6: Mini-Project 1 Overview . ",
+    "url": "https://learn.mdb.dev//react-native/lessons/1/#table-of-contents",
+    "relUrl": "/react-native/lessons/1/#table-of-contents"
+  },"15": {
+    "doc": "Lesson 1",
+    "title": "Lesson 1",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/1/",
+    "relUrl": "/react-native/lessons/1/"
+  },"16": {
+    "doc": "Lesson 2",
+    "title": "Lesson 2: Navigation, Lifecycle, and Advanced Components",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/2/#lesson-2-navigation-lifecycle-and-advanced-components",
+    "relUrl": "/react-native/lessons/2/#lesson-2-navigation-lifecycle-and-advanced-components"
+  },"17": {
+    "doc": "Lesson 2",
+    "title": "Table of contents",
+    "content": ". | 2.1: Screens &amp; Navigation | 2.2: Defining a Navigation Stack | 2.3: Navigating Between Screens | 2.1: Other Navigation Tips (e.g. Modal) | 2.5: Advanced Components | 2.6: Mini-Project 2 Overview | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | React Navigation (“Fundamentals”) | React Native Express (Chapter 5.2) | . 2.1: Screens &amp; Navigation . 2.2: Defining a Navigation Stack . 2.3: Navigating Between Screens . 2.1: Other Navigation Tips (e.g. Modal) . 2.5: Advanced Components . 2.6: Mini-Project 2 Overview . ",
+    "url": "https://learn.mdb.dev//react-native/lessons/2/#table-of-contents",
+    "relUrl": "/react-native/lessons/2/#table-of-contents"
+  },"18": {
+    "doc": "Lesson 2",
+    "title": "Lesson 2",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/2/",
+    "relUrl": "/react-native/lessons/2/"
+  },"19": {
+    "doc": "Lesson 3",
+    "title": "Lesson 3: REST API’s, Databases, and the Cloud",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/3/#lesson-3-rest-apis-databases-and-the-cloud",
+    "relUrl": "/react-native/lessons/3/#lesson-3-rest-apis-databases-and-the-cloud"
+  },"20": {
+    "doc": "Lesson 3",
+    "title": "Table of contents",
+    "content": ". | 3.1: JavaScript Promises | 3.2: REST API’s | 3.3: Fetch in JavaScript | 3.4: The Cloud | 3.5: Firebase | 3.6: Twitter Case Study | 3.7: Firestore Walkthrough | 3.8: Component Libraries | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | JavaScript Promises | Networking in React Native | Firebase Firestore - Getting Started | Firebase Storage - Getting Started | React Native Paper | . 3.1: JavaScript Promises . 3.2: REST API’s . 3.3: Fetch in JavaScript . 3.4: The Cloud . 3.5: Firebase . 3.6: Twitter Case Study . 3.7: Firestore Walkthrough . 3.8: Component Libraries . ",
+    "url": "https://learn.mdb.dev//react-native/lessons/3/#table-of-contents",
+    "relUrl": "/react-native/lessons/3/#table-of-contents"
+  },"21": {
+    "doc": "Lesson 3",
+    "title": "Lesson 3",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/3/",
+    "relUrl": "/react-native/lessons/3/"
+  },"22": {
+    "doc": "Lesson 4",
+    "title": "Lesson 4: Authentication, Security, and State Management",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/4/#lesson-4-authentication-security-and-state-management",
+    "relUrl": "/react-native/lessons/4/#lesson-4-authentication-security-and-state-management"
+  },"23": {
+    "doc": "Lesson 4",
+    "title": "Table of contents",
+    "content": ". | 3.1: Authentication | 3.2: Implementation | 3.3: Security | 3.4: State Management | 3.5: Lifting State Up | 3.6: Redux | . Lesson Resources: Lesson Slides, Lesson Playlist . External Resources: . | Firebase Authentication | Auth Flows in React Navigation | Lifting State Up | Redux Overview | Redux in a React Native App | . 3.1: Authentication . 3.2: Implementation . 3.3: Security . 3.4: State Management . 3.5: Lifting State Up . 3.6: Redux . ",
+    "url": "https://learn.mdb.dev//react-native/lessons/4/#table-of-contents",
+    "relUrl": "/react-native/lessons/4/#table-of-contents"
+  },"24": {
+    "doc": "Lesson 4",
+    "title": "Lesson 4",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/4/",
+    "relUrl": "/react-native/lessons/4/"
+  },"25": {
+    "doc": "Lessons",
+    "title": "Lessons",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/lessons/index/",
+    "relUrl": "/react-native/lessons/index/"
+  },"26": {
+    "doc": "Mini-Project 4",
+    "title": "Mini-Project 4: Capstone",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#mini-project-4-capstone",
+    "relUrl": "/react-native/projects/capstone/#mini-project-4-capstone"
+  },"27": {
+    "doc": "Mini-Project 4",
+    "title": "Table of contents",
+    "content": ". | Requirements . | Requirement 1: Create a Functional MVP | Requirement 2: Use the Expo SDK | . | Tracks . | Track 1: Design Track | Track 2: Backend Track | . | Appendix: Idea Bank | . In the final project of this training program, you’ll have the flexibility to tie together everything you’ve learned into a capstone project! . This project is structured differently from the previous projects. Instead of starting with the same starter code as everyone else and working towards the same end product, you’ll be working together in teams of two to create a unique product, with an opportunity to dive deep into to areas that interest you! Every team will have to meet a base set of requirements, which are described below, and choose either the frontend or backend-oriented track. ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#table-of-contents",
+    "relUrl": "/react-native/projects/capstone/#table-of-contents"
+  },"28": {
+    "doc": "Mini-Project 4",
+    "title": "Requirements",
+    "content": "Requirement 1: Create a Functional MVP . What is a MVP? It’s described formally as a “version of a new product a team uses the maximum amount of learning about customers with the least effort.” In other words, we want to take as many shortcuts as we can to get a version of a working product into the hands of our customers. Then, we observe their interactions with our product, and use that learning to guide our decisions in the future. Coming up with a viable app idea is difficult - so we’ve done the work for you! For this project, you can choose from any of the ideas listed in the Appendix. If you have your own idea, feel free to work on that as well - just make sure to run it by your mentor first! Because this is a three week project, we want all ideas to be somewhat on an equal level of difficulty, so we’ve designed the requirements as such. Requirement 2: Use the Expo SDK . The Expo SDK allows us to interface directly with device hardware and native functionality, and offers support for integration with nearly 50 platform-specific features. Your app must implement one of the following modules from the Expo SDK: . Accelerometer, Appearance (e.g. Dark Mode), AsyncStorage, Audio, AV, BarCodeScanner, Barometer, Calendar, Camera, Contacts, DeviceMotion, FaceDetector, Location, MailComposer, MapView, MediaLibrary, Sensors, Sharing, SMS, Video, WebBrowser . ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#requirements",
+    "relUrl": "/react-native/projects/capstone/#requirements"
+  },"29": {
+    "doc": "Mini-Project 4",
+    "title": "Tracks",
+    "content": "Track 1: Design Track . Choose this track if you want to learn more about design! In this track, you’ll have the ability to focus primarily on the design of your application. You must create and submit a Figma mockup before jumping into your application - with careful thought given to application UI/UX. For design inspiration, we recommend checking out Dribbble (create an account and search for “mobile app”). Figma is a drag-and-drop tool for designing visual interfaces. Figma also supports functionality to view CSS for components crated using the editor, which might help translate your designs into code! . If you choose this track, you don’t have to implement every single screen of your complete design - feel free to focus on the screens that are the most important, and feel free to cut out functionality to meet the bare minimum working product! . Track 2: Backend Track . Choose this track if you want to learn more about backend architecture, including setting up a NodeJS backend server! For this track, we recommend using a component library (e.g. React Native Paper) to minimize the amount of time you have to spend designing your application. Additionally, you must do one of the following: . | Set up and deploy an Express/NodeJS server on Heroku, and use it in some way in your app. | Set up and deploy a Javascript (recommended) or Python Firebase/Google Cloud Function, and use it in some way in your app. | . One of the most frequent ways to use one of these servers is to create an orchestration layer between your client and your backend database or dataset. This “orchestration layer” receives requests from your client, and makes the appropriate request to a database or other endpoint. Then, it receives data back and transforms it into a structure that’s easier for the app to consume directly. ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#tracks",
+    "relUrl": "/react-native/projects/capstone/#tracks"
+  },"30": {
+    "doc": "Mini-Project 4",
+    "title": "Appendix: Idea Bank",
+    "content": "| Idea | Track | Expo SDK | . | CalTransit - show all transit stops on a map. On tapping a stop, show a list of all bus predictions (arrival times) for that stop. If backend, funnel all AC Transit API calls through a cloud function or Heroku server. | Either | MapView | . | Berkeley(Time) Mobile - use the BerkeleyTime API to make a mobile app for BerkeleyTime. Add a “pin class” feature that allows a user to take a quick glance at enrollment statistics for any classes they’re considering. | Design | AsyncStorage | . | Virtual Study Buddy Finder (a.k.a. Studybuddy) - create an app that allows people to create a profile, create or join groups using an access code, and toggle whether they’re “online” or “offline” – when they’re online, anyone in the group can see they’re online (along with a Zoom link). Include an “Invite Friends to Group” button. If backend, then create a cloud function that automatically flips users “offline” after one hour of inactivity. | Either | Sharing | . | Crowdsourced Schedule Rater (a.k.a. RateMySchedule) - create an app that allows users to anonymously post their schedule and receive upvotes/downvotes or other comments from the community. If backend, add a content moderation cloud function that redacts swear words from user-created content. | Design | GestureHandler or Appearance | . | BearWalk App (a.k.a. Nightwalker) - create an app with an interface that allows students (“users”) to post their location and their destination, and allows BearWalk volunteers (“admins”) to view and accept requests. Users should be notified with the name of the admin when an admin accepts a request. On sign in, allow people to choose whether they want to register as a user or an admin. If backend, create a cloud function that sends a text message to the appropriate user when an admin has accepted a request. | Either | MapView | . | …more coming |   |   | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/#appendix-idea-bank",
+    "relUrl": "/react-native/projects/capstone/#appendix-idea-bank"
+  },"31": {
+    "doc": "Mini-Project 4",
+    "title": "Mini-Project 4",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/capstone/",
+    "relUrl": "/react-native/projects/capstone/"
+  },"32": {
+    "doc": "Mini-Project 2",
+    "title": "Mini-Project 2: iMDB",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#mini-project-2-imdb",
+    "relUrl": "/react-native/projects/imdb/#mini-project-2-imdb"
+  },"33": {
+    "doc": "Mini-Project 2",
+    "title": "Table of contents",
+    "content": ". | Project Description | App Requirements | Starter Code | Demo | Submission | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#table-of-contents",
+    "relUrl": "/react-native/projects/imdb/#table-of-contents"
+  },"34": {
+    "doc": "Mini-Project 2",
+    "title": "Project Description",
+    "content": "In their pursuit of a mobile app development agency, executives at iMDB stumbled upon MDB! They’ve hired you to create their mobile app for them. ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#project-description",
+    "relUrl": "/react-native/projects/imdb/#project-description"
+  },"35": {
+    "doc": "Mini-Project 2",
+    "title": "App Requirements",
+    "content": ". | Display a list of movies, with the movie poster image, title, and any other information you think is important. | Allow the user to search for a specific movie through a search bar. | If a user taps on a movie, take them to a screen that showcases the movie in detail. Include all attributes about the movie from the dataset. | Include a “Filter” button in the navigation bar that takes a user to a screen that allows users to filter by actor in a multiple-select fashion. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL/OPTION-SHIFT-F does this for you! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#app-requirements",
+    "relUrl": "/react-native/projects/imdb/#app-requirements"
+  },"36": {
+    "doc": "Mini-Project 2",
+    "title": "Starter Code",
+    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp2 yarn install expo install expo start . This project requires you to set up a navigation stack for your app from scratch. Hints are provided in the starter code, along with links to relevant documentation on how to do this. You will need to make changes to the following files: . | MovieListScreen.jsx - holds the main screen (list of movies) | MovieDetailScreen.jsx - holds the detail screen (info about a movie) | MovieFilterScreen.jsx - holds the filter screen | App.js - serves as the entry point of the application; holds app navigation stack | . The list of movies is contained within assets/movies.json. ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#starter-code",
+    "relUrl": "/react-native/projects/imdb/#starter-code"
+  },"37": {
+    "doc": "Mini-Project 2",
+    "title": "Demo",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#demo",
+    "relUrl": "/react-native/projects/imdb/#demo"
+  },"38": {
+    "doc": "Mini-Project 2",
+    "title": "Submission",
+    "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/#submission",
+    "relUrl": "/react-native/projects/imdb/#submission"
+  },"39": {
+    "doc": "Mini-Project 2",
+    "title": "Mini-Project 2",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/imdb/",
+    "relUrl": "/react-native/projects/imdb/"
+  },"40": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/index/",
+    "relUrl": "/react-native/projects/index/"
+  },"41": {
+    "doc": "Mini-Project 1",
+    "title": "Mini-Project 1: Match the Members",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#mini-project-1-match-the-members",
+    "relUrl": "/react-native/projects/match-the-members/#mini-project-1-match-the-members"
+  },"42": {
+    "doc": "Mini-Project 1",
+    "title": "Table of contents",
+    "content": ". | Project Description | Game Requirements | Starter Code | Debugging | Demo | Submission | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#table-of-contents",
+    "relUrl": "/react-native/projects/match-the-members/#table-of-contents"
+  },"43": {
+    "doc": "Mini-Project 1",
+    "title": "Project Description",
+    "content": "Welcome to MDB! As a new member, you’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#project-description",
+    "relUrl": "/react-native/projects/match-the-members/#project-description"
+  },"44": {
+    "doc": "Mini-Project 1",
+    "title": "Game Requirements",
+    "content": ". | Member Picture - Randomly display a picture of a member on the screen. | Name Options - Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer). | Score - Display a score count for the user (# correct / # total). | Timer - Add a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. | . Make sure to install the VSCode Prettier extension to format and auto-style your code. The keyboard shortcut CMD/CTRL/OPTION-SHIFT-F does this for you! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#game-requirements",
+    "relUrl": "/react-native/projects/match-the-members/#game-requirements"
+  },"45": {
+    "doc": "Mini-Project 1",
+    "title": "Starter Code",
+    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp1 yarn install expo install expo start . The starter code contains a framework for getting started, including a Home Screen and a Game Screen. You’ll be making all of your changes to GameScreen.jsx. Here are other files that you should read over: . | App.js - serves as the entry point of the application. Defines the app navigation stack. | HomeScreen.jsx - contains the HomeScreen, which is the landing page of the app. | GameScreen.jsx - contains the GameScreen, which is where the game is played. | Styles.js - contains the CSS stylesheet for the app. | Constants.js - contains the list of all MDB members. | . For this project, the starter code provides you with a fair amount of structure. Make sure to closely read the contents of GameScreen.jsx before getting started! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#starter-code",
+    "relUrl": "/react-native/projects/match-the-members/#starter-code"
+  },"46": {
+    "doc": "Mini-Project 1",
+    "title": "Debugging",
+    "content": "This debugging guide by Expo briefly walks through debugging React Native apps using the Expo Client interface. The React Native docs talk about debugging more complex apps. For these projects, if you’re stuck on something in particular, here’s what you could try – . | Try looking at your code to see if you can catch any obvious typos. Since JavaScript isn’t a compiled language, lots of typo-related bugs make it through to runtime. | Try pasting the error into Google and clicking on the top StackOverflow link. (If you’re using StackOverflow, make sure to actually read the suggested answer!) . | Try adding console.log(...) statements to the appropriate places. | [For Members] Feel free to send a message to the React Native help chat or come to OH! | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#debugging",
+    "relUrl": "/react-native/projects/match-the-members/#debugging"
+  },"47": {
+    "doc": "Mini-Project 1",
+    "title": "Demo",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#demo",
+    "relUrl": "/react-native/projects/match-the-members/#demo"
+  },"48": {
+    "doc": "Mini-Project 1",
+    "title": "Submission",
+    "content": "To submit your project, first commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Then, link your repository to the Gradescope assignment for this project. Finally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/#submission",
+    "relUrl": "/react-native/projects/match-the-members/#submission"
+  },"49": {
+    "doc": "Mini-Project 1",
+    "title": "Mini-Project 1",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/match-the-members/",
+    "relUrl": "/react-native/projects/match-the-members/"
+  },"50": {
+    "doc": "Mini-Project 3A",
+    "title": "Mini-Project 3A: MDB Socials",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#mini-project-3a-mdb-socials",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#mini-project-3a-mdb-socials"
+  },"51": {
+    "doc": "Mini-Project 3A",
+    "title": "Table of contents",
+    "content": ". | Project Description | App Requirements | Starter Code | React Native Paper | Firebase Setup | Demo | Submission | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#table-of-contents",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#table-of-contents"
+  },"52": {
+    "doc": "Mini-Project 3A",
+    "title": "Project Description",
+    "content": "In this project, we’ll be exploring backend data storage/retrieval via Firebase. One of the cool features of Firebase over most other tools is its real-time functionality (in other words, Firebase automatically notifies you when some value in the database is updated). We’ll be building an app called MDB Socials, which will allow members to post and share social events. Note: MDB Socials is the most challenging and most important of all of the MDB Training Program projects. Expect it to be time consuming and difficult but don’t get discouraged! Start early and come to project parties to get help. We’ve also broken the project into two parts (A and B) to reduce workload and keep you on track. ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#project-description",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#project-description"
+  },"53": {
+    "doc": "Mini-Project 3A",
+    "title": "App Requirements",
+    "content": ". | Feed Screen - Display a list of social events posted by any member using the app, sorted by date. | If a social is added to Firebase, the list should update automatically without any user intervention. | . | Detail Screen - Display detailed information about a particular social. | New Social Screen - Allow users to create and post new social events. | Socials have the following attributes: title, location, description, date, and image. | All fields should be validated before a social is created. If any fields are empty, show an error. | A loading indicator should be displayed somewhere when the social is being created. | When the social is created, the app should automatically return to the feed screen. | . | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#app-requirements",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#app-requirements"
+  },"54": {
+    "doc": "Mini-Project 3A",
+    "title": "Starter Code",
+    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp3-a yarn install expo install expo start . In this project, the screens and navigation stack have been set up for you. You’ll need to implement navigation between screens (refer to Project 2) and use state and effect hooks (refer to Project 1 &amp; Lesson 1). You’ll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments. Note that the starter code contains all of the libraries that you’ll need to create this app - you shouldn’t need to install any external libraries, like Firebase, using Yarn! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#starter-code",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#starter-code"
+  },"55": {
+    "doc": "Mini-Project 3A",
+    "title": "React Native Paper",
+    "content": "For this project, we’ll be using React Native Paper, a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. Card, TextInput, Snackbar, etc.). Make sure to read the documentation to identify what props (customization options) are available for each component! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#react-native-paper",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#react-native-paper"
+  },"56": {
+    "doc": "Mini-Project 3A",
+    "title": "Firebase Setup",
+    "content": "This project will require you to set up a Firebase project and database/storage instance. To do so, follow the instructions below. | Sign into Firebase using your Google account. | In the Firebase Console, click Add Project, then enter a Project Name (MDB Socials). | Continue through the setup and click Create Project. | On the project dashboard, select the “Web” option to create a new Web app (you can also do this through the settings page, accessible through the sidebar). | Enter an App Nickname (call it “MDB Socials React Native”) and click Register. | Copy just the firebaseConfig variable from the code snippet provided and add it to the appropriate location in the FeedScreen.jsx file. | . To set up Cloud Firestore (our NoSQL cloud database): . | Click on the Cloud Firestore tab in the sidebar. | Click Create Database and choose Test Mode when prompted. | Select any location for your instance and continue to click Done. | . To set up Cloud Storage (our image storage bucket): . | Click on the Cloud Storage tab in the sidebar. | Select any location for your instance and continue to click Done. | On your storage page, click on the “Rules” tab and change: if request.auth != null; to if true; to allow unauthenticated reads/writes to your bucket for testing. | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#firebase-setup",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#firebase-setup"
+  },"57": {
+    "doc": "Mini-Project 3A",
+    "title": "Demo",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#demo",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#demo"
+  },"58": {
+    "doc": "Mini-Project 3A",
+    "title": "Submission",
+    "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/#submission",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/#submission"
+  },"59": {
+    "doc": "Mini-Project 3A",
+    "title": "Mini-Project 3A",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/",
+    "relUrl": "/react-native/projects/mdb-socials-part-a/"
+  },"60": {
+    "doc": "Mini-Project 3B",
+    "title": "Mini-Project 3B: MDB Socials",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#mini-project-3b-mdb-socials",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/#mini-project-3b-mdb-socials"
+  },"61": {
+    "doc": "Mini-Project 3B",
+    "title": "Table of contents",
+    "content": ". | Project Description | App Requirements | Starter Code | Demo | Submission | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#table-of-contents",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/#table-of-contents"
+  },"62": {
+    "doc": "Mini-Project 3B",
+    "title": "Project Description",
+    "content": "Congratulations on finishing MDB Project 3A! In this project, we’ll be adding several features to your app. If you don’t feel comfortable building off of your code, feel free to reach out to an instructor for the staff solution to Part A! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#project-description",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/#project-description"
+  },"63": {
+    "doc": "Mini-Project 3B",
+    "title": "App Requirements",
+    "content": ". | Create an Account / Sign In - Add functionality to create a user account &amp; sign in to your app. | The password text input should be “secure” (it should show dots instead of the user’s entered password). | If a user who’s signed in quits your app and re-opens it, the they should still be signed in. | If an error occurs at any point, an error should be shown to the user. | . | Sign Out - Add a button that allows a user to sign out. | Reset Password - Include functionality to reset a user’s password. | Delete Social - Include functionality for a user to delete socials that they’ve created. Make sure that they can’t delete socials that other users have created. | Like Button - Add a “Like” button underneath each social, as well as a count of how many unique users have liked a particular social. A user should only be able to like a social once. | . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#app-requirements",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/#app-requirements"
+  },"64": {
+    "doc": "Mini-Project 3B",
+    "title": "Starter Code",
+    "content": "If you’re a member of MDB, please use the invite link provided by your instructor to create your own copy of the starter code. For all others, the starter code is available as a template here. git clone [YOUR_REPOSITORY_LINK_HERE] cd reactnative-mp3-b yarn install expo install expo start . In this project, the screens and navigation stack have been set up for you. You’ll need to implement navigation between screens (refer to Project 2) and use state and effect hooks (refer to Project 1 &amp; Lesson 1). You’ll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments. Note that the starter code contains all of the libraries that you’ll need to create this app - you shouldn’t need to install any external libraries, like Firebase, using Yarn! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#starter-code",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/#starter-code"
+  },"65": {
+    "doc": "Mini-Project 3B",
+    "title": "Demo",
+    "content": "Coming soon! . ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#demo",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/#demo"
+  },"66": {
+    "doc": "Mini-Project 3B",
+    "title": "Submission",
+    "content": "To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. git add . git commit -m \"all features working\" git push origin master . Additionally, please submit a screen recording of your working app here: https://go.mdb.dev/submit-project/. ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/#submission",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/#submission"
+  },"67": {
+    "doc": "Mini-Project 3B",
+    "title": "Mini-Project 3B",
+    "content": " ",
+    "url": "https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/",
+    "relUrl": "/react-native/projects/mdb-socials-part-b/"
+  },"68": {
+    "doc": "Demo 0 - Simple Roll Call",
+    "title": "Demo 0: Simple Roll Call",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/demos/0/#demo-0-simple-roll-call",
+    "relUrl": "/ios/demos/0/#demo-0-simple-roll-call"
+  },"69": {
+    "doc": "Demo 0 - Simple Roll Call",
+    "title": "Table of Contents",
+    "content": ". | Set Up | The Video | . ",
+    "url": "https://learn.mdb.dev//ios/demos/0/#table-of-contents",
+    "relUrl": "/ios/demos/0/#table-of-contents"
+  },"70": {
+    "doc": "Demo 0 - Simple Roll Call",
+    "title": "Set Up",
+    "content": "The following commands will assume that you have finished the setup for mini-project 1. If you haven’t started MP1, please first follow the set up section here before moving on. Navigate to your local MDB iOS TP repo . cd ... then run . git pull starter main . Just like in the project, if a merge window appears, you can use :wq to save and exit (assuming that you use vim). Check the folder and see if it contains a folder named Hackshop 1. Inside the folder you will find two set of code: a starter version and a completed version. The completed version has all the comments and everything. But we recommend that you try to follow along with the starter and the video first. ",
+    "url": "https://learn.mdb.dev//ios/demos/0/#set-up",
+    "relUrl": "/ios/demos/0/#set-up"
+  },"71": {
+    "doc": "Demo 0 - Simple Roll Call",
+    "title": "The Video",
+    "content": "Since we don’t have Hackshop next Monday, the demo is replaced with a 45-min video walkthough! . ",
+    "url": "https://learn.mdb.dev//ios/demos/0/#the-video",
+    "relUrl": "/ios/demos/0/#the-video"
+  },"72": {
+    "doc": "Demo 0 - Simple Roll Call",
+    "title": "Demo 0 - Simple Roll Call",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/demos/0/",
+    "relUrl": "/ios/demos/0/"
+  },"73": {
+    "doc": "Demos",
+    "title": "Demos",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/demos/index/",
+    "relUrl": "/ios/demos/index/"
+  },"74": {
+    "doc": "Overview",
+    "title": "iOS Training Program",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/index/#ios-training-program",
+    "relUrl": "/ios/index/#ios-training-program"
+  },"75": {
+    "doc": "Overview",
+    "title": "Spring 2021 Calendar",
+    "content": "| Day | Assignment                                                                                       | . | Monday, 2/8 | Lesson 0 Released | . | Thursday, 2/11 | MP 1 Released | . | Monday, 2/15 | Lesson 1 Released | . | Sunday, 2/21 | MP 1 Due | . | Monday, 2/22 | Lesson 2 Released MP 2 Released | . | Sunday, 2/28 | MP 2 Due | . | Monday, 2/29 | Lesson 3 Released MP 3A Released | . | Sunday, 3/7 | MP 3A Due | . | Monday, 3/8 | Lesson 4 Released MP 3B Released | . | Sunday, 3/14 | MP 3B Due | . | Monday, 3/15 | Lesson 5 Released MP 4 Released | . | Sunday, 3/28 | MP 4 Due | . ",
+    "url": "https://learn.mdb.dev//ios/index/#spring-2021-calendar",
+    "relUrl": "/ios/index/#spring-2021-calendar"
+  },"76": {
+    "doc": "Overview",
+    "title": "Lessons",
+    "content": ". | Lesson 0: Introduction to Swift and iOS Development | Lesson 1: UIKit, MVC, and Delegates | Lesson 2: Navigation, Custom View, and Interface Builder | Lesson 3: Networking and Concurrency | Lesson 4: Design | Lesson 5: TBD | . ",
+    "url": "https://learn.mdb.dev//ios/index/#lessons",
+    "relUrl": "/ios/index/#lessons"
+  },"77": {
+    "doc": "Overview",
+    "title": "Mini-Projects",
+    "content": ". | MP 1: Meet the Member | MP 2: Pokédex | MP 3A/3B: MDB Social | MP 4: TBD | . ",
+    "url": "https://learn.mdb.dev//ios/index/#mini-projects",
+    "relUrl": "/ios/index/#mini-projects"
+  },"78": {
+    "doc": "Overview",
+    "title": "Grading",
+    "content": ". | Final - 15% | Mini-Project - 60% . | Mini-Project 1 - 10% | Mini-Project 2 - 15% | Mini-Project 3 - 20% . | 3A - 10% | 3B - 10% | . | Mini-Project 4 - 15% | . | Ideation - 5% | Development Cycle - 20% | . ",
+    "url": "https://learn.mdb.dev//ios/index/#grading",
+    "relUrl": "/ios/index/#grading"
+  },"79": {
+    "doc": "Overview",
+    "title": "Overview",
+    "content": ". ",
+    "url": "https://learn.mdb.dev//ios/index/",
+    "relUrl": "/ios/index/"
+  },"80": {
+    "doc": "Lesson 0",
+    "title": "Introduction to Swift and iOS Development",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#introduction-to-swift-and-ios-development",
+    "relUrl": "/ios/lessons/0/#introduction-to-swift-and-ios-development"
+  },"81": {
+    "doc": "Lesson 0",
+    "title": "Table of Contents",
+    "content": ". | Getting Started . | Install Xcode | . | The Swift Programming Language . | Constants and Variables | Collection Types . | Array | Dictionary | Set | . | Control Flow . | If Statement | For-In Loops | While Loops | . | Functions | Classes | Structs | Optionals . | Force Unwrapping | Optional Binding | Early Exit | . | . | Introduction to iOS Development . | Create Your First Xcode Project | Xcode Interface | Basic File Structure and Management | View Controllers and Views . | View Management | Life Cycle | . | First Custom View . | Frames | AutoLayout and Constraints | Anatomy of a Constraint | Provide Enough Information to Auto Layout | Prevent Frame to be Translated into Constraint | . | . | . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#table-of-contents",
+    "relUrl": "/ios/lessons/0/#table-of-contents"
+  },"82": {
+    "doc": "Lesson 0",
+    "title": "Getting Started",
+    "content": "Hello everyone and welcome to ΜΔΒ 🎉🎉🎉. Congratulations on making it through the interview 🥳! A bit about myself: my name is Michael, currently a sophomore studying CS and Econ. I love biking, playing badminton and I had been playing ice hockey for five years before coming to college. I cook almost every day: mostly Chinese food but I do occasionally try to make other stuff too. I’m an international student from China so I speak native mandarin (which is also why there’s probably gonna be lots of typos in what you are about to see: I had to run it through Grammarly twice to make sure I don’t make stupid mistakes). But anyway, I’m super excited to have you all this semester and I assure you it’s gonna be great! . To start things off, I know the TOC looks scary, but I promise you this is only gonna be the first week. iOS dev is awesome. However, it does come with a little bit of a learning curve. Be patient and be sure to ask question! Also special thanks to our two amazing mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups. Without further ado, let’s get started 🚢🚢 . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#getting-started",
+    "relUrl": "/ios/lessons/0/#getting-started"
+  },"83": {
+    "doc": "Lesson 0",
+    "title": "Install Xcode",
+    "content": "If you haven’t done it already, go to App Store and install the latest version of Xcode. The entire SDK would be around 30G, but it can get to 40G or even 60G after compiling some larger projects. So you might need to free up some space before doing that. For the following Swift Tutorial, it might be helpful to try out some of the expressions yourself. In that case, you can use a Swift Playground. It’s a place where you can conveniently run your Swift code and it’s mainly used as an educational tool. To create a Swift Playground, you will first need to set up and launch Xcode. When you are on this screen, go to the top-left menu bar and select File &gt; New &gt; Playground.. When Xcode asks you to choose a template, double click Blank. For the file location, my experience is you can keep it anywhere you like, but if you are using iCloud storage, do NOT put any Xcode files or projects in the folder that’s using iCloud (generally that would mean Desktop and Documents). Especially when we start using Cocoapods, Xcode might start duplicating files if your local files are replaced with iCloud references. ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#install-xcode",
+    "relUrl": "/ios/lessons/0/#install-xcode"
+  },"84": {
+    "doc": "Lesson 0",
+    "title": "The Swift Programming Language",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#the-swift-programming-language",
+    "relUrl": "/ios/lessons/0/#the-swift-programming-language"
+  },"85": {
+    "doc": "Lesson 0",
+    "title": "Constants and Variables",
+    "content": "In Swift, you declare a constant with the let keyword and variables with the var keyword. var foo = “Hello” /* Variable */ let bar = “World” /* Constant */ . You cannot reassign the value of a constant once it’s declared. You can specify the type of a variable or constant using :. This also allows you to declare a variable or constant without initializing it. However, it will not be usable until you give it a value (even nil). var name: String name = “Oski” . If you do not specify a type, Swift can infer it from the value it was initially assigned to. This is known as type inference. Swift is a strongly-typed language. That means you can’t reassign the value of a variable or constant to a different type once it’s declared. For naming, always stick to lowerCamelCase for constants and variables. ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#constants-and-variables",
+    "relUrl": "/ios/lessons/0/#constants-and-variables"
+  },"86": {
+    "doc": "Lesson 0",
+    "title": "Collection Types",
+    "content": "Swift provides three primary collection types, known as arrays, sets, and dictionaries, for storing collections of values. Arrays are ordered collections of values. Sets are unordered collections of unique values. Dictionaries are unordered collections of key-value associations. Array . The type of a Swift array is written in full as Array&lt;Element&gt;, where Element is the type of values the array is allowed to store. You can also write the type of an array in shorthand form as [Element]. Therefore, an array can be declared like this . var libraries: [String] = [\"Moffitt\", \"Main Stack\", \"EAL\"] . Retrieve or modify a value from the array by using a subscript. var firstItem = libraries[0] libraries[1] = \"Music Library\" . Append a new value by calling the append(_:) method . libraries.append(\"Engineering Library\") . Alternatively, append an array of one or more compatible items with the addition assignment operator += . libraries += [\"Law Library\", \"Bancroft\"] . Dictionary . The type of a Swift dictionary is written in full as Dictionary&lt;Key, Value&gt;, where Key is the type of value that can be used as a dictionary key, and Value is the type of value that the dictionary stores for those keys. You can also write the type of a dictionary in shorthand form as [Key: Value]. Therefore, a dictionary can be declared like this . var distance: [String: Double] = [\"Moffitt\": 0.9, \"Main Stack\": 1.0, \"EAL\": 1.1] print(\"The dictionary contains \\(distance.count) items.\") // Prints \"The dictionary contains 3 items.\" . Similar to arrays, you can retrieve or modify a value from the dictionary using subscript. distance[\"Main Stack\"] = 1.3 distance[\"Moffitt\"] . However, there is no append(_:) method in dictionary. To add a new value, simply use the subscript. distance[\"Music Library\"] = 1.5 . Set . The type of a Swift set is written as Set, where Element is the type that the set is allowed to store. Sets do not have an equivalent shorthand form. A set can be created with an array literal. var libraries: Set&lt;String&gt; = [\"Moffitt\", \"Main Stack\", \"EAL\"] . You can insert an element by calling the set’s insert(_:) method. To check whether a set contains a particular item, use the contains(_:) method. ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#collection-types",
+    "relUrl": "/ios/lessons/0/#collection-types"
+  },"87": {
+    "doc": "Lesson 0",
+    "title": "Control Flow",
+    "content": "If Statement . In swift, a basic if statement looks like this . if condition { action } . You can chain multiple if statement together using else if and else . if condition { statements } else if { statements } else { statements } . You can combine multiple predicates using the logical operator ! || &amp;&amp;. For single-expression if statements, you can usually simplify them with the ternary operator . condition ? expression : expression . If the condition is true, the first expression will be executed and its return value would be the return value of the whole statement. A simple example can look like this . var feel: String = temp &gt; 75 : \"hot\" : \"ok\" . For-In Loops . You use the for-in loop to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string. let names: [String] = [\"Anna\", \"Alex\", \"Brian\", \"Jack\"] for name in names { print(\"Hello, \\(name)!\") } . You can also use in to iterate through a dictionary. That would give you all of its key-value pairs. let numberOfLegs: [String: Int] = [\"spider\": 8, \"ant\": 6, \"cat\": 4] for (animalName, legCount) in numberOfLegs { print(\"\\(animalName)s have \\(legCount) legs\") } . While Loops . A while loop starts by evaluating a single condition. If the condition is true, a set of statements is repeated until the condition becomes false. while condition { statements } . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#control-flow",
+    "relUrl": "/ios/lessons/0/#control-flow"
+  },"88": {
+    "doc": "Lesson 0",
+    "title": "Functions",
+    "content": "Every function is a chunk of code that performs a specific task. It is defined using the keyword func followed by the name of the function. Optionally, you can define one or more parameters to be passed in as input. You can also specify the return type using -&gt;. For example, a simple function declaration can look like this. func answer(question: String) -&gt; String { } . You would then call the function using its name and parameter, which will return a String. var answer1: String = answer(question: \"Question 1\") . For each parameter, you can also specify its label, and it will be used when you are calling the function. This helps to create easier to read function calls like this. func answer(for question: String) -&gt; String { } var answer1: String = answer(for: \"Question 1\") . By default, the argument labels are the same as the parameter names, and will be used when calling the function like in answer(question: \"Question 1\"). If you want no function label at all during the function call, write an underscore _ for that parameter. func answer(_ question: String) -&gt; String { } var answer1: String = answer(\"Question 1\") . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#functions",
+    "relUrl": "/ios/lessons/0/#functions"
+  },"89": {
+    "doc": "Lesson 0",
+    "title": "Classes",
+    "content": "If you are new to the OOP (Object-Oriented Programming) model, there are many ways of describing classes. But here is my favorite: Think of it as a blueprint for a house. You can create multiple instances of that house with the same blueprint, but the interior design which is the data is going to be different. Each house operates on its own, but they all share the same structure and behaviors. In Swift, classes are declared using the class keyword. You define properties and methods to add functionality to your classes using the same syntax you use to define constants, variables, and functions. class User { var username: String = \"\" var email: String = \"\" func printEmail() { print(email) } } . A class can inherit methods, properties, and other characteristics from another class. When one class inherits from another, the inheriting class is known as a subclass, and the class it inherits from is known as its superclass. class Admin: User { managedUsers: [User] = [] } . The value assigned with property declarations are the default values that will be assigned during class initialization. If no default value is specified, a custom initializer is needed. class Admin: User { managedUsers: [User] init(withManagedUsers users: [User]) { self.managedUsers = users super.init() } } . Members of an class (either a property or a method) can be accessed using the dot notation .. let user = User() let user.email = \"example@domain.com\" . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#classes",
+    "relUrl": "/ios/lessons/0/#classes"
+  },"90": {
+    "doc": "Lesson 0",
+    "title": "Structs",
+    "content": "In Swift, structures and classes have very similar functionalities. Both of them can define properties and methods, conform to protocols, and be extended using an extension (we will talk about the last two in the next lesson). struct Event { var eventName: String var startTime: Date var endTime: Date // Initializer } . However, there are a few key differences too: . | Classes can inherit from another class and/or conform to one or more protocols whereas structures can only conform to protocols. | Classes are reference types whereas structures are value types. Semantically, a value type is a type whose value is copied when it’s assigned to a variable or constant, or when it’s passed to a function. This is also the reason why, in the example above for dot notation, we were able to assign an user instance to a let constant and still be able to change its stored value email. Because when reassigning email, the underlying reference in user hasn’t changed. But if User is defined as a struct, let user would then be representing a value instead of a reference. Then changing the email would be considered mutating that value, which is not allowed for a constant. | . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#structs",
+    "relUrl": "/ios/lessons/0/#structs"
+  },"91": {
+    "doc": "Lesson 0",
+    "title": "Optionals",
+    "content": "Optional is a special type in Swift. It is used with another type and adds nil to the possible values of that type. In short, it handles the absence of a value. For example, an optional String means there’s either a String, or there’s no value at all. A regular, non-optional type cannot be nil. var name: String? = nil name = \"🐻\" . The process to retrieve the value from an optional is called unwrapping. In general, there are many ways of unwrapping an optional, but we will focus on three of the most common ones today. Force Unwrapping . Force unwrapping is the most straightforward way of unwrapping an optional. It is done by adding ! to the end of a variable. var name: String? = nil name = \"🐻\" var nameNonOptional: String = name! . However, force unwrapping will crash your code if the optional is nil. So in practice, you should force unwrap only when you’re sure it’s safe. As a side note, it is possible to define optional values without having to unwrap them every time in order to use them. let name: String! = nil name = \"🐻\" . This is called implicitly unwrapped optional. The optional values defined using this method behave as if they were already unwrapped. But if you try to use them when they are nil, your code will crash. This is commonly used for variables that start as nil, but will always have a value before you need to use it. Optional Binding . You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable. var name: String? = nil name = \"🐻\" if let nameNonOptional = name { print(\"The name is \\(nameNonOptional)\") // The name is 🐻 } else { print(\"Name not available\") } . Multiple values can be bound in a single if-let statement. Each statement is separated using a comma. In the following example, failable initializer Int(_:) returns an optional integer Int?. var startStr = \"2\", endStr = \"10\" if let startDay = Int(startStr), let endDay = Int(endStr) { print(\"Span: \\(endDay - startDay) days\") } . You can also use regular boolean expression in an if-let. For example, if we want to print only when the day difference is more than 0: . if let startDay = Int(startStr), let endDay = Int(endStr), endDay &gt; startDay { print(\"Span: \\(endDay - startDay) days\") } . Early Exit . A guard statement behaves very similarly to an if statement. It uses a boolean expression to determine whether to continue executing code in a function or transfer control to exit the code. In another word, guard checks for requirements in a specific line of code. let calendar = NSCalendar.current // Friday? guard calendar.component(.weekday, from: Date()) == 6 else { return } print(\"Smash Bros 🎮 🎉\") . However, the reason why guard is introduced here is that it’s most commonly used with let to create a conditional binding that’s available in the same block scope, and it works pretty much the same as the if-let statement. var startStr = \"2\", endStr = \"10\" guard let startDay = Int(startStr), let endDay = Int(endStr), endDay &gt; startDay else { return } print(\"Span: \\(endDay - startDay) days\") . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#optionals",
+    "relUrl": "/ios/lessons/0/#optionals"
+  },"92": {
+    "doc": "Lesson 0",
+    "title": "Introduction to iOS Development",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#introduction-to-ios-development",
+    "relUrl": "/ios/lessons/0/#introduction-to-ios-development"
+  },"93": {
+    "doc": "Lesson 0",
+    "title": "Create Your First Xcode Project",
+    "content": "While I’ve mentioned earlier that Swift Playground is good for trying out code and ideas, an Xcode project is where the real iOS development begins. Although you won’t need to create your own project for MP1, you should always know how to create one. This short video takes you step by step through the process. ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#create-your-first-xcode-project",
+    "relUrl": "/ios/lessons/0/#create-your-first-xcode-project"
+  },"94": {
+    "doc": "Lesson 0",
+    "title": "Xcode Interface",
+    "content": "Once you’ve created the project, take a moment to familiarize yourself with the interface. There’s a lot of information on screen, so this video is going to break it down to help you understand. ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#xcode-interface",
+    "relUrl": "/ios/lessons/0/#xcode-interface"
+  },"95": {
+    "doc": "Lesson 0",
+    "title": "Basic File Structure and Management",
+    "content": "As we are getting used to the interface, let’s take a look at the basic file structure that comes with the default app template and how Xcode manages them. ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#basic-file-structure-and-management",
+    "relUrl": "/ios/lessons/0/#basic-file-structure-and-management"
+  },"96": {
+    "doc": "Lesson 0",
+    "title": "View Controllers and Views",
+    "content": "The first main concept we are going to introduce here is the view controller. View controllers are the foundation of your app. Every app has at least one view controller, and most apps have several. It manages components of your app’s interface called views as well as the interactions between that interface and the underlying data. View controllers are like screens. For example, when switching between tabs, you are switching between different view controllers. So in essence, They are the building blocks of your app’s navigation. You create your custom view controller through subclassing the build-in UIViewController class from the UIKit framework. In the following example, we declare a view controller called HomeViewController and set its backgroundColor to red. import UIKit class HomeViewController: UIViewController { override func viewDidLoad() { super.viewDidLoad() view.backgroundColor = UIColor.systemRed } } . Custom view controllers are usually named XXXViewController or XXXVC for short. Just like any other type in Swift, you should always use UpperCamelCase when naming view controllers. There should be only one view controller in each file, and the name of the file should be View Controller's Name.swift. View Management . The most important role of a view controller is to manage a hierarchy of views. Every view controller has a single root view that encloses all of the view controller’s content. To that root view, you add the subviews you need to display your content. The parent view of a subview is also called the superview. You access a view controller’s root view through the self.view property (or just view where self pointer can be omitted). All view components in UIKit are subclasses of the UIView class, which defines the behaviors that are common to all views. You can add subview to any view using the addSubview(_:) method. Life Cycle . A view controller comes with a set of methods that manage its view hierarchy. iOS automatically calls these methods at appropriate times when a view controller transitions between states. These transitions are known as the Life Cycle Events. When you create a view controller subclass, it inherits the methods defined in UIViewController and lets you add your own custom behavior for each method. One method you’ve seen so far is viewDidLoad(). It’s called after th e views in a view controller are created and loaded into memory. Since this usually only happens once in the view controller’s entire lifecycle, viewDidLoad() is commonly used for styling, adding subviews, and creating and activating constraints. Other life cycle methods such as viewDidAppear(), viewWillAppear(), viewWillDisappear() and etc., can be called multiple times depending on how the view controller behaves. You define the custom behaviors for a lifecycle event by overriding the default implementation of the corresponding lifecycle method. override func viewDidLoad() { super.viewDidLoad() view.backgroundColor = UIColor.systemRed } . Note: Although superclass implementation in super.viewDidLoad() doesn’t do anything, it’s a good habit to call super for all functions you override that don’t have a return value. ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#view-controllers-and-views",
+    "relUrl": "/ios/lessons/0/#view-controllers-and-views"
+  },"97": {
+    "doc": "Lesson 0",
+    "title": "First Custom View",
+    "content": "As you’ve learned in the previous section, the build-in viewDidLoad() is useful for many one-time setups including styling and adding subviews. However, although it is possible to create, style, and add subview entirely using viewDidLoad(), it is not recommended for many reasons: . | As your UI grows more complex, viewDidLoad() tends to get very bloated, which is bad for readability. | If you want to keep a reference of the views created, you’d have to declare an optional instance variable which initializes to nil, then fill in the value in viewDidLoad(). | . Therefore, it is common to defer some of that setup to the initialization phase before viewDidLoad() kicks in. Conveniently, Swift allows us to initialize a variable along with the declaration using a closure, which is kinda like the lambda expression in Python. Recall that in Python we can write tiny, “anonymous” functions like this . lambda x, y: x * y . and in Swift, the equivalent closure can look like this . { x, y in return x * y } . We will formally introduce closure in our next lesson, but for now let’s just stick to the notion that it’s just a portable function that can be called and passed around. In this video, we will see how to use this pattern to create a UILabel and add it to the rootview. Frames . In the last video we used something called frame to create our UILabel, and you probably already have a little idea what that’s for. UILabel(frame: CGRect(x: 0, y: 88, width: UIScreen.main.bounds.width, height: 60)) . In UIKit, the position of a view is described by a point-based coordinate system. It starts from the top left of the referencing view (0, 0) and ends at the bottom right. A frame is a rectangle that defines the size and position of the view in its superview’s coordinate system. In the example above, we used UIScreen.main.bounds because the root view has the same frame as the screen. In fact, we can use view.bounds.width and the effect would’ve been the same. But we will then have to set our frame in viewDidLoad because self.view (or in particular, self) isn’t available in the instance initialization phase. welcomeLabel.frame = CGRect(x: 0, y: 88, width: view.bounds.width, height: 60) . Note: The difference between frame and bounds is detailed in -this article. One thing to keep in mind is that for UILabel, changing the frame will not affect the physical size of the label, unless the frame causes it to overflow. This is because the frame only specifies a rectangle to which we put our view in. The size of the label itself is controlled by its font size, which was set through UILabel.font and was 27 points in our last example. However, if we set the background color to something we will be able to see, resizing the frame does change the way it looks. AutoLayout and Constraints . Although using frame seems clean and definitive, it does come with quite a few drawbacks: . Since different iOS devices may have different screen sizes (iPhone 12 Pro Max: 428×926 points; iPhone XR: 414×896 points), aligning the views can be tedious and oftentimes tricky. Most of the time it often involves computing all the values dynamically. For example, if we want our 200×70 label to be at the center of every screen, we would have to do this . let width = 200 let height = 70 let x = (UIScreen.main.bounds.width - width) / 2 let y = (UIScreen.main.bounds.height - height) / 2 label.frame = CGRect(x: x, y: y, width: width, height: height) . It only gets worse when you add multiple layers of subviews or trying to accommodate smaller screens. Therefore, in practice, we rarely use frame to set the position and size of a view, instead, we use another layout method called Auto Layout. Auto Layout defines your user interface using a series of constraints. A constraint typically represents a relationship between two views such as spacing or alignment. iOS will then dynamically calculate the location and size of each view to satisfy these constraints. This creates layout that’s responsive to the device’s size and orientation changes. Anatomy of a Constraint . In Auto Layout, the anchors define a feature that can be constrained. In general, this includes the four edge anchors (leading, trailing, top, and bottom), as well as the height, width, and vertical and horizontal centers anchors. Each view manages its own anchors, and they are accessible as the view’s property. For instance, view.leadingAnchor would give you the leading anchor of view. Try typing out view.anchor inside any viewDidLoad() method. You should see a list of all available anchors showing up. We will be using these anchors to define our constraints. Essentially, a constraint is a linear equation of anchors. For example, the following layout relation . can be expressed using the pseudocode equation . red.leadingAnchor = blue.trailingAnchor + 8.0 . Recall that in iOS, the origin is at the top left corner of the screen. So this + here means to the right by 8 points. If it is -, it would mean to the left. Whether to use the x or y axis is determined by the anchor you use. red.topAnchor = blue.bottomAnchor + 8.0 . So the above constraint means the redView’s top anchor would be 8 points towards the bottom away from the blueView’s bottom anchor. In Swift, constraints are typically created by calling the constraint(...) method on the anchor that’s going to be the left side of the equation. Suppose the two views are called redView and blueView, then the constraint can be defined like this . let constraint = redView.leadingAnchor.constraint(equalTo: blueView.trailingAnchor, constant: 8) . After that, you will have to activate the constraint . constraint.isActive = true . Or, if you don’t need to keep a reference to that constraint (meaning you don’t need to change it in the future), you can just write everything in a single line. redView.leadingAnchor.constraint(equalTo: blueView.trailingAnchor, constant: 8).isActive = true . Programmatic constraints can look very daunting at first. But don’t worry! We will go over that in greater details during the next Hackshop, and it will become more efficient and less error-prone than storyboard constraints once you get used to them. Provide Enough Information to Auto Layout . OK. I know that’s a bad title. But hey, the idea is clear: You need to give enough layout information (i.e. constraints) to auto layout because otherwise it gets confused. For instance, in our last example, we only specified the relative position between redView and blueView, as shown in this pseudocode equation . red.leadingAnchor = blue.trailingAnchor + 8.0 . Without more information on the redView and blueView, there’s no way for the Auto Layout to know where to put these views. Therefore, constraints are more commonly created between a fixed anchor (anchors with known location), and variable anchor (a.k.a your view). In a view controller, the easiest-to-get fixed anchors are the ones in the root view (from self.view in case you forgot). The top, leading, bottom, trailing anchors of the root view are essentially the edges of the screen, which is always fixed. In this more complex example, the view with the light grey background is the root view. The layout of the two views in dark grey is defined using a total of 8 contraints. Prevent Frame to be Translated into Constraint . By default, if you create a view programmatically, it is using the frame-based layout, even when no frame is passed into the initializer. This will result in the default frame ((x: 0, y: 0, width: 0, height: 0)) being translated into constraint and cause you view to vanish. To disable this behavior, set the translatesAutoresizingMaskIntoConstraints property to false. let label = UILabel() label.translatesAutoresizingMaskIntoConstraints = false label.text = \"GME GO BRRR\" // Customization view.addSubview(label) // Add Subview // Your constraints . ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/#first-custom-view",
+    "relUrl": "/ios/lessons/0/#first-custom-view"
+  },"98": {
+    "doc": "Lesson 0",
+    "title": "Lesson 0",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/0/",
+    "relUrl": "/ios/lessons/0/"
+  },"99": {
+    "doc": "Lesson 1",
+    "title": "UIKit, MVC, and Delegates",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#uikit-mvc-and-delegates",
+    "relUrl": "/ios/lessons/1/#uikit-mvc-and-delegates"
+  },"100": {
+    "doc": "Lesson 1",
+    "title": "Table of Contents",
+    "content": ". | Swift . | Enumerations | Protocols | Closures | . | Collection View . | Instantiating a UICollectionView | Designing Collection View Cell | Passing Data to the Collection View | . | Container View Controllers . | Navigation Controller | TabBarController | . | Model-View-Controller (MVC) | . ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#table-of-contents",
+    "relUrl": "/ios/lessons/1/#table-of-contents"
+  },"101": {
+    "doc": "Lesson 1",
+    "title": "Swift",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#swift",
+    "relUrl": "/ios/lessons/1/#swift"
+  },"102": {
+    "doc": "Lesson 1",
+    "title": "Enumerations",
+    "content": "An enumeration, or enum, defines a finite set of values and enables you to work with those values in a type-safe way within your code. An enum is declared with the enum keyword. enum Direction { case east, south, west, north } var currDirection: Direction = Direction.north . In most cases, the enum type can be inferred, allowing you to use the dot syntax . currDirection = .south . To check the case of an enum, you can use a switch . switch currDirection { case .east: print(\"Memorial Stadium\") case .south: print(\"Sproul Hall\") case .west: print(\"Valley Life Science\") case .north: print(\"Soda Hall\") } . or an if . if case .north = currDirection { print(\"Soda Hall\") } . The if-case statement works similarly to the if-let statement we saw in Lesson 0: both can be combined together or with other boolean predicates using ,. ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#enumerations",
+    "relUrl": "/ios/lessons/1/#enumerations"
+  },"103": {
+    "doc": "Lesson 1",
+    "title": "Protocols",
+    "content": "A protocol defines a blueprint of methods, properties, and other requirements for a particular task or functionality. Classes, structures, and enums can conform to a protocol by providing an implementation to the requirements. A protocol is defined with the keyword protocol. protocol CalIdentifiable { var CalID: String { get set } func writeCode(_ ha: Bool) -&gt; String } . In the above example, we defined the protocol CalIdentifiable. We say that in order for an entity to be “CalIdentifiable”, it must have a variable named CalID, and it must also have a method writeCode, which takes in a Bool and returns a String. Notice the method signature and return type has to exactly match. The {get set} simply means that the variable must be both readable and writable. So when we are implementing our Student class, we can make it conforms to the CalIdentifiable protocol by (1) declaring the conformance, and (2) implement the requirements. class Student: CalIdentifiable { var CalID: String = \"602214076\" func writeCode(_ ha: Bool) -&gt; String { return \"echo \\\"Hello World\\\"\" } } . However, the example above might seem a bit trivial, because the real power of protocols is when we want to define multiple entities. class DeNero: CalIdentifiable { var CalID: String = \"831446261\" func writeCode(_ ha: Bool) -&gt; String { return \"diff(mystery, diff(mystery, mystery))\" } } . Then imagine that in CalCentral, we want to have a list that stores all the users, whether they are Student or DeNero. We can just say . class CalCentral { var users: [CalIdentifiable] = [] } . ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#protocols",
+    "relUrl": "/ios/lessons/1/#protocols"
+  },"104": {
+    "doc": "Lesson 1",
+    "title": "Closures",
+    "content": "A closure is an anonymous function that can be passed around and used in your code. It is similar in the way how lambda expression works in Python, only more powerful. You do not need any special keyword to declare a closure, you simply define it using a set of curly brackets { } . { print(\"This is a closure\") } . It can be called just like any normal function with parentheses (), as you’ve already seen in our UI components declaration . { let label = UILabel() /* Customization */ return label }() . A closure can have one or more parameters, defined at the beginning of the closure, and are separated from the body of the closure using a keyword in . { (foo: String, bar: Int) in print(\"foo: \\(foo), bar: \\(bar)\") } . A closure can be assigned as a variable, whose type will then have to match the parameter types as well as the return type of the assigned closure. let myClosure: (Int)-&gt;String = { (number: Int) in return String(number) } myClosure(271828182) . Since closures are usually assigned to places with defined contextual type such as a functional parameter, you will often see closures defined only with the positional arguments . let myClosure: (Int)-&gt;String = { number in return String(number) } . Here number is assumed to have an Int type. If the actual type of the closure does not match the contextual type, whether due to incorrect arguments or return type, or the number of positional arguments, Xcode will throw a compile-time error. let myClosure: (Int)-&gt;String = { // Error return String(number) } let myClosure: (Int)-&gt;String = { (number: Float) in // Error return String(number) } let myClosure: (Int)-&gt;String = { number, something in // Error return String(number) } . To make closures both powerful and lightweight, Swift provides several syntax optimization for simple closures: . If the body of a closure only has a single statement, the return keyword is inferred . let myClosure: (Int)-&gt;String = { number in String(number) } . Swift automatically provides shorthand argument names to inline closures, which can be used to refer to the values of the closure’s arguments by the names $0, $1, $2, and so on. let myClosure: (Int)-&gt;String = { number in String($0) } . In the case above, the argument list and the in keyword can also be omitted. let myClosure: (Int)-&gt;String = { String($0) } . ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#closures",
+    "relUrl": "/ios/lessons/1/#closures"
+  },"105": {
+    "doc": "Lesson 1",
+    "title": "Collection View",
+    "content": "So far we’ve seen quite a few basic components from UIKit: UILabel for text, UIButton for interacting with the user, UIImageView (from project 1) for displaying an image, and UIStackView (from demo 1) for easier layout. While there’re many more built-in components like those shown in the picture above, for now we will shift our focus towards the compositional side the UI, meaning how to combine these basic components into a coherent user experience. For iOS, one of the most powerful tools in our repertoire is the UICollectionView. It is a view that manages and presents an ordered, structured collection of data items. Collection views have come a long way since it was first introduced in iOS 6. In WWDC19, it received another major update which makes it extremely versatile. This entire page of the App Store is implemented with a single collection view. Although we won’t go into these latest updates in this lesson, we might revisit at a later date if we have time. For those who are already familiar with UICollectionView and interested in this topic, check out this WWDC19 session . ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#collection-view",
+    "relUrl": "/ios/lessons/1/#collection-view"
+  },"106": {
+    "doc": "Lesson 1",
+    "title": "Instantiating a UICollectionView",
+    "content": "The most basic collection view comprises a layout object and some cells, and the most basic type of layout you can use is the flow layout. It is shipped with the concrete UICollectionViewFlowLayout class and is available in UIKit. let layout = UICollectionViewFlowLayout() . The flow layout places cells on a linear path and fits as many cells along that line as it can. When the layout object runs out of room on the current line, it creates a new line and continues the layout process there. The flow layout defines several attributes that you can use to customize your layout, such as . layout.minimumLineSpacing = 40 layout.minimumInteritemSpacing = 5 . To use a layout in a collection view, it has to be passed in during initialization . /* ViewDidLoad */ let layout = UICollectionViewFlowLayout() let collectionView = UICollectionView(frame: view.bounds, collectionViewLayout: layout) view.addSubview(collectionView) . This initialize a flow-layout collection view with the same size as the root view of the current view controller. ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#instantiating-a-uicollectionview",
+    "relUrl": "/ios/lessons/1/#instantiating-a-uicollectionview"
+  },"107": {
+    "doc": "Lesson 1",
+    "title": "Designing Collection View Cell",
+    "content": "A collection view cell is typically defined as a subclass of the built-in UICollectionViewCell class. It can be defined outside of the view controller as a separate class or inside the view controller as nested types. Each UICollectionViewCell subclass must have a reuse identifier and it must register with the collection view that is going to use it. This video will walk you through the details of creating a collection view cell class. ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#designing-collection-view-cell",
+    "relUrl": "/ios/lessons/1/#designing-collection-view-cell"
+  },"108": {
+    "doc": "Lesson 1",
+    "title": "Passing Data to the Collection View",
+    "content": "Now that we have our cells ready to go, we can start adding them to the collection view. The pattern we are going to use is called delegation. Delegation is an OOP design pattern that enables an object to “delegate” a part of its functionality to another object. In our case, because we want the collection view to stay as a view, we will have it “ask” the view controller for its data. This establishes our view controller as the single source of truth for all the views, and is an important piece of the software design model called MVC (we will discuss this later). To make our view controller “suitable” for performing the tasks as a collection view data source, we will first have it conforms to the UICollectionViewDataSource protocol. The protocol then requires our view controller to implement two methods . func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -&gt; Int func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -&gt; UICollectionViewCell . The first method ask how many cells are in each section, and the second one ask for the specific cell instance at the index path. By default your collection view will only have one section, but you can override that by implementing the optional requirement numberOfSections(in collectionView: UICollectionView) -&gt; Int. In this video, we will complete the image cell collection view from the last video, and populate our collection view with SF Symbols. ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#passing-data-to-the-collection-view",
+    "relUrl": "/ios/lessons/1/#passing-data-to-the-collection-view"
+  },"109": {
+    "doc": "Lesson 1",
+    "title": "Container View Controllers",
+    "content": "Container view controllers are a special type of view controllers whose main job is to manage other view controllers. They are used to combine content from multiple VCs into a single user interface. It is most commonly used in navigation control such as stacks (UINavigationController), pages (UIPageViewController), and tabs (UITabBarController). Though you can implement custom container view controller to achieve a wide range of functionality, we will only be focusing on the built-in ones today. ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#container-view-controllers",
+    "relUrl": "/ios/lessons/1/#container-view-controllers"
+  },"110": {
+    "doc": "Lesson 1",
+    "title": "Navigation Controller",
+    "content": "By now you’ve probably seen the present(_:animated:completion:) and dismiss(animated:completion) methods used to modally present and dismiss a view controller. An UINavigationController is a generalization of these two operations. A navigation controller manages one or more child view controllers using an ordered array known as the navigation stack. Whenever we want to present a view controller, we push the view controller to the top of the stack. When we want to dismiss a view controller, we pop it from the stack. Only the view controller on the top of the navigation stack is visible to the user. In addition, a navigation controller manages a navigation bar, which displays a back button for dismissing the topmost view controller and a title for the current view controller. Each view controller has a special property called navigationController. The property has type UINavigationController?. If the view controller is currently in the stack managed by a navigation controller, this property will point to the navigation controller. Typically, you declare a navigation controller with its root view controller . let vc = ViewController() let nav = UINavigationController(rootViewController) . You can push a view controller to the navigation stack by calling pushViewController(viewController:animated:) on the navigation controller. Similarly, you can pop the topmost view controller by calling popViewController(animated:). ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#navigation-controller",
+    "relUrl": "/ios/lessons/1/#navigation-controller"
+  },"111": {
+    "doc": "Lesson 1",
+    "title": "TabBarController",
+    "content": "The tab bar controller displays tabs at the bottom of the window. Each tab corresponds to a child view controller, and the selection determines which view controller to display. The following code initialize a tab bar controller with two tabs . let tabBarController = UITabBarController() let vc1 = HomeVC() let vc2 = SettingVC() let vc3 = UINavigationController(rootViewController: vc2) tabBarController.viewControllers = [vc1, vc2] . Notice that for the second tab we create a navigation controller as a child of the tab bar controller. It is an example where we can use container view controllers to create more complex user interface. ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#tabbarcontroller",
+    "relUrl": "/ios/lessons/1/#tabbarcontroller"
+  },"112": {
+    "doc": "Lesson 1",
+    "title": "Model-View-Controller (MVC)",
+    "content": "MVC is a popular software architectural pattern for making an iOS App. It divides your code into three main categories: model, view, and controller. A view object is the visual layer of our app. It is what the user sees, and it is what the user interacts with. A view object should not be responsible for book-keeping the data, it should only know how to present the data. A model is the opposite of views. It is the data representation of our App. It could be a user class, or a style struct. Finally, the view controller is the interface between models and views. When a user initiates an action, the view delegate that action to the view controller. The view controller handles the action by performing a view update and/or modifying the models. Sticking to this approach generally helps you write more scalable and readable code. But it doesn’t mean that you are in the clear. It’s much more important to understand the design principle such as the separation of concern. A good piece of code should be modular, consists of many independent black boxes. If you find yourself having to deal with a single gigantic chunk of code that does basically everything, you are probably doing something wrong. ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/#model-view-controller-mvc",
+    "relUrl": "/ios/lessons/1/#model-view-controller-mvc"
+  },"113": {
+    "doc": "Lesson 1",
+    "title": "Lesson 1",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/1/",
+    "relUrl": "/ios/lessons/1/"
+  },"114": {
+    "doc": "Lessons",
+    "title": "Lessons",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/lessons/index/",
+    "relUrl": "/ios/lessons/index/"
+  },"115": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Mini-Project 1: Meet the Member",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#mini-project-1-meet-the-member",
+    "relUrl": "/ios/projects/0/#mini-project-1-meet-the-member"
+  },"116": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Table of contents",
+    "content": ". | Project Description | Setup . | Create a Github Repo | Get the Starter Code | . | Spec . | Requirements | Start Screen | Main Screen | Statistics Screen | Extra Credit | . | Debugging | Submission | . ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#table-of-contents",
+    "relUrl": "/ios/projects/0/#table-of-contents"
+  },"117": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Project Description",
+    "content": "Welcome to MDB! This semester, we’ll have over 50 members, including a new recruit class of 18 of the brightest minds on campus. What better way to get to know everyone in the club than to build an app about them? We’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. You will be working alone for this project. ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#project-description",
+    "relUrl": "/ios/projects/0/#project-description"
+  },"118": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Setup",
+    "content": "For all of the mini-projects we will be using Git for source control, and you will need to have a Github account. If you need a refresher on the Terminal commands, there’s a cheat sheet here. ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#setup",
+    "relUrl": "/ios/projects/0/#setup"
+  },"119": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Create a Github Repo",
+    "content": "First go to your Github and login to your account. On the left you should see the option to create a new repo. In the dialogue, pick a name for your repository. For example, it could be something like MDB-Mini-Projects. You can make it either public or private. You do not need to initialize it with README, .gitignore, or license. After clicking create, your remote repo will be ready. You should see a URL ending with .git, this will be the remote reference of your repository. Copy the URL. In your Terminal, first navigate to the directory where you want you local repo to be located (wondering how to do that? Check out the cheat sheet). Again, do not use a directory that’s managed by iCloud Storage. Then run the following command to clone the remote repo . git clone [your_repo_url.git] MDB-Mini-Projects cd MDB-Mini-Projects . It’s gonna show a warning that you have cloned an empty repository, which is expected because we haven’t add anything to it yet. Let’s quickly change that by adding a readme to the folder. echo \"# MDB Mini-Projects\" &gt;&gt; README.md . This will create a file called README.md and append \"# MDB Mini-Projects\" to that file. However, we also need to register this change with Git. This is called commit. Think of it as creating a check point in game, so no matter how badly you mess up, you can always go back (well, most of the time :)). git add -A git commit -m \"Added README.md\" . Now if you run git log, you can actually see the commit you’ve made. Before we push the change to Github, let’s make sure that the primary branch name follows the new standard (use main instead of master). git branch -M main . Since this is the first time branch main is pushed to origin (the alias for your repo_url.git), we should also create the remote branch and make our local branch track that remote branch. So the next time we push, we only need to say git push rather than git push origin main. git push -u origin main . In output it should say something like this ... To https://github.com/Miclin1024/MDB-Mini-Projects.git * [new branch] main -&gt; main Branch 'main' set up to track remote branch 'main' from 'origin'. Use git open to open the repository on Github, you should be able to see the README.md you just created. ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#create-a-github-repo",
+    "relUrl": "/ios/projects/0/#create-a-github-repo"
+  },"120": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Get the Starter Code",
+    "content": "Open a Terminal window, navigate to your local repository for the mini-projects. Run the following command . git remote add starter https://github.com/Miclin1024/MDB-Spring-21-iOS-TP.git git pull starter main --allow-unrelated-histories . This should open your default CLI text editor asking you to confirm the merge. If you’ve never done anything to change it before, it should be vim. Press :wq to save and exit. If you accidentally enter the Insert mode, press esc to return to the command mode then press :wq. Use ls to confirm that the folder MP1 - Meet the Member is in the repository. You can open the Finder window with open .. Double click the Meet the Member.xcodeproj file in the folder to open the project. Throughout the project, we encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. Commits are usually broken down into functionality, so even if it’s just a few lines, it might be worth to commit. ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#get-the-starter-code",
+    "relUrl": "/ios/projects/0/#get-the-starter-code"
+  },"121": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Spec",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#spec",
+    "relUrl": "/ios/projects/0/#spec"
+  },"122": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Requirements",
+    "content": "For this project, you will be using Auto Layout to design each screen. That means you should be adding constraints instead of using frame for your layout. You are not allowed to use the interface builder (storyboard). All screens must be designed well. Note that the design of this application is entirely up to you, but make it look as clean as possible. See examples of trivia apps on the App Store for further inspiration. Also note that this spec does not specify all of the smaller details that would make this a complete app. For example, the spec doesn’t require back buttons, but adding back buttons would make the app much easier to use. Build it in a way that would make you actually want to use it, and don’t make it “hacky” just because the spec doesn’t require something. ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#requirements",
+    "relUrl": "/ios/projects/0/#requirements"
+  },"123": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Start Screen",
+    "content": ". | A screen with a button that says start. Upon pressing the button, the user is taken to the main screen. | . ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#start-screen",
+    "relUrl": "/ios/projects/0/#start-screen"
+  },"124": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Main Screen",
+    "content": ". | Member Picture: Randomly display a picture of a member on the screen. | Name Options: Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer) | Score: Display a score count for the user – when the user correctly answers, increase the score by 1. Otherwise, just move on to the next question. | Answer Display: You can go from one question to another just by changing the image and button values, but there should be a one second delay in between questions where the button the user pressed flashes either red or green (depending on whether they’re correct or not). You’ll have to look up how to implement timers. | Timer: Add an additional timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. The user should have 2 seconds to read the correct answer before the next question is displayed. The 2 seconds count down will start when . | The user tap a answer, whether that’s correct or not, or | The 5 seconds countdown ends, whichever comes first | . | Pause Button: When the main screen is first loaded, display a pause button. This button should display “Pause” when the game is running. When clicked on, the game should pause, and the pause button should change its display to “Resume.” When clicked on again, the game should unpause, and the score should reset. Additionally, the game should automatically pause if the user goes to a different screen. | . ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#main-screen",
+    "relUrl": "/ios/projects/0/#main-screen"
+  },"125": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Statistics Screen",
+    "content": ". | Statistics View: Add a statistics icon. If the user clicks on this, the game should pause (if currently playing) and the screen should present a window that displays the following statistics: . | Longest streak of correct answers | Result of last three questions (or less if not answered yet) | . | . ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#statistics-screen",
+    "relUrl": "/ios/projects/0/#statistics-screen"
+  },"126": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Extra Credit",
+    "content": "For 10pt of extra credits on MP1 (So the maximum possible is 110pt). Use an animated progress bar on the top of the screen to indicate the 5 seconds countdown. The progress bar should start with full and advance to the next level at the end of each second. The progress bar should be able to maintain at whatever its state {0, 1, 2, 3, 4, 5} was during the 2 seconds countdown after the answer is displayed. ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#extra-credit",
+    "relUrl": "/ios/projects/0/#extra-credit"
+  },"127": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Debugging",
+    "content": "This video will walk you through some of the common types of error that you will encounter, and general guidelines on how to debug in Xcode. ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#debugging",
+    "relUrl": "/ios/projects/0/#debugging"
+  },"128": {
+    "doc": "MP1 - Meet the Members",
+    "title": "Submission",
+    "content": "Save all of the files in your project (easiest way to do that is just building/running it), and add them to the staging area . git add -A . Commit the changes to git . git commit -m \"[Your commit message]\" . When that’s all done, push the local commits to Github . git push . Recall that because we set up the branch tracking for our local main, we don’t have to explicitly say git push origin main . Finally, submit your project to Gradescope . ",
+    "url": "https://learn.mdb.dev//ios/projects/0/#submission",
+    "relUrl": "/ios/projects/0/#submission"
+  },"129": {
+    "doc": "MP1 - Meet the Members",
+    "title": "MP1 - Meet the Members",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/projects/0/",
+    "relUrl": "/ios/projects/0/"
+  },"130": {
+    "doc": "Projects",
+    "title": "Projects",
+    "content": " ",
+    "url": "https://learn.mdb.dev//ios/projects/index/",
+    "relUrl": "/ios/projects/index/"
+  }
+}

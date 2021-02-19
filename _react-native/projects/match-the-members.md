@@ -71,7 +71,7 @@ This [debugging guide](https://docs.expo.io/get-started/errors/) by Expo briefly
 
 ## Submission
 
-To submit your project, simply commit and push your changes to your personal project repository. We encourage you to commit frequently, so it's easy to revert to a prior commit if needed.
+To submit your project, first commit and push your changes to your personal project repository. We encourage you to commit frequently, so it's easy to revert to a prior commit if needed.
 
 ```
 git add .
@@ -79,5 +79,7 @@ git commit -m "all features working"
 git push origin master
 ```
 
-Additionally, please submit a screen recording of your working app here: [https://go.mdb.dev/submit-project/](https://go.mdb.dev/submit-project/).
+Then, link your repository to the Gradescope assignment for this project.
+
+Finally, please submit a screen recording of your working app here: [https://go.mdb.dev/submit-project/](https://go.mdb.dev/submit-project/).
 

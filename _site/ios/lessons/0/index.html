@@ -1,0 +1,960 @@
+
+
+<!DOCTYPE html>
+
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+
+  
+    <title>Lesson 0 - MDB Training Program</title>
+
+    
+      <meta name="Description" content="Introduction to Swift and iOS Development">
+    
+  
+
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+
+  <link rel="stylesheet" href="/assets/css/just-the-docs-default.css">
+
+  
+
+  
+    <script type="text/javascript" src="/assets/js/vendor/lunr.min.js"></script>
+  
+  <script type="text/javascript" src="/assets/js/just-the-docs.js"></script>
+
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Begin Jekyll SEO tag v2.7.1 -->
+<title>Lesson 0 | MDB Training Program</title>
+<meta name="generator" content="Jekyll v3.9.0" />
+<meta property="og:title" content="Lesson 0" />
+<meta name="author" content="Mobile Developers of Berkeley" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Introduction to Swift and iOS Development" />
+<meta property="og:description" content="Introduction to Swift and iOS Development" />
+<link rel="canonical" href="https://learn.mdb.dev//ios/lessons/0/" />
+<meta property="og:url" content="https://learn.mdb.dev//ios/lessons/0/" />
+<meta property="og:site_name" content="MDB Training Program" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2021-02-15T11:42:09-08:00" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Lesson 0" />
+<script type="application/ld+json">
+{"description":"Introduction to Swift and iOS Development","headline":"Lesson 0","dateModified":"2021-02-15T11:42:09-08:00","datePublished":"2021-02-15T11:42:09-08:00","url":"https://learn.mdb.dev//ios/lessons/0/","mainEntityOfPage":{"@type":"WebPage","@id":"https://learn.mdb.dev//ios/lessons/0/"},"author":{"@type":"Person","name":"Mobile Developers of Berkeley"},"@type":"BlogPosting","@context":"https://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+
+  
+
+</head>
+
+<body>
+  <svg xmlns="http://www.w3.org/2000/svg" style="display: none;">
+    <symbol id="svg-link" viewBox="0 0 24 24">
+      <title>Link</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-link">
+        <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"></path><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"></path>
+      </svg>
+    </symbol>
+    <symbol id="svg-search" viewBox="0 0 24 24">
+      <title>Search</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+        <circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-menu" viewBox="0 0 24 24">
+      <title>Menu</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-menu">
+        <line x1="3" y1="12" x2="21" y2="12"></line><line x1="3" y1="6" x2="21" y2="6"></line><line x1="3" y1="18" x2="21" y2="18"></line>
+      </svg>
+    </symbol>
+    <symbol id="svg-arrow-right" viewBox="0 0 24 24">
+      <title>Expand</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-chevron-right">
+        <polyline points="9 18 15 12 9 6"></polyline>
+      </svg>
+    </symbol>
+    <symbol id="svg-doc" viewBox="0 0 24 24">
+      <title>Document</title>
+      <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-file">
+        <path d="M13 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V9z"></path><polyline points="13 2 13 9 20 9"></polyline>
+      </svg>
+    </symbol>
+  </svg>
+
+  <div class="side-bar">
+    <div class="site-header">
+      <a href="https://learn.mdb.dev//" class="site-title lh-tight">
+  MDB Training Program
+
+</a>
+      <a href="#" id="menu-button" class="site-button">
+        <svg viewBox="0 0 24 24" class="icon"><use xlink:href="#svg-menu"></use></svg>
+      </a>
+    </div>
+    <nav role="navigation" aria-label="Main" id="site-nav" class="site-nav">
+      
+        
+        
+          
+          
+          
+          
+            
+              <div class="nav-category">General</div>
+            
+            <ul class="nav-list"><li class="nav-list-item"><a href="https://learn.mdb.dev//" class="nav-list-link">Home</a></li></ul>
+
+          
+        
+          
+          
+          
+          
+            
+              <div class="nav-category">React Native</div>
+            
+            <ul class="nav-list"><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//react-native/index/" class="nav-list-link">Overview</a><ul class="nav-list "><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//react-native/lessons/index/" class="nav-list-link">Lessons</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/lessons/0/" class="nav-list-link">Lesson 0</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/lessons/1/" class="nav-list-link">Lesson 1</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/lessons/2/" class="nav-list-link">Lesson 2</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/lessons/3/" class="nav-list-link">Lesson 3</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/lessons/4/" class="nav-list-link">Lesson 4</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//react-native/projects/index/" class="nav-list-link">Projects</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/projects/match-the-members/" class="nav-list-link">Mini-Project 1</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/projects/imdb/" class="nav-list-link">Mini-Project 2</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/projects/mdb-socials-part-a/" class="nav-list-link">Mini-Project 3A</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/projects/mdb-socials-part-b/" class="nav-list-link">Mini-Project 3B</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//react-native/projects/capstone/" class="nav-list-link">Mini-Project 4</a>
+                  </li></ul></li></ul></li></ul>
+
+          
+        
+          
+          
+          
+          
+            
+              <div class="nav-category">iOS</div>
+            
+            <ul class="nav-list"><li class="nav-list-item active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/index/" class="nav-list-link">Overview</a><ul class="nav-list "><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/demos/index/" class="nav-list-link">Demos</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//ios/demos/0/" class="nav-list-link">Demo 0 - Simple Roll Call</a>
+                  </li></ul></li><li class="nav-list-item  active"><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/lessons/index/" class="nav-list-link">Lessons</a><ul class="nav-list"><li class="nav-list-item  active">
+                    <a href="https://learn.mdb.dev//ios/lessons/0/" class="nav-list-link active">Lesson 0</a>
+                  </li><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//ios/lessons/1/" class="nav-list-link">Lesson 1</a>
+                  </li></ul></li><li class="nav-list-item "><a href="#" class="nav-list-expander"><svg viewBox="0 0 24 24"><use xlink:href="#svg-arrow-right"></use></svg></a><a href="https://learn.mdb.dev//ios/projects/index/" class="nav-list-link">Projects</a><ul class="nav-list"><li class="nav-list-item ">
+                    <a href="https://learn.mdb.dev//ios/projects/0/" class="nav-list-link">MP1 - Meet the Members</a>
+                  </li></ul></li></ul></li></ul>
+
+          
+        
+      
+    </nav>
+    <footer class="site-footer">
+      This site uses <a href="https://github.com/pmarsceill/just-the-docs">Just the Docs</a>, a documentation theme for Jekyll.
+    </footer>
+  </div>
+  <div class="main" id="top">
+    <div id="main-header" class="main-header">
+      
+        <div class="search">
+          <div class="search-input-wrap">
+            <input type="text" id="search-input" class="search-input" tabindex="0" placeholder="Search MDB Training Program" aria-label="Search MDB Training Program" autocomplete="off">
+            <label for="search-input" class="search-label"><svg viewBox="0 0 24 24" class="search-icon"><use xlink:href="#svg-search"></use></svg></label>
+          </div>
+          <div id="search-results" class="search-results"></div>
+        </div>
+      
+      
+    </div>
+    <div id="main-content-wrap" class="main-content-wrap">
+      
+        
+          <nav aria-label="Breadcrumb" class="breadcrumb-nav">
+            <ol class="breadcrumb-nav-list">
+              
+                <li class="breadcrumb-nav-list-item"><a href="https://learn.mdb.dev//ios/index/">Overview</a></li>
+                <li class="breadcrumb-nav-list-item"><a href="https://learn.mdb.dev//ios/lessons/index/">Lessons</a></li>
+              
+              <li class="breadcrumb-nav-list-item"><span>Lesson 0</span></li>
+            </ol>
+          </nav>
+        
+      
+      <div id="main-content" class="main-content" role="main">
+        
+          <h1 class="no_toc" id="introduction-to-swift-and-ios-development">
+        
+        
+          <a href="#introduction-to-swift-and-ios-development" class="anchor-heading" aria-labelledby="introduction-to-swift-and-ios-development"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction to Swift and iOS Development
+        
+        
+      </h1>
+    
+      <h2 class="no_toc text-delta" id="table-of-contents">
+        
+        
+          <a href="#table-of-contents" class="anchor-heading" aria-labelledby="table-of-contents"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Table of Contents
+        
+        
+      </h2>
+    
+
+<ol id="markdown-toc">
+  <li><a href="#getting-started" id="markdown-toc-getting-started">Getting Started</a>    <ol>
+      <li><a href="#install-xcode" id="markdown-toc-install-xcode">Install Xcode</a></li>
+    </ol>
+  </li>
+  <li><a href="#the-swift-programming-language" id="markdown-toc-the-swift-programming-language">The Swift Programming Language</a>    <ol>
+      <li><a href="#constants-and-variables" id="markdown-toc-constants-and-variables">Constants and Variables</a></li>
+      <li><a href="#collection-types" id="markdown-toc-collection-types">Collection Types</a>        <ol>
+          <li><a href="#array" id="markdown-toc-array">Array</a></li>
+          <li><a href="#dictionary" id="markdown-toc-dictionary">Dictionary</a></li>
+          <li><a href="#set" id="markdown-toc-set">Set</a></li>
+        </ol>
+      </li>
+      <li><a href="#control-flow" id="markdown-toc-control-flow">Control Flow</a>        <ol>
+          <li><a href="#if-statement" id="markdown-toc-if-statement">If Statement</a></li>
+          <li><a href="#for-in-loops" id="markdown-toc-for-in-loops">For-In Loops</a></li>
+          <li><a href="#while-loops" id="markdown-toc-while-loops">While Loops</a></li>
+        </ol>
+      </li>
+      <li><a href="#functions" id="markdown-toc-functions">Functions</a></li>
+      <li><a href="#classes" id="markdown-toc-classes">Classes</a></li>
+      <li><a href="#structs" id="markdown-toc-structs">Structs</a></li>
+      <li><a href="#optionals" id="markdown-toc-optionals">Optionals</a>        <ol>
+          <li><a href="#force-unwrapping" id="markdown-toc-force-unwrapping">Force Unwrapping</a></li>
+          <li><a href="#optional-binding" id="markdown-toc-optional-binding">Optional Binding</a></li>
+          <li><a href="#early-exit" id="markdown-toc-early-exit">Early Exit</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+  <li><a href="#introduction-to-ios-development" id="markdown-toc-introduction-to-ios-development">Introduction to iOS Development</a>    <ol>
+      <li><a href="#create-your-first-xcode-project" id="markdown-toc-create-your-first-xcode-project">Create Your First Xcode Project</a></li>
+      <li><a href="#xcode-interface" id="markdown-toc-xcode-interface">Xcode Interface</a></li>
+      <li><a href="#basic-file-structure-and-management" id="markdown-toc-basic-file-structure-and-management">Basic File Structure and Management</a></li>
+      <li><a href="#view-controllers-and-views" id="markdown-toc-view-controllers-and-views">View Controllers and Views</a>        <ol>
+          <li><a href="#view-management" id="markdown-toc-view-management">View Management</a></li>
+          <li><a href="#life-cycle" id="markdown-toc-life-cycle">Life Cycle</a></li>
+        </ol>
+      </li>
+      <li><a href="#first-custom-view" id="markdown-toc-first-custom-view">First Custom View</a>        <ol>
+          <li><a href="#frames" id="markdown-toc-frames">Frames</a></li>
+          <li><a href="#autolayout-and-constraints" id="markdown-toc-autolayout-and-constraints">AutoLayout and Constraints</a></li>
+          <li><a href="#anatomy-of-a-constraint" id="markdown-toc-anatomy-of-a-constraint">Anatomy of a Constraint</a></li>
+          <li><a href="#provide-enough-information-to-auto-layout" id="markdown-toc-provide-enough-information-to-auto-layout">Provide Enough Information to Auto Layout</a></li>
+          <li><a href="#prevent-frame-to-be-translated-into-constraint" id="markdown-toc-prevent-frame-to-be-translated-into-constraint">Prevent Frame to be Translated into Constraint</a></li>
+        </ol>
+      </li>
+    </ol>
+  </li>
+</ol>
+      <h1 id="getting-started">
+        
+        
+          <a href="#getting-started" class="anchor-heading" aria-labelledby="getting-started"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Getting Started
+        
+        
+      </h1>
+    
+
+<p>Hello everyone and welcome to ΜΔΒ 🎉🎉🎉. Congratulations on making it through the interview 🥳! A bit about myself: my name is Michael, currently a sophomore studying CS and Econ. I love biking, playing badminton and I had been playing ice hockey for five years before coming to college. I cook almost every day: mostly Chinese food but I do occasionally try to make other stuff too. I’m an international student from China so I speak native mandarin (which is also why there’s probably gonna be lots of typos in what you are about to see: I had to run it through Grammarly twice to make sure I don’t make stupid mistakes). But anyway, I’m super excited to have you all this semester and I assure you it’s gonna be great!</p>
+
+<p>To start things off, I know the TOC looks scary, but I promise you this is only gonna be the first week. iOS dev is awesome. However, it does come with a little bit of a learning curve. Be patient and be sure to ask question! Also special thanks to our two amazing mentors this semester: Ian and Janvi. They will be helping you guys through office hours, project parties, and during mentor meetups.</p>
+
+<p>Without further ado, let’s get started 🚢🚢</p>
+      <h2 id="install-xcode">
+        
+        
+          <a href="#install-xcode" class="anchor-heading" aria-labelledby="install-xcode"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Install Xcode
+        
+        
+      </h2>
+    
+
+<p>If you haven’t done it already, go to App Store and install the latest version of Xcode. The entire SDK would be around 30G, but it can get to 40G or even 60G after compiling some larger projects. So you might need to free up some space before doing that.</p>
+
+<p>For the following Swift Tutorial, it might be helpful to try out some of the expressions yourself. In that case, you can use a Swift Playground. It’s a place where you can conveniently run your Swift code and it’s mainly used as an educational tool. To create a Swift Playground, you will first need to set up and launch Xcode. 
+<img src="/assets/images/xcode-launch-screen.png" alt="Xcode Launch Screen" title="Xcode Launch Screen" />
+When you are on this screen, go to the top-left menu bar and select <strong>File &gt; New &gt; Playground..</strong> When Xcode asks you to choose a template, double click <strong>Blank</strong>. For the file location, my experience is you can keep it anywhere you like, but if you are using iCloud storage, do <strong>NOT</strong> put any Xcode files or projects in the folder that’s using iCloud (generally that would mean Desktop and Documents). Especially when we start using Cocoapods, Xcode might start duplicating files if your local files are replaced with iCloud references.</p>
+      <h1 id="the-swift-programming-language">
+        
+        
+          <a href="#the-swift-programming-language" class="anchor-heading" aria-labelledby="the-swift-programming-language"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> The Swift Programming Language
+        
+        
+      </h1>
+    
+      <h2 id="constants-and-variables">
+        
+        
+          <a href="#constants-and-variables" class="anchor-heading" aria-labelledby="constants-and-variables"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Constants and Variables
+        
+        
+      </h2>
+    
+
+<p>In Swift, you declare a constant with the <code class="language-plaintext highlighter-rouge">let</code> keyword and variables with the <code class="language-plaintext highlighter-rouge">var</code> keyword.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">foo</span> <span class="o">=</span> <span class="err">“</span><span class="kt">Hello</span><span class="err">”</span>   <span class="cm">/* Variable */</span>
+<span class="k">let</span> <span class="nv">bar</span> <span class="o">=</span> <span class="err">“</span><span class="kt">World</span><span class="err">”</span>   <span class="cm">/* Constant */</span>
+</code></pre></div></div>
+<p>You cannot reassign the value of a constant once it’s declared.</p>
+
+<p>You can specify the type of a variable or constant using <code class="language-plaintext highlighter-rouge">:</code>. This also allows you to declare a variable or constant without initializing it. However, it will not be usable until you give it a value (even <code class="language-plaintext highlighter-rouge">nil</code>).</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span>
+<span class="n">name</span> <span class="o">=</span> <span class="err">“</span><span class="kt">Oski</span><span class="err">”</span>
+</code></pre></div></div>
+
+<p>If you do not specify a type, Swift can infer it from the value it was initially assigned to. This is known as <strong>type inference</strong>.</p>
+
+<p>Swift is a <strong>strongly-typed</strong> language. That means you can’t reassign the value of a variable or constant to a different type once it’s declared.</p>
+
+<p>For naming, always stick to lowerCamelCase for constants and variables.</p>
+      <h2 id="collection-types">
+        
+        
+          <a href="#collection-types" class="anchor-heading" aria-labelledby="collection-types"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Collection Types
+        
+        
+      </h2>
+    
+
+<p>Swift provides three primary collection types, known as arrays, sets, and dictionaries, for storing collections of values. Arrays are ordered collections of values. Sets are unordered collections of unique values. Dictionaries are unordered collections of key-value associations.</p>
+
+<p><img src="https://docs.swift.org/swift-book/_images/CollectionTypes_intro_2x.png" alt="Collections in Swift" title="Collections in Swift" /></p>
+      <h3 id="array">
+        
+        
+          <a href="#array" class="anchor-heading" aria-labelledby="array"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Array
+        
+        
+      </h3>
+    
+
+<p>The type of a Swift array is written in full as <code class="language-plaintext highlighter-rouge">Array&lt;Element&gt;</code>, where Element is the type of values the array is allowed to store. You can also write the type of an array in shorthand form as <code class="language-plaintext highlighter-rouge">[Element]</code>. Therefore, an array can be declared
+like this</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">libraries</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Moffitt"</span><span class="p">,</span> <span class="s">"Main Stack"</span><span class="p">,</span> <span class="s">"EAL"</span><span class="p">]</span>
+</code></pre></div></div>
+<p>Retrieve or modify a value from the array by using a subscript.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">firstItem</span> <span class="o">=</span> <span class="n">libraries</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span>
+<span class="n">libraries</span><span class="p">[</span><span class="mi">1</span><span class="p">]</span> <span class="o">=</span> <span class="s">"Music Library"</span>
+</code></pre></div></div>
+<p>Append a new value by calling the <code class="language-plaintext highlighter-rouge">append(_:)</code> method</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">libraries</span><span class="o">.</span><span class="nf">append</span><span class="p">(</span><span class="s">"Engineering Library"</span><span class="p">)</span>
+</code></pre></div></div>
+<p>Alternatively, append an array of one or more compatible items with the addition assignment operator <code class="language-plaintext highlighter-rouge">+=</code></p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">libraries</span> <span class="o">+=</span> <span class="p">[</span><span class="s">"Law Library"</span><span class="p">,</span> <span class="s">"Bancroft"</span><span class="p">]</span>
+</code></pre></div></div>
+      <h3 id="dictionary">
+        
+        
+          <a href="#dictionary" class="anchor-heading" aria-labelledby="dictionary"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Dictionary
+        
+        
+      </h3>
+    
+
+<p>The type of a Swift dictionary is written in full as <code class="language-plaintext highlighter-rouge">Dictionary&lt;Key, Value&gt;</code>, where Key is the type of value that can be used as a dictionary key, and Value is the type of value that the dictionary stores for those keys. You can also write the type of a dictionary in shorthand form as <code class="language-plaintext highlighter-rouge">[Key: Value]</code>. Therefore, a dictionary can be declared like this</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">distance</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Double</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Moffitt"</span><span class="p">:</span> <span class="mf">0.9</span><span class="p">,</span> <span class="s">"Main Stack"</span><span class="p">:</span> <span class="mf">1.0</span><span class="p">,</span> <span class="s">"EAL"</span><span class="p">:</span> <span class="mf">1.1</span><span class="p">]</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"The dictionary contains </span><span class="se">\(</span><span class="n">distance</span><span class="o">.</span><span class="n">count</span><span class="se">)</span><span class="s"> items."</span><span class="p">)</span>
+<span class="c1">// Prints "The dictionary contains 3 items."</span>
+</code></pre></div></div>
+<p>Similar to arrays, you can retrieve or modify a value from the dictionary using subscript.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">distance</span><span class="p">[</span><span class="s">"Main Stack"</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.3</span>
+<span class="n">distance</span><span class="p">[</span><span class="s">"Moffitt"</span><span class="p">]</span>
+</code></pre></div></div>
+<p>However, there is no <code class="language-plaintext highlighter-rouge">append(_:)</code> method in dictionary. To add a new value, simply use the subscript.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">distance</span><span class="p">[</span><span class="s">"Music Library"</span><span class="p">]</span> <span class="o">=</span> <span class="mf">1.5</span>
+</code></pre></div></div>
+      <h3 id="set">
+        
+        
+          <a href="#set" class="anchor-heading" aria-labelledby="set"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Set
+        
+        
+      </h3>
+    
+
+<p>The type of a Swift set is written as Set<Element>, where Element is the type that the set is allowed to store. Sets do not have an equivalent shorthand form. A set can be created with an array literal.</Element></p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">libraries</span><span class="p">:</span> <span class="kt">Set</span><span class="o">&lt;</span><span class="kt">String</span><span class="o">&gt;</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Moffitt"</span><span class="p">,</span> <span class="s">"Main Stack"</span><span class="p">,</span> <span class="s">"EAL"</span><span class="p">]</span>
+</code></pre></div></div>
+
+<p>You can insert an element by calling the set’s <code class="language-plaintext highlighter-rouge">insert(_:)</code> method. To check whether a set contains a particular item, use the <code class="language-plaintext highlighter-rouge">contains(_:)</code> method.</p>
+      <h2 id="control-flow">
+        
+        
+          <a href="#control-flow" class="anchor-heading" aria-labelledby="control-flow"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Control Flow
+        
+        
+      </h2>
+    
+      <h3 id="if-statement">
+        
+        
+          <a href="#if-statement" class="anchor-heading" aria-labelledby="if-statement"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> If Statement
+        
+        
+      </h3>
+    
+
+<p>In swift, a basic <code class="language-plaintext highlighter-rouge">if</code> statement looks like this</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">condition</span> <span class="p">{</span>
+    <span class="n">action</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>You can chain multiple <code class="language-plaintext highlighter-rouge">if</code> statement together using <code class="language-plaintext highlighter-rouge">else if</code> and <code class="language-plaintext highlighter-rouge">else</code></p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">condition</span> <span class="p">{</span>
+    <span class="n">statements</span>
+<span class="p">}</span> <span class="k">else</span> <span class="k">if</span> <span class="p">{</span>
+    <span class="n">statements</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="n">statements</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>You can combine multiple predicates using the logical operator <code class="language-plaintext highlighter-rouge">!</code> <code class="language-plaintext highlighter-rouge">||</code> <code class="language-plaintext highlighter-rouge">&amp;&amp;</code>.
+For single-expression if statements, you can usually simplify them with the
+<strong>ternary operator</strong></p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">condition</span> <span class="p">?</span> <span class="nv">expression</span> <span class="p">:</span> <span class="n">expression</span>
+</code></pre></div></div>
+<p>If the condition is true, the first expression will be executed and its return
+value would be the return value of the whole statement. A simple example can
+look like this</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">feel</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="n">temp</span> <span class="o">&gt;</span> <span class="mi">75</span> <span class="p">:</span> <span class="s">"hot"</span> <span class="p">:</span> <span class="s">"ok"</span> 
+</code></pre></div></div>
+      <h3 id="for-in-loops">
+        
+        
+          <a href="#for-in-loops" class="anchor-heading" aria-labelledby="for-in-loops"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> For-In Loops
+        
+        
+      </h3>
+    
+
+<p>You use the <code class="language-plaintext highlighter-rouge">for-in</code> loop to iterate over a sequence, such as items in an array, ranges of numbers, or characters in a string.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">names</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">"Anna"</span><span class="p">,</span> <span class="s">"Alex"</span><span class="p">,</span> <span class="s">"Brian"</span><span class="p">,</span> <span class="s">"Jack"</span><span class="p">]</span>
+<span class="k">for</span> <span class="n">name</span> <span class="k">in</span> <span class="n">names</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Hello, </span><span class="se">\(</span><span class="n">name</span><span class="se">)</span><span class="s">!"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>You can also use <code class="language-plaintext highlighter-rouge">in</code> to iterate through a dictionary. That would give you
+all of its key-value pairs.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">numberOfLegs</span><span class="p">:</span> <span class="p">[</span><span class="kt">String</span><span class="p">:</span> <span class="kt">Int</span><span class="p">]</span> <span class="o">=</span> <span class="p">[</span><span class="s">"spider"</span><span class="p">:</span> <span class="mi">8</span><span class="p">,</span> <span class="s">"ant"</span><span class="p">:</span> <span class="mi">6</span><span class="p">,</span> <span class="s">"cat"</span><span class="p">:</span> <span class="mi">4</span><span class="p">]</span>
+<span class="k">for</span> <span class="p">(</span><span class="n">animalName</span><span class="p">,</span> <span class="n">legCount</span><span class="p">)</span> <span class="k">in</span> <span class="n">numberOfLegs</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"</span><span class="se">\(</span><span class="n">animalName</span><span class="se">)</span><span class="s">s have </span><span class="se">\(</span><span class="n">legCount</span><span class="se">)</span><span class="s"> legs"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+      <h3 id="while-loops">
+        
+        
+          <a href="#while-loops" class="anchor-heading" aria-labelledby="while-loops"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> While Loops
+        
+        
+      </h3>
+    
+
+<p>A <code class="language-plaintext highlighter-rouge">while</code> loop starts by evaluating a single condition. If the condition is <code class="language-plaintext highlighter-rouge">true</code>, a set of statements is repeated until the condition becomes <code class="language-plaintext highlighter-rouge">false</code>.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">while</span> <span class="n">condition</span> <span class="p">{</span>
+    <span class="n">statements</span>
+<span class="p">}</span>
+</code></pre></div></div>
+      <h2 id="functions">
+        
+        
+          <a href="#functions" class="anchor-heading" aria-labelledby="functions"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Functions
+        
+        
+      </h2>
+    
+
+<p>Every function is a chunk of code that performs a specific task. It is defined using the keyword <code class="language-plaintext highlighter-rouge">func</code> followed by the name of the function. Optionally, you can define one or more parameters to be passed in as input. You can also specify the return type using <code class="language-plaintext highlighter-rouge">-&gt;</code>. For example, a simple function declaration can look like this.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">answer</span><span class="p">(</span><span class="nv">question</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span> <span class="p">}</span>
+</code></pre></div></div>
+
+<p>You would then call the function using its name and parameter, which will return a <code class="language-plaintext highlighter-rouge">String</code>.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">answer1</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="nf">answer</span><span class="p">(</span><span class="nv">question</span><span class="p">:</span> <span class="s">"Question 1"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>For each parameter, you can also specify its <em>label</em>, and it will be used when you are <strong>calling</strong> the function. This helps to create easier to read function calls like this.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">answer</span><span class="p">(</span><span class="k">for</span> <span class="nv">question</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span> <span class="p">}</span>
+
+<span class="k">var</span> <span class="nv">answer1</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="nf">answer</span><span class="p">(</span><span class="nv">for</span><span class="p">:</span> <span class="s">"Question 1"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>By default, the <em>argument labels</em> are the same as the <em>parameter names</em>, and will be used when calling the function like in <code class="language-plaintext highlighter-rouge">answer(question: "Question 1")</code>. If you want no function label at all during the function call, write an underscore <code class="language-plaintext highlighter-rouge">_</code> for that parameter.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">func</span> <span class="nf">answer</span><span class="p">(</span><span class="n">_</span> <span class="nv">question</span><span class="p">:</span> <span class="kt">String</span><span class="p">)</span> <span class="o">-&gt;</span> <span class="kt">String</span> <span class="p">{</span> <span class="p">}</span>
+
+<span class="k">var</span> <span class="nv">answer1</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="nf">answer</span><span class="p">(</span><span class="s">"Question 1"</span><span class="p">)</span>
+</code></pre></div></div>
+      <h2 id="classes">
+        
+        
+          <a href="#classes" class="anchor-heading" aria-labelledby="classes"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Classes
+        
+        
+      </h2>
+    
+
+<p>If you are new to the OOP (Object-Oriented Programming) model, there are many ways of describing classes. But here is my favorite: Think of it as a blueprint for a house. You can create multiple instances of that house with the same blueprint, but the interior design which is the data is going to be different. Each house operates on its own, but they all share the same structure and behaviors.</p>
+
+<p>In Swift, classes are declared using the <code class="language-plaintext highlighter-rouge">class</code> keyword. You define properties and methods to add functionality to your classes using the same syntax you use to define constants, variables, and functions.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="kt">User</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">username</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">""</span>
+    <span class="k">var</span> <span class="nv">email</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="s">""</span>
+
+    <span class="kd">func</span> <span class="nf">printEmail</span><span class="p">()</span> <span class="p">{</span>
+        <span class="nf">print</span><span class="p">(</span><span class="n">email</span><span class="p">)</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>A class can <em>inherit</em> methods, properties, and other characteristics from another class. When one class inherits from another, the inheriting class is known as a <em>subclass</em>, and the class it inherits from is known as its <em>superclass</em>.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="kt">Admin</span><span class="p">:</span> <span class="kt">User</span> <span class="p">{</span>
+    <span class="nv">managedUsers</span><span class="p">:</span> <span class="p">[</span><span class="kt">User</span><span class="p">]</span> <span class="o">=</span> <span class="p">[]</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>The value assigned with property declarations are the <strong>default values</strong> that will be assigned during class initialization. If no default value is specified, a custom initializer is needed.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">class</span> <span class="kt">Admin</span><span class="p">:</span> <span class="kt">User</span> <span class="p">{</span>
+    <span class="nv">managedUsers</span><span class="p">:</span> <span class="p">[</span><span class="kt">User</span><span class="p">]</span>
+
+    <span class="nf">init</span><span class="p">(</span><span class="n">withManagedUsers</span> <span class="nv">users</span><span class="p">:</span> <span class="p">[</span><span class="kt">User</span><span class="p">])</span> <span class="p">{</span>
+        <span class="k">self</span><span class="o">.</span><span class="n">managedUsers</span> <span class="o">=</span> <span class="n">users</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">init</span><span class="p">()</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Members of an class (either a property or a method) can be accessed using the dot notation <code class="language-plaintext highlighter-rouge">.</code>.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">user</span> <span class="o">=</span> <span class="kt">User</span><span class="p">()</span>
+<span class="k">let</span> <span class="nv">user</span><span class="o">.</span><span class="n">email</span> <span class="o">=</span> <span class="s">"example@domain.com"</span>
+</code></pre></div></div>
+      <h2 id="structs">
+        
+        
+          <a href="#structs" class="anchor-heading" aria-labelledby="structs"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Structs
+        
+        
+      </h2>
+    
+
+<p>In Swift, structures and classes have very similar functionalities. Both of them can define properties and methods, conform to protocols, and be extended using an extension (we will talk about the last two in the next lesson).</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">struct</span> <span class="kt">Event</span> <span class="p">{</span>
+    <span class="k">var</span> <span class="nv">eventName</span><span class="p">:</span> <span class="kt">String</span>
+    <span class="k">var</span> <span class="nv">startTime</span><span class="p">:</span> <span class="kt">Date</span>
+    <span class="k">var</span> <span class="nv">endTime</span><span class="p">:</span> <span class="kt">Date</span>
+
+    <span class="c1">// Initializer</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>However, there are a few key differences too:</p>
+<ul>
+  <li>Classes can inherit from another class and/or conform to one or more protocols whereas structures can only conform to protocols.</li>
+  <li>Classes are <em>reference types</em> whereas structures are <em>value types</em>. Semantically, a value type is a type whose value is <strong>copied</strong> when it’s assigned to a variable or constant, or when it’s passed to a function. This is also the reason why, in the example above for dot notation, we were able to assign an user instance to a <code class="language-plaintext highlighter-rouge">let</code> constant and still be able to change its stored value <code class="language-plaintext highlighter-rouge">email</code>. Because when reassigning <code class="language-plaintext highlighter-rouge">email</code>, the underlying <strong>reference</strong> in <code class="language-plaintext highlighter-rouge">user</code> hasn’t changed. But if <code class="language-plaintext highlighter-rouge">User</code> is defined as a struct, <code class="language-plaintext highlighter-rouge">let user</code> would then be representing a value instead of a reference. Then changing the email would be considered mutating that value, which is not allowed for a constant.</li>
+</ul>
+      <h2 id="optionals">
+        
+        
+          <a href="#optionals" class="anchor-heading" aria-labelledby="optionals"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Optionals
+        
+        
+      </h2>
+    
+
+<p><em>Optional</em> is a special type in Swift. It is used with another type and adds <code class="language-plaintext highlighter-rouge">nil</code> to the possible values of that type. In short, it handles the absence of a value. For example, an <em>optional String</em> means there’s either a <em>String</em>, or there’s no value at all. A regular, <em>non-optional</em> type cannot be <code class="language-plaintext highlighter-rouge">nil</code>.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">"🐻"</span>
+</code></pre></div></div>
+<p>The process to retrieve the value from an optional is called <strong>unwrapping</strong>. In general, there are many ways of unwrapping an optional, but we will focus on three of the most common ones today.</p>
+      <h3 id="force-unwrapping">
+        
+        
+          <a href="#force-unwrapping" class="anchor-heading" aria-labelledby="force-unwrapping"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Force Unwrapping
+        
+        
+      </h3>
+    
+
+<p>Force unwrapping is the most straightforward way of unwrapping an optional. It is done by adding <code class="language-plaintext highlighter-rouge">!</code> to the end of a variable.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">"🐻"</span>
+<span class="k">var</span> <span class="nv">nameNonOptional</span><span class="p">:</span> <span class="kt">String</span> <span class="o">=</span> <span class="n">name</span><span class="o">!</span>
+</code></pre></div></div>
+<p>However, force unwrapping will crash your code if the optional is <code class="language-plaintext highlighter-rouge">nil</code>. So in practice, you should force unwrap only when you’re sure it’s safe.</p>
+
+<p>As a side note, it is possible to define optional values without having to unwrap them every time in order to use them.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="o">!</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">"🐻"</span>
+</code></pre></div></div>
+<p>This is called <strong>implicitly unwrapped optional</strong>. The optional values defined using this method behave as if they were already unwrapped. But if you try to use them when they are <code class="language-plaintext highlighter-rouge">nil</code>, your code will crash. This is commonly used for variables that start as <code class="language-plaintext highlighter-rouge">nil</code>, but will always have a value before you need to use it.</p>
+      <h3 id="optional-binding">
+        
+        
+          <a href="#optional-binding" class="anchor-heading" aria-labelledby="optional-binding"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Optional Binding
+        
+        
+      </h3>
+    
+
+<p>You use optional binding to find out whether an optional contains a value, and if so, to make that value available as a temporary constant or variable.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">name</span><span class="p">:</span> <span class="kt">String</span><span class="p">?</span> <span class="o">=</span> <span class="kc">nil</span>
+<span class="n">name</span> <span class="o">=</span> <span class="s">"🐻"</span>
+<span class="k">if</span> <span class="k">let</span> <span class="nv">nameNonOptional</span> <span class="o">=</span> <span class="n">name</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"The name is </span><span class="se">\(</span><span class="n">nameNonOptional</span><span class="se">)</span><span class="s">"</span><span class="p">)</span>
+    <span class="c1">// The name is 🐻</span>
+<span class="p">}</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Name not available"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Multiple values can be bound in a single <code class="language-plaintext highlighter-rouge">if-let</code> statement. Each statement is separated using a comma. In the following example, <em>failable initializer</em> <code class="language-plaintext highlighter-rouge">Int(_:)</code> returns an optional integer <code class="language-plaintext highlighter-rouge">Int?</code>.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">startStr</span> <span class="o">=</span> <span class="s">"2"</span><span class="p">,</span> <span class="n">endStr</span> <span class="o">=</span> <span class="s">"10"</span>
+<span class="k">if</span> <span class="k">let</span> <span class="nv">startDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">startStr</span><span class="p">),</span> <span class="k">let</span> <span class="nv">endDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">endStr</span><span class="p">)</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Span: </span><span class="se">\(</span><span class="n">endDay</span> <span class="o">-</span> <span class="n">startDay</span><span class="se">)</span><span class="s"> days"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>You can also use regular boolean expression in an <code class="language-plaintext highlighter-rouge">if-let</code>. For example, if we want to print only when the day difference is more than 0:</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="k">let</span> <span class="nv">startDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">startStr</span><span class="p">),</span> <span class="k">let</span> <span class="nv">endDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">endStr</span><span class="p">),</span>
+    <span class="n">endDay</span> <span class="o">&gt;</span> <span class="n">startDay</span> <span class="p">{</span>
+    <span class="nf">print</span><span class="p">(</span><span class="s">"Span: </span><span class="se">\(</span><span class="n">endDay</span> <span class="o">-</span> <span class="n">startDay</span><span class="se">)</span><span class="s"> days"</span><span class="p">)</span>
+<span class="p">}</span>
+</code></pre></div></div>
+      <h3 id="early-exit">
+        
+        
+          <a href="#early-exit" class="anchor-heading" aria-labelledby="early-exit"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Early Exit
+        
+        
+      </h3>
+    
+
+<p>A <code class="language-plaintext highlighter-rouge">guard</code> statement behaves very similarly to an <code class="language-plaintext highlighter-rouge">if</code> statement. It uses a boolean expression to determine whether to continue executing code in a function or transfer control to exit the code. In another word, <code class="language-plaintext highlighter-rouge">guard</code> checks for requirements in a specific line of code.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">calendar</span> <span class="o">=</span> <span class="kt">NSCalendar</span><span class="o">.</span><span class="n">current</span>
+<span class="c1">// Friday?</span>
+<span class="k">guard</span> <span class="n">calendar</span><span class="o">.</span><span class="nf">component</span><span class="p">(</span><span class="o">.</span><span class="n">weekday</span><span class="p">,</span> <span class="nv">from</span><span class="p">:</span> <span class="kt">Date</span><span class="p">())</span> <span class="o">==</span> <span class="mi">6</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">return</span>
+<span class="p">}</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"Smash Bros 🎮 🎉"</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>However, the reason why <code class="language-plaintext highlighter-rouge">guard</code> is introduced here is that it’s most commonly used with <code class="language-plaintext highlighter-rouge">let</code> to create a conditional binding that’s available in the same block scope, and it works pretty much the same as the <code class="language-plaintext highlighter-rouge">if-let</code> statement.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">var</span> <span class="nv">startStr</span> <span class="o">=</span> <span class="s">"2"</span><span class="p">,</span> <span class="n">endStr</span> <span class="o">=</span> <span class="s">"10"</span>
+<span class="k">guard</span> <span class="k">let</span> <span class="nv">startDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">startStr</span><span class="p">),</span> <span class="k">let</span> <span class="nv">endDay</span> <span class="o">=</span> <span class="kt">Int</span><span class="p">(</span><span class="n">endStr</span><span class="p">),</span>
+    <span class="n">endDay</span> <span class="o">&gt;</span> <span class="n">startDay</span> <span class="k">else</span> <span class="p">{</span>
+    <span class="k">return</span>
+<span class="p">}</span>
+<span class="nf">print</span><span class="p">(</span><span class="s">"Span: </span><span class="se">\(</span><span class="n">endDay</span> <span class="o">-</span> <span class="n">startDay</span><span class="se">)</span><span class="s"> days"</span><span class="p">)</span>
+</code></pre></div></div>
+      <h1 id="introduction-to-ios-development">
+        
+        
+          <a href="#introduction-to-ios-development" class="anchor-heading" aria-labelledby="introduction-to-ios-development"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Introduction to iOS Development
+        
+        
+      </h1>
+    
+      <h2 id="create-your-first-xcode-project">
+        
+        
+          <a href="#create-your-first-xcode-project" class="anchor-heading" aria-labelledby="create-your-first-xcode-project"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Create Your First Xcode Project
+        
+        
+      </h2>
+    
+
+<p>While I’ve mentioned earlier that Swift Playground is good for trying out code and ideas, an Xcode project is where the real iOS development begins. Although you won’t need to create your own project for MP1, you should always know how to create one. This short video takes you step by step through the process.</p>
+<div style="width: 90%; margin: auto;">
+<iframe width="90%" height="315" src="https://www.youtube.com/embed/ZGUPA-R_4Mk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h2 id="xcode-interface">
+        
+        
+          <a href="#xcode-interface" class="anchor-heading" aria-labelledby="xcode-interface"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Xcode Interface
+        
+        
+      </h2>
+    
+
+<p>Once you’ve created the project, take a moment to familiarize yourself with the interface. There’s a lot of information on screen, so this video is going to break it down to help you understand.</p>
+<div style="width: 90%; margin: auto;">
+<iframe width="90%" height="315" src="https://www.youtube.com/embed/ykl73HPcLco" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h2 id="basic-file-structure-and-management">
+        
+        
+          <a href="#basic-file-structure-and-management" class="anchor-heading" aria-labelledby="basic-file-structure-and-management"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Basic File Structure and Management
+        
+        
+      </h2>
+    
+
+<p>As we are getting used to the interface, let’s take a look at the basic file structure that comes with the default app template and how Xcode manages them.</p>
+<div style="width: 90%; margin: auto;">
+<iframe width="90%" height="315" src="https://www.youtube.com/embed/Q-Hr8hSbS1I" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h2 id="view-controllers-and-views">
+        
+        
+          <a href="#view-controllers-and-views" class="anchor-heading" aria-labelledby="view-controllers-and-views"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> View Controllers and Views
+        
+        
+      </h2>
+    
+
+<p>The first main concept we are going to introduce here is the <em>view controller</em>. View controllers are the foundation of your app. Every app has at least one view controller, and most apps have several. It manages components of your app’s interface called <em>views</em> as well as the interactions between that interface and the underlying data.</p>
+
+<p>View controllers are like screens. For example, when switching between tabs, you are switching between different view controllers. So in essence, They are the building blocks of your app’s navigation.</p>
+
+<p>You create your custom view controller through <em>subclassing</em> the build-in <code class="language-plaintext highlighter-rouge">UIViewController</code> class from the <code class="language-plaintext highlighter-rouge">UIKit</code> framework. In the following example, we declare a view controller called <code class="language-plaintext highlighter-rouge">HomeViewController</code> and set its backgroundColor to red.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kd">import</span> <span class="kt">UIKit</span>
+
+<span class="kd">class</span> <span class="kt">HomeViewController</span><span class="p">:</span> <span class="kt">UIViewController</span> <span class="p">{</span>
+
+    <span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+        <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+        <span class="n">view</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">systemRed</span>
+    <span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
+
+<p>Custom view controllers are usually named <code class="language-plaintext highlighter-rouge">XXXViewController</code> or <code class="language-plaintext highlighter-rouge">XXXVC</code> for short. Just like any other type in Swift, you should always use <strong>UpperCamelCase</strong> when naming view controllers. There should be only one view controller in each file, and the name of the file should be <code class="language-plaintext highlighter-rouge">View Controller's Name.swift</code>.</p>
+      <h3 id="view-management">
+        
+        
+          <a href="#view-management" class="anchor-heading" aria-labelledby="view-management"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> View Management
+        
+        
+      </h3>
+    
+
+<p>The most important role of a view controller is to manage a hierarchy of views. Every view controller has a single root view that encloses all of the view controller’s content. To that root view, you add the subviews you need to display your content. The parent view of a subview is also called the <em>superview</em>.</p>
+
+<p><img src="https://developer.apple.com/library/archive/featuredarticles/ViewControllerPGforiPhoneOS/Art/VCPG_ControllerHierarchy_fig_1-1_2x.png" alt="View Controller View Hierarchy" style="width: 442px; display: block; margin: auto;" /></p>
+
+<p>You access a view controller’s root view through the <code class="language-plaintext highlighter-rouge">self.view</code> property (or just <code class="language-plaintext highlighter-rouge">view</code> where <code class="language-plaintext highlighter-rouge">self</code> pointer can be omitted). All view components in <code class="language-plaintext highlighter-rouge">UIKit</code> are subclasses of the <code class="language-plaintext highlighter-rouge">UIView</code> class, which defines the behaviors that are common to all views. You can add subview to any view using the <code class="language-plaintext highlighter-rouge">addSubview(_:)</code> method.</p>
+      <h3 id="life-cycle">
+        
+        
+          <a href="#life-cycle" class="anchor-heading" aria-labelledby="life-cycle"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Life Cycle
+        
+        
+      </h3>
+    
+
+<p>A view controller comes with a set of methods that manage its view hierarchy. iOS automatically calls these methods at appropriate times when a view controller transitions between states. These transitions are known as the <em>Life Cycle Events</em>. When you create a view controller subclass, it inherits the methods defined in UIViewController and lets you add your own custom behavior for each method.</p>
+
+<p>One method you’ve seen so far is <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>. It’s called <em>after</em> th e views in a view controller are created and loaded into memory. Since this usually only happens once in the view controller’s entire lifecycle, <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> is commonly used for styling, adding subviews, and creating and activating constraints.</p>
+
+<p>Other life cycle methods such as <code class="language-plaintext highlighter-rouge">viewDidAppear()</code>, <code class="language-plaintext highlighter-rouge">viewWillAppear()</code>, <code class="language-plaintext highlighter-rouge">viewWillDisappear()</code> and etc., can be called multiple times depending on how the view controller behaves.</p>
+
+<p><img src="https://developer.apple.com/library/archive/referencelibrary/GettingStarted/DevelopiOSAppsSwift/Art/WWVC_vclife_2x.png" alt="View Controller Lifecycle" style="width: 442px; display: block; margin: auto;" /></p>
+
+<p>You define the custom behaviors for a lifecycle event by overriding the default implementation of the corresponding lifecycle method.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">override</span> <span class="kd">func</span> <span class="nf">viewDidLoad</span><span class="p">()</span> <span class="p">{</span>
+    <span class="k">super</span><span class="o">.</span><span class="nf">viewDidLoad</span><span class="p">()</span>
+    <span class="n">view</span><span class="o">.</span><span class="n">backgroundColor</span> <span class="o">=</span> <span class="kt">UIColor</span><span class="o">.</span><span class="n">systemRed</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>Note: Although superclass implementation in <code class="language-plaintext highlighter-rouge">super.viewDidLoad()</code> doesn’t do anything, it’s a good habit to call super for all functions you override that don’t have a return value.</p>
+      <h2 id="first-custom-view">
+        
+        
+          <a href="#first-custom-view" class="anchor-heading" aria-labelledby="first-custom-view"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> First Custom View
+        
+        
+      </h2>
+    
+
+<p>As you’ve learned in the previous section, the build-in <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> is useful for many one-time setups including styling and adding subviews. However, although it is possible to create, style, and add subview entirely using <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>, it is not recommended for many reasons:</p>
+
+<ul>
+  <li>As your UI grows more complex, <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> tends to get very bloated, which is bad for readability.</li>
+  <li>If you want to keep a reference of the views created, you’d have to declare an optional instance variable which initializes to <code class="language-plaintext highlighter-rouge">nil</code>, then fill in the value in <code class="language-plaintext highlighter-rouge">viewDidLoad()</code>.</li>
+</ul>
+
+<p>Therefore, it is common to defer some of that setup to the initialization phase before <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> kicks in. Conveniently, Swift allows us to initialize a variable along with the declaration using a <em>closure</em>, which is kinda like the lambda expression in Python. Recall that in Python we can write tiny, “anonymous” functions like this</p>
+
+<div class="language-python highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">lambda</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span><span class="p">:</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+</code></pre></div></div>
+
+<p>and in Swift, the equivalent closure can look like this</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">{</span> <span class="n">x</span><span class="p">,</span> <span class="n">y</span> <span class="k">in</span>
+    <span class="k">return</span> <span class="n">x</span> <span class="o">*</span> <span class="n">y</span>
+<span class="p">}</span>
+</code></pre></div></div>
+<p>We will formally introduce closure in our next lesson, but for now let’s just stick to the notion that it’s just a portable function that can be called and passed around.</p>
+
+<p>In this video, we will see how to use this pattern to create a <code class="language-plaintext highlighter-rouge">UILabel</code> and add it to the rootview.</p>
+
+<div style="width: 90%; margin: auto;">
+<iframe width="90%" height="315" src="https://www.youtube.com/embed/RN1_SkkarFc" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+</div>
+      <h3 id="frames">
+        
+        
+          <a href="#frames" class="anchor-heading" aria-labelledby="frames"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Frames
+        
+        
+      </h3>
+    
+
+<p>In the last video we used something called <code class="language-plaintext highlighter-rouge">frame</code> to create our <code class="language-plaintext highlighter-rouge">UILabel</code>, and you probably already have a little idea what that’s for.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="kt">UILabel</span><span class="p">(</span><span class="nv">frame</span><span class="p">:</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">88</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="kt">UIScreen</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">60</span><span class="p">))</span>
+</code></pre></div></div>
+<p>In UIKit, the position of a view is described by a point-based coordinate system. It starts from the top left of the referencing view (0, 0) and ends at the bottom right. A frame is a rectangle that defines the size and position of the view in its superview’s coordinate system. In the example above, we used <code class="language-plaintext highlighter-rouge">UIScreen.main.bounds</code> because the root view has the same frame as the screen. In fact, we can use <code class="language-plaintext highlighter-rouge">view.bounds.width</code> and the effect would’ve been the same. But we will then have to set our frame in <code class="language-plaintext highlighter-rouge">viewDidLoad</code> because <code class="language-plaintext highlighter-rouge">self.view</code> (or in particular, <code class="language-plaintext highlighter-rouge">self</code>) isn’t available in the instance initialization phase.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">welcomeLabel</span><span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="mi">0</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="mi">88</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="n">view</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="mi">60</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>Note: The difference between <code class="language-plaintext highlighter-rouge">frame</code> and <code class="language-plaintext highlighter-rouge">bounds</code> is detailed in -<a href="https://suragch.medium.com/frame-vs-bounds-in-ios-107990ad53ee">this</a> article.</p>
+
+<p><img src="https://iosimage.s3.amazonaws.com/2018/5-frame-vs-autolayout/coordinatesystem.png" alt="Coordinate System in UIKit" style="width: 300px; display: block; margin: auto;" /></p>
+
+<p>One thing to keep in mind is that for <code class="language-plaintext highlighter-rouge">UILabel</code>, changing the frame will not affect the physical size of the label, unless the frame causes it to overflow. This is because the frame only specifies a rectangle to which we put our view in. The size of the label itself is controlled by its font size, which was set through <code class="language-plaintext highlighter-rouge">UILabel.font</code> and was 27 points in our last example. However, if we set the background color to something we will be able to see, resizing the frame does change the way it looks.</p>
+      <h3 id="autolayout-and-constraints">
+        
+        
+          <a href="#autolayout-and-constraints" class="anchor-heading" aria-labelledby="autolayout-and-constraints"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> AutoLayout and Constraints
+        
+        
+      </h3>
+    
+
+<p>Although using frame seems clean and definitive, it does come with quite a few drawbacks:</p>
+
+<p>Since different iOS devices may have different screen sizes (iPhone 12 Pro Max: 428×926 points; iPhone XR: 414×896 points), aligning the views can be tedious and oftentimes tricky. Most of the time it often involves computing all the values dynamically. For example, if we want our 200×70 label to be at the center of every screen, we would have to do this</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">width</span> <span class="o">=</span> <span class="mi">200</span>
+<span class="k">let</span> <span class="nv">height</span> <span class="o">=</span> <span class="mi">70</span>
+<span class="k">let</span> <span class="nv">x</span> <span class="o">=</span> <span class="p">(</span><span class="kt">UIScreen</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">width</span> <span class="o">-</span> <span class="n">width</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="k">let</span> <span class="nv">y</span> <span class="o">=</span> <span class="p">(</span><span class="kt">UIScreen</span><span class="o">.</span><span class="n">main</span><span class="o">.</span><span class="n">bounds</span><span class="o">.</span><span class="n">height</span> <span class="o">-</span> <span class="n">height</span><span class="p">)</span> <span class="o">/</span> <span class="mi">2</span>
+<span class="n">label</span><span class="o">.</span><span class="n">frame</span> <span class="o">=</span> <span class="kt">CGRect</span><span class="p">(</span><span class="nv">x</span><span class="p">:</span> <span class="n">x</span><span class="p">,</span> <span class="nv">y</span><span class="p">:</span> <span class="n">y</span><span class="p">,</span> <span class="nv">width</span><span class="p">:</span> <span class="n">width</span><span class="p">,</span> <span class="nv">height</span><span class="p">:</span> <span class="n">height</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p>It only gets worse when you add multiple layers of subviews or trying to accommodate smaller screens. Therefore, in practice, we rarely use frame to set the position and size of a view, instead, we use another layout method called <em>Auto Layout</em>.</p>
+
+<p>Auto Layout defines your user interface using a series of constraints. A constraint typically represents a relationship between two views such as spacing or alignment. iOS will then dynamically calculate the location and size of each view to satisfy these constraints. This creates layout that’s responsive to the device’s size and orientation changes.</p>
+      <h3 id="anatomy-of-a-constraint">
+        
+        
+          <a href="#anatomy-of-a-constraint" class="anchor-heading" aria-labelledby="anatomy-of-a-constraint"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Anatomy of a Constraint
+        
+        
+      </h3>
+    
+
+<p>In Auto Layout, the anchors define a feature that can be constrained. In general, this includes the four edge anchors (leading, trailing, top, and bottom), as well as the height, width, and vertical and horizontal centers anchors.</p>
+
+<p><img src="https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/attributes_2x.png" alt="Coordinate System in UIKit" style="width: 400px; display: block; margin: auto;" /></p>
+
+<p>Each view manages its own anchors, and they are accessible as the view’s property. For instance, <code class="language-plaintext highlighter-rouge">view.leadingAnchor</code> would give you the leading anchor of <code class="language-plaintext highlighter-rouge">view</code>. Try typing out <code class="language-plaintext highlighter-rouge">view.anchor</code> inside any <code class="language-plaintext highlighter-rouge">viewDidLoad()</code> method. You should see a list of all available anchors showing up. We will be using these anchors to define our constraints.</p>
+
+<p>Essentially, a constraint is a linear equation of anchors. For example, the following layout relation</p>
+
+<p><img src="/assets/images/constraints-blue-red.png" alt="Coordinate System in UIKit" style="width: 400px; display: block; margin: auto;" /></p>
+
+<p>can be expressed using the pseudocode equation</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>red.leadingAnchor = blue.trailingAnchor + 8.0
+</code></pre></div></div>
+<p>Recall that in iOS, the origin is at the top left corner of the screen. So this <code class="language-plaintext highlighter-rouge">+</code> here means to the right by 8 points. If it is <code class="language-plaintext highlighter-rouge">-</code>, it would mean to the left. Whether to use the <code class="language-plaintext highlighter-rouge">x</code> or <code class="language-plaintext highlighter-rouge">y</code> axis is determined by the anchor you use.</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>red.topAnchor = blue.bottomAnchor + 8.0
+</code></pre></div></div>
+<p>So the above constraint means the <code class="language-plaintext highlighter-rouge">redView</code>’s top anchor would be 8 points towards the bottom away from the <code class="language-plaintext highlighter-rouge">blueView</code>’s bottom anchor.</p>
+
+<p>In Swift, constraints are typically created by calling the <code class="language-plaintext highlighter-rouge">constraint(...)</code> method on the anchor that’s going to be the left side of the equation. Suppose the two views are called <code class="language-plaintext highlighter-rouge">redView</code> and <code class="language-plaintext highlighter-rouge">blueView</code>, then the constraint can be defined like this</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">constraint</span> <span class="o">=</span> <span class="n">redView</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">blueView</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">8</span><span class="p">)</span>
+</code></pre></div></div>
+<p>After that, you will have to <strong>activate</strong> the constraint</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">constraint</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre></div></div>
+<p>Or, if you don’t need to keep a reference to that constraint (meaning you don’t need to change it in the future), you can just write everything in a single line.</p>
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="n">redView</span><span class="o">.</span><span class="n">leadingAnchor</span><span class="o">.</span><span class="nf">constraint</span><span class="p">(</span><span class="nv">equalTo</span><span class="p">:</span> <span class="n">blueView</span><span class="o">.</span><span class="n">trailingAnchor</span><span class="p">,</span> <span class="nv">constant</span><span class="p">:</span> <span class="mi">8</span><span class="p">)</span><span class="o">.</span><span class="n">isActive</span> <span class="o">=</span> <span class="kc">true</span>
+</code></pre></div></div>
+<p>Programmatic constraints can look very daunting at first. But don’t worry! We will go over that in greater details during the next Hackshop, and it will become more efficient and less error-prone than storyboard constraints once you get used to them.</p>
+      <h3 id="provide-enough-information-to-auto-layout">
+        
+        
+          <a href="#provide-enough-information-to-auto-layout" class="anchor-heading" aria-labelledby="provide-enough-information-to-auto-layout"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Provide Enough Information to Auto Layout
+        
+        
+      </h3>
+    
+
+<p>OK. I know that’s a bad title. But hey, the idea is clear: You need to give enough layout information (i.e. constraints) to auto layout because otherwise it gets confused. For instance, in our last example, we only specified the <code class="language-plaintext highlighter-rouge">relative</code> position between <code class="language-plaintext highlighter-rouge">redView</code> and <code class="language-plaintext highlighter-rouge">blueView</code>, as shown in this pseudocode equation</p>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>red.leadingAnchor = blue.trailingAnchor + 8.0
+</code></pre></div></div>
+<p>Without more information on the <code class="language-plaintext highlighter-rouge">redView</code> and <code class="language-plaintext highlighter-rouge">blueView</code>, there’s no way for the Auto Layout to know where to put these views.</p>
+
+<p>Therefore, constraints are more commonly created between a fixed anchor (anchors with known location), and variable anchor (a.k.a your view). In a view controller, the easiest-to-get fixed anchors are the ones in the root view (from <code class="language-plaintext highlighter-rouge">self.view</code> in case you forgot). The top, leading, bottom, trailing anchors of the root view are essentially the edges of the screen, which is always fixed.</p>
+
+<p><img src="https://developer.apple.com/library/archive/documentation/UserExperience/Conceptual/AutolayoutPG/Art/layout_constraints_2x.png" alt="Coordinate System in UIKit" style="width: 400px; display: block; margin: auto;" /></p>
+
+<p>In this more complex example, the view with the light grey background is the root view. The layout of the two views in dark grey is defined using a total of 8 contraints.</p>
+      <h3 id="prevent-frame-to-be-translated-into-constraint">
+        
+        
+          <a href="#prevent-frame-to-be-translated-into-constraint" class="anchor-heading" aria-labelledby="prevent-frame-to-be-translated-into-constraint"><svg viewBox="0 0 16 16" aria-hidden="true"><use xlink:href="#svg-link"></use></svg></a> Prevent Frame to be Translated into Constraint
+        
+        
+      </h3>
+    
+
+<p>By default, if you create a view programmatically, it is using the frame-based layout, even when no frame is passed into the initializer. This will result in the default frame (<code class="language-plaintext highlighter-rouge">(x: 0, y: 0, width: 0, height: 0)</code>) being translated into constraint and cause you view to vanish. To disable this behavior, set the <code class="language-plaintext highlighter-rouge">translatesAutoresizingMaskIntoConstraints</code> property to <code class="language-plaintext highlighter-rouge">false</code>.</p>
+
+<div class="language-swift highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">let</span> <span class="nv">label</span> <span class="o">=</span> <span class="kt">UILabel</span><span class="p">()</span>
+<span class="n">label</span><span class="o">.</span><span class="n">translatesAutoresizingMaskIntoConstraints</span> <span class="o">=</span> <span class="kc">false</span>
+<span class="n">label</span><span class="o">.</span><span class="n">text</span> <span class="o">=</span> <span class="s">"GME GO BRRR"</span>  <span class="c1">// Customization</span>
+<span class="n">view</span><span class="o">.</span><span class="nf">addSubview</span><span class="p">(</span><span class="n">label</span><span class="p">)</span>  <span class="c1">// Add Subview</span>
+
+<span class="c1">// Your constraints</span>
+</code></pre></div></div>
+
+        
+
+        
+
+        
+
+      </div>
+    </div>
+
+    
+      
+
+      <div class="search-overlay"></div>
+    
+  </div>
+</body>
+</html>
+
