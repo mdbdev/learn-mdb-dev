@@ -25,7 +25,7 @@ has_toc: false
 | **Thursday, 2/11** | [MP 1 Released](/ios/projects/0/) |
 | **Monday, 2/15** | [Lesson 1 Released](/ios/lessons/1/) |
 | **Sunday, 2/21** | MP 1 Due |
-| **Monday, 2/22** | Lesson 2 Released <br /> MP 2 Released |
+| **Monday, 2/22** | [Lesson 2 Released](/ios/lessons/2/) <br /> MP 2 Released |
 | **Sunday, 2/28** | MP 2 Due |
 | **Monday, 2/29** | Lesson 3 Released<br /> MP 3A Released |
 | **Sunday, 3/7** | MP 3A Due |
@@ -38,7 +38,7 @@ has_toc: false
 
 - [Lesson 0](/ios/lessons/0/): Introduction to Swift and iOS Development
 - [Lesson 1](/ios/lessons/1/): UIKit, MVC, and Delegates
-- Lesson 2: Navigation, Custom View, and Interface Builder
+- [Lesson 2](/ios/lessons/2/): Concurrency & Multithreading: ARC, GCD
 - Lesson 3: Networking and Concurrency
 - Lesson 4: Design
 - Lesson 5: TBD
