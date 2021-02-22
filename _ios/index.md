@@ -25,7 +25,7 @@ has_toc: false
 | **Thursday, 2/11** | [MP 1 Released](/ios/projects/0/) |
 | **Monday, 2/15** | [Lesson 1 Released](/ios/lessons/1/) |
 | **Sunday, 2/21** | MP 1 Due |
-| **Monday, 2/22** | [Lesson 2 Released](/ios/lessons/2/) <br /> MP 2 Released |
+| **Monday, 2/22** | [Lesson 2 Released](/ios/lessons/2/) <br /> [MP 2 Released](/ios/projects/1/) |
 | **Sunday, 2/28** | MP 2 Due |
 | **Monday, 2/29** | Lesson 3 Released<br /> MP 3A Released |
 | **Sunday, 3/7** | MP 3A Due |
@@ -46,7 +46,7 @@ has_toc: false
 ## Mini-Projects
 
 - [MP 1](/ios/projects/0/): Meet the Member
-- MP 2: Pokédex
+- [MP 2](/ios/projects/1/): Pokédex
 - MP 3A/3B: MDB Social
 - MP 4: TBD
 
