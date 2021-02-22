@@ -481,7 +481,7 @@
   },"80": {
     "doc": "Lesson 0",
     "title": "Introduction to Swift and iOS Development",
-    "content": " ",
+    "content": "Michael Lin . ",
     "url": "http://localhost:4000/ios/lessons/0/#introduction-to-swift-and-ios-development",
     "relUrl": "/ios/lessons/0/#introduction-to-swift-and-ios-development"
   },"81": {
@@ -595,7 +595,7 @@
   },"99": {
     "doc": "Lesson 1",
     "title": "UIKit, MVC, and Delegates",
-    "content": " ",
+    "content": "Michael Lin . ",
     "url": "http://localhost:4000/ios/lessons/1/#uikit-mvc-and-delegates",
     "relUrl": "/ios/lessons/1/#uikit-mvc-and-delegates"
   },"100": {
@@ -684,14 +684,14 @@
     "relUrl": "/ios/lessons/1/"
   },"114": {
     "doc": "Lesson 2",
-    "title": "Concurrency &amp; Multithreading: GCD, ARC",
-    "content": " ",
-    "url": "http://localhost:4000/ios/lessons/2/#concurrency--multithreading-gcd-arc",
-    "relUrl": "/ios/lessons/2/#concurrency--multithreading-gcd-arc"
+    "title": "Concurrency &amp; Multithreading: ARC, GCD",
+    "content": "Michael Lin . ",
+    "url": "http://localhost:4000/ios/lessons/2/#concurrency--multithreading-arc-gcd",
+    "relUrl": "/ios/lessons/2/#concurrency--multithreading-arc-gcd"
   },"115": {
     "doc": "Lesson 2",
     "title": "Table of Contents",
-    "content": ". | Initialization . | Initializers in Value Type | Initializers in Reference Type . | Designated and Convenience Initializers | . | . | . ",
+    "content": ". | Initialization . | Initializers in Value Type | Initializers in Reference Type . | Designated and Convenience Initializers | Two-Phase Initialization | . | . | Automatic Reference Counting . | Reference Cycle | Strong and Weak References | . | Grand Central Dispatch . | Main Dispatch Queue | Global Dispatch Queues | Async vs. Sync | . | . ",
     "url": "http://localhost:4000/ios/lessons/2/#table-of-contents",
     "relUrl": "/ios/lessons/2/#table-of-contents"
   },"116": {
@@ -703,118 +703,160 @@
   },"117": {
     "doc": "Lesson 2",
     "title": "Initializers in Value Type",
-    "content": "Initialization in value type is usually simpler than its counterpart due to the lack of inheritance. Suppose we have a struct called Course . struct Course { var name: String var code: String } . An initializer is essentially a function denoted by the keyword init. In our case, it can look like this. struct Course { var name: String var code: String init(name: String, code: String) { self.name = name self.code = code } } . To make a new instance of Course, you simply call . let course = Course( name: \"Introduction to Sophomore Mathematic Maturity\", code: \"CS 70\" ) . The first important rule: an initializer must initialize all of its stored properties. That is unless, the property has a default value or is an optional. For example, the following code is also valid. struct Course { var name: String var code: String = \"CS 70\" init(name: String) { self.name = name } } . ",
+    "content": "Initialization in value type is usually simpler than its counterpart due to the lack of inheritance. Suppose we have a struct called Course . struct Course { var name: String var code: String } . An initializer is essentially a function denoted by the keyword init. In our case, it can look like this. struct Course { var name: String var code: String init(name: String, code: String) { self.name = name self.code = code } } . Notice that here self cannot be omitted because we have two local variables with the same names. To make a new instance of Course, you simply call . let course = Course( name: \"Introduction to Sophomore Mathematic Maturity\", code: \"CS 70\" ) . The first important rule: an initializer must initialize all of its stored properties. That is unless, the property has a default value or is an optional. For example, the following code is also valid. struct Course { var name: String var code: String = \"CS 70\" init(name: String) { self.name = name } } . ",
     "url": "http://localhost:4000/ios/lessons/2/#initializers-in-value-type",
     "relUrl": "/ios/lessons/2/#initializers-in-value-type"
   },"118": {
     "doc": "Lesson 2",
     "title": "Initializers in Reference Type",
-    "content": "Initialization for reference type (a.k.a class), however, is much more complex. The most obvious issue is, with the addition of class inheritance, we should no longer have a single initializer that initializes every property of that class, as some of them might be defined in its superclass, thus the superclass should be in charge of that part of the initialization. This is known as initializer delegation. To achieve this, Swift introduces two types of initializers for class type: designated initializers and convenience initializers. Designated and Convenience Initializers . ",
+    "content": "Initialization for reference type (a.k.a class), however, is much more complex. The most obvious issue is, with the addition of class inheritance, we should no longer have a single initializer that initializes every property of that class, as some of them might be defined in its superclass, thus the superclass should be in charge of that part of the initialization. This is known as initializer delegation. To achieve this, Swift introduces two types of initializers for class type: designated initializers and convenience initializers. Designated and Convenience Initializers . Designated initializers are the main initializers for the class. It must initializes all properties introduced by the class and delegate the rest of the initialization to a superclass designated initializer. Designated initializers are declared with the init keyword. Convenience initializers are secondary, supporting initializers for a class. A convenience initializer must eventually call a designated initializer from the same class. Convenience initializers are declared with convenience init. Following is an example of the initialization chain in terms of designated and convenience initializers. In this more concrete example, we created a class Person, and another class Student which inherit from the Person class. class Person { var id: String var name: String init(id: String, name: String) { self.id = id self.name = name } } class Student: Person { var year: Int init(withID id: String, name: String, year: Int) { self.year = year super.init(id: id, name: name) } } . Note that in the Student initializer we initialize the property self.year before calling its superclass initializer. However, there’re valid uses cases where we might have a String for year and it would be nice if our initializers can accept that as well. Without further complicating our designated initializer chain, we can use a convenience initializer to achieve this instead. class Student: Person { var year: Int init(withID id: String, name: String, year: Int) { self.year = year super.init(id: id, name: name) } convenience init(withID id: String, name: String, year: String) { var yearNum = -1 switch year { case \"Freshman\": yearNum = 1 case \"Sophomore\": yearNum = 2 case \"Junior\": yearNum = 3 case \"Senior\": yearNum = 4 default: yearNum = -1 } self.init(withID: id, name: name, year: yearNum) } } . and you might recall that we can further simplify this with enumerations. class Student: Person { enum Year: String, CaseIterable { case freshman case sophomore case junior case senior } var year: Int init(withID id: String, name: String, year: Int) { self.year = year super.init(id: id, name: name) } convenience init?(withID id: String, name: String, year: String) { guard let year = Year(rawValue: year.lowercased()) else { return nil } guard let yearNum = Year.allCases.lastIndex(of: year) else { return nil } self.init(withID: id, name: name, year: yearNum) } } . The ? in convenience init? indicates that it is a failable initializer, which handles the case where the String passed in cannot be synthesized into a Student.Year instance. Two-Phase Initialization . Class initialization is carried out in a two-phase process. In the first phase, Swift works its way up the initializers chain and initializes every stored property. After that’s done, in the second phase, the runtime returns back from the top of the chain, and each initializer is given the opportunity to customize its stored properties even further before the instance is returned. init(withID id: String, name: String, year: Int) { /* First Phase */ self.year = year super.init(id: id, name: name) /* Second Phase*/ } convenience init?(withID id: String, name: String, year: String) { /* First Phase */ guard let year = Year(rawValue: year.lowercased()) else { return nil } guard let yearNum = Year.allCases.lastIndex(of: year) else { return nil } self.init(withID: id, name: name, year: yearNum) /* Second Phase*/ } . The biggest difference between the two phases is the availability of self. In the first phase, the use of self is very limited, and can only be used inside the designated initializers to assign value to a stored property introduced in the class. For example, the following use of self is not allowed even if it might seem harmless. convenience init?(withID id: String, name: String, year: String) { /* ... */ self.year = yearNum self.init(withID: id, name: name, year: yearNum) } . In the second phase, these restrictions are removed and you can alter property values and even call instance methods using self. The reason behind this is to prevent property values from being used before they are initialized, while still giving flexibility to the initialization process. ",
     "url": "http://localhost:4000/ios/lessons/2/#initializers-in-reference-type",
     "relUrl": "/ios/lessons/2/#initializers-in-reference-type"
   },"119": {
+    "doc": "Lesson 2",
+    "title": "Automatic Reference Counting",
+    "content": "You can think of Automatic Reference Counting (ARC) as the garbage collector in Swift. It is a framework used to track and manage memory of your App. As you may already know by now, classes in Swift are passed by reference. That means when you initialize a class instance, the runtime allocates a chunk of memory in a special location known as heap, and returns to you a reference pointing to that chunk of memory. You can duplicate or move or pass that pointer around anyway you like, but the physical instance of the class is always going to be in the same location in memory. This helps keep passing class instances lightweight as it only involves copying the pointers. However, when there’s no reference pointing to that instance, the instance becomes unusable and needs to be release from memory, because otherwise they would just slowly build up until our memory is full. You will learn more about this in CS 61C. Therefore, ARC was introduce to be aware of the number of references pointing to each class instance and release it when the reference count reaches zero. ",
+    "url": "http://localhost:4000/ios/lessons/2/#automatic-reference-counting",
+    "relUrl": "/ios/lessons/2/#automatic-reference-counting"
+  },"120": {
+    "doc": "Lesson 2",
+    "title": "Reference Cycle",
+    "content": "However, this does create problem. Consider the following classes . class Foo { var bar: Bar? init() { self.bar = Bar(foo: self) } } class Bar { var foo: Foo init(foo: Foo) { self.foo = foo } } var foo: Foo? = Foo() foo = nil . The variable bar is declared as optional because it has to be initialized in phase two rather than phase one. You will notice that once initialized, foo holds a reference to a Bar instance, which also has a reference to foo. Then when we discard the reference to foo by saying foo = nil, the Foo and Bar instances will still have one reference pointing to each other. As a result, they will never be collected by the ARC despite that there’s technically no way for us to use the two instances anymore. This is known as a reference cycle and is a terrible, terrible programming practice. ",
+    "url": "http://localhost:4000/ios/lessons/2/#reference-cycle",
+    "relUrl": "/ios/lessons/2/#reference-cycle"
+  },"121": {
+    "doc": "Lesson 2",
+    "title": "Strong and Weak References",
+    "content": "So how do we solve this? Fortunately, it is relatively straightforward, we just have to be careful. It turns out that ARC keeps track two kinds of references: strong references and weak references. When it counts, it only counts the strong references to determine whether to deinitialize an instance. Our regular variables use strong references by default, and we need to explicitly declare them using the weak keyword if we are going to use weak references. class Foo { var bar: Bar? init() { self.bar = Bar(foo: self) } } class Bar { weak var foo: Foo? init(foo: Foo) { self.foo = foo } } var foo: Foo? = Foo() foo = nil . When we run foo = nil, the instance foo will have zero strong reference, so it will be deinitialized first. After that, without the bar variable in foo pointing to bar, the bar instance will also have zero strong reference, causing it to be collected as well. However, there is one little side effect: because the variable using weak reference can not guarantee to be pointing to a valid instance, it has to be declared as an optional. ",
+    "url": "http://localhost:4000/ios/lessons/2/#strong-and-weak-references",
+    "relUrl": "/ios/lessons/2/#strong-and-weak-references"
+  },"122": {
+    "doc": "Lesson 2",
+    "title": "Grand Central Dispatch",
+    "content": "Everything we’ve learned so far is executed linearly in a place known as the main thread. The name thread comes from the fact that instructions are lined up to be executed one by one, and the previous line has to finish in order for the program to move on to the next line. This is oftentimes preferable as our next line may be dependent on the results of the previous lines. The main thread is used for all UI updates such as the scrolling effect of the collection view in Pokédex. However, if an instruction takes too long to execute, the entire thread would just freeze. This is known as blocking. Blocking can be a big issue when you are executing expensive operation or during a network request. Since these operations may take a long time to finish, if we do it on the main thread, our UI would be completely unresponsive during that time. guard let url = URL(string: \"image_source_url\") else { return } guard let data = try? Data(contentsOf: url) else { return } cell.imageView.image = UIImage(data: data) . Above is a naive way of loading remote image into the cell. If you try this with your collection view cells in Pokédex, you should see your app getting “choppy” when scrolling - they are the effect of fetching data on the main queue. The solution (at least a part of it) is the Grand Central Dispatch (GCD), a framework which facilitates multithreading in Swift and Objective-C. In other language you might’ve learned such as Python or Java, programmers typically have to spawn in and manage these threads themselves. But spawning new thread on the run is expensive, and managing them can be quite tricky and tedious (see this prehistoric doc). Therefore, the engineers at Apple developed a solution using a centralized dispatch system, and here is simplified version of how it works: . Instead of spawning the threads ourselves, they are created and managed by the framework. In return, GCD gives us access to two types of globally available dispatch queues: the main queue and the global queues. So whenever we need to run a task, we send it to one of the queues, and it will then dispatch it to the appropriate threads. You can create your own dispatch queue if you want, but we will not get into that in this lesson. ",
+    "url": "http://localhost:4000/ios/lessons/2/#grand-central-dispatch",
+    "relUrl": "/ios/lessons/2/#grand-central-dispatch"
+  },"123": {
+    "doc": "Lesson 2",
+    "title": "Main Dispatch Queue",
+    "content": "The main dispatch queue is a globally available serial queue that executes tasks on the application’s main thread. It is a serial queue, meaning that all tasks will be executed in the order in which they were added to the queue. This is where all of our code is executed by default. All UI related code must happen on this thread, so like we said, you want to be careful not to block your main queue with time-expensive tasks. You can access the main queue using DispatchQueue.main. ",
+    "url": "http://localhost:4000/ios/lessons/2/#main-dispatch-queue",
+    "relUrl": "/ios/lessons/2/#main-dispatch-queue"
+  },"124": {
+    "doc": "Lesson 2",
+    "title": "Global Dispatch Queues",
+    "content": "Unlike the main queue which is backed by only one queue and one thread, there’re four predefined global queues available to use, and each of them manages a set of threads. Global queues are concurrent queues, meaning that even though task are still started in the order in which they were added to the queue, it can execute multiple tasks at once. The four predefined global queues are identified by their Quality of Service (QoS), and can be accessed by calling DispatchQueue.global(qos:). GCD uses QoS to adjust tasks priority and maintains a balance between performance and energy efficiency. The four QoS identifiers are: . | .userInteractive: Tasks related to interacting with the user, such as operating on the main thread or refreshing the UI. If the operation doesn’t happen quickly, the user interface may appear frozen. This QoS class has the highest priority among the four. | .userInitiated: Tasks that the user initiated and requires immediate results, such as opening a saved document. Tasks in .userInteractive and .userInitiated should always be almost instantaneous. | .utility: Tasks that may take some time to complete (a few seconds to a few minutes). A example would be downloading data from a remote source. | .background: Tasks that operate in the background and aren’t visible to the user, such as indexing, synchronizing, and backups. | . ",
+    "url": "http://localhost:4000/ios/lessons/2/#global-dispatch-queues",
+    "relUrl": "/ios/lessons/2/#global-dispatch-queues"
+  },"125": {
+    "doc": "Lesson 2",
+    "title": "Async vs. Sync",
+    "content": "When sending tasks to a dispatch queue, you can chose whether the tasks are executed synchronously or asynchronously with respect to the caller. This video will walk you through the difference between sync and async using an example of loading a UIImage . ",
+    "url": "http://localhost:4000/ios/lessons/2/#async-vs-sync",
+    "relUrl": "/ios/lessons/2/#async-vs-sync"
+  },"126": {
     "doc": "Lesson 2",
     "title": "Lesson 2",
     "content": " ",
     "url": "http://localhost:4000/ios/lessons/2/",
     "relUrl": "/ios/lessons/2/"
-  },"120": {
+  },"127": {
     "doc": "Lessons",
     "title": "Lessons",
     "content": " ",
     "url": "http://localhost:4000/ios/lessons/index/",
     "relUrl": "/ios/lessons/index/"
-  },"121": {
+  },"128": {
     "doc": "MP1 - Meet the Members",
     "title": "Mini-Project 1: Meet the Member",
     "content": " ",
     "url": "http://localhost:4000/ios/projects/0/#mini-project-1-meet-the-member",
     "relUrl": "/ios/projects/0/#mini-project-1-meet-the-member"
-  },"122": {
+  },"129": {
     "doc": "MP1 - Meet the Members",
     "title": "Table of contents",
     "content": ". | Project Description | Setup . | Create a Github Repo | Get the Starter Code | . | Spec . | Requirements | Start Screen | Main Screen | Statistics Screen | Extra Credit | . | Debugging | Submission | . ",
     "url": "http://localhost:4000/ios/projects/0/#table-of-contents",
     "relUrl": "/ios/projects/0/#table-of-contents"
-  },"123": {
+  },"130": {
     "doc": "MP1 - Meet the Members",
     "title": "Project Description",
     "content": "Welcome to MDB! This semester, we’ll have over 50 members, including a new recruit class of 18 of the brightest minds on campus. What better way to get to know everyone in the club than to build an app about them? We’ll be building a simple, multiple-choice trivia game to see how fast you can learn everyone’s names. You will be working alone for this project. ",
     "url": "http://localhost:4000/ios/projects/0/#project-description",
     "relUrl": "/ios/projects/0/#project-description"
-  },"124": {
+  },"131": {
     "doc": "MP1 - Meet the Members",
     "title": "Setup",
     "content": "For all of the mini-projects we will be using Git for source control, and you will need to have a Github account. If you need a refresher on the Terminal commands, there’s a cheat sheet here. ",
     "url": "http://localhost:4000/ios/projects/0/#setup",
     "relUrl": "/ios/projects/0/#setup"
-  },"125": {
+  },"132": {
     "doc": "MP1 - Meet the Members",
     "title": "Create a Github Repo",
     "content": "First go to your Github and login to your account. On the left you should see the option to create a new repo. In the dialogue, pick a name for your repository. For example, it could be something like MDB-Mini-Projects. You can make it either public or private. You do not need to initialize it with README, .gitignore, or license. After clicking create, your remote repo will be ready. You should see a URL ending with .git, this will be the remote reference of your repository. Copy the URL. In your Terminal, first navigate to the directory where you want you local repo to be located (wondering how to do that? Check out the cheat sheet). Again, do not use a directory that’s managed by iCloud Storage. Then run the following command to clone the remote repo . git clone [your_repo_url.git] MDB-Mini-Projects cd MDB-Mini-Projects . It’s gonna show a warning that you have cloned an empty repository, which is expected because we haven’t add anything to it yet. Let’s quickly change that by adding a readme to the folder. echo \"# MDB Mini-Projects\" &gt;&gt; README.md . This will create a file called README.md and append \"# MDB Mini-Projects\" to that file. However, we also need to register this change with Git. This is called commit. Think of it as creating a check point in game, so no matter how badly you mess up, you can always go back (well, most of the time :)). git add -A git commit -m \"Added README.md\" . Now if you run git log, you can actually see the commit you’ve made. Before we push the change to Github, let’s make sure that the primary branch name follows the new standard (use main instead of master). git branch -M main . Since this is the first time branch main is pushed to origin (the alias for your repo_url.git), we should also create the remote branch and make our local branch track that remote branch. So the next time we push, we only need to say git push rather than git push origin main. git push -u origin main . In output it should say something like this ... To https://github.com/Miclin1024/MDB-Mini-Projects.git * [new branch] main -&gt; main Branch 'main' set up to track remote branch 'main' from 'origin'. Use git open to open the repository on Github, you should be able to see the README.md you just created. ",
     "url": "http://localhost:4000/ios/projects/0/#create-a-github-repo",
     "relUrl": "/ios/projects/0/#create-a-github-repo"
-  },"126": {
+  },"133": {
     "doc": "MP1 - Meet the Members",
     "title": "Get the Starter Code",
     "content": "Open a Terminal window, navigate to your local repository for the mini-projects. Run the following command . git remote add starter https://github.com/Miclin1024/MDB-Spring-21-iOS-TP.git git pull starter main --allow-unrelated-histories . This should open your default CLI text editor asking you to confirm the merge. If you’ve never done anything to change it before, it should be vim. Press :wq to save and exit. If you accidentally enter the Insert mode, press esc to return to the command mode then press :wq. Use ls to confirm that the folder MP1 - Meet the Member is in the repository. You can open the Finder window with open .. Double click the Meet the Member.xcodeproj file in the folder to open the project. Throughout the project, we encourage you to commit frequently, so it’s easy to revert to a prior commit if needed. Commits are usually broken down into functionality, so even if it’s just a few lines, it might be worth to commit. ",
     "url": "http://localhost:4000/ios/projects/0/#get-the-starter-code",
     "relUrl": "/ios/projects/0/#get-the-starter-code"
-  },"127": {
+  },"134": {
     "doc": "MP1 - Meet the Members",
     "title": "Spec",
     "content": " ",
     "url": "http://localhost:4000/ios/projects/0/#spec",
     "relUrl": "/ios/projects/0/#spec"
-  },"128": {
+  },"135": {
     "doc": "MP1 - Meet the Members",
     "title": "Requirements",
     "content": "For this project, you will be using Auto Layout to design each screen. That means you should be adding constraints instead of using frame for your layout. You are not allowed to use the interface builder (storyboard). All screens must be designed well. Note that the design of this application is entirely up to you, but make it look as clean as possible. See examples of trivia apps on the App Store for further inspiration. Also note that this spec does not specify all of the smaller details that would make this a complete app. For example, the spec doesn’t require back buttons, but adding back buttons would make the app much easier to use. Build it in a way that would make you actually want to use it, and don’t make it “hacky” just because the spec doesn’t require something. ",
     "url": "http://localhost:4000/ios/projects/0/#requirements",
     "relUrl": "/ios/projects/0/#requirements"
-  },"129": {
+  },"136": {
     "doc": "MP1 - Meet the Members",
     "title": "Start Screen",
     "content": ". | A screen with a button that says start. Upon pressing the button, the user is taken to the main screen. | . ",
     "url": "http://localhost:4000/ios/projects/0/#start-screen",
     "relUrl": "/ios/projects/0/#start-screen"
-  },"130": {
+  },"137": {
     "doc": "MP1 - Meet the Members",
     "title": "Main Screen",
     "content": ". | Member Picture: Randomly display a picture of a member on the screen. | Name Options: Display four options below the picture as buttons, each with different names that may correspond to the picture (one of the names should actually be correct, but the others can be random – be sure you don’t randomly also select the correct answer) | Score: Display a score count for the user – when the user correctly answers, increase the score by 1. Otherwise, just move on to the next question. | Answer Display: You can go from one question to another just by changing the image and button values, but there should be a two second delay in between questions where the button the user pressed flashes either red or green (depending on whether they’re correct or not). | Timer: Have a timer that limits the user to 5 seconds to answer the question. If they take up the full 5 seconds, the question is counted as incorrect. The user should have 2 seconds to read the correct answer before the next question is displayed. The 2 seconds count down will start when . | The user tap a answer, whether that’s correct or not, or | The 5 seconds countdown ends, whichever comes first | . | Pause Button: When the main screen is first loaded, display a pause button. This button should display “Pause” when the game is running. When clicked on, the game should pause, and the pause button should change its display to “Resume.” When clicked on again, the game should unpause, and the score should reset. Additionally, the game should automatically pause if the user goes to a different screen. | . ",
     "url": "http://localhost:4000/ios/projects/0/#main-screen",
     "relUrl": "/ios/projects/0/#main-screen"
-  },"131": {
+  },"138": {
     "doc": "MP1 - Meet the Members",
     "title": "Statistics Screen",
     "content": ". | Statistics View: Add a statistics icon. If the user clicks on this, the game should pause (if currently playing) and the screen should present a window that displays the following statistics: . | Longest streak of correct answers | Result of last three questions (or less if not answered yet) | . | . ",
     "url": "http://localhost:4000/ios/projects/0/#statistics-screen",
     "relUrl": "/ios/projects/0/#statistics-screen"
-  },"132": {
+  },"139": {
     "doc": "MP1 - Meet the Members",
     "title": "Extra Credit",
     "content": "For 10pt of extra credits on MP1 (So the maximum possible is 110pt). Use an animated progress bar on the top of the screen to indicate the 5 seconds countdown. The progress bar should start with full and advance to the next level at the end of each second. The progress bar should be able to maintain at whatever its state {0, 1, 2, 3, 4, 5} was during the 2 seconds countdown after the answer is displayed. ",
     "url": "http://localhost:4000/ios/projects/0/#extra-credit",
     "relUrl": "/ios/projects/0/#extra-credit"
-  },"133": {
+  },"140": {
     "doc": "MP1 - Meet the Members",
     "title": "Debugging",
     "content": "This video will walk you through some of the common types of error that you will encounter, and general guidelines on how to debug in Xcode. ",
     "url": "http://localhost:4000/ios/projects/0/#debugging",
     "relUrl": "/ios/projects/0/#debugging"
-  },"134": {
+  },"141": {
     "doc": "MP1 - Meet the Members",
     "title": "Submission",
     "content": "Save all of the files in your project (easiest way to do that is just building/running it), and add them to the staging area . git add -A . Commit the changes to git . git commit -m \"[Your commit message]\" . When that’s all done, push the local commits to Github . git push . Recall that because we set up the branch tracking for our local main, we don’t have to explicitly say git push origin main . Finally, submit your project to Gradescope . ",
     "url": "http://localhost:4000/ios/projects/0/#submission",
     "relUrl": "/ios/projects/0/#submission"
-  },"135": {
+  },"142": {
     "doc": "MP1 - Meet the Members",
     "title": "MP1 - Meet the Members",
     "content": " ",
     "url": "http://localhost:4000/ios/projects/0/",
     "relUrl": "/ios/projects/0/"
-  },"136": {
+  },"143": {
     "doc": "Projects",
     "title": "Projects",
     "content": " ",
