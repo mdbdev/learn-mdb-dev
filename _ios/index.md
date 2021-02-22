@@ -39,8 +39,8 @@ has_toc: false
 - [Lesson 0](/ios/lessons/0/): Introduction to Swift and iOS Development
 - [Lesson 1](/ios/lessons/1/): UIKit, MVC, and Delegates
 - [Lesson 2](/ios/lessons/2/): Concurrency & Multithreading: ARC, GCD
-- Lesson 3: Networking and Concurrency
-- Lesson 4: Design
+- Lesson 3: Data Persistence and Authentication
+- Lesson 4: Custom Views
 - Lesson 5: TBD
 
 ## Mini-Projects
