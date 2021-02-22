@@ -3,6 +3,7 @@
 *-cache/
 vendor/
 _site/
+firebase/hosting.X3NpdGU.cache
 
 ### NPM ###
 /node_modules/
