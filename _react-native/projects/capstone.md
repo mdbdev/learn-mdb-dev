@@ -4,7 +4,7 @@ title: Mini-Project 4
 page_order: 4
 description: None
 parent: Projects
-grand_parent: Overview
+grand_parent: Overview - RN
 ---
 
 # Mini-Project 4: Capstone

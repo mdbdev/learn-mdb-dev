@@ -4,7 +4,7 @@ title: Mini-Project 2
 page_order: 0
 description: None
 parent: Projects
-grand_parent: Overview
+grand_parent: Overview - RN
 ---
 
 # Mini-Project 2: iMDB

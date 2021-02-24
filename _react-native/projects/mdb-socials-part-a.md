@@ -4,7 +4,7 @@ title: Mini-Project 3A
 page_order: 2
 description: None
 parent: Projects
-grand_parent: Overview
+grand_parent: Overview - RN
 ---
 
 # Mini-Project 3A: MDB Socials
