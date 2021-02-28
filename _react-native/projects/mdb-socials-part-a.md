@@ -20,9 +20,13 @@ grand_parent: Overview - RN
 
 ## Project Description
 
-In this project, we’ll be exploring backend data storage/retrieval via Firebase. One of the cool features of Firebase over most other tools is its real-time functionality (in other words, Firebase automatically notifies you when some value in the database is updated). We’ll be building an app called MDB Socials, which will allow members to post and share social events.
+In this project, we'll be building an app called MDB Socials, which will allow members to post and share social events! We'll be introducing three new frameworks –
 
-*Note: MDB Socials is the most challenging and most important of all of the MDB Training Program projects. Expect it to be time consuming and difficult but don’t get discouraged! Start early and come to project parties to get help. We've also broken the project into two parts (A and B) to reduce workload and keep you on track.*
+- [Firebase](https://firebase.google.com) - for backend data storage/retrieval
+- [TypeScript](https://www.typescriptlang.org) - for adding type checking to JavaScript
+- [React Native Paper](https://callstack.github.io/react-native-paper/) - a component library that makes UI/UX simple
+
+*Note: MDB Socials is the most challenging and most important of all of the MDB Training Program projects. Expect it to be time consuming and difficult but don’t get discouraged! Start early and come to project parties to get help. We've also broken the project into two parts (A and B) to reduce workload and keep you on track. **Also, ask questions in Slack - and help each other out!***
 
 ## App Requirements
 
@@ -47,15 +51,40 @@ expo install
 expo start
 ```
 
-In this project, the screens and navigation stack have been set up for you. You'll need to implement **navigation between screens** (refer to Project 2) and use **state and effect hooks** (refer to Project 1 & Lesson 1). You'll also need to read over documentation for both Firebase and several third-party component libraries. Details are provided in the starter code comments.
+In this project, the screens and navigation stack have been set up for you! You'll need to implement **navigation between screens** (refer to Project 2). You'll also need to use **state and effect hooks** (refer to Project 1 & Lesson 1). 
 
-Note that the starter code contains all of the libraries that you'll need to create this app - you shouldn't need to install any external libraries, like Firebase, using Yarn!
+Because we're now using TypeScript (which integrates nicely with React Navigation), you should be able to see auto-completed function suggestions on the `route` and `navigation` props that we used in Project 2!
+
+You'll need to read over documentation for both Firebase and several third-party component libraries (date picker, image picker, etc.) - details are provided in the starter code comments. Note that the starter code already contains all of the libraries that you'll need to create this app - you shouldn't need to install any external libraries, like Firebase, using Yarn!
+
+## Typescript
+
+What is TypeScript? Here's a blurb from the [documentation](https://www.typescriptlang.org) that describes what it is, why we use it, and how it works.
+
+> *TypeScript extends JavaScript by adding types. Types provide a way to describe the shape of an object, providing better documentation, and allowing TypeScript to validate that your code is working correctly. Writing types can be optional in TypeScript, because type inference allows you to get a lot of power without writing additional code!*
+>
+> *All valid JavaScript code is also TypeScript code. You might get type-checking errors, but that won't stop you from running the resulting JavaScript.*
+
+Also, check out this video: [TypeScript in 100 Seconds](https://youtu.be/zQnBQ4tB3ZA).
+
+Throughout the starter code, you'll see references to an `interface` object. Here's one example:
+
+```
+export interface SocialModel {
+  eventDate: number;
+  eventDescription: string;
+  eventImage: string;
+  ...
+}
+```
+
+Here, we're essentally defining the structure of what the Social object should look like. In MP 2 (iMDB), the movie object that we used could take any shape or form throughout the different screens that we used it. In MP3, we ensure that wherever we create a `SocialModel` object, we'll always include these fields, and whenever we use an object of this type, we'll only be able to access these fields, and no other fields. 
 
 ## React Native Paper
 
-For this project, we'll be using [React Native Paper](https://callstack.github.io/react-native-paper/), a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. Card, TextInput, Snackbar, etc.). Make sure to read the documentation to identify what props (customization options) are available for each component!
+For this project, we'll be using [React Native Paper](https://callstack.github.io/react-native-paper/), a Material Design component library for React Native, to help us with UI/UX design. RN Paper comes with a variety of components that may be helpful at various points of this project (e.g. [Card](https://callstack.github.io/react-native-paper/card.html), [TextInput](https://callstack.github.io/react-native-paper/text-input.html), [Snackbar](https://callstack.github.io/react-native-paper/snackbar.html), etc.). Make sure to read the documentation to identify what props (customization options) are available for each component!
 
-## Firebase Setup
+## Firebase
 
 This project will require you to set up a Firebase project and database/storage instance. To do so, follow the instructions below.
 
@@ -64,15 +93,15 @@ This project will require you to set up a Firebase project and database/storage 
 3. Continue through the setup and click **Create Project**.
 4. On the project dashboard, select the "Web" option to create a new Web app (you can also do this through the settings page, accessible through the sidebar).
 5. Enter an **App Nickname** (call it "MDB Socials React Native") and click **Register**.
-6. Copy just the `firebaseConfig` variable from the code snippet provided and add it to the appropriate location in the `FeedScreen.jsx` file.
+6. Copy just the `firebaseConfig` variable. Convert it to JSON (which will require adding quotes around the object's attributes). Store it in a new file called `keys.json` in your project's root directory. It should be identical in structure to the file called `keys.json.template`.
 
-To set up Cloud Firestore (our NoSQL cloud database):
+<u>To set up Cloud Firestore (our NoSQL cloud database):</u>
 
 1. Click on the [Cloud Firestore](https://console.firebase.google.com/project/_/firestore) tab in the sidebar.
 2. Click **Create Database** and choose **Test Mode** when prompted.
 3. Select any location for your instance and continue to click **Done**.
 
-To set up Cloud Storage (our image storage bucket):
+<u>To set up Cloud Storage (our image storage bucket):</u>
 
 1. Click on the [Cloud Storage](https://console.firebase.google.com/project/_/storage) tab in the sidebar.
 2. Select any location for your instance and continue to click **Done**.
@@ -95,3 +124,4 @@ git push origin master
 
 Additionally, please submit a screen recording of your working app here: [https://go.mdb.dev/submit-project/](https://go.mdb.dev/submit-project/).
 
+*Side Note: if you're on an M1 Mac, test & run your app on your phone, and not your simulator - there is a [known bug](https://github.com/expo/expo/issues/11291) that prevents image pickers from working in the simulator!*
