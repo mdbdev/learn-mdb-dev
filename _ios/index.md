@@ -27,7 +27,7 @@ has_toc: false
 | **Sunday, 2/21** | MP 1 Due |
 | **Monday, 2/22** | [Lesson 2 Released](/ios/lessons/2/) <br /> [MP 2 Released](/ios/projects/1/) |
 | **Sunday, 2/28** | MP 2 Due |
-| **Monday, 2/29** | Lesson 3 Released<br /> MP 3A Released |
+| **Monday, 2/29** | [Lesson 3 Released](/ios/lessons/3/)<br /> MP 3A Released |
 | **Sunday, 3/7** | MP 3A Due |
 | **Monday, 3/8** | Lesson 4 Released <br /> MP 3B Released |
 | **Sunday, 3/14** | MP 3B Due |
@@ -39,7 +39,7 @@ has_toc: false
 - [Lesson 0](/ios/lessons/0/): Introduction to Swift and iOS Development
 - [Lesson 1](/ios/lessons/1/): UIKit, MVC, and Delegates
 - [Lesson 2](/ios/lessons/2/): Concurrency & Multithreading: ARC, GCD
-- Lesson 3: Data Persistence and Authentication
+- [Lesson 3](/ios/lessons/3/): Making an API Request: Escaping Closure and URLSession
 - Lesson 4: Custom Views
 - Lesson 5: TBD
 
