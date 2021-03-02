@@ -27,7 +27,7 @@ has_toc: false
 | **Sunday, 2/21** | MP 1 Due |
 | **Monday, 2/22** | [Lesson 2 Released](/ios/lessons/2/) <br /> [MP 2 Released](/ios/projects/1/) |
 | **Sunday, 2/28** | MP 2 Due |
-| **Monday, 2/29** | [Lesson 3 Released](/ios/lessons/3/)<br /> MP 3A Released |
+| **Monday, 2/29** | [Lesson 3 Released](/ios/lessons/3/)<br /> [MP 3A Released](/ios/projects/2/) |
 | **Sunday, 3/7** | MP 3A Due |
 | **Monday, 3/8** | Lesson 4 Released <br /> MP 3B Released |
 | **Sunday, 3/14** | MP 3B Due |
@@ -47,7 +47,7 @@ has_toc: false
 
 - [MP 1](/ios/projects/0/): Meet the Member
 - [MP 2](/ios/projects/1/): Pokédex
-- MP 3A/3B: MDB Social
+- [MP 3A](/ios/projects/2/) / 3B: MDB Social
 - MP 4: TBD
 
 ## Grading
