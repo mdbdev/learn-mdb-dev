@@ -29,7 +29,7 @@ has_toc: false
 | **Sunday, 2/28** | MP 2 Due |
 | **Monday, 2/29** | [Lesson 3 Released](/ios/lessons/3/)<br /> [MP 3A Released](/ios/projects/2/) |
 | **Sunday, 3/7** | MP 3A Due |
-| **Monday, 3/8** | Lesson 4 Released <br /> MP 3B Released |
+| **Monday, 3/8** | [Lesson 4 Released](/ios/lessons/4/) <br /> MP 3B Released |
 | **Sunday, 3/14** | MP 3B Due |
 | **Monday, 3/15** | Lesson 5 Released<br /> MP 4 Released |
 | **Sunday, 3/28** | MP 4 Due |
@@ -40,7 +40,7 @@ has_toc: false
 - [Lesson 1](/ios/lessons/1/): UIKit, MVC, and Delegates
 - [Lesson 2](/ios/lessons/2/): Concurrency & Multithreading: ARC, GCD
 - [Lesson 3](/ios/lessons/3/): Making an API Request: Escaping Closure and URLSession
-- Lesson 4: Custom Views
+- [Lesson 4](/ios/lessons/4/): Notification Center and Custom Views in iOS
 - Lesson 5: TBD
 
 ## Mini-Projects
