@@ -31,7 +31,7 @@ has_toc: false
 | **Sunday, 3/7** | MP 3A Due |
 | **Monday, 3/8** | [Lesson 4 Released](/ios/lessons/4/) <br /> [MP 3B Released](/ios/projects/3/) |
 | **Sunday, 3/14** | MP 3B Due |
-| **Monday, 3/15** | Lesson 5 Released<br /> MP 4 Released |
+| **Monday, 3/15** | [Lesson 5 Released](/ios/lessons/5/)<br /> MP 4 Released |
 | **Sunday, 3/28** | MP 4 Due |
 
 ## Lessons
@@ -41,7 +41,7 @@ has_toc: false
 - [Lesson 2](/ios/lessons/2/): Concurrency & Multithreading: ARC, GCD
 - [Lesson 3](/ios/lessons/3/): Making an API Request: Escaping Closure and URLSession
 - [Lesson 4](/ios/lessons/4/): Notification Center and Custom Views in iOS
-- Lesson 5: TBD
+- [Lesson 5](/ios/lessons/5/): Local Data Persistence, App's Life Cycle, and Modern Collection View
 
 ## Mini-Projects
 
