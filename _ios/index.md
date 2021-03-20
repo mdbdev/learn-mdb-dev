@@ -62,3 +62,9 @@ has_toc: false
     - Mini-Project 4 - 15%
 - Ideation - 5%
 - Development Cycle - 20%
+
+# Staff
+
+**Instructor:** Michael Lin
+
+**Mentors:** Ian Shen, Allison Husain, Janvi Shah
