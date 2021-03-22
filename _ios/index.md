@@ -32,7 +32,7 @@ has_toc: false
 | **Monday, 3/8** | [Lesson 4 Released](/ios/lessons/4/) <br /> [MP 3B Released](/ios/projects/3/) |
 | **Sunday, 3/14** | MP 3B Due |
 | **Monday, 3/15** | [Lesson 5 Released](/ios/lessons/5/)<br /> [MP 4 Released](/ios/projects/4/) |
-| **Sunday, 3/28** | MP 4 Due |
+| **Sunday, 4/4** | MP 4 Due |
 
 ## Lessons
 
