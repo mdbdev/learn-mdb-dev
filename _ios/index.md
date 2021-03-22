@@ -48,7 +48,7 @@ has_toc: false
 - [MP 1](/ios/projects/0/): Meet the Member
 - [MP 2](/ios/projects/1/): Pokédex
 - [MP 3A](/ios/projects/2/) / [3B](/ios/projects/3/): MDB Social
-- [MP 4](/ios/projects/4/): WeatherDBs
+- [MP 4](/ios/projects/4/): WeatherDB
 
 ## Grading
 
