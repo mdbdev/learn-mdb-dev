@@ -13,9 +13,9 @@ seo:
 {: .mb-2 }
 
 ### Welcome!
-The MDB Training Program is a 6-week, all-intensive course in iOS, Android, or React Native mobile development led by MDB instructors and mentors. On this site, we've published our React Native Training Program, which was developed in Fall 2020.
+The MDB Training Program is a 6 to 8 weeks, all-intensive course in iOS or React Native mobile development led by MDB instructors and mentors.
 
-This course contains six lectures, four mini-projects, one midterm assessment, and one final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members.
+This course contains lectures, projects, demos, and a final assessment. The lectures and starter code for the mini projects are public. Solutions to the mini projects, as well as assessments, are accessible only to members.
 
 ### About MDB
 MDB recruits new undergraduates at the beginning of every Fall and Spring semester! To learn more, visit [https://mdb.dev](https://mdb.dev/).
