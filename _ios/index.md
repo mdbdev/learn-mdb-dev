@@ -6,49 +6,57 @@ has_children: true
 description: None
 has_toc: false
 ---
+
 {: .no_toc }
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/fa/Apple_logo_black.svg/800px-Apple_logo_black.svg.png" 
-    alt="logo" 
-    style="height:50px; margin-right:40px;"/>
-<img src="https://mdb.dev/wp-content/uploads/2019/07/mdb_nooutline.png"
-    alt="logo" 
-    style="height:50px; !important;"/>
+<style>
+    
+</style>
+<div class="banner-images-container">
+<img 
+    src="/assets/images/apple-fill.png"
+    class="inline-centered-image"
+/>
+<img 
+    src="/assets/images/xcode.png"
+    class="inline-centered-image"
+/>
+</div>
+<div class="page-title-container">
+    <p class="page-title">MDB iOS Training Program</p>
+    <p class="page-title-desc">Fall 2021</p>
+</div>
+<hr class="title-hr"/>
 
+## Calendar
 
-# iOS Training Program
-
-## Spring 2021 Calendar
-
-| Day            | Assignment &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
+| Day            | Topics &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Assignments |
 | :---- | :----------------- |
-| **Monday, 2/8** | [Lesson 0 Released](/ios/lessons/0/) |
-| **Thursday, 2/11** | [MP 1 Released](/ios/projects/0/) |
-| **Monday, 2/15** | [Lesson 1 Released](/ios/lessons/1/) |
-| **Sunday, 2/21** | MP 1 Due |
-| **Monday, 2/22** | [Lesson 2 Released](/ios/lessons/2/) <br /> [MP 2 Released](/ios/projects/1/) |
-| **Sunday, 2/28** | MP 2 Due |
-| **Monday, 2/29** | [Lesson 3 Released](/ios/lessons/3/)<br /> [MP 3A Released](/ios/projects/2/) |
-| **Sunday, 3/7** | MP 3A Due |
-| **Monday, 3/8** | [Lesson 4 Released](/ios/lessons/4/) <br /> [MP 3B Released](/ios/projects/3/) |
-| **Sunday, 3/14** | MP 3B Due |
-| **Monday, 3/15** | [Lesson 5 Released](/ios/lessons/5/)<br /> [MP 4 Released](/ios/projects/4/) |
-| **Sunday, 4/4** | MP 4 Due |
+| **Week 1, Sep. 12** | Introduction to Swift and iOS Development | Project 1 |
+| **Week 2, Sep. 19** | Exploring the iOS SDK I ||
+| **Week 3, Sep. 26** | Exploring the iOS SDK II | Project 2 |
+| **Week 4, Oct. 3** | Concurrency and Memory Management ||
+| **Week 5, Oct. 10** | Introduction to Web APIs and Firebase | Project 3A |
+| **Week 6, Oct. 17** | Notification Center and Advanced Auto Layout | Project 3B |
+| **Week 7, Oct. 24** | Modern Cocoa Touch APIs | Project 4 |
+| **Week 8, Oct. 31** | TBD |
 
 ## Lessons
 
-- [Lesson 0](/ios/lessons/0/): Introduction to Swift and iOS Development
-- [Lesson 1](/ios/lessons/1/): UIKit, MVC, and Delegates
-- [Lesson 2](/ios/lessons/2/): Concurrency & Multithreading: ARC, GCD
-- [Lesson 3](/ios/lessons/3/): Making an API Request: Escaping Closure and URLSession
-- [Lesson 4](/ios/lessons/4/): Notification Center and Custom Views in iOS
-- [Lesson 5](/ios/lessons/5/): Local Data Persistence, App's Life Cycle, and Modern Collection View
+- Lesson 1: Introduction to Swift and iOS Development
+- Lesson 2: Exploring the iOS SDK I
+- Lesson 3: Exploring the iOS SDK II
+- Lesson 4: Concurrency and Memory Management
+- Lesson 5: Introduction to Web APIs and Firebase
+- Lesson 6: Notification Center and Advanced Auto Layout
+- Lesson 7: Modern Cocoa Touch APIs
+- Lesson 8: TBD
 
-## Mini-Projects
+## Projects
 
-- [MP 1](/ios/projects/0/): Meet the Member
-- [MP 2](/ios/projects/1/): Pokédex
-- [MP 3A](/ios/projects/2/) / [3B](/ios/projects/3/): MDB Social
-- [MP 4](/ios/projects/4/): WeatherDB
+- Project 1: Meet the Member
+- Project 2: Pokédex
+- Project 3A / 3B: MDB Social
+- Project 4: W(eather)DB
 
 ## Grading
 
@@ -63,8 +71,9 @@ has_toc: false
 - Ideation - 5%
 - Development Cycle - 20%
 
-# Staff
+**Passing Grade: 70%**
+## Staff
 
 **Instructor:** Michael Lin
 
-**Mentors:** Ian Shen, Allison Husain, Janvi Shah
+**Mentors:**

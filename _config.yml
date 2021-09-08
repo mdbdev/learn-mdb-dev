@@ -40,6 +40,9 @@ collections:
   ios:
     permalink: '/:collection/:path/'
     output: true
+  ios-sp21:
+    permalink: '/:collection/:path/'
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -58,6 +61,11 @@ defaults:
     values:
       layout: page
   - scope:
+      path: ''
+      type: ios-sp21
+    values:
+      layout: page
+  - scope:
       path: "assets/images"
     values:
       image: true
@@ -70,6 +78,8 @@ just_the_docs:
       name: React Native
     ios:
       name: iOS
+    ios-sp21:
+      name: iOS Spring 2021 Archive
 
 compress_html:
   clippings: all
