@@ -27,9 +27,18 @@ has_toc: false
 </div>
 <hr class="title-hr"/>
 
+## Welcome 🎉
+
+In this training program, we will take you through the Apple technologies behind the _millions_ of Apps used by over _one billion_ iPhones around the world. While this course is fundamentally about how to build Apps, we will also focus on the big picture concepts -- including Apple's HI design language, modern programming paradigms, and database design. This allows you to develop the general software engineering knowledge which will help you no matter what career path you choose in the future.
+
+In terms of assignments, the iOS TP consists of 4 individual projects and a final group project. We will use [Gradescope](https://www.gradescope.com) for submitting projects and assessing grades.
+
+## Software/Hardware Requirements
+
+Because we will be developing and testing using native SDK, a Mac is _required_ for this training program. In addition, for your sanity during debugging, we recommend that your mac model is at least 2016 or later. If you are not sure whether your mac is enough for the TP, or have any general questions regarding choosing between iOS or RN, send me a message before filling out your platform preference form. But in any case, you should have macOS (11.5+) and Xcode (12.5+) installed on your laptop prior to the first hackshop.
 ## Calendar
 
-| Day            | Topics &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; | Assignments |
+| Week | Lesson Topics | Assignments |
 | :---- | :----------------- |
 | **Week 1, Sep. 12** | Introduction to Swift and iOS Development | Project 1 |
 | **Week 2, Sep. 19** | Exploring the iOS SDK I ||
@@ -60,20 +69,17 @@ has_toc: false
 
 ## Grading
 
-- Final - 15%
-- Mini-Project - 60%
-    - Mini-Project 1 - 10%
-    - Mini-Project 2 - 15%
-    - Mini-Project 3 - 20%
-        - 3A - 10%
-        - 3B - 10%
-    - Mini-Project 4 - 15%
+- Projects - 75%
+    - Project 1 - 15%
+    - Project 2 - 20%
+    - Project 3 - 25%
+    - Project 4 - 15%
 - Ideation - 5%
-- Development Cycle - 20%
+- Final Newbie App - 20%
 
 **Passing Grade: 70%**
 ## Staff
 
-**Instructor:** Michael Lin
+**Instructor:** Michael Lin ([miclin@berkeley.edu](mailto:miclin@berkeley.edu))
 
 **Mentors:**
