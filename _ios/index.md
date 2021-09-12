@@ -40,7 +40,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 
 | Week | Lesson Topics | Assignments |
 | :---- | :----------------- |
-| **Week 1, Sep. 12** | Introduction to Swift and iOS Development | Project 1 |
+| **Week 1, Sep. 12** | [Introduction to Swift and iOS Development](/ios/lessons/1/) | Project 1 |
 | **Week 2, Sep. 19** | Exploring the iOS SDK I ||
 | **Week 3, Sep. 26** | Exploring the iOS SDK II | Project 2 |
 | **Week 4, Oct. 3** | Concurrency and Memory Management ||
@@ -51,7 +51,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 
 ## Lessons
 
-- Lesson 1: Introduction to Swift and iOS Development
+- [Lesson 1]((/ios/lessons/1/)): Introduction to Swift and iOS Development
 - Lesson 2: Exploring the iOS SDK I
 - Lesson 3: Exploring the iOS SDK II
 - Lesson 4: Concurrency and Memory Management
