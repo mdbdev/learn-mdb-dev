@@ -40,7 +40,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 
 | Week | Lesson Topics | Assignments |
 | :---- | :----------------- |
-| **Week 1, Sep. 12** | [Introduction to Swift and iOS Development](/ios/lessons/1/) | Project 1 |
+| **Week 1, Sep. 12** | [Introduction to Swift and iOS Development](/ios/lessons/1/) | [Project 1](/ios/projects/1/) |
 | **Week 2, Sep. 19** | Exploring the iOS SDK I ||
 | **Week 3, Sep. 26** | Exploring the iOS SDK II | Project 2 |
 | **Week 4, Oct. 3** | Concurrency and Memory Management ||
@@ -62,7 +62,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 
 ## Projects
 
-- Project 1: Meet the Member
+- [Project 1](/ios/projects/1/): Meet the Member
 - Project 2: Pokédex
 - Project 3A / 3B: MDB Social
 - Project 4: W(eather)DB
@@ -82,4 +82,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 
 **Instructor:** Michael Lin ([miclin@berkeley.edu](mailto:miclin@berkeley.edu))
 
-**Mentors:**
+**Mentors:**  
+Allison Husain ([allison.husain@berkeley.edu](mailto:allison.husain@berkeley.edu))  
+Nick Wang ([nicholaswang2000@berkeley.edu](mailto:nicholaswang2000@berkeley.edu))  
+Suraj Rao ([suraj_rao@berkeley.edu](mailto:suraj_rao@berkeley.edu))  
