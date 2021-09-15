@@ -56,7 +56,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 | **Monday** | 3PM-4PM | Michael | Moffitt 1st Floor \| [Zoom](https://berkeley.zoom.us/my/miclin) |
 | **Tuesday** | 1PM-2PM | Suraj | [Zoom](https://berkeley.zoom.us/my/suraj.rao) |
 | **Wednesday** | 4PM-5PM | Michael | Moffitt 1st Floor \| [Zoom](https://berkeley.zoom.us/my/miclin) |
-| **Thursday** | 3PM-4PM | Nick | Zoom |
+| **Thursday** | 3PM-4PM | Nick | [Zoom](https://berkeley.zoom.us/my/nickwangios) |
 | **Friday** | 2PM-3PM | Allison | [Zoom](https://berkeley.zoom.us/my/allison.husain) |
 
 ## Lessons
