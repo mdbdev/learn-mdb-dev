@@ -39,7 +39,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 ## Calendar
 
 | Week | Lesson Topics | Assignments |
-| :---- | :----------------- |
+| :---- | :----------------- | :---- |
 | **Week 1, Sep. 12** | [Introduction to Swift and iOS Development](/ios/lessons/1/) | [Project 1](/ios/projects/1/) |
 | **Week 2, Sep. 19** | Exploring the iOS SDK I ||
 | **Week 3, Sep. 26** | Exploring the iOS SDK II | Project 2 |
@@ -48,6 +48,16 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 | **Week 6, Oct. 17** | Notification Center and Advanced Auto Layout | Project 3B |
 | **Week 7, Oct. 24** | Modern Cocoa Touch APIs | Project 4 |
 | **Week 8, Oct. 31** | TBD |
+
+## Weekly OH Schedule
+
+| Day | Time | Staff | Location |
+| :---- | :----------------- | :----- | :---- |
+| **Monday** | 3PM-4PM | Michael | Moffitt 1st Floor \| [Zoom](https://berkeley.zoom.us/my/miclin) |
+| **Tuesday** | 1PM-2PM | Suraj | [Zoom](https://berkeley.zoom.us/my/suraj.rao) |
+| **Wednesday** | 4PM-5PM | Michael | Moffitt 1st Floor \| [Zoom](https://berkeley.zoom.us/my/miclin) |
+| **Thursday** | 3PM-4PM | Nick | Zoom |
+| **Friday** | 2PM-3PM | Allison | [Zoom](https://berkeley.zoom.us/my/allison.husain) |
 
 ## Lessons
 
