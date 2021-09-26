@@ -41,7 +41,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 | Week | Lesson Topics | Assignments |
 | :---- | :----------------- | :---- |
 | **Week 1, Sep. 12** | [Introduction to Swift and iOS Development](/ios/lessons/1/) | [Project 1](/ios/projects/1/) |
-| **Week 2, Sep. 19** | Exploring the iOS SDK I ||
+| **Week 2, Sep. 19** | [Exploring the iOS SDK I](/ios/lessons/1/) ||
 | **Week 3, Sep. 26** | Exploring the iOS SDK II | Project 2 |
 | **Week 4, Oct. 3** | Concurrency and Memory Management ||
 | **Week 5, Oct. 10** | Introduction to Web APIs and Firebase | Project 3A |
@@ -53,16 +53,16 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 
 | Day | Time | Staff | Location |
 | :---- | :----------------- | :----- | :---- |
-| **Monday** | 3PM-4PM | Michael | Moffitt 1st Floor \| [Zoom](https://berkeley.zoom.us/my/miclin) |
+| **Monday** | 3PM-4PM | Michael | [Zoom](https://berkeley.zoom.us/my/miclin) |
 | **Tuesday** | 1PM-2PM | Suraj | [Zoom](https://berkeley.zoom.us/my/suraj.rao) |
-| **Wednesday** | 4PM-5PM | Michael | Moffitt 1st Floor \| [Zoom](https://berkeley.zoom.us/my/miclin) |
+| **Wednesday** | 4PM-5PM | Michael | [Zoom](https://berkeley.zoom.us/my/miclin) |
 | **Thursday** | 3PM-4PM | Nick | [Zoom](https://berkeley.zoom.us/my/nickwangios) |
 | **Friday** | 2PM-3PM | Allison | [Zoom](https://berkeley.zoom.us/my/allison.husain) |
 
 ## Lessons
 
-- [Lesson 1]((/ios/lessons/1/)): Introduction to Swift and iOS Development
-- Lesson 2: Exploring the iOS SDK I
+- [Lesson 1](/ios/lessons/1/): Introduction to Swift and iOS Development
+- [Lesson 2](/ios/lessons/2/): Exploring the iOS SDK I
 - Lesson 3: Exploring the iOS SDK II
 - Lesson 4: Concurrency and Memory Management
 - Lesson 5: Introduction to Web APIs and Firebase
