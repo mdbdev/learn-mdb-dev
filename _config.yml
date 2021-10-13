@@ -43,6 +43,9 @@ collections:
   ios-sp21:
     permalink: '/:collection/:path/'
     output: true
+  calhacks:
+    permalink: '/:collection/:path/'
+    output: true
 # Default layouts for each collection type
 defaults:
   - scope:
@@ -66,6 +69,11 @@ defaults:
     values:
       layout: page
   - scope:
+      path: ''
+      type: calhacks
+    values:
+      layout: page
+  - scope:
       path: "assets/images"
     values:
       image: true
@@ -80,6 +88,8 @@ just_the_docs:
       name: iOS
     ios-sp21:
       name: iOS Spring 2021 Archive
+    calhacks:
+      name: Cal Hacks 2021
 
 compress_html:
   clippings: all
