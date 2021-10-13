@@ -4,6 +4,7 @@
 vendor/
 _site/
 .firebase/hosting.X3NpdGU.cache
+.vscode/
 
 ### NPM ###
 /node_modules/
