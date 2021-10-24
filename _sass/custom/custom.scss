@@ -183,3 +183,18 @@ summary {
 .title-hr {
   margin: 40px 0;
 }
+
+.row {
+  display: flex;
+}
+
+.column-2 {
+  flex: 50%;
+  padding: 5px;
+}
+
+@media screen and (max-width: 500px) {
+  .column-2 {
+    width: 100%;
+  }
+}
