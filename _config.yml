@@ -43,6 +43,9 @@ collections:
   ios-sp21:
     permalink: '/:collection/:path/'
     output: true
+  ios-fa21:
+    permalink: '/:collection/:path/'
+    output: true
   calhacks:
     permalink: '/:collection/:path/'
     output: true
@@ -61,6 +64,11 @@ defaults:
   - scope:
       path: ''
       type: ios
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: ios-fa21
     values:
       layout: page
   - scope:
@@ -86,6 +94,8 @@ just_the_docs:
       name: React Native
     ios:
       name: iOS
+    ios-fa21:
+      name: iOS Fall 2021 Archive
     ios-sp21:
       name: iOS Spring 2021 Archive
     calhacks:
