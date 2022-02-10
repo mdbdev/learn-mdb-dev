@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Demos
-page_order: 0
+nav_order: 5
 has_children: true
 description: Demos
-parent: Overview - iOS
 has_toc: true
 ---
 {: .no_toc }

@@ -1,10 +1,9 @@
 ---
 layout: page
 title: Projects
-page_order: 0
+nav_order: 4
 has_children: true
 description: Projects
-parent: Overview - iOS
 has_toc: true
 ---
 {: .no_toc }

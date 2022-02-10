@@ -1,8 +1,8 @@
 ---
 layout: page
 title: Overview - iOS 
-page_order: 1
-has_children: true
+nav_order: 1
+has_children: false
 description: None
 has_toc: false
 ---
@@ -62,7 +62,7 @@ Because we will be developing and testing using native SDK, a Mac is _required_ 
 
 ## Lessons
 
-- Lesson 1: Introduction to Swift and iOS Development
+- [Lesson 1](/ios/lessons/1/): Introduction to Swift and iOS Development
 - Lesson 3: iOS SDK II
 - Lesson 2: iOS SDK I
 - Lesson 4: Concurrency and Memory Management
