@@ -39,7 +39,7 @@ Use `cd` to go into the cloned project folder, and add our starter code remote u
 ```bash
 cd [folder-name]
 git remote add starter https://github.com/Miclin1024/MDB-iOS-TP.git
-git pull starter fa21/students/main  --allow-unrelated-histories
+git pull starter sp22/student/main  --allow-unrelated-histories
 ```
 
 This should open your default CLI text editor asking you to confirm the merge. If yours is `vim`, type `:wq` to save and exit.
