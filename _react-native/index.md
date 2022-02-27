@@ -12,32 +12,29 @@ has_toc: false
 
 # React Native Training Program
 
-## Spring 2021 Calendar
+## Spring 2022 Calendar
 
-| Day            | Assignment &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; |
-| :---- | :----------------- |
-| **Monday, 2/8** | [Lesson 0 Released](https://learn.mdb.dev/react-native/lessons/0/) |
-| **Monday, 2/15** | [Lesson 1 Released](https://learn.mdb.dev/react-native/lessons/1/)<br />[MP 1 Released](https://learn.mdb.dev/react-native/projects/match-the-members/) |
-| **Sunday, 2/21** | MP 1 Due |
-| **Monday, 2/22** | [Lesson 2 Released](https://learn.mdb.dev/react-native/lessons/2/)<br />[MP 2 Released](https://learn.mdb.dev/react-native/projects/imdb/) |
-| **Sunday, 2/28** | MP 2 Due |
-| **Monday, 2/29** | [Lesson 3 Released](https://learn.mdb.dev/react-native/lessons/3/)<br />[MP 3A Released](https://learn.mdb.dev/react-native/projects/mdb-socials-part-a/) |
-| **Sunday, 3/7** | MP 3A Due |
-| **Monday, 3/8** | [Lesson 4 Released](https://learn.mdb.dev/react-native/lessons/4/)<br />[MP 3B Released](https://learn.mdb.dev/react-native/projects/mdb-socials-part-b/) |
-| **Sunday, 3/14** | MP 3B Due |
-| **Monday, 3/15** | Lesson 5 Released<br />[MP 4 Released](https://learn.mdb.dev/react-native/projects/capstone/) |
-| **Sunday, 3/28** | MP 4 Due |
+| Week | Lesson Topics | Assignments |
+| :---- | :----------------- | :---- |
+| **Week 0** | Getting Started ||
+| **Week 1** | React Fundamentals and Typescript | Project 1 |
+| **Week 2** | Navigation, Lifecycle, and Advanced Components | Project 2 |
+| **Week 3** | REST API's, Databases, Systems Design, and the Cloud | Project 3A |
+| **Week 4** | Authentication, Security, and State Management | Project 3B |
+| **Week 5** | Design & Backend | Project 4 |
+| **Week 6** | Web Development ||
 
 ## Lessons
 
-This training program has six lessons.
+This training program has seven lessons.
 
 - [Lesson 0](/react-native/lessons/0/): Getting Started
-- [Lesson 1](/react-native/lessons/1/): React Fundamentals
+- [Lesson 1](/react-native/lessons/1/): React Fundamentals and Typescript
 - [Lesson 2](/react-native/lessons/2/): Navigation, Lifecycle, and Advanced Components
-- [Lesson 3](/react-native/lessons/3/): REST API's, Databases, and the Cloud
+- [Lesson 3](/react-native/lessons/3/): REST API's, Databases, Systems Design, and the Cloud
 - [Lesson 4](/react-native/lessons/4/): Authentication, Security, and State Management
 - Lesson 5: Design & Backend
+- Lesson 6: Web Development
 
 ## Mini-Projects
 
@@ -47,7 +44,13 @@ This training program has four projects.
 - [Project 3A](/react-native/projects/mdb-socials-part-a/)/[3B](/react-native/projects/mdb-socials-part-b/): MDB Socials
 - [Project 4](/react-native/projects/capstone/): Capstone
 
+## Staff
+
+**Instructor:** Aniruth Narayanan [aniruth.n@berkeley.edu](mailto:aniruth.n@berkeley.edu)
+
+**Mentor:** Nick Jiang
+
 ## Contributors
 
-*Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, and Shomil Jain*
+*Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
 
