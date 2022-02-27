@@ -37,6 +37,9 @@ collections:
   react-native:
     permalink: '/:collection/:path/'
     output: true
+  react-native-sp21:
+    permalink: '/:collection/:path/'
+    output: true
   ios:
     permalink: '/:collection/:path/'
     output: true
@@ -59,6 +62,11 @@ defaults:
   - scope:
       path: ''
       type: react-native
+    values:
+      layout: page
+  - scope:
+      path: ''
+      type: react-native-sp21
     values:
       layout: page
   - scope:
@@ -92,6 +100,8 @@ just_the_docs:
       name: General
     react-native:
       name: React Native
+    react-native-sp21:
+      name: React Native Spring 2021 Archive
     ios:
       name: iOS
     ios-fa21:
