@@ -87,5 +87,5 @@ git commit -m "all features working"
 git push origin master
 ```
 
-Additionally, please submit a screen recording of your working app here: [https://go.mdb.dev/submit-project/](https://go.mdb.dev/submit-project/).
+Additionally, please submit a screen recording of your working app here: [https://mdb.dev/submit-project/](https://mdb.dev/submit-project/).
 

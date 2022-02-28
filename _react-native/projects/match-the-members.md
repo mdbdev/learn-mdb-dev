@@ -81,5 +81,5 @@ git push origin master
 
 Then, link your repository to the Gradescope assignment for this project.
 
-Finally, please submit a screen recording of your working app here: [https://go.mdb.dev/submit-project/](https://go.mdb.dev/submit-project/).
+Finally, please submit a screen recording of your working app here: [https://mdb.dev/submit-project/](https://mdb.dev/submit-project/).
 
