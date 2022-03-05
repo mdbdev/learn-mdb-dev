@@ -12,6 +12,8 @@
 
 `bundle exec jekyll serve --incremental`
 
+Note that `make build` will do the same thing (specified in the Makefile).
+
 ## Deploy to Firebase
 
 From the project folder, run `./launch` to deploy the site.
