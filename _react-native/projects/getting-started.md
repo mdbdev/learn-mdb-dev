@@ -3,7 +3,7 @@ layout: page
 title: Project Setup Guide
 page_order: 6
 description: This guide walks through setting up a React Native project.
-parent: Projects
+parent: Projects - RN
 grand_parent: Overview
 ---
 

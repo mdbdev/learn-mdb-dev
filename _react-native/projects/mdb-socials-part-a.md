@@ -3,7 +3,7 @@ layout: page
 title: Mini-Project 3A
 page_order: 2
 description: None
-parent: Projects
+parent: Projects - RN
 grand_parent: Overview - RN
 ---
 

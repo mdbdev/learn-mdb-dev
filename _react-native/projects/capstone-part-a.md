@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Mini-Project 4
+title: Mini-Project 4A
 page_order: 4
 description: None
-parent: Projects
+parent: Projects - RN
 grand_parent: Overview - RN
 ---
 
-# Mini-Project 4: Capstone
+# Mini-Project 4A: Capstone
 {: .no_toc }
 
 ## Table of contents
@@ -18,7 +18,7 @@ grand_parent: Overview - RN
 
 ---
 
-In the final project of this training program, you'll have the flexibility to tie together everything you've learned into a capstone project! 
+In the first part of the final project of this training program, you'll have the flexibility to tie together everything you've learned into a capstone project! 
 
 This project is structured differently from the previous projects. Instead of starting with the same starter code as everyone else and working towards the same end product, you'll be working together in teams of two to create a unique product, with an opportunity to dive deep into to areas that interest you! Every team will have to meet a base set of requirements, which are described below, and choose either the frontend or backend-oriented track. 
 

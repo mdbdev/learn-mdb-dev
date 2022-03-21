@@ -7,10 +7,47 @@ description: None
 has_toc: false
 ---
 {: .no_toc }
-<img src="https://mdb.dev/wp-content/uploads/2019/07/mdb_nooutline.png" alt="logo" style="height:45px; !important;"/>
-<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png" alt="logo" style="height:45px; marginLeft:15 !important;"/>
+<style>
+    
+</style>
+<div class="banner-images-container">
+<img 
+    src="https://mdb.dev/wp-content/uploads/2019/07/mdb_nooutline.png"
+    class="inline-centered-image"
+/>
+<img 
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/1200px-React-icon.svg.png"
+    class="inline-centered-image"
+/>
+</div>
+<div class="banner-images-container">
+<img 
+    src="https://source.android.com/setup/images/Android_symbol_green_RGB.svg"
+    class="inline-centered-image"
+    style="height: 75px !important"
+/>
+<img 
+    src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/ca/IOS_logo.svg/2048px-IOS_logo.svg.png"
+    class="inline-centered-image"
+    style="height: 75px !important"
+/>
+</div>
+<div class="page-title-container">
+    <p class="page-title">MDB React Native Training Program</p>
+    <p class="page-title-desc">Spring 2022</p>
+</div>
 
-# React Native Training Program
+---
+
+## Welcome to React Native
+
+The modern world has shifted towards mobile apps. The web has been replaced by the browser, and the desktop has been replaced by the mobile. There is a growing need for cross-platform development not as a feature, but as a requirement to access the over _three billion_ Androids and over _one billion_ iPhones around the world in addition to over _two billion_ computers running Windows, macOS, and Linux.
+
+In this training program, you will learn how to use React Native and build purely in Typescript, a superset of Javascript, to create cross-platform mobile apps. Along the way, you will also learn backend architecture, database paradigms, systems design, wireframing, authentication paradigms, web development, and much more.
+
+## Software/Hardware Requirements
+
+No specific operating system is mandatory, but you will need a computer with a good internet connection. It is recommended that you use Visual Studio Code, a free and open-source IDE, to develop your apps. Additionally, you will need a phone with the Expo Go app installed or an emulator that can be accessed from the Expo Command Line Tool.
 
 ## Spring 2022 Calendar
 
@@ -21,8 +58,8 @@ has_toc: false
 | **Week 2** | Navigation, Lifecycle, and Advanced Components | Project 2 |
 | **Week 3** | REST API's, Databases, Systems Design, and the Cloud | Project 3A |
 | **Week 4** | Authentication, Security, and State Management | Project 3B |
-| **Week 5** | Design & Backend | Project 4 |
-| **Week 6** | Web Development ||
+| **Week 5** | Design & Backend | Project 4A |
+| **Week 6** | Web Development | Project 4B |
 
 ## Lessons
 
@@ -33,8 +70,8 @@ This training program has seven lessons.
 - [Lesson 2](/react-native/lessons/2/): Navigation, Lifecycle, and Advanced Components
 - [Lesson 3](/react-native/lessons/3/): REST API's, Databases, Systems Design, and the Cloud
 - [Lesson 4](/react-native/lessons/4/): Authentication, Security, and State Management
-- Lesson 5: Design & Backend
-- Lesson 6: Web Development
+- [Lesson 5](/react-native/lessons/5): Design & Backend
+- [Lesson 6](/react-native/lessons/6): Web Development
 
 ## Mini-Projects
 
@@ -42,7 +79,7 @@ This training program has four projects.
 - [Project 1](/react-native/projects/match-the-members/): Match the Members
 - [Project 2](/react-native/projects/imdb/): iMDB
 - [Project 3A](/react-native/projects/mdb-socials-part-a/)/[3B](/react-native/projects/mdb-socials-part-b/): MDB Socials
-- [Project 4](/react-native/projects/capstone/): Capstone
+- [Project 4A](/react-native/projects/capstone-part-a/)/[4B](/react-native/projects/capstone-part-b/): Capstone
 
 ## Staff
 
