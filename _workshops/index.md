@@ -29,7 +29,7 @@ has_toc: false
 
 # Introduction
 
-Today, native Apps continue to offer unparalleled performance and experience for platform users. In this workshop, we will take you through the Apple technologies behind the millions of Apps used by over one billion iPhones around the world. We will start with an overview of Swift fundamentals, followed by a short introduction to the iOS SDK. We will demonstrate how you can quickly prototype your App using UIKit and Storyboard. You will have the opportunity to follow along using the provided starter code and instructions.
+Today, native Apps continue to offer unparalleled performance and user experience. In this workshop, we will take you through the Apple technologies behind the millions of Apps used by over one billion iPhones around the world. We will start with an overview of Swift fundamentals, followed by a short introduction to the iOS SDK. We will demonstrate how you can quickly prototype your App using UIKit and Storyboard. You will have the opportunity to follow along using the provided starter code and instructions.
 
 ## System Requirement
 
