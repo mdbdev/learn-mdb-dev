@@ -49,7 +49,7 @@ collections:
   ios-fa21:
     permalink: '/:collection/:path/'
     output: true
-  calhacks:
+  workshops:
     permalink: '/:collection/:path/'
     output: true
 # Default layouts for each collection type
@@ -86,7 +86,7 @@ defaults:
       layout: page
   - scope:
       path: ''
-      type: calhacks
+      type: workshops
     values:
       layout: page
   - scope:
@@ -104,12 +104,12 @@ just_the_docs:
       name: React Native Spring 2021 Archive
     ios:
       name: iOS
+    workshops:
+      name: Workshops
     ios-fa21:
       name: iOS Fall 2021 Archive
     ios-sp21:
       name: iOS Spring 2021 Archive
-    calhacks:
-      name: Cal Hacks 2021
 
 compress_html:
   clippings: all

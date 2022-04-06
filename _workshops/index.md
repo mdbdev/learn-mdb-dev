@@ -23,7 +23,7 @@ has_toc: false
 </div>
 <div class="page-title-container">
     <p class="page-title">iOS Development Workshop</p>
-    <p class="page-title-desc">MDB @ Cal Hacks</p>
+    <p class="page-title-desc">Mobile Developers of Berkeley</p>
 </div>
 <hr class="title-hr"/>
 
@@ -37,7 +37,7 @@ Since we will be using some newest features in the iOS SDK (`UIButtonConfigurati
 
 # Swift and iOS SDK
 
-The slides used in the presentation will be available [here](https://docs.google.com/presentation/d/1_vTXKi1zZiFiS5qOivxuIpG8jHzelac-JcQJu80MuBg/edit?usp=sharing).
+The slides used in the presentation will become available here.
 
 For a more in depth intro to Swift and iOS SDK, check out the [lesson one](/ios/lessons/1/) of our training program.
 
