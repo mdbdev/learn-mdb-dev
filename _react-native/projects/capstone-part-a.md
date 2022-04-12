@@ -22,6 +22,8 @@ In the first part of the final project of this training program, you'll have the
 
 This project is structured differently from the previous projects. Instead of starting with the same starter code as everyone else and working towards the same end product, you'll be working together in teams of two to create a unique product, with an opportunity to dive deep into to areas that interest you! Every team will have to meet a base set of requirements, which are described below, and choose either the frontend or backend-oriented track. 
 
+This semester, your capstone project will be your ideation project (the same one you are pitching at TechFair). You are free to build a separate capstone project if you'd like, but you do not have to.
+
 ---
 
 ## Requirements
@@ -31,6 +33,8 @@ This project is structured differently from the previous projects. Instead of st
 What is a <u>MVP?</u> It's described [formally](https://en.wikipedia.org/wiki/Minimum_viable_product) as a "version of a new product a team uses the maximum amount of learning about customers with the least effort." In other words, we want to take as many shortcuts as we can to get a version of a working product into the hands of our customers. Then, we observe their interactions with our product, and use that learning to guide our decisions in the future.
 
 Coming up with a viable app idea is difficult - so we've done the work for you! For this project, you can choose from any of the ideas listed in the Appendix. If you have your own idea, feel free to work on that as well - just make sure to run it by your mentor first! Because this is a <u>three week project,</u> we want all ideas to be somewhat on an equal level of difficulty, so we've designed the requirements as such.
+
+One big reason you learned Firebase in this training program is that it's easy to get started. While the costs of making many requests to the database are high, for an MVP, the goal is to get the product working as quickly as possible. If you were to later create a fully-fledged production application, you would look more closely into the design architecture (for example, using OAuth 2.0 for authentication, the databsae design, and more complicated backend logic). However, for now, you can (and should) focus on the MVP.
 
 ### Requirement 2: Use the Expo SDK
 

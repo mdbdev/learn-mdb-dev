@@ -20,7 +20,9 @@ grand_parent: Overview - RN
 
 Congratulations on finishing Project 4A! In the second part of the final project of this training program, you'll have the flexibility to go _truly_ cross platform!
 
-This project is an extension of your previous week's work. Your goal is to take the mobile app and make it applicable for the web to be used in a browser with _similar_ but not necessarily _identical_ functionality.
+This project is an extension of your previous project's work. Your goal is to take the mobile app and make it applicable for the web to be used in a browser with _similar_ but not necessarily _identical_ functionality.
+
+You must implement requirement 1 and are free to do _either_ requirement 2 or 3. Note that you can do both if you would like, but you are not required to.
 
 ---
 
@@ -33,6 +35,12 @@ You are free to choose between a variety of frameworks as you see fit - for exam
 ### Requirement 2: Use a Shared Codebase
 
 The advantage of using React to build both websites and apps is that you can have one shared codebase between your platforms. This means that you can use the same codebase to build both websites and apps.
+
+### Requirement 3: Build a Showcase Website
+
+Having a showcase website that illustrates your product's functionality is a great way to get people to try your product. You can use this website to show off your product to potential users and incorporate information about where you see your product going.
+
+---
 
 Congratulations on completing the final project and the training program! Over the past few weeks, you have learned:
 
