@@ -34,7 +34,7 @@ has_toc: false
 </div>
 <div class="page-title-container">
     <p class="page-title">MDB React Native Training Program</p>
-    <p class="page-title-desc">Spring 2022</p>
+    <p class="page-title-desc">Fall 2022</p>
 </div>
 
 ---
@@ -49,7 +49,7 @@ In this training program, you will learn how to use React Native and build purel
 
 No specific operating system is mandatory, but you will need a computer with a good internet connection. It is recommended that you use Visual Studio Code, a free and open-source IDE, to develop your apps. Additionally, you will need a phone with the Expo Go app installed or an emulator that can be accessed from the Expo Command Line Tool.
 
-## Spring 2022 Calendar
+## Fall 2022 Calendar
 
 | Week | Lesson Topics | Assignments |
 | :---- | :----------------- | :---- |
@@ -85,9 +85,29 @@ This training program has four projects.
 
 **Instructor:** Aniruth Narayanan [aniruth.n@berkeley.edu](mailto:aniruth.n@berkeley.edu)
 
-**Mentor:** Nick Jiang
+**Mentor:** Anya Shah
 
 ## Contributors
 
 *Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
+
+## Previous Staff
+
+### Spring 2022
+
+**Instructor:** Aniruth Narayanan
+
+**Mentor:** Nick Jiang
+
+### Fall 2021
+
+**Instructor:** Maggie Yi
+
+**Mentor:** Aniruth Narayanan
+
+### Spring 2021
+
+**Instructor:** Shomil Jain
+
+**Mentor:** Alvaro Morales, Afees Tiamiyu
 
