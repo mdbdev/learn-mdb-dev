@@ -34,22 +34,24 @@ has_toc: false
 </div>
 <div class="page-title-container">
     <p class="page-title">MDB React Native Training Program</p>
-    <p class="page-title-desc">Fall 2022</p>
+    <p class="page-title-desc">Build cross-platform apps</p>
 </div>
 
 ---
 
 ## Welcome to React Native
 
-The modern world has shifted towards mobile apps. The web has been replaced by the browser, and the desktop has been replaced by the mobile. There is a growing need for cross-platform development not as a feature, but as a requirement to access the over _three billion_ Androids and over _one billion_ iPhones around the world in addition to over _two billion_ computers running Windows, macOS, and Linux.
+The modern world has shifted towards mobile. The web has been replaced by the browser, and the desktop has been replaced by the phone. There is a growing need for cross-platform development not as a feature, but as a requirement to access the over _three billion_ Androids and over _one billion_ iPhones around the world in addition to over _two billion_ computers running Windows, macOS, and Linux.
 
-In this training program, you will learn how to use React Native and build purely in Typescript, a superset of Javascript, to create cross-platform mobile apps. Along the way, you will also learn backend architecture, database paradigms, systems design, wireframing, authentication paradigms, web development, and much more.
+In the past, multiple codebases in multiple languages (Swift, Kotlin, Java, Objective-C, C#, etc.) were required to develop for multiple platforms. By using [React Native](https://reactnative.dev/), you can develop a single codebase in JavaScript and use it to develop for both Android and iOS. Additionally, you can use the same codebase to develop for the web using [React](https://reactjs.org/), and even Desktop apps using [Electron](https://www.electronjs.org/) or newer projects like [Tauri](https://tauri.app/).
+
+In this training program, you will learn how to use React Native and build purely in Typescript, a superset of Javascript, to create cross-platform mobile apps. Along the way, you will also learn backend architecture, database paradigms, systems design, wireframing, authentication paradigms, web development (extending React Native concepts), and much more.
 
 ## Software/Hardware Requirements
 
 No specific operating system is mandatory, but you will need a computer with a good internet connection. It is recommended that you use Visual Studio Code, a free and open-source IDE, to develop your apps. Additionally, you will need a phone with the Expo Go app installed or an emulator that can be accessed from the Expo Command Line Tool.
 
-## Fall 2022 Calendar
+## Calendar
 
 | Week | Lesson Topics | Assignments |
 | :---- | :----------------- | :---- |
@@ -92,6 +94,12 @@ This training program has four projects.
 *Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
 
 ## Previous Staff
+
+### Fall 2022
+
+**Instructor:** Aniruth Narayanan
+
+**Mentor:** Anya Shah
 
 ### Spring 2022
 
