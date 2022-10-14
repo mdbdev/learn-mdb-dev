@@ -12,7 +12,7 @@ has_toc: false
 </style>
 <div class="banner-images-container">
 <img 
-    src="https://mdb.dev/wp-content/uploads/2019/07/mdb_nooutline.png"
+    src="/assets/images/mdb-logo.png"
     class="inline-centered-image"
 />
 <img 

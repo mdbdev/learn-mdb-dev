@@ -7,7 +7,7 @@ seo:
   name: Mobile Developers of Berkeley - Learn Mobile Development
 ---
 
-<img src="https://mdb.dev/wp-content/uploads/2019/07/mdb_nooutline.png" alt="logo" style="height:45px; !important;"/>
+<img src="/assets/images/mdb-logo.png" alt="logo" style="height:75px; !important;"/>
 
 # {{ site.tagline }}
 {: .mb-2 }

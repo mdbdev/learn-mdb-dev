@@ -1,1 +1,10 @@
 $link-color: $blue-000;
+
+/* Responsive Google Slides, YouTube & Vimeo */
+iframe[src*="docs.google.com"],
+iframe[src*="youtube.com"],
+iframe[src*="player.vimeo.com"]{
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
