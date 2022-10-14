@@ -96,14 +96,27 @@ For a more in depth intro to building apps (including backend, security, etc.) c
 
 Every Sunday, the Mobile Developers of Berkeley hosts a weekly meeting where we discuss the latest in mobile development, share our projects, and learn from each other. We provide free lunch for our members, funded by our contracts, except there's one issue: it's too hard to decide where to buy food. To solve this, we are going to build a mobile application that allows members to vote on where to get lunch from, using React Native and Firebase.
 
-<!-- <div class="row">
+Voting and Results Screens:
+
+<div class="row">
   <div class="column-50">
-    <img src="/assets/images/roll-call-1.png" alt="Roll call app screenshot" style="width:100%">
+    <img src="../../assets/images/workshops/calhacks9/voting-screen.png" alt="Voting Screen" style="width:70%; box-shadow: 0 0 12px 2px grey;">
   </div>
   <div class="column-50">
-    <img src="/assets/images/roll-call-2.png" alt="Roll call app screenshot" style="width:100%">
+    <img src="../../assets/images/workshops/calhacks9/results-screen.png" alt="Results Screen" style="width:70%; box-shadow: 0 0 12px 2px grey;">
   </div>
-</div> -->
+</div>
+
+Authentication Screens (Sign In, Sign Up):
+
+<div class="row">
+  <div class="column-50">
+    <img src="../../assets/images/workshops/calhacks9/sign-in-screen.png" alt="Sign In Screen" style="width:70%; box-shadow: 0 0 12px 2px grey;">
+  </div>
+  <div class="column-50">
+    <img src="../../assets/images/workshops/calhacks9/sign-up-screen.png" alt="Sign Up Screen" style="width:70%; box-shadow: 0 0 12px 2px grey;">
+  </div>
+</div>
 
 ## Starter Code
 
