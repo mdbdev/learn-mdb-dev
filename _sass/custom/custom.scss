@@ -198,3 +198,10 @@ summary {
     width: 100%;
   }
 }
+
+// Added by Aniruth
+
+.center-container {
+  display: grid;
+  place-items: center;
+}

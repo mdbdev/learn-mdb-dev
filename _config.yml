@@ -43,12 +43,12 @@ collections:
   ios:
     permalink: '/:collection/:path/'
     output: true
-  ios-sp21:
-    permalink: '/:collection/:path/'
-    output: true
-  ios-fa21:
-    permalink: '/:collection/:path/'
-    output: true
+  # ios-sp21:
+  #   permalink: '/:collection/:path/'
+  #   output: true
+  # ios-fa21:
+  #   permalink: '/:collection/:path/'
+  #   output: true
   workshops:
     permalink: '/:collection/:path/'
     output: true
@@ -74,16 +74,16 @@ defaults:
       type: ios
     values:
       layout: page
-  - scope:
-      path: ''
-      type: ios-fa21
-    values:
-      layout: page
-  - scope:
-      path: ''
-      type: ios-sp21
-    values:
-      layout: page
+  # - scope:
+  #     path: ''
+  #     type: ios-fa21
+  #   values:
+  #     layout: page
+  # - scope:
+  #     path: ''
+  #     type: ios-sp21
+  #   values:
+  #     layout: page
   - scope:
       path: ''
       type: workshops
@@ -106,10 +106,10 @@ just_the_docs:
       name: iOS
     workshops:
       name: Workshops
-    ios-fa21:
-      name: iOS Fall 2021 Archive
-    ios-sp21:
-      name: iOS Spring 2021 Archive
+    # ios-fa21:
+    #   name: iOS Fall 2021 Archive
+    # ios-sp21:
+    #   name: iOS Spring 2021 Archive
 
 compress_html:
   clippings: all

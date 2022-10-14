@@ -14,6 +14,8 @@
 
 Note that `make build` will do the same thing (specified in the Makefile).
 
+`make clean` will clear the local cache of the site stored in `_site` (useful if you're having issues with the site not updating).
+
 ## Deploy to Firebase
 
 From the project folder, run `./launch` to deploy the site.
