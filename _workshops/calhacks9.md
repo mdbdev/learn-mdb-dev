@@ -76,21 +76,50 @@ Most projects use [TypeScript](https://www.typescriptlang.org/), a superset of J
 
 You can use Windows, Mac, or Linux for this workshop.
 
-Install VS Code as your code editor.
+Note that this setup should be done before the workshop. If you don't have it, there will be live coding on the screen, and you're free to do the setup steps and then code later.
 
-If on Windows: install git bash
+### Installation
 
-If on Mac: install xcode-command-line-tools
+[Install VS Code](https://code.visualstudio.com/download) as your code editor.
 
-Install Node, verify `node –version` and `npm –version` work. Install yarn and confirm it works as well using `yarn --version`. Install expo-cli globally (using sudo if on mac if need be).
+If on Windows: [install git bash](https://git-scm.com/download/win).
 
-Install Expo Go app on your phone. This is how you can test code running on your local machine on the phone.
+If on Mac: install xcode-command-line-tools using the command `xcode-select --install`.
 
-Use git to take the template we have of the starter code, clone it locally. Run yarn install and expo install within the directory.
+[Install Node](https://nodejs.org/en/download/), verify `node –version` and `npm –version` work (they should be printing out versions). Install yarn and confirm it works as well using `yarn --version`. Install expo-cli globally using `npm i -g expo-cli` (using sudo if on mac if need be).
 
-Verify setup is correct by running expo start in directory. QR code should pop up in the terminal, and when scanned in Expo Go, should load up the starter app code.
+[Install the Expo Go app](https://docs.expo.dev/get-started/installation/#2-expo-go-app-for-ios-and) on your phone. This is how you can test code running on your local machine on the phone, by scanning the QR code that appears in the terminal when running `expo start`.
 
-Optional: if on Mac, install XCode to get the simulator tools (so you can open up a simulated iPhone on the screen, instead of having to use your phone) - so the command `expo start –-ios` can be used. Note that you can use an Android emulator if on Windows or Linux if you'd like.
+Use git to take the template we have of the starter code (linked below) and clone it locally. Enter the directory (using `cd [folder name]`), then run `yarn install` and `expo install` within the directory.
+
+Verify your setup is correct by running `expo start` in the cloned repository. A QR code should pop up in the terminal, and when scanned in Expo Go, should load up the starter app code.
+
+_Optional:_ if on Mac, install XCode to get the simulator tools (so you can open up a simulated iPhone on the screen, instead of having to use your phone) - so the command `expo start –-ios` can be used. Note that you can use an Android emulator if on Windows or Linux if you'd like.
+
+To summarize: you should have Node, Yarn, Expo-CLI, Expo Go, and VS Code installed. You should have cloned the starter code and run `yarn install` and `expo install` within the directory. You should be able to run `expo start` and scan the QR code in Expo Go to see the starter app on a phone or simulator.
+_
+### Firebase Setup
+
+This project will require you to set up a Firebase project and database instance. To do so, follow the instructions below.
+
+1. [Sign into Firebase](https://console.firebase.google.com) using your Google account (you may need to do so from a personal one if your .berkeley.edu email does not work).
+2. In the Firebase Console, click **Add Project**, then enter a **Project Name** (MDB CalHacks Demo).
+3. Continue through the setup and click **Create Project**.
+4. On the project dashboard, select the "Web" option to create a new Web app (you can also do this through the settings page, accessible through the sidebar).
+5. Enter an **App Nickname** (call it "Voting App") and click **Register**.
+6. Copy just the `firebaseConfig` variable. Convert it to JSON (which will require adding quotes around the object's attributes). Store it in a new file called `keys.json` in your project's root directory. It should be identical in structure to the file called `keys.json.template`.
+
+<u>To set up Cloud Firestore (our NoSQL cloud database):</u>
+
+1. Click on the [Cloud Firestore](https://console.firebase.google.com/project/_/firestore) tab in the sidebar.
+2. Click **Create Database** and choose **Test Mode** when prompted.
+3. Select any location for your instance and continue to click **Done**.
+
+<u>To set up Authentication (our user management system):</u>
+
+1. Click on the [Authentication](https://console.firebase.google.com/project/_/authentication/providers) tab in the sidebar.
+2. Click **Get Started** and select **Email/Password** as your sign-in method.
+3. Click **Enable**.
 
 # React Native and Firebase
 
@@ -131,7 +160,7 @@ Authentication Screens (Sign In, Sign Up):
 To fetch a copy of the starter code, run the following command in Terminal.
 
 ```shell
-git clone https://github.com/aniruthn/calhacks9-demo.git
+git clone https://github.com/aniruthn/calhacks9-starter.git
 ```
 
 ## Reference Documentation
