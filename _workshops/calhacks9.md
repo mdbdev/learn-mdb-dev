@@ -97,7 +97,7 @@ Verify your setup is correct by running `expo start` in the cloned repository. A
 _Optional:_ if on Mac, install XCode to get the simulator tools (so you can open up a simulated iPhone on the screen, instead of having to use your phone) - so the command `expo start –-ios` can be used. Note that you can use an Android emulator if on Windows or Linux if you'd like.
 
 To summarize: you should have Node, Yarn, Expo-CLI, Expo Go, and VS Code installed. You should have cloned the starter code and run `yarn install` and `expo install` within the directory. You should be able to run `expo start` and scan the QR code in Expo Go to see the starter app on a phone or simulator.
-_
+
 ### Firebase Setup
 
 This project will require you to set up a Firebase project and database instance. To do so, follow the instructions below.
@@ -157,11 +157,33 @@ Authentication Screens (Sign In, Sign Up):
 
 ## Starter Code
 
-To fetch a copy of the starter code, run the following command in Terminal.
+To create your repository, go to the following link:
 
-```shell
-git clone https://github.com/aniruthn/calhacks9-starter.git
+[https://github.com/aniruthn/calhacks9-starter.git](https://github.com/aniruthn/calhacks9-starter.git)
+
+You should see the following "Use this template" button:
+
+<div class="center-container"><img src="../../assets/images/workshops/calhacks9/use-as-template-button.jpg" alt="Use as Template Button" style="width:70%; box-shadow: 0 0 12px 2px lightgrey;"></div>
+
+After clicking on it, you should see the following:
+
+<div class="center-container"><img src="../../assets/images/workshops/calhacks9/create-new-repo-screen.jpg" alt="Create Repo from Template" style="width:70%; box-shadow: 0 0 12px 2px lightgrey;"></div>
+
+Click on the green "Use this template" button and follow the instructions to create your own repository. Name it whatever you'd like.
+
+Once the templated repository is created, you should see the following:
+
+<div class="center-container"><img src="../../assets/images/workshops/calhacks9/templated-repo-created.jpg" alt="Created Repo" style="width:70%; box-shadow: 0 0 12px 2px lightgrey;"></div>
+
+Then, clone that repository (not the template) to your local machine. You can do this by running the following command in your terminal:
+
+```bash
+git clone [your repository link]
 ```
+
+To get the repository link, click on the green "Code" button and copy the link:
+
+<div class="center-container"><img src="../../assets/images/workshops/calhacks9/clone-link.jpg" alt="Get Repo Link" style="width:70%; box-shadow: 0 0 12px 2px lightgrey;"></div>
 
 ## Reference Documentation
 
