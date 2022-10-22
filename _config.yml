@@ -28,7 +28,6 @@ color_scheme: scheme
 search_enabled: true
 heading_anchors: true
 permalink: pretty
-footer_content:
 
 # Collections for website data
 collections:
@@ -49,6 +48,9 @@ collections:
   # ios-fa21:
   #   permalink: '/:collection/:path/'
   #   output: true
+  ideation:
+    permalink: '/:collection/:path/'
+    output: true
   workshops:
     permalink: '/:collection/:path/'
     output: true
@@ -86,6 +88,11 @@ defaults:
   #     layout: page
   - scope:
       path: ''
+      type: ideation
+    values:
+      layout: page
+  - scope:
+      path: ''
       type: workshops
     values:
       layout: page
@@ -104,6 +111,8 @@ just_the_docs:
     #   name: React Native Spring 2021 Archive
     ios:
       name: iOS
+    ideation:
+      name: Ideation
     workshops:
       name: Workshops
     # ios-fa21:
