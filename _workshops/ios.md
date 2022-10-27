@@ -47,10 +47,10 @@ In this demo we will be building a simple roll calling app using Swift, UIKit, a
 
 <div class="row">
   <div class="column-50">
-    <img src="/assets/images/roll-call-1.png" alt="Roll call app screenshot" style="width:100%">
+    <img src="/assets/images/ios/roll-call-1.png" alt="Roll call app screenshot" style="width:100%">
   </div>
   <div class="column-50">
-    <img src="/assets/images/roll-call-2.png" alt="Roll call app screenshot" style="width:100%">
+    <img src="/assets/images/ios/roll-call-2.png" alt="Roll call app screenshot" style="width:100%">
   </div>
 </div>
 
