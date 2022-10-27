@@ -41,13 +41,14 @@ None!
 
 ## Calendar
 
-| Week | Topic |
-| :---- | :----------------- |
-| **Week 1** | What makes a good idea? |
-| **Week 2** | Idea Discussion |
-| **Week 3** | What makes a good pitch? |
-| **Week 4-** | Build |
-| **TechFair** | Present! |
+| Week | Topic | Date |
+| :---- | :----------------- | :-------- |
+| **Week 1** | What makes a good idea? | Oct 12, 2022 |
+| **Week 2** | Idea Discussion | Oct 19, 2022 |
+| **Week 3** | What makes a good pitch? | Oct 26, 2022 |
+| **Building-** | Build an MVP | Nov 2, 2022 - |
+| **Practice Session** | Practice Pitches | Nov 16, 2022 - |
+| **TechFair** | Present! | Nov 9, 2022 |
 
 ## Lessons
 
@@ -57,7 +58,25 @@ Ideation has 3 main lessons:
 - [Ideation 2](/ideation/lessons/ideation2): Idea Discussion
 - [Ideation 3](/ideation/lessons/ideation3): What makes a good pitch?
 
+## Goals of Ideation:
+
+In Ideation #1, newbies will better understand the process of ideating successfully, achieved through discussion. Afterwards, newbies will come up with preliminary ideas.
+
+In Ideation #2, newbies will discuss ideas with members of leadership in an organized manner. Afterwards, newbies will go into more depth on either previously discussed or brand new ideas (writing a brief overview of the idea).
+
+In Ideation #3, newbies will finalize ideas from the previous lists and learn the basics of pitching ideas. Afterwards, newbies will choose which projects they find most interesting.
+
+The goal of the practice session is to ensure that newbies get a chance to go through their presentations in their entirety.
+
+After the three workshops, newbies will work on both their MVP and their pitch in time for TechFair, where they will present to the larger Berkeley community.
+
+As a result of this process, newbies should:
+- Have experience thinking of and ideating on ideas
+- Gain an understanding of the product development process
+- Apply their skills from the Training Program in building out functioning mobile (with optional web or other technology components) applications
+
+
 ## Staff
 
-**VP of Education:** Aniruth Narayanan [aniruth.n@berkeley.edu](mailto:aniruth.n@berkeley.edu)
+**Instructor:** Aniruth Narayanan [aniruth.n@berkeley.edu](mailto:aniruth.n@berkeley.edu)
 
