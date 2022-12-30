@@ -85,15 +85,21 @@ This training program has four projects.
 
 ## Staff
 
-**Instructor:** Aniruth Narayanan [aniruth.n@berkeley.edu](mailto:aniruth.n@berkeley.edu)
+**Instructor:** Rohit Ravi [rohitravi2001@berkeley.edu](mailto:rohitravi2001@berkeley.edu)
 
-**Mentor:** Anya Shah
+**Mentor:** Sameer Keswani [sameerkeswani@berkeley.edu](mailto:sameerkeswani@berkeley.edu)
 
 ## Contributors
 
 *Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
 
 ## Previous Staff
+
+### Spring 2022
+
+**Instructor:** Rohit Ravi
+
+**Mentor:** Sameer Keswani
 
 ### Fall 2022
 
