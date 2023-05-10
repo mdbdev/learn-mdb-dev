@@ -87,7 +87,7 @@ This training program has four projects.
 
 **Instructor:** Rohit Ravi [rohitravi2001@berkeley.edu](mailto:rohitravi2001@berkeley.edu)
 
-**Mentor:** Sameer Keswani [sameerkeswani@berkeley.edu](mailto:sameerkeswani@berkeley.edu)
+**Mentor:** Sameer Keswani [sameerkeswani@berkeley.edu](mailto:sameerkeswani@berkeley.edu), Anya Shah [anyashah@berkeley.edu](mailto:anyashah@berkeley.edu)
 
 ## Contributors
 
@@ -95,11 +95,11 @@ This training program has four projects.
 
 ## Previous Staff
 
-### Spring 2022
+### Spring 2023
 
 **Instructor:** Rohit Ravi
 
-**Mentor:** Sameer Keswani
+**Mentor:** Sameer Keswani, Anya Shah
 
 ### Fall 2022
 
