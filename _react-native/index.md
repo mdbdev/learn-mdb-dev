@@ -85,15 +85,21 @@ This training program has four projects.
 
 ## Staff
 
-**Instructor:** Rohit Ravi [rohitravi2001@berkeley.edu](mailto:rohitravi2001@berkeley.edu)
+**Instructor:** Anya Shah [anyashah@berkeley.edu](mailto:anyashah@berkeley.edu)
 
-**Mentor:** Sameer Keswani [sameerkeswani@berkeley.edu](mailto:sameerkeswani@berkeley.edu), Anya Shah [anyashah@berkeley.edu](mailto:anyashah@berkeley.edu)
+**Mentor:** Rachel Lowe [rachellowe@berkeley.edu](mailto:rachellowe@berkeley.edu), Sriya Tallapragada [sriya.tallapragada@berkeley.edu](mailto:sriya.tallapragada@berkeley.edu)
 
 ## Contributors
 
 *Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
 
 ## Previous Staff
+
+### Fall 2023
+
+**Instructor:** Anya Shah
+
+**Mentor:** Rachel Lowe, Sriya Tallapragada
 
 ### Spring 2023
 
