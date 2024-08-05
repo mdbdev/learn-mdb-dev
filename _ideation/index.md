@@ -39,17 +39,6 @@ In the first 3 weeks, we cover the big picture ideas of coming up with ideas and
 
 None!
 
-## Calendar
-
-| Week | Topic | Date |
-| :---- | :----------------- | :-------- |
-| **Week 1** | What makes a good idea? | Oct 12, 2022 |
-| **Week 2** | Idea Discussion | Oct 19, 2022 |
-| **Week 3** | What makes a good pitch? | Oct 26, 2022 |
-| **Building-** | Build an MVP | Nov 2, 2022 - |
-| **Practice Session** | Practice Pitches | Nov 16, 2022 - |
-| **TechFair** | Present! | Nov 9, 2022 |
-
 ## Lessons
 
 Ideation has 3 main lessons:
