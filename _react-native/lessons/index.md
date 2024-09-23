@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Lessons - RN
-page_order: 0
+page_order: 1
 has_children: true
 description: Lessons
 parent: Overview - RN

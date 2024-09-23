@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Overview - RN
+title: Overview
 page_order: 1
 has_children: true
 description: None
@@ -53,15 +53,17 @@ No specific operating system is mandatory, but you will need a computer with a g
 
 ## Calendar
 
-| Week | Lesson Topics | Assignments |
-| :---- | :----------------- | :---- |
-| **Week 0** | Getting Started ||
-| **Week 1** | React Fundamentals and Typescript | Project 1 |
-| **Week 2** | Navigation, Lifecycle, and Advanced Components | Project 2 |
-| **Week 3** | REST API's, Databases, Systems Design, and the Cloud | Project 3A |
-| **Week 4** | Authentication, Security, and State Management | Project 3B |
-| **Week 5** | Design & Backend | Project 4A |
-| **Week 6** | Web Development | Project 4B |
+| Week          | Lesson Topics                                          | Assignments |
+|:--------------|:-------------------------------------------------------|:------------|
+| **Week 1**    | Introduction to Mobile Development                     | Project 1   |
+| **Week 2**    | Mobile Development with React Native                   | Project 2   |
+| **Week 3**    | Navigation, Advanced Components, REST API's, Databases | Project 3   |
+| **Week 3B**   | Native Mobile Development with Swift                   | Project 4   |
+| **Week 4**    | Continued - Hardware Specific Features                 | Project 5   |
+| **Week 5**    | Applied Mobile Development with ML and Edge Computing  | Project 6   |
+| **Week 6**    | Continued - Project Work                               | Project 6   |
+| **Week 7-10** | Newbie Project                                         |             |
+ 
 
 ## Lessons
 
@@ -85,27 +87,33 @@ This training program has four projects.
 
 ## Staff
 
-**Instructor:** Anya Shah [anyashah@berkeley.edu](mailto:anyashah@berkeley.edu)
+**Instructor:** <br/>Amol Budhiraja [abudhiraja@berkeley.edu](mailto:abudhiraja@berkeley.edu) <br /> Brayton Lordianto [brayton.lordianto@berkeley.edu]()
 
-**Mentor:** Rachel Lowe [rachellowe@berkeley.edu](mailto:rachellowe@berkeley.edu), Sriya Tallapragada [sriya.tallapragada@berkeley.edu](mailto:sriya.tallapragada@berkeley.edu)
+**Mentors:** <br/>Satvik Muddana [satvikmuddana@berkeley.edu](mailto:satvikmuddana@berkeley.edu) <br/> Mohamed Zeidan [mohamed.zeidan@berkeley.edu](mailto:mohamed.zeidan@berkeley.edu)
 
 ## Contributors
 
-*Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
+* Mohamed Zeidan, Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
 
 ## Previous Staff
+
+### Spring 2024
+
+**Instructor:** Anya Shah
+
+**Mentors:** Aneesh Durai, Amber Cheng
 
 ### Fall 2023
 
 **Instructor:** Anya Shah
 
-**Mentor:** Rachel Lowe, Sriya Tallapragada
+**Mentors:** Rachel Lowe, Sriya Tallapragada
 
 ### Spring 2023
 
 **Instructor:** Rohit Ravi
 
-**Mentor:** Sameer Keswani, Anya Shah
+**Mentors:** Sameer Keswani, Anya Shah
 
 ### Fall 2022
 
@@ -129,5 +137,5 @@ This training program has four projects.
 
 **Instructor:** Shomil Jain
 
-**Mentor:** Alvaro Morales, Afees Tiamiyu
+**Mentors:** Alvaro Morales, Afees Tiamiyu
 

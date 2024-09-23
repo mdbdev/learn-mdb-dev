@@ -33,15 +33,18 @@ permalink: pretty
 collections:
   staffers:
   schedules:
-  react-native:
-    permalink: '/:collection/:path/'
+  training:
+    permalink: '/training-program/:path/'
     output: true
+#  react-native:
+#    permalink: '/:collection/:path/'
+#    output: true
   # react-native-sp21:
   #   permalink: '/:collection/:path/'
   #   output: true
-  ios:
-    permalink: '/:collection/:path/'
-    output: true
+#  ios:
+#    permalink: '/:collection/:path/'
+#    output: true
   # ios-sp21:
   #   permalink: '/:collection/:path/'
   #   output: true
@@ -61,21 +64,21 @@ defaults:
       type: schedules
     values:
       layout: schedule
-  - scope:
-      path: ''
-      type: react-native
-    values:
-      layout: page
+#  - scope:
+#      path: ''
+#      type: react-native
+#    values:
+#      layout: page
   # - scope:
   #     path: ''
   #     type: react-native-sp21
   #   values:
   #     layout: page
-  - scope:
-      path: ''
-      type: ios
-    values:
-      layout: page
+#  - scope:
+#      path: ''
+#      type: ios
+#    values:
+#      layout: page
   # - scope:
   #     path: ''
   #     type: ios-fa21
@@ -86,6 +89,11 @@ defaults:
   #     type: ios-sp21
   #   values:
   #     layout: page
+  - scope:
+      path: ''
+      type: training
+    values:
+      layout: page
   - scope:
       path: ''
       type: ideation
@@ -105,12 +113,14 @@ just_the_docs:
   collections:
     pages:
       name: General
-    react-native:
-      name: React Native
+    training:
+      name: Training Program
+#    react-native:
+#      name: React Native
     # react-native-sp21:
     #   name: React Native Spring 2021 Archive
-    ios:
-      name: iOS
+#    ios:
+#      name: iOS
     ideation:
       name: Ideation
     workshops:
