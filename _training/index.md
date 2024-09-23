@@ -60,13 +60,16 @@ This module introduces the basics of machine learning, including supervised and 
 | Week          | Lesson Topics                                          | Assignments |
 |:--------------|:-------------------------------------------------------|:------------|
 | **Week 1**    | Introduction to Mobile Development                     | Project 1   |
-| **Week 2**    | Mobile Development with React Native                   | Project 2   |
-| **Week 3**    | Navigation, Advanced Components, REST API's, Databases | Project 3   |
-| **Week 3B**   | Native Mobile Development with Swift                   | Project 4   |
-| **Week 4**    | Continued - Hardware Specific Features                 | Project 5   |
-| **Week 5**    | Applied Mobile Development with ML and Edge Computing  | Project 6   |
-| **Week 6**    | Continued - Project Work                               | Project 6   |
-| **Week 7-10** | Newbie Project                                         |             |
+| **Week 2**    | General Mobile Development with React Native           | Project 1   |
+| **Week 3**    | Navigation, Advanced Components, REST API's, Databases | Project 2   |
+| **Week 4**    | Native Mobile Development with Swift                   | Project 3   |
+| **Week 4**    | Introduction to Swift + Swuft UI                       | Project 4   |
+| **Week 5**    | Swift - Hardware Specific Features                     | Project 5   |
+| **Week 6**    | Swift - Web API's, Simple AR/VR App                    | Project 6   |
+| **Week 7**    | Introduction to Machine Learning                       | Project 7   |
+| **Week 8**    | Mobile Integration with Machine Learning               | Project 7   |
+| **Week 8-10** | Newbie Project                                         | Final Project|
+| **Week 11**   | Newbie Project Presentations                           | Final Project|
 
 ## Lessons
 This training program has x lessons
@@ -79,7 +82,7 @@ This training program has x lessons
 - [Lesson 6](/training-program/lessons/6): Design & Backend
 
 ## Mini-Projects
-This training program has x projects. PLACEHOLDER
+This training program has 4 mini-projects and 1 newbie project.
 
 - [Project 1](/react-native/projects/match-the-members/): Match the Members
 - [Project 2](/react-native/projects/imdb/): iMDB
@@ -89,13 +92,12 @@ This training program has x projects. PLACEHOLDER
 
 ## Staff
 
-**Instructor:** <br/>Amol Budhiraja [abudhiraja@berkeley.edu](mailto:anyashah@berkeley.edu)
+**Instructor:** <br/>Amol Budhiraja [abudhiraja@berkeley.edu](mailto:abudhiraja@berkeley.edu) <br /> Brayton Lordianto [brayton.lordianto@berkeley.edu]()
 
-**Mentors:** <br/>Satvik Muddana [satvikmuddana@berkeley.edu](mailto:rachellowe@berkeley.edu) <br/> Mohamed Zeidan [mohamed.zeidan@berkeley.edu](mailto:sriya.tallapragada@berkeley.edu)
-
+**Mentors:** <br/>Satvik Muddana [satvikmuddana@berkeley.edu](mailto:satvikmuddana@berkeley.edu) <br/> Mohamed Zeidan [mohamed.zeidan@berkeley.edu](mailto:mohamed.zeidan@berkeley.edu)
 ## Contributors
 
-*Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
+*Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, Aniruth Narayanan, and Mohamed Zeidan*
 
 ## Previous Staff
 

@@ -87,13 +87,13 @@ This training program has four projects.
 
 ## Staff
 
-**Instructor:** <br/>Amol Budhiraja [abudhiraja@berkeley.edu](mailto:anyashah@berkeley.edu)
+**Instructor:** <br/>Amol Budhiraja [abudhiraja@berkeley.edu](mailto:abudhiraja@berkeley.edu) <br /> Brayton Lordianto [brayton.lordianto@berkeley.edu]()
 
-**Mentors:** <br/>Satvik Muddana [satvikmuddana@berkeley.edu](mailto:rachellowe@berkeley.edu) <br/> Mohamed Zeidan [mohamed.zeidan@berkeley.edu](mailto:sriya.tallapragada@berkeley.edu)
+**Mentors:** <br/>Satvik Muddana [satvikmuddana@berkeley.edu](mailto:satvikmuddana@berkeley.edu) <br/> Mohamed Zeidan [mohamed.zeidan@berkeley.edu](mailto:mohamed.zeidan@berkeley.edu)
 
 ## Contributors
 
-*Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
+* Mohamed Zeidan, Paul Shao, Will Oakley, Allison Husain, Anjali Thakrar, Shomil Jain, and Aniruth Narayanan*
 
 ## Previous Staff
 
