@@ -71,10 +71,10 @@ This module introduces the basics of machine learning, including supervised and 
 | **Week 8-10** | Newbie Project                                         | Final Project|
 | **Week 11**   | Newbie Project Presentations                           | Final Project|
 
-## Lessons
+<!-- ## Lessons
 This training program has x lessons
 
-- [Lesson 1](/training-program/lessons/1/): Getting Started
+- [Lesson 1](/training-program/lessons/lesson1/): Introduction to Mobile Development
 - [Lesson 2](/training-program/lessons/2/): React Native Fundamentals and Typescript
 - [Lesson 3](/training-program/lessons/3/): Navigation, Lifecycle, and Advanced Components
 - [Lesson 4](/training-program/lessons/4/): Swift Fundamentals
@@ -88,7 +88,7 @@ This training program has 4 mini-projects and 1 newbie project.
 - [Project 2](/react-native/projects/imdb/): iMDB
 - [Project 3A](/react-native/projects/mdb-socials-part-a/)/[3B](/react-native/projects/mdb-socials-part-b/): MDB Socials
 - [Project 4A](/react-native/projects/capstone-part-a/)/[4B](/react-native/projects/capstone-part-b/): Capstone
-
+ -->
 
 ## Staff
 
