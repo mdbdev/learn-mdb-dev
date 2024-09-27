@@ -8,4 +8,5 @@ parent: Overview
 has_toc: false
 ---
 
-Projects
+- [Project 1: Match the Members](https://learn.mdb.dev/training-program/projects/project1/)
+- [Project 2: MDB Socials](https://learn.mdb.dev/training-program/projects/project2/)
