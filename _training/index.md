@@ -62,12 +62,11 @@ This module introduces the basics of machine learning, including supervised and 
 | **Week 1**    | Introduction to Mobile Development                     | Project 1   |
 | **Week 2**    | General Mobile Development with React Native           | Project 1   |
 | **Week 3**    | Navigation, Advanced Components, REST API's, Databases | Project 2   |
-| **Week 4**    | Native Mobile Development with Swift                   | Project 3   |
-| **Week 4**    | Introduction to Swift + Swuft UI                       | Project 4   |
-| **Week 5**    | Swift - Hardware Specific Features                     | Project 5   |
-| **Week 6**    | Swift - Web API's, Simple AR/VR App                    | Project 6   |
-| **Week 7**    | Introduction to Machine Learning                       | Project 7   |
-| **Week 8**    | Mobile Integration with Machine Learning               | Project 7   |
+| **Week 4**    | Introduction to Swift + Swuft UI                       | Project 3   |
+| **Week 5**    | Swift - Hardware Specific Features                     | Project 3   |
+| **Week 6**    | Swift - Web API's, Simple AR/VR App                    | Project 4   |
+| **Week 7**    | Introduction to Machine Learning                       | Project 5   |
+| **Week 8**    | Mobile Integration with Machine Learning               | Project 5   |
 | **Week 8-10** | Newbie Project                                         | Final Project|
 | **Week 11**   | Newbie Project Presentations                           | Final Project|
 
